@@ -1,6 +1,6 @@
 ---
 title: "Séries Matemáticas"
-description: "Introdução a séries numéricas, com exemplos de convergência e fórmulas clássicas."
+description: "Introdução a séries numéricas, com exemplos de convergência e resolução com Python."
 date: 2025-04-25
 categories: [Matemática]
 image: cover.jpg
@@ -8,27 +8,31 @@ format:
   html:
     toc: true
     code-fold: true
+bibliography: referencias.bib
+csl: apa.csl  # ou outro estilo (opcional)
+nocite: "@*"
+execute:
+  kernel: ctgan_env
 ---
 
 ## Definição
 
-Uma série é a soma dos termos de uma sequência:
+Uma **série** é a soma dos termos de uma sequência:
 
 $$
 \sum_{n=1}^{\infty} a_n
 $$
 
-Dizemos que uma série **converge** se a sequência das somas parciais tem limite finito:
+Dizemos que uma série **converge** se a sequência das somas parciais tem limite finito [@apostol]:
 
 $$
 S_N = \sum_{n=1}^{N} a_n \longrightarrow S \quad \text{quando } N \to \infty
 $$
 
----
 
-## Exemplo 1: Série geométrica
+## Exemplo 1 — Série Geométrica
 
-Considere:
+Considere a série:
 
 $$
 \sum_{n=0}^{\infty} ar^n = a + ar + ar^2 + ar^3 + \dots
@@ -40,20 +44,46 @@ $$
 \sum_{n=0}^{\infty} ar^n = \frac{a}{1 - r}
 $$
 
----
+### Resolução em Python
 
-## Exemplo 2: Série harmónica
+```{python}
+# Série geométrica: soma parcial com a = 2 e r = 0.5
+a = 2
+r = 0.5
+N = 10
 
-A série harmónica é:
+soma = sum(a * r**n for n in range(N))
+soma_limite = a / (1 - r)
+
+print(f"Soma dos {N} primeiros termos: {soma:.4f}")
+print(f"Valor limite (teórico): {soma_limite:.4f}")
+```
+
+
+## Exemplo 2 — Série Harmónica
+
+A série harmónica é dada por:
 
 $$
-\sum_{n=1}^{\infty} \frac{1}{n} = 1 + \frac{1}{2} + \frac{1}{3} + \frac{1}{4} + \cdots
+\sum_{n=1}^{\infty} \frac{1}{n}
 $$
 
-Essa série **diverge**, embora seus termos tendam a zero.
+Embora os termos $1/n$ tendam a zero, a série **diverge** (soma parcial cresce sem limite).
 
----
+### Resolução em Python
+
+```{python}
+# Soma parcial da série harmónica
+N = 20
+soma = sum(1/n for n in range(1, N+1))
+print(f"Soma dos {N} primeiros termos: {soma:.4f}")
+```
+
 
 ## Observação
 
-A convergência de uma série depende do comportamento da soma parcial, não apenas da tendência dos termos $a_n$.
+A convergência de uma série depende do comportamento da soma parcial, **não apenas** da tendência dos termos $a_n$.
+
+
+## Referências
+
