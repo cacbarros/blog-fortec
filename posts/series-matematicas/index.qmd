@@ -84,6 +84,10 @@ print(f"Soma dos {N} primeiros termos: {soma:.4f}")
 
 A convergência de uma série depende do comportamento da soma parcial, **não apenas** da tendência dos termos $a_n$.
 
+## Séries Matemáticas - Avaliação
+
+- [Problema de Séries Numéricas](problema-series.qmd)
+
 
 ## Referências
 
