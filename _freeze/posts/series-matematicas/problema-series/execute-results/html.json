@@ -1,0 +1,12 @@
+{
+  "hash": "8eef0517559ead93c591e35c5289582b",
+  "result": {
+    "engine": "jupyter",
+    "markdown": "---\ntitle: \"Séries Matemáticas\"\ndescription: \"Problema de Séries Numéricas\"\ndate: 2025-04-25\ncategories: [Matemática]\nimage: cover.jpg\nformat:\n  html:\n    toc: true\n    code-fold: true\nbibliography: referencias.bib\ncsl: apa.csl  # ou outro estilo (opcional)\nnocite: \"@*\"\nexecute:\n  kernel: ctgan_env\n---\n\n# Enunciado do Problema\n\nConsidere a série numérica:\n\n$$\n\\sum_{n=1}^{\\infty} \\frac{1}{n^2}\n$$\n\n- Determine se a série é convergente ou divergente.\n- Justifique usando uma comparação ou teste adequado.\n\n\n\n# Solução (Clique para expandir)\n\n<details>\n<summary><strong>Ver Solução</strong></summary>\n\n<br>\n\nA série apresentada é:\n\n$$\n\\sum_{n=1}^{\\infty} \\frac{1}{n^2}\n$$\n\nEsta é uma série **p** com $p = 2 > 1$.  \nLogo, **a série converge** pelo critério das séries p.\n\nAlém disso, sabemos que:\n\n$$\n\\sum_{n=1}^{\\infty} \\frac{1}{n^2} = \\frac{\\pi^2}{6}\n$$\n\n\n**Resumo**: A série é convergente.\n\n</details>\n\n\n\n# Código Python (clique para expandir)\n\n::: {#07352d40 .cell execution_count=1}\n``` {.python .cell-code}\n# Aproximação numérica da soma\napprox = sum(1 / (n**2) for n in range(1, 10000))\nprint(approx)\n```\n\n::: {.cell-output .cell-output-stdout}\n```\n1.6448340618480652\n```\n:::\n:::\n\n\n",
+    "supporting": [
+      "problema-series_files"
+    ],
+    "filters": [],
+    "includes": {}
+  }
+}

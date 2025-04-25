@@ -16,5 +16,11 @@
   },
   "posts/series-matematicas/index.qmd": {
     "index.html": "a9c09f60"
+  },
+  "posts/series-matematicas/problema-series.qmd": {
+    "problema-series.html": "b20e958f"
+  },
+  "exemplo.qmd": {
+    "exemplo.html": "76eb060b"
   }
 }
