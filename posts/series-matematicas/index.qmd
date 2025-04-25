@@ -1,0 +1,59 @@
+---
+title: "Séries Matemáticas"
+description: "Introdução a séries numéricas, com exemplos de convergência e fórmulas clássicas."
+date: 2025-04-25
+categories: [Matemática]
+image: cover.jpg
+format:
+  html:
+    toc: true
+    code-fold: true
+---
+
+## Definição
+
+Uma série é a soma dos termos de uma sequência:
+
+$$
+\sum_{n=1}^{\infty} a_n
+$$
+
+Dizemos que uma série **converge** se a sequência das somas parciais tem limite finito:
+
+$$
+S_N = \sum_{n=1}^{N} a_n \longrightarrow S \quad \text{quando } N \to \infty
+$$
+
+---
+
+## Exemplo 1: Série geométrica
+
+Considere:
+
+$$
+\sum_{n=0}^{\infty} ar^n = a + ar + ar^2 + ar^3 + \dots
+$$
+
+Se $|r| < 1$, então a série converge para:
+
+$$
+\sum_{n=0}^{\infty} ar^n = \frac{a}{1 - r}
+$$
+
+---
+
+## Exemplo 2: Série harmónica
+
+A série harmónica é:
+
+$$
+\sum_{n=1}^{\infty} \frac{1}{n} = 1 + \frac{1}{2} + \frac{1}{3} + \frac{1}{4} + \cdots
+$$
+
+Essa série **diverge**, embora seus termos tendam a zero.
+
+---
+
+## Observação
+
+A convergência de uma série depende do comportamento da soma parcial, não apenas da tendência dos termos $a_n$.
