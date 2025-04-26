@@ -1,0 +1,27 @@
+---
+title: "Aplicações de Termodinâmica"
+description: "Recursos e tópicos de termodinâmica, com exemplos práticos e resolução assistida por Python."
+date: 2025-04-26
+categories: [Termodinâmica]
+image: cover-termodinamica.jpg
+format:
+  html:
+    toc: true
+    code-fold: true
+bibliography: referencias.bib
+csl: apa.csl  # ou outro estilo
+nocite: "@*"
+execute:
+  kernel: ctgan_env
+---
+
+# Termodinâmica
+
+Este módulo aborda conteúdos fundamentais de Termodinâmica:
+
+- Fundamentos
+- Entropia
+- Ciclos de refrigeração
+- Misturas de gás-vapor
+
+Conteúdo disponível em breve.

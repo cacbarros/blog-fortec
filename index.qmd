@@ -11,24 +11,25 @@ page-layout: full
 title-block-banner: true
 ---
 
-
-
-
-<p align="center">
-  <a href="posts/series-matematicas/indice-series-matematicas.html" style="padding: 10px 20px; background-color:  #fd7e14; color: white; text-decoration: none; border-radius: 6px; font-size: 1.1em; margin: 5px;">
-     Séries Matemáticas
+<div style="display: flex; justify-content: center; flex-wrap: wrap; gap: 10px; padding: 10px;">
+  <a href="posts/series-matematicas/indice-series-matematicas.html" style="padding: 10px 20px; background-color: #fd7e14; color: white; text-decoration: none; border-radius: 6px; font-size: 1.1em;">
+    Séries Matemáticas
   </a>
 
-<p align="center">
-  <a href="posts/matematica/index.html" style="padding: 10px 20px; background-color: #007bff; color: white; text-decoration: none; border-radius: 6px; font-size: 1.1em; margin: 5px;">
-     Matemática Secundário
+  <a href="posts/matematica/index.html" style="padding: 10px 20px; background-color: #007bff; color: white; text-decoration: none; border-radius: 6px; font-size: 1.1em;">
+    Matemática
   </a>
 
-  <a href="posts/fisica-quimica/index.html" style="padding: 10px 20px; background-color: #28a745; color: white; text-decoration: none; border-radius: 6px; font-size: 1.1em; margin: 5px;">
-     Física e Química
+  <a href="posts/fisica-quimica/index.html" style="padding: 10px 20px; background-color: #28a745; color: white; text-decoration: none; border-radius: 6px; font-size: 1.1em;">
+    Física e Química
   </a>
 
-  <a href="posts/climatizacao/index.html" style="padding: 10px 20px; background-color: #ffc107; color: black; text-decoration: none; border-radius: 6px; font-size: 1.1em; margin: 5px;">
-     Climatização
+  <a href="posts/climatizacao/index.html" style="padding: 10px 20px; background-color: #ffc107; color: black; text-decoration: none; border-radius: 6px; font-size: 1.1em;">
+    Climatização
   </a>
-</p>
+
+  <a href="posts/termodinamica/index.html" style="padding: 10px 20px; background-color: #17a2b8; color: white; text-decoration: none; border-radius: 6px; font-size: 1.1em;">
+    Termodinâmica
+  </a>
+</div>
+
