@@ -74,7 +74,7 @@
     "href": "index.html",
     "title": "blog-quarto",
     "section": "",
-    "text": "Equações Quadráticas\n\n\n\nMatemática\n\n\n\nIntrodução ao uso de LaTeX no blog com exemplo da fórmula resolvente.\n\n\n\n\n\nApr 25, 2025\n\n\n\n\n\n\n\n\n\n\n\n\nPost With Code\n\n\n\nnews\n\ncode\n\nanalysis\n\n\n\n\n\n\n\n\n\nApr 25, 2025\n\n\nHarlow Malloc\n\n\n\n\n\n\n\n\n\n\n\n\nExercícios de Avaliação\n\n\n\nMatemática\n\n\n\nExercícios propostos para consolidar os conceitos estudados em séries numéricas.\n\n\n\n\n\nApr 25, 2025\n\n\n\n\n\n\n\n\n\n\n\n\nConvergência de Séries\n\n\n\nMatemática\n\n\n\nConceitos fundamentais e critérios básicos para a convergência de séries numéricas.\n\n\n\n\n\nApr 25, 2025\n\n\n\n\n\n\n\n\n\n\n\n\nSéries Matemáticas\n\n\n\nMatemática\n\n\n\nIntrodução a séries numéricas, com exemplos de convergência e resolução com Python.\n\n\n\n\n\nApr 25, 2025\n\n\n\n\n\n\n\n\n\n\n\n\nSéries Matemáticas\n\n\n\nMatemática\n\n\n\nProblema de Séries Numéricas\n\n\n\n\n\nApr 25, 2025\n\n\n\n\n\n\n\n\n\n\n\n\nSéries Geométricas e Harmónicas\n\n\n\nMatemática\n\n\n\nEstudo das séries geométricas, harmónicas e algumas séries notáveis.\n\n\n\n\n\nApr 25, 2025\n\n\n\n\n\n\n\n\n\n\n\n\nSéries Matemáticas\n\n\n\nMatemática\n\n\n\nIntrodução a séries numéricas, com exemplos de convergência e resolução com Python.\n\n\n\n\n\nApr 25, 2025\n\n\n\n\n\n\n\n\n\n\n\n\nTestes de Convergência\n\n\n\nMatemática\n\n\n\nApresentação dos testes clássicos de convergência: comparação, razão, raiz, integral, etc.\n\n\n\n\n\nApr 25, 2025\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome To My Blog\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nApr 22, 2025\n\n\nTristan O’Malley\n\n\n\n\n\nNo matching items"
+    "text": "Aceder ao Módulo Séries Matemáticas \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nEquações Quadráticas\n\n\n\nMatemática\n\n\n\nIntrodução ao uso de LaTeX no blog com exemplo da fórmula resolvente.\n\n\n\n\n\nApr 25, 2025\n\n\n\n\n\n\n\n\n\n\n\n\nPost With Code\n\n\n\nnews\n\ncode\n\nanalysis\n\n\n\n\n\n\n\n\n\nApr 25, 2025\n\n\nHarlow Malloc\n\n\n\n\n\n\n\n\n\n\n\n\nExercícios de Avaliação\n\n\n\nMatemática\n\n\n\nExercícios propostos para consolidar os conceitos estudados em séries numéricas.\n\n\n\n\n\nApr 25, 2025\n\n\n\n\n\n\n\n\n\n\n\n\nConvergência de Séries\n\n\n\nMatemática\n\n\n\nConceitos fundamentais e critérios básicos para a convergência de séries numéricas.\n\n\n\n\n\nApr 25, 2025\n\n\n\n\n\n\n\n\n\n\n\n\nSéries Matemáticas\n\n\n\nMatemática\n\n\n\nIntrodução a séries numéricas, com exemplos de convergência e resolução com Python.\n\n\n\n\n\nApr 25, 2025\n\n\n\n\n\n\n\n\n\n\n\n\nSéries Matemáticas\n\n\n\nMatemática\n\n\n\nProblema de Séries Numéricas\n\n\n\n\n\nApr 25, 2025\n\n\n\n\n\n\n\n\n\n\n\n\nSéries Geométricas e Harmónicas\n\n\n\nMatemática\n\n\n\nEstudo das séries geométricas, harmónicas e algumas séries notáveis.\n\n\n\n\n\nApr 25, 2025\n\n\n\n\n\n\n\n\n\n\n\n\nSéries Matemáticas\n\n\n\nMatemática\n\n\n\nIntrodução a séries numéricas, com exemplos de convergência e resolução com Python.\n\n\n\n\n\nApr 25, 2025\n\n\n\n\n\n\n\n\n\n\n\n\nTestes de Convergência\n\n\n\nMatemática\n\n\n\nApresentação dos testes clássicos de convergência: comparação, razão, raiz, integral, etc.\n\n\n\n\n\nApr 25, 2025\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome To My Blog\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nApr 22, 2025\n\n\nTristan O’Malley\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "about.html",
@@ -105,15 +105,15 @@
     "text": "Exercícios de Avaliação\nPropostas de exercícios:\n\nVerificar a convergência de uma série geométrica.\nAplicar o teste da razão numa série dada.\nIdentificar séries divergentes entre exemplos apresentados.\nAplicações práticas em Física ou Engenharia.\n\nConteúdo a desenvolver…\n\nVoltar ao Índice\n\n\n\n\n\nReferences\n\nApostol, T. M. (1967). Calculus, volume i. Blaisdell Publishing Company.\n\n\nStewart, J. (2013). Cálculo: Volume 1 (7th ed.). Cengage Learning."
   },
   {
-    "objectID": "posts/series-matematicas/index.html",
-    "href": "posts/series-matematicas/index.html",
+    "objectID": "posts/series-matematicas/indice-series-matematicas.html",
+    "href": "posts/series-matematicas/indice-series-matematicas.html",
     "title": "Séries Matemáticas",
     "section": "",
     "text": "Introdução às Séries Numéricas\nConvergência de Séries\nTestes de Convergência\nSéries Geométricas e Harmónicas\nExercícios de Avaliação\n\n\n\n\nEste módulo visa:\n\nIntroduzir o conceito de séries como somatórios infinitos;\nAnalisar a convergência e divergência de séries;\nAplicar testes clássicos de convergência (comparação, razão, raiz, etc.);\nEstudar séries geométricas e harmónicas;\nConsolidar o conhecimento através de exercícios de avaliação.\n\nSiga a sequência sugerida para obter uma compreensão sólida e progressiva do tema."
   },
   {
-    "objectID": "posts/series-matematicas/index.html#objetivos-do-módulo",
-    "href": "posts/series-matematicas/index.html#objetivos-do-módulo",
+    "objectID": "posts/series-matematicas/indice-series-matematicas.html#objetivos-do-módulo",
+    "href": "posts/series-matematicas/indice-series-matematicas.html#objetivos-do-módulo",
     "title": "Séries Matemáticas",
     "section": "",
     "text": "Este módulo visa:\n\nIntroduzir o conceito de séries como somatórios infinitos;\nAnalisar a convergência e divergência de séries;\nAplicar testes clássicos de convergência (comparação, razão, raiz, etc.);\nEstudar séries geométricas e harmónicas;\nConsolidar o conhecimento através de exercícios de avaliação.\n\nSiga a sequência sugerida para obter uma compreensão sólida e progressiva do tema."
