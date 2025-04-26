@@ -1,0 +1,24 @@
+---
+title: "Leis da Conservação"
+description: "Conservação de energia e quantidade de movimento."
+date: 2025-04-26
+categories: [Física]
+format:
+  html:
+    toc: true
+    code-fold: true
+bibliography: referencias.bib
+csl: apa.csl
+nocite: "@*"
+execute:
+  kernel: ctgan_env
+---
+
+# Leis da Conservação
+
+Estudo das leis fundamentais de conservação.
+
+<p><a href="index.html" style="padding: 8px 16px; background-color: #17a2b8; color: white; border-radius: 5px; text-decoration: none;"> Voltar para Índice de Física</a></p>
+
+---
+

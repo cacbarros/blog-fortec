@@ -100,5 +100,23 @@
   },
   "posts/termodinamica/segunda-lei.qmd": {
     "segunda-lei.html": "fc63b1b4"
+  },
+  "posts/fisica/avaliacao-fisica.qmd": {
+    "avaliacao-fisica.html": "92dda5be"
+  },
+  "posts/fisica/cinematica.qmd": {
+    "cinematica.html": "464802d8"
+  },
+  "posts/fisica/dinamica.qmd": {
+    "dinamica.html": "572a56b0"
+  },
+  "posts/fisica/introducao-fisica.qmd": {
+    "introducao-fisica.html": "952f74d1"
+  },
+  "posts/fisica/leis-conservacao.qmd": {
+    "leis-conservacao.html": "bc853323"
+  },
+  "posts/fisica/trabalho-energia.qmd": {
+    "trabalho-energia.html": "36e52fb5"
   }
 }
