@@ -1,5 +1,6 @@
 project:
   type: website
+  output-dir: .    # <- Adicionado: gerar na raiz
 
 website:
   title: "blog-quarto"
