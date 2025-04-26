@@ -1,0 +1,27 @@
+---
+title: "Climatização"
+description: "Tópicos de Climatização, HVAC e Sistemas de Energia para cursos técnicos e de engenharia."
+date: 2025-04-26
+categories: [Climatização]
+image: cover-climatizacao.jpg
+format:
+  html:
+    toc: true
+    code-fold: true
+bibliography: referencias.bib
+csl: apa.csl  # ou outro estilo
+nocite: "@*"
+execute:
+  kernel: ctgan_env
+---
+
+# Climatização
+
+Este módulo aborda conceitos e aplicações de climatização e sistemas HVAC:
+
+- Conceitos de Termodinâmica
+- Sistemas de Ar Condicionado
+- Eficiência Energética
+- Manutenção de Equipamentos
+
+Conteúdo disponível em breve.

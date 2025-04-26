@@ -70,18 +70,18 @@
     "text": "This is a post with executable code."
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "blog-quarto",
+    "objectID": "posts/fisica-quimica/index.html",
+    "href": "posts/fisica-quimica/index.html",
+    "title": "Física e Química",
     "section": "",
-    "text": "Aceder ao Módulo Séries Matemáticas \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nEquações Quadráticas\n\n\n\nMatemática\n\n\n\nIntrodução ao uso de LaTeX no blog com exemplo da fórmula resolvente.\n\n\n\n\n\nApr 25, 2025\n\n\n\n\n\n\n\n\n\n\n\n\nPost With Code\n\n\n\nnews\n\ncode\n\nanalysis\n\n\n\n\n\n\n\n\n\nApr 25, 2025\n\n\nHarlow Malloc\n\n\n\n\n\n\n\n\n\n\n\n\nExercícios de Avaliação\n\n\n\nMatemática\n\n\n\nExercícios propostos para consolidar os conceitos estudados em séries numéricas.\n\n\n\n\n\nApr 25, 2025\n\n\n\n\n\n\n\n\n\n\n\n\nConvergência de Séries\n\n\n\nMatemática\n\n\n\nConceitos fundamentais e critérios básicos para a convergência de séries numéricas.\n\n\n\n\n\nApr 25, 2025\n\n\n\n\n\n\n\n\n\n\n\n\nSéries Matemáticas\n\n\n\nMatemática\n\n\n\nIntrodução a séries numéricas, com exemplos de convergência e resolução com Python.\n\n\n\n\n\nApr 25, 2025\n\n\n\n\n\n\n\n\n\n\n\n\nSéries Matemáticas\n\n\n\nMatemática\n\n\n\nProblema de Séries Numéricas\n\n\n\n\n\nApr 25, 2025\n\n\n\n\n\n\n\n\n\n\n\n\nSéries Geométricas e Harmónicas\n\n\n\nMatemática\n\n\n\nEstudo das séries geométricas, harmónicas e algumas séries notáveis.\n\n\n\n\n\nApr 25, 2025\n\n\n\n\n\n\n\n\n\n\n\n\nSéries Matemáticas\n\n\n\nMatemática\n\n\n\nIntrodução a séries numéricas, com exemplos de convergência e resolução com Python.\n\n\n\n\n\nApr 25, 2025\n\n\n\n\n\n\n\n\n\n\n\n\nTestes de Convergência\n\n\n\nMatemática\n\n\n\nApresentação dos testes clássicos de convergência: comparação, razão, raiz, integral, etc.\n\n\n\n\n\nApr 25, 2025\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome To My Blog\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nApr 22, 2025\n\n\nTristan O’Malley\n\n\n\n\n\nNo matching items"
+    "text": "Física e Química\nEste módulo explora tópicos essenciais em Física e Química:\n\nMecânica\nTermodinâmica\nReações Químicas\nEstrutura da Matéria\n\nConteúdo disponível em breve.\n\n\n\n\n\nReferences\n\nApostol, T. M. (1967). Calculus, volume i. Blaisdell Publishing Company.\n\n\nStewart, J. (2013). Cálculo: Volume 1 (7th ed.). Cengage Learning."
   },
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
+    "objectID": "posts/climatizacao/index.html",
+    "href": "posts/climatizacao/index.html",
+    "title": "Climatização",
     "section": "",
-    "text": "About this blog"
+    "text": "Climatização\nEste módulo aborda conceitos e aplicações de climatização e sistemas HVAC:\n\nConceitos de Termodinâmica\nSistemas de Ar Condicionado\nEficiência Energética\nManutenção de Equipamentos\n\nConteúdo disponível em breve.\n\n\n\n\n\nReferences\n\nApostol, T. M. (1967). Calculus, volume i. Blaisdell Publishing Company.\n\n\nStewart, J. (2013). Cálculo: Volume 1 (7th ed.). Cengage Learning."
   },
   {
     "objectID": "exemplo.html",
@@ -91,11 +91,32 @@
     "text": "title: “Séries Matemáticas” description: “Problema de Séries Numéricas” date: 2025-04-25 categories: [Matemática] image: cover.jpg format: html: toc: true code-fold: true bibliography: referencias.bib csl: apa.csl # ou outro estilo (opcional) nocite: “@*” execute: kernel: ctgan_env —\n\nEnunciado do Problema\nConsidere a série numérica:\n\\[\n\\sum_{n=1}^{\\infty} \\frac{1}{n^2}\n\\]\n\nDetermine se a série é convergente ou divergente.\nJustifique usando uma comparação ou teste adequado.\n\n\n\nSolução (Clique para expandir)\n\n\nVer Solução\n\n\nA série apresentada é:\n\\[\n\\sum_{n=1}^{\\infty} \\frac{1}{n^2}\n\\]\nEsta é uma série p com \\(p = 2 &gt; 1\\).\nLogo, a série converge pelo critério das séries p.\nAlém disso, sabemos que:\n\\[\n\\sum_{n=1}^{\\infty} \\frac{1}{n^2} = \\frac{\\pi^2}{6}\n\\]\nResumo: A série é convergente.\n\n\n\nCódigo Python (clique para expandir)\n\n# Aproximação numérica da soma\napprox = sum(1 / (n**2) for n in range(1, 10000))\nprint(approx)\n\n1.6448340618480652"
   },
   {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this blog"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "blog-quarto",
+    "section": "",
+    "text": "Séries Matemáticas \n\n Matemática Secundário \n Física e Química \n Climatização \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nClimatização\n\n\n\nClimatização\n\n\n\nTópicos de Climatização, HVAC e Sistemas de Energia para cursos técnicos e de engenharia.\n\n\n\n\n\nApr 26, 2025\n\n\n\n\n\n\n\n\n\n\n\n\nFísica e Química\n\n\n\nFísica e Química\n\n\n\nConteúdos de Física e Química para o ensino secundário, com exemplos de simulações e aplicações práticas.\n\n\n\n\n\nApr 26, 2025\n\n\n\n\n\n\n\n\n\n\n\n\nMatemática Secundário\n\n\n\nMatemática\n\n\n\nRecursos e tópicos de Matemática destinados ao ensino secundário, com exemplos práticos e resolução assistida por Python.\n\n\n\n\n\nApr 26, 2025\n\n\n\n\n\n\n\n\n\n\n\n\nEquações Quadráticas\n\n\n\nMatemática\n\n\n\nIntrodução ao uso de LaTeX no blog com exemplo da fórmula resolvente.\n\n\n\n\n\nApr 25, 2025\n\n\n\n\n\n\n\n\n\n\n\n\nPost With Code\n\n\n\nnews\n\ncode\n\nanalysis\n\n\n\n\n\n\n\n\n\nApr 25, 2025\n\n\nHarlow Malloc\n\n\n\n\n\n\n\n\n\n\n\n\nExercícios de Avaliação\n\n\n\nMatemática\n\n\n\nExercícios propostos para consolidar os conceitos estudados em séries numéricas.\n\n\n\n\n\nApr 25, 2025\n\n\n\n\n\n\n\n\n\n\n\n\nConvergência de Séries\n\n\n\nMatemática\n\n\n\nConceitos fundamentais e critérios básicos para a convergência de séries numéricas.\n\n\n\n\n\nApr 25, 2025\n\n\n\n\n\n\n\n\n\n\n\n\nSéries Matemáticas\n\n\n\nMatemática\n\n\n\nIntrodução a séries numéricas, com exemplos de convergência e resolução com Python.\n\n\n\n\n\nApr 25, 2025\n\n\n\n\n\n\n\n\n\n\n\n\nSéries Matemáticas\n\n\n\nMatemática\n\n\n\nProblema de Séries Numéricas\n\n\n\n\n\nApr 25, 2025\n\n\n\n\n\n\n\n\n\n\n\n\nSéries Geométricas e Harmónicas\n\n\n\nMatemática\n\n\n\nEstudo das séries geométricas, harmónicas e algumas séries notáveis.\n\n\n\n\n\nApr 25, 2025\n\n\n\n\n\n\n\n\n\n\n\n\nSéries Matemáticas\n\n\n\nMatemática\n\n\n\nIntrodução a séries numéricas, com exemplos de convergência e resolução com Python.\n\n\n\n\n\nApr 25, 2025\n\n\n\n\n\n\n\n\n\n\n\n\nTestes de Convergência\n\n\n\nMatemática\n\n\n\nApresentação dos testes clássicos de convergência: comparação, razão, raiz, integral, etc.\n\n\n\n\n\nApr 25, 2025\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome To My Blog\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nApr 22, 2025\n\n\nTristan O’Malley\n\n\n\n\n\nNo matching items"
+  },
+  {
     "objectID": "posts/equacoes-quadraticas/index.html",
     "href": "posts/equacoes-quadraticas/index.html",
     "title": "Equações Quadráticas",
     "section": "",
     "text": "Equações do 2º grau aparecem frequentemente na matemática elementar.\nA sua forma geral é:\n\\[\nax^2 + bx + c = 0\n\\]\nA solução pode ser obtida pela fórmula resolvente:\n\\[\nx = \\frac{-b \\pm \\sqrt{b^2 - 4ac}}{2a}\n\\]\nPor exemplo, para a equação:\n\\[\n2x^2 - 4x - 6 = 0\n\\]\nTemos:\n\\[\nx = \\frac{-(-4) \\pm \\sqrt{(-4)^2 - 4(2)(-6)}}{2(2)} = \\frac{4 \\pm \\sqrt{64}}{4} = \\frac{4 \\pm 8}{4}\n\\]\nLogo, as soluções são:\n\\[\nx_1 = 3 \\quad \\text{e} \\quad x_2 = -1\n\\]"
+  },
+  {
+    "objectID": "posts/matematica/index.html",
+    "href": "posts/matematica/index.html",
+    "title": "Matemática Secundário",
+    "section": "",
+    "text": "Matemática Secundário\nEste módulo aborda conteúdos fundamentais de Matemática para o Ensino Secundário:\n\nÁlgebra\nFunções e Gráficos\nGeometria\nAnálise Matemática\n\nConteúdo disponível em breve.\n\n\n\n\n\nReferences\n\nApostol, T. M. (1967). Calculus, volume i. Blaisdell Publishing Company.\n\n\nStewart, J. (2013). Cálculo: Volume 1 (7th ed.). Cengage Learning."
   },
   {
     "objectID": "posts/series-matematicas/avaliacao.html",

@@ -12,9 +12,23 @@ title-block-banner: true
 ---
 
 
+
+
 <p align="center">
-  <a href="posts/series-matematicas/indice-series-matematicas.html" style="padding: 10px 20px; background-color: #007bff; color: white; text-decoration: none; border-radius: 6px; font-size: 1.1em;">
-    Aceder ao Módulo Séries Matemáticas
+  <a href="posts/series-matematicas/indice-series-matematicas.html" style="padding: 10px 20px; background-color:  #fd7e14; color: white; text-decoration: none; border-radius: 6px; font-size: 1.1em; margin: 5px;">
+     Séries Matemáticas
+  </a>
+
+<p align="center">
+  <a href="posts/matematica/index.html" style="padding: 10px 20px; background-color: #007bff; color: white; text-decoration: none; border-radius: 6px; font-size: 1.1em; margin: 5px;">
+     Matemática Secundário
+  </a>
+
+  <a href="posts/fisica-quimica/index.html" style="padding: 10px 20px; background-color: #28a745; color: white; text-decoration: none; border-radius: 6px; font-size: 1.1em; margin: 5px;">
+     Física e Química
+  </a>
+
+  <a href="posts/climatizacao/index.html" style="padding: 10px 20px; background-color: #ffc107; color: black; text-decoration: none; border-radius: 6px; font-size: 1.1em; margin: 5px;">
+     Climatização
   </a>
 </p>
-

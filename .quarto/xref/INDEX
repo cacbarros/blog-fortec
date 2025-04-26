@@ -40,5 +40,17 @@
   },
   "posts/series-matematicas/indice-series-matematicas.qmd": {
     "indice-series-matematicas.html": "3ae2a353"
+  },
+  "posts/climatizacao/climatizacao.qmd": {
+    "climatizacao.html": "5a3072bf"
+  },
+  "posts/fisica-quimica/index.qmd": {
+    "index.html": "151bf9ce"
+  },
+  "posts/matematica/index.qmd": {
+    "index.html": "13dac1d4"
+  },
+  "posts/climatizacao/index.qmd": {
+    "index.html": "048b1418"
   }
 }

@@ -1,0 +1,27 @@
+---
+title: "Matemática Secundário"
+description: "Recursos e tópicos de Matemática destinados ao ensino secundário, com exemplos práticos e resolução assistida por Python."
+date: 2025-04-26
+categories: [Matemática]
+image: cover-matematica.jpg
+format:
+  html:
+    toc: true
+    code-fold: true
+bibliography: referencias.bib
+csl: apa.csl  # ou outro estilo
+nocite: "@*"
+execute:
+  kernel: ctgan_env
+---
+
+# Matemática Secundário
+
+Este módulo aborda conteúdos fundamentais de Matemática para o Ensino Secundário:
+
+- Álgebra
+- Funções e Gráficos
+- Geometria
+- Análise Matemática
+
+Conteúdo disponível em breve.
