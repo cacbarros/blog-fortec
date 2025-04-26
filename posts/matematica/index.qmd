@@ -1,6 +1,6 @@
 ---
 title: "Matemática Secundário"
-description: "Recursos e tópicos de Matemática destinados ao ensino secundário, com exemplos práticos e resolução assistida por Python."
+description: "Conceitos fundamentais de Matemática do Ensino Secundário."
 date: 2025-04-26
 categories: [Matemática]
 image: cover-matematica.jpg
@@ -9,19 +9,28 @@ format:
     toc: true
     code-fold: true
 bibliography: referencias.bib
-csl: apa.csl  # ou outro estilo
+csl: apa.csl
 nocite: "@*"
 execute:
   kernel: ctgan_env
 ---
 
-# Matemática Secundário
+# Índice do Módulo
 
-Este módulo aborda conteúdos fundamentais de Matemática para o Ensino Secundário:
+- [Números Reais](numeros-reais.html)
+- [Funções e Gráficos](funcoes-graficos.html)
+- [Trigonometria](trigonometria.html)
+- [Polinómios](polinomios.html)
+- [Geometria Analítica](geometria-analitica.html)
+- [Exercícios de Avaliação](avaliacao-matematica.html)
 
-- Álgebra
-- Funções e Gráficos
-- Geometria
-- Análise Matemática
+---
 
-Conteúdo disponível em breve.
+## Objetivos do Módulo
+
+Este módulo visa:
+
+- Consolidar conceitos básicos de Matemática;
+- Desenvolver competências de análise de funções e equações;
+- Aplicar conhecimentos em problemas práticos;
+- Preparar para exames e avaliações finais.

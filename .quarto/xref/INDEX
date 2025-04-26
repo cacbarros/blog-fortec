@@ -118,5 +118,23 @@
   },
   "posts/fisica/trabalho-energia.qmd": {
     "trabalho-energia.html": "36e52fb5"
+  },
+  "posts/matematica/avaliacao-matematica.qmd": {
+    "avaliacao-matematica.html": "cf2d4b02"
+  },
+  "posts/matematica/funcoes-graficos.qmd": {
+    "funcoes-graficos.html": "0f7e33d3"
+  },
+  "posts/matematica/geometria-analitica.qmd": {
+    "geometria-analitica.html": "f27593ad"
+  },
+  "posts/matematica/numeros-reais.qmd": {
+    "numeros-reais.html": "2862d8d4"
+  },
+  "posts/matematica/polinomios.qmd": {
+    "polinomios.html": "9e665294"
+  },
+  "posts/matematica/trigonometria.qmd": {
+    "trigonometria.html": "c16b7d48"
   }
 }
