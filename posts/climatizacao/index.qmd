@@ -1,6 +1,6 @@
 ---
-title: "Climatização"
-description: "Tópicos de Climatização, HVAC e Sistemas de Energia para cursos técnicos e de engenharia."
+title: "Climatização e Sistemas HVAC"
+description: "Conceitos fundamentais sobre climatização, ventiladores e sistemas de HVAC."
 date: 2025-04-26
 categories: [Climatização]
 image: cover-climatizacao.jpg
@@ -9,19 +9,27 @@ format:
     toc: true
     code-fold: true
 bibliography: referencias.bib
-csl: apa.csl  # ou outro estilo
+csl: apa.csl
 nocite: "@*"
 execute:
   kernel: ctgan_env
 ---
 
-# Climatização
+# Índice do Módulo
 
-Este módulo aborda conceitos e aplicações de climatização e sistemas HVAC:
+- [Introdução à Climatização](introducao-climatizacao.html)
+- [Princípios Termodinâmicos Aplicados](principios-termodinamicos.html)
+- [Componentes dos Sistemas HVAC](componentes-hvac.html)
+- [Avaliação de Eficiência Energética](eficiencia-energetica.html)
+- [Exercícios de Avaliação](avaliacao-climatizacao.html)
 
-- Conceitos de Termodinâmica
-- Sistemas de Ar Condicionado
-- Eficiência Energética
-- Manutenção de Equipamentos
+---
 
-Conteúdo disponível em breve.
+## Objetivos do Módulo
+
+Este módulo visa:
+
+- Introduzir os conceitos de conforto térmico e climatização;
+- Analisar os princípios físicos fundamentais utilizados em sistemas HVAC;
+- Identificar e compreender os principais componentes de sistemas de climatização;
+- Avaliar o desempenho energético de instalações.

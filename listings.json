@@ -2,7 +2,12 @@
   {
     "listing": "/index.html",
     "items": [
+      "/posts/climatizacao/avaliacao-climatizacao.html",
+      "/posts/climatizacao/componentes-hvac.html",
+      "/posts/climatizacao/eficiencia-energetica.html",
       "/posts/climatizacao/index.html",
+      "/posts/climatizacao/introducao-climatizacao.html",
+      "/posts/climatizacao/principios-termodinamicos.html",
       "/posts/fisica/avaliacao-fisica.html",
       "/posts/fisica/cinematica.html",
       "/posts/fisica/dinamica.html",

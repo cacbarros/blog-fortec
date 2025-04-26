@@ -1,0 +1,23 @@
+---
+title: "Exercícios de Avaliação"
+description: "Questões práticas para reforço dos conceitos de climatização."
+date: 2025-04-26
+categories: [Climatização]
+format:
+  html:
+    toc: true
+    code-fold: true
+bibliography: referencias.bib
+csl: apa.csl
+nocite: "@*"
+execute:
+  kernel: ctgan_env
+---
+
+# Exercícios de Avaliação
+
+Exercícios para aplicação de conhecimentos de climatização e HVAC.
+
+<p><a href="index.html" style="padding: 8px 16px; background-color: #ffc107; color: black; border-radius: 5px; text-decoration: none;"> Voltar para Índice de Climatização</a></p>
+
+---

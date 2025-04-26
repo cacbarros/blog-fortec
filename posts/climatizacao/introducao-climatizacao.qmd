@@ -1,0 +1,24 @@
+---
+title: "Introdução à Climatização"
+description: "Conceitos iniciais de climatização e conforto térmico."
+date: 2025-04-26
+categories: [Climatização]
+format:
+  html:
+    toc: true
+    code-fold: true
+bibliography: referencias.bib
+csl: apa.csl
+nocite: "@*"
+execute:
+  kernel: ctgan_env
+---
+
+# Introdução à Climatização
+
+Exploração dos conceitos de conforto térmico e qualidade do ar interior.
+
+<p><a href="index.html" style="padding: 8px 16px; background-color: #ffc107; color: black; border-radius: 5px; text-decoration: none;"> Voltar para Índice de Climatização</a></p>
+
+---
+

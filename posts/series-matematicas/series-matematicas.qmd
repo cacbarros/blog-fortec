@@ -3,7 +3,6 @@ title: "Séries Matemáticas"
 description: "Introdução a séries numéricas, com exemplos de convergência e resolução com Python."
 date: 2025-04-25
 categories: [Cálculo]
-image: cover.jpg
 format:
   html:
     toc: true

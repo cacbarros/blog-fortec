@@ -136,5 +136,20 @@
   },
   "posts/matematica/trigonometria.qmd": {
     "trigonometria.html": "c16b7d48"
+  },
+  "posts/climatizacao/avaliacao-climatizacao.qmd": {
+    "avaliacao-climatizacao.html": "06ddd1d3"
+  },
+  "posts/climatizacao/componentes-hvac.qmd": {
+    "componentes-hvac.html": "f4aab35b"
+  },
+  "posts/climatizacao/eficiencia-energetica.qmd": {
+    "eficiencia-energetica.html": "b528bf5d"
+  },
+  "posts/climatizacao/introducao-climatizacao.qmd": {
+    "introducao-climatizacao.html": "2026a708"
+  },
+  "posts/climatizacao/principios-termodinamicos.qmd": {
+    "principios-termodinamicos.html": "783183c9"
   }
 }
