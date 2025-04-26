@@ -82,5 +82,23 @@
   },
   "posts/quimica/indice-quimica.qmd": {
     "indice-quimica.html": "8b052f7f"
+  },
+  "posts/termodinamica/aplicacoes-termodinamica.qmd": {
+    "aplicacoes-termodinamica.html": "14f47f33"
+  },
+  "posts/termodinamica/avaliacao-termodinamica.qmd": {
+    "avaliacao-termodinamica.html": "e7bd4b3c"
+  },
+  "posts/termodinamica/ciclos-termodinamicos.qmd": {
+    "ciclos-termodinamicos.html": "bc016a22"
+  },
+  "posts/termodinamica/introducao-termodinamica.qmd": {
+    "introducao-termodinamica.html": "e5f02b0c"
+  },
+  "posts/termodinamica/primeira-lei.qmd": {
+    "primeira-lei.html": "187c430c"
+  },
+  "posts/termodinamica/segunda-lei.qmd": {
+    "segunda-lei.html": "fc63b1b4"
   }
 }

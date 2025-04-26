@@ -42,21 +42,18 @@ A sua análise inclui:
 
 ---
 
-# Problema Resolvido: Série dos quadrados
+## Vídeo de Apoio
 
-Um exemplo clássico de série numérica é a série dos inversos dos quadrados dos naturais:
+Veja a explicação introdutória no vídeo abaixo:
 
-$$
-\sum_{n=1}^{\infty} \frac{1}{n^2}
-$$
+<div style="text-align: center; margin: 20px 0;">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/JPsaS5nJxdU?si=7abGdScCTeFpBJzz" 
+    title="YouTube video player" frameborder="0" 
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+  </iframe>
+</div>
 
-O problema pode ser explorado clicando no link abaixo:
-
-[Resolver o problema da Série dos Quadrados](problema-series.html)
-
----
-
-[🔙 Voltar ao Índice](index.html)
 
 ## Exemplo 1 — Série Geométrica
 

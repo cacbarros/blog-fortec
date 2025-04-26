@@ -1,0 +1,24 @@
+---
+title: "Introdução à Termodinâmica"
+description: "Conceitos fundamentais da termodinâmica."
+date: 2025-04-26
+categories: [Termodinâmica]
+format:
+  html:
+    toc: true
+    code-fold: true
+bibliography: referencias.bib
+csl: apa.csl
+nocite: "@*"
+execute:
+  kernel: ctgan_env
+---
+
+# Introdução à Termodinâmica
+
+Conteúdo introdutório sobre a termodinâmica.
+
+<p><a href="index.html" style="padding: 8px 16px; background-color: #17a2b8; color: white; border-radius: 5px; text-decoration: none;">🔙 Voltar para Índice de Termodinâmica</a></p>
+
+---
+

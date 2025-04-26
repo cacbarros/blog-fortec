@@ -19,3 +19,5 @@ execute:
 Questões práticas para testar seus conhecimentos.
 
 ---
+
+[🔙 Voltar ao Índice](index.html)

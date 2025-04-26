@@ -1,6 +1,6 @@
 ---
-title: "Aplicações de Termodinâmica"
-description: "Recursos e tópicos de termodinâmica, com exemplos práticos e resolução assistida por Python."
+title: "Termodinâmica Geral"
+description: "Introdução às leis da termodinâmica e aplicações em sistemas físicos."
 date: 2025-04-26
 categories: [Termodinâmica]
 image: cover-termodinamica.jpg
@@ -9,19 +9,31 @@ format:
     toc: true
     code-fold: true
 bibliography: referencias.bib
-csl: apa.csl  # ou outro estilo
+csl: apa.csl
 nocite: "@*"
 execute:
   kernel: ctgan_env
 ---
 
-# Termodinâmica
+# Índice do Módulo
 
-Este módulo aborda conteúdos fundamentais de Termodinâmica:
+- [Introdução à Termodinâmica](introducao-termodinamica.html)
+- [Primeira Lei da Termodinâmica](primeira-lei.html)
+- [Segunda Lei da Termodinâmica](segunda-lei.html)
+- [Ciclos Termodinâmicos](ciclos-termodinamicos.html)
+- [Aplicativos de Termodinâmica](aplicacoes-termodinamica.html)
+- [Exercícios de Avaliação](avaliacao-termodinamica.html)
 
-- Fundamentos
-- Entropia
-- Ciclos de refrigeração
-- Misturas de gás-vapor
+---
 
-Conteúdo disponível em breve.
+## Objetivos do Módulo
+
+Este módulo visa:
+
+- Introduzir os conceitos fundamentais da termodinâmica;
+- Estudar a primeira e segunda leis;
+- Analisar ciclos típicos como Carnot e Rankine;
+- Aplicar conhecimentos a sistemas de engenharia;
+- Consolidar os conceitos através de exercícios práticos.
+
+Siga a sequência para construir uma compreensão robusta da termodinâmica.

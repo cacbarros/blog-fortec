@@ -7,6 +7,34 @@
     "text": "This is the first post in a Quarto blog. Welcome!\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
   },
   {
+    "objectID": "posts/termodinamica/primeira-lei.html",
+    "href": "posts/termodinamica/primeira-lei.html",
+    "title": "Primeira Lei da Termodinâmica",
+    "section": "",
+    "text": "Primeira Lei da Termodinâmica\nDiscussão da primeira lei.\n\n🔙 Voltar para Índice de Termodinâmica\n\n\n\n\n\n\n\nReferences\n\nApostol, T. M. (1967). Calculus, volume i. Blaisdell Publishing Company.\n\n\nStewart, J. (2013). Cálculo: Volume 1 (7th ed.). Cengage Learning."
+  },
+  {
+    "objectID": "posts/termodinamica/index.html",
+    "href": "posts/termodinamica/index.html",
+    "title": "Termodinâmica Geral",
+    "section": "",
+    "text": "Introdução à Termodinâmica\nPrimeira Lei da Termodinâmica\nSegunda Lei da Termodinâmica\nCiclos Termodinâmicos\nAplicativos de Termodinâmica\nExercícios de Avaliação\n\n\n\n\nEste módulo visa:\n\nIntroduzir os conceitos fundamentais da termodinâmica;\nEstudar a primeira e segunda leis;\nAnalisar ciclos típicos como Carnot e Rankine;\nAplicar conhecimentos a sistemas de engenharia;\nConsolidar os conceitos através de exercícios práticos.\n\nSiga a sequência para construir uma compreensão robusta da termodinâmica."
+  },
+  {
+    "objectID": "posts/termodinamica/index.html#objetivos-do-módulo",
+    "href": "posts/termodinamica/index.html#objetivos-do-módulo",
+    "title": "Termodinâmica Geral",
+    "section": "",
+    "text": "Este módulo visa:\n\nIntroduzir os conceitos fundamentais da termodinâmica;\nEstudar a primeira e segunda leis;\nAnalisar ciclos típicos como Carnot e Rankine;\nAplicar conhecimentos a sistemas de engenharia;\nConsolidar os conceitos através de exercícios práticos.\n\nSiga a sequência para construir uma compreensão robusta da termodinâmica."
+  },
+  {
+    "objectID": "posts/termodinamica/avaliacao-termodinamica.html",
+    "href": "posts/termodinamica/avaliacao-termodinamica.html",
+    "title": "Exercícios de Avaliação",
+    "section": "",
+    "text": "Exercícios de Avaliação\nExercícios para consolidação.\n\n🔙 Voltar para Índice de Termodinâmica\n\n\n\n\n\n\n\nReferences\n\nApostol, T. M. (1967). Calculus, volume i. Blaisdell Publishing Company.\n\n\nStewart, J. (2013). Cálculo: Volume 1 (7th ed.). Cengage Learning."
+  },
+  {
     "objectID": "posts/series-matematicas/testes-convergencia.html",
     "href": "posts/series-matematicas/testes-convergencia.html",
     "title": "Testes de Convergência",
@@ -109,7 +137,7 @@
     "href": "index.html",
     "title": "blog-quarto",
     "section": "",
-    "text": "Séries \n Matemática \n Física \n Química \n Climatização \n Termodinâmica \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nClimatização\n\n\n\nClimatização\n\n\n\nTópicos de Climatização, HVAC e Sistemas de Energia para cursos técnicos e de engenharia.\n\n\n\n\n\nApr 26, 2025\n\n\n\n\n\n\n\n\n\n\n\n\nFísica\n\n\n\nFísica\n\n\n\nConteúdos de Física para o ensino secundário, com exemplos de simulações e aplicações práticas.\n\n\n\n\n\nApr 26, 2025\n\n\n\n\n\n\n\n\n\n\n\n\nMatemática Secundário\n\n\n\nMatemática\n\n\n\nRecursos e tópicos de Matemática destinados ao ensino secundário, com exemplos práticos e resolução assistida por Python.\n\n\n\n\n\nApr 26, 2025\n\n\n\n\n\n\n\n\n\n\n\n\nExercícios de Avaliação\n\n\n\nQuímica\n\n\n\nConjunto de exercícios para consolidação dos conhecimentos em Química.\n\n\n\n\n\nApr 26, 2025\n\n\n\n\n\n\n\n\n\n\n\n\nEstequiometria e Cálculos Químicos\n\n\n\nQuímica\n\n\n\nAplicação da estequiometria na resolução de problemas químicos.\n\n\n\n\n\nApr 26, 2025\n\n\n\n\n\n\n\n\n\n\n\n\nEstrutura Atómica da Matéria\n\n\n\nQuímica\n\n\n\nDescrição dos átomos e organização da matéria.\n\n\n\n\n\nApr 26, 2025\n\n\n\n\n\n\n\n\n\n\n\n\nQuímica Geral\n\n\n\nQuímica\n\n\n\nIntrodução à estrutura da matéria, ligações químicas, reações e aplicações básicas.\n\n\n\n\n\nApr 26, 2025\n\n\n\n\n\n\n\n\n\n\n\n\nIntrodução à Química\n\n\n\nQuímica\n\n\n\nVisão geral da estrutura da matéria e sua organização.\n\n\n\n\n\nApr 26, 2025\n\n\n\n\n\n\n\n\n\n\n\n\nLigações Químicas\n\n\n\nQuímica\n\n\n\nExploração dos tipos de ligações químicas e suas características.\n\n\n\n\n\nApr 26, 2025\n\n\n\n\n\n\n\n\n\n\n\n\nReações Químicas e Equações\n\n\n\nQuímica\n\n\n\nEstudo das reações químicas e como representá-las.\n\n\n\n\n\nApr 26, 2025\n\n\n\n\n\n\n\n\n\n\n\n\nAplicações de Termodinâmica\n\n\n\nTermodinâmica\n\n\n\nRecursos e tópicos de termodinâmica, com exemplos práticos e resolução assistida por Python.\n\n\n\n\n\nApr 26, 2025\n\n\n\n\n\n\n\n\n\n\n\n\nEquações Quadráticas\n\n\n\nMatemática\n\n\n\nIntrodução ao uso de LaTeX no blog com exemplo da fórmula resolvente.\n\n\n\n\n\nApr 25, 2025\n\n\n\n\n\n\n\n\n\n\n\n\nPost With Code\n\n\n\nnews\n\ncode\n\nanalysis\n\n\n\n\n\n\n\n\n\nApr 25, 2025\n\n\nHarlow Malloc\n\n\n\n\n\n\n\n\n\n\n\n\nExercícios de Avaliação\n\n\n\nCálculo\n\n\n\nExercícios propostos para consolidar os conceitos estudados em séries numéricas.\n\n\n\n\n\nApr 25, 2025\n\n\n\n\n\n\n\n\n\n\n\n\nConvergência de Séries\n\n\n\nCálculo\n\n\n\nConceitos fundamentais e critérios básicos para a convergência de séries numéricas.\n\n\n\n\n\nApr 25, 2025\n\n\n\n\n\n\n\n\n\n\n\n\nSéries Matemáticas\n\n\n\nCálculo\n\n\n\nIntrodução a séries numéricas, com exemplos de convergência e resolução com Python.\n\n\n\n\n\nApr 25, 2025\n\n\n\n\n\n\n\n\n\n\n\n\nSéries Matemáticas\n\n\n\nCálculo\n\n\n\nProblema de Séries Numéricas\n\n\n\n\n\nApr 25, 2025\n\n\n\n\n\n\n\n\n\n\n\n\nSéries Geométricas e Harmónicas\n\n\n\nCálculo\n\n\n\nEstudo das séries geométricas, harmónicas e algumas séries notáveis.\n\n\n\n\n\nApr 25, 2025\n\n\n\n\n\n\n\n\n\n\n\n\nSéries Matemáticas\n\n\n\nCálculo\n\n\n\nIntrodução a séries numéricas, com exemplos de convergência e resolução com Python.\n\n\n\n\n\nApr 25, 2025\n\n\n\n\n\n\n\n\n\n\n\n\nTestes de Convergência\n\n\n\nCálculo\n\n\n\nApresentação dos testes clássicos de convergência: comparação, razão, raiz, integral, etc.\n\n\n\n\n\nApr 25, 2025\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome To My Blog\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nApr 22, 2025\n\n\nTristan O’Malley\n\n\n\n\n\nNo matching items"
+    "text": "Séries \n Matemática \n Física \n Química \n Climatização \n Termodinâmica \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nClimatização\n\n\n\nClimatização\n\n\n\nTópicos de Climatização, HVAC e Sistemas de Energia para cursos técnicos e de engenharia.\n\n\n\n\n\nApr 26, 2025\n\n\n\n\n\n\n\n\n\n\n\n\nFísica\n\n\n\nFísica\n\n\n\nConteúdos de Física para o ensino secundário, com exemplos de simulações e aplicações práticas.\n\n\n\n\n\nApr 26, 2025\n\n\n\n\n\n\n\n\n\n\n\n\nMatemática Secundário\n\n\n\nMatemática\n\n\n\nRecursos e tópicos de Matemática destinados ao ensino secundário, com exemplos práticos e resolução assistida por Python.\n\n\n\n\n\nApr 26, 2025\n\n\n\n\n\n\n\n\n\n\n\n\nExercícios de Avaliação\n\n\n\nQuímica\n\n\n\nConjunto de exercícios para consolidação dos conhecimentos em Química.\n\n\n\n\n\nApr 26, 2025\n\n\n\n\n\n\n\n\n\n\n\n\nEstequiometria e Cálculos Químicos\n\n\n\nQuímica\n\n\n\nAplicação da estequiometria na resolução de problemas químicos.\n\n\n\n\n\nApr 26, 2025\n\n\n\n\n\n\n\n\n\n\n\n\nEstrutura Atómica da Matéria\n\n\n\nQuímica\n\n\n\nDescrição dos átomos e organização da matéria.\n\n\n\n\n\nApr 26, 2025\n\n\n\n\n\n\n\n\n\n\n\n\nQuímica Geral\n\n\n\nQuímica\n\n\n\nIntrodução à estrutura da matéria, ligações químicas, reações e aplicações básicas.\n\n\n\n\n\nApr 26, 2025\n\n\n\n\n\n\n\n\n\n\n\n\nIntrodução à Química\n\n\n\nQuímica\n\n\n\nVisão geral da estrutura da matéria e sua organização.\n\n\n\n\n\nApr 26, 2025\n\n\n\n\n\n\n\n\n\n\n\n\nLigações Químicas\n\n\n\nQuímica\n\n\n\nExploração dos tipos de ligações químicas e suas características.\n\n\n\n\n\nApr 26, 2025\n\n\n\n\n\n\n\n\n\n\n\n\nReações Químicas e Equações\n\n\n\nQuímica\n\n\n\nEstudo das reações químicas e como representá-las.\n\n\n\n\n\nApr 26, 2025\n\n\n\n\n\n\n\n\n\n\n\n\nAplicações de Termodinâmica\n\n\n\nTermodinâmica\n\n\n\nCasos práticos em sistemas reais.\n\n\n\n\n\nApr 26, 2025\n\n\n\n\n\n\n\n\n\n\n\n\nExercícios de Avaliação\n\n\n\nTermodinâmica\n\n\n\nQuestões práticas sobre termodinâmica.\n\n\n\n\n\nApr 26, 2025\n\n\n\n\n\n\n\n\n\n\n\n\nCiclos Termodinâmicos\n\n\n\nTermodinâmica\n\n\n\nDescrição de ciclos típicos: Carnot, Rankine, etc.\n\n\n\n\n\nApr 26, 2025\n\n\n\n\n\n\n\n\n\n\n\n\nTermodinâmica Geral\n\n\n\nTermodinâmica\n\n\n\nIntrodução às leis da termodinâmica e aplicações em sistemas físicos.\n\n\n\n\n\nApr 26, 2025\n\n\n\n\n\n\n\n\n\n\n\n\nIntrodução à Termodinâmica\n\n\n\nTermodinâmica\n\n\n\nConceitos fundamentais da termodinâmica.\n\n\n\n\n\nApr 26, 2025\n\n\n\n\n\n\n\n\n\n\n\n\nPrimeira Lei da Termodinâmica\n\n\n\nTermodinâmica\n\n\n\nConservação da energia em sistemas físicos.\n\n\n\n\n\nApr 26, 2025\n\n\n\n\n\n\n\n\n\n\n\n\nSegunda Lei da Termodinâmica\n\n\n\nTermodinâmica\n\n\n\nConceito de entropia e irreversibilidade.\n\n\n\n\n\nApr 26, 2025\n\n\n\n\n\n\n\n\n\n\n\n\nEquações Quadráticas\n\n\n\nMatemática\n\n\n\nIntrodução ao uso de LaTeX no blog com exemplo da fórmula resolvente.\n\n\n\n\n\nApr 25, 2025\n\n\n\n\n\n\n\n\n\n\n\n\nPost With Code\n\n\n\nnews\n\ncode\n\nanalysis\n\n\n\n\n\n\n\n\n\nApr 25, 2025\n\n\nHarlow Malloc\n\n\n\n\n\n\n\n\n\n\n\n\nExercícios de Avaliação\n\n\n\nCálculo\n\n\n\nExercícios propostos para consolidar os conceitos estudados em séries numéricas.\n\n\n\n\n\nApr 25, 2025\n\n\n\n\n\n\n\n\n\n\n\n\nConvergência de Séries\n\n\n\nCálculo\n\n\n\nConceitos fundamentais e critérios básicos para a convergência de séries numéricas.\n\n\n\n\n\nApr 25, 2025\n\n\n\n\n\n\n\n\n\n\n\n\nSéries Matemáticas\n\n\n\nCálculo\n\n\n\nIntrodução a séries numéricas, com exemplos de convergência e resolução com Python.\n\n\n\n\n\nApr 25, 2025\n\n\n\n\n\n\n\n\n\n\n\n\nSéries Matemáticas\n\n\n\nCálculo\n\n\n\nProblema de Séries Numéricas\n\n\n\n\n\nApr 25, 2025\n\n\n\n\n\n\n\n\n\n\n\n\nSéries Geométricas e Harmónicas\n\n\n\nCálculo\n\n\n\nEstudo das séries geométricas, harmónicas e algumas séries notáveis.\n\n\n\n\n\nApr 25, 2025\n\n\n\n\n\n\n\n\n\n\n\n\nSéries Matemáticas\n\n\n\nCálculo\n\n\n\nIntrodução a séries numéricas, com exemplos de convergência e resolução com Python.\n\n\n\n\n\nApr 25, 2025\n\n\n\n\n\n\n\n\n\n\n\n\nTestes de Convergência\n\n\n\nCálculo\n\n\n\nApresentação dos testes clássicos de convergência: comparação, razão, raiz, integral, etc.\n\n\n\n\n\nApr 25, 2025\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome To My Blog\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nApr 22, 2025\n\n\nTristan O’Malley\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "posts/equacoes-quadraticas/index.html",
@@ -130,7 +158,7 @@
     "href": "posts/quimica/avaliacao-quimica.html",
     "title": "Exercícios de Avaliação",
     "section": "",
-    "text": "Exercícios de Avaliação\nQuestões práticas para testar seus conhecimentos.\n\n\n\n\n\n\nReferences\n\nApostol, T. M. (1967). Calculus, volume i. Blaisdell Publishing Company.\n\n\nStewart, J. (2013). Cálculo: Volume 1 (7th ed.). Cengage Learning."
+    "text": "Exercícios de Avaliação\nQuestões práticas para testar seus conhecimentos.\n\n🔙 Voltar ao Índice\n\n\n\n\n\nReferences\n\nApostol, T. M. (1967). Calculus, volume i. Blaisdell Publishing Company.\n\n\nStewart, J. (2013). Cálculo: Volume 1 (7th ed.). Cengage Learning."
   },
   {
     "objectID": "posts/quimica/estrutura-atomica.html",
@@ -182,6 +210,13 @@
     "text": "Uma série é a soma dos termos de uma sequência:\n\\[\n\\sum_{n=1}^{\\infty} a_n\n\\]\nDizemos que uma série converge se a sequência das somas parciais tem limite finito (Apostol, 1967):\n\\[\nS_N = \\sum_{n=1}^{N} a_n \\longrightarrow S \\quad \\text{quando } N \\to \\infty\n\\]"
   },
   {
+    "objectID": "posts/series-matematicas/series-matematicas.html#vídeo-de-apoio",
+    "href": "posts/series-matematicas/series-matematicas.html#vídeo-de-apoio",
+    "title": "Séries Matemáticas",
+    "section": "Vídeo de Apoio",
+    "text": "Vídeo de Apoio\nVeja a explicação introdutória no vídeo abaixo:"
+  },
+  {
     "objectID": "posts/series-matematicas/series-matematicas.html#exemplo-1-série-geométrica",
     "href": "posts/series-matematicas/series-matematicas.html#exemplo-1-série-geométrica",
     "title": "Séries Matemáticas",
@@ -210,10 +245,31 @@
     "text": "Séries Matemáticas - Avaliação\n\nProblema de Séries Numéricas"
   },
   {
-    "objectID": "posts/termodinamica/index.html",
-    "href": "posts/termodinamica/index.html",
+    "objectID": "posts/termodinamica/aplicacoes-termodinamica.html",
+    "href": "posts/termodinamica/aplicacoes-termodinamica.html",
     "title": "Aplicações de Termodinâmica",
     "section": "",
-    "text": "Termodinâmica\nEste módulo aborda conteúdos fundamentais de Termodinâmica:\n\nFundamentos\nEntropia\nCiclos de refrigeração\nMisturas de gás-vapor\n\nConteúdo disponível em breve.\n\n\n\n\n\nReferences\n\nApostol, T. M. (1967). Calculus, volume i. Blaisdell Publishing Company.\n\n\nStewart, J. (2013). Cálculo: Volume 1 (7th ed.). Cengage Learning."
+    "text": "Aplicações de Termodinâmica\nExemplos de aplicação.\n\n🔙 Voltar para Índice de Termodinâmica\n\n\n\n\n\n\n\nReferences\n\nApostol, T. M. (1967). Calculus, volume i. Blaisdell Publishing Company.\n\n\nStewart, J. (2013). Cálculo: Volume 1 (7th ed.). Cengage Learning."
+  },
+  {
+    "objectID": "posts/termodinamica/ciclos-termodinamicos.html",
+    "href": "posts/termodinamica/ciclos-termodinamicos.html",
+    "title": "Ciclos Termodinâmicos",
+    "section": "",
+    "text": "Ciclos Termodinâmicos\nEstudo de ciclos típicos.\n\n🔙 Voltar para Índice de Termodinâmica\n\n\n\n\n\n\n\nReferences\n\nApostol, T. M. (1967). Calculus, volume i. Blaisdell Publishing Company.\n\n\nStewart, J. (2013). Cálculo: Volume 1 (7th ed.). Cengage Learning."
+  },
+  {
+    "objectID": "posts/termodinamica/introducao-termodinamica.html",
+    "href": "posts/termodinamica/introducao-termodinamica.html",
+    "title": "Introdução à Termodinâmica",
+    "section": "",
+    "text": "Introdução à Termodinâmica\nConteúdo introdutório sobre a termodinâmica.\n\n🔙 Voltar para Índice de Termodinâmica\n\n\n\n\n\n\n\nReferences\n\nApostol, T. M. (1967). Calculus, volume i. Blaisdell Publishing Company.\n\n\nStewart, J. (2013). Cálculo: Volume 1 (7th ed.). Cengage Learning."
+  },
+  {
+    "objectID": "posts/termodinamica/segunda-lei.html",
+    "href": "posts/termodinamica/segunda-lei.html",
+    "title": "Segunda Lei da Termodinâmica",
+    "section": "",
+    "text": "Segunda Lei da Termodinâmica\nAnálise da segunda lei.\n\n🔙 Voltar para Índice de Termodinâmica\n\n\n\n\n\n\n\nReferences\n\nApostol, T. M. (1967). Calculus, volume i. Blaisdell Publishing Company.\n\n\nStewart, J. (2013). Cálculo: Volume 1 (7th ed.). Cengage Learning."
   }
 ]
