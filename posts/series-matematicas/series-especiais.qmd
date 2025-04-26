@@ -27,4 +27,4 @@ Conteúdo a desenvolver...
 
 ---
 
-[🔙 Voltar ao Índice](index.html)
+[Voltar ao Índice](index.html)

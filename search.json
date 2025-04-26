@@ -46,7 +46,7 @@
     "href": "posts/series-matematicas/series-especiais.html",
     "title": "Séries Geométricas e Harmónicas",
     "section": "",
-    "text": "Séries Geométricas e Harmónicas\nNesta secção estudamos:\n\nSéries Geométricas,\nSéries Harmónicas,\nExemplos clássicos,\nAplicações.\n\nConteúdo a desenvolver…\n\n🔙 Voltar ao Índice\n\n\n\n\n\nReferences\n\nApostol, T. M. (1967). Calculus, volume i. Blaisdell Publishing Company.\n\n\nStewart, J. (2013). Cálculo: Volume 1 (7th ed.). Cengage Learning."
+    "text": "Séries Geométricas e Harmónicas\nNesta secção estudamos:\n\nSéries Geométricas,\nSéries Harmónicas,\nExemplos clássicos,\nAplicações.\n\nConteúdo a desenvolver…\n\nVoltar ao Índice\n\n\n\n\n\nReferences\n\nApostol, T. M. (1967). Calculus, volume i. Blaisdell Publishing Company.\n\n\nStewart, J. (2013). Cálculo: Volume 1 (7th ed.). Cengage Learning."
   },
   {
     "objectID": "posts/series-matematicas/index.html",
@@ -193,7 +193,7 @@
     "href": "posts/series-matematicas/problema-series.html",
     "title": "Séries Matemáticas",
     "section": "",
-    "text": "Enunciado do Problema\nConsidere a série numérica:\n\\[\n\\sum_{n=1}^{\\infty} \\frac{1}{n^2}\n\\]\n\nDetermine se a série é convergente ou divergente.\nJustifique usando uma comparação ou teste adequado.\n\n\n\nSolução (Clique para expandir)\n\n\nVer Solução\n\n\nA série apresentada é:\n\\[\n\\sum_{n=1}^{\\infty} \\frac{1}{n^2}\n\\]\nEsta é uma série p com \\(p = 2 &gt; 1\\).\nLogo, a série converge pelo critério das séries p.\nAlém disso, sabemos que:\n\\[\n\\sum_{n=1}^{\\infty} \\frac{1}{n^2} = \\frac{\\pi^2}{6}\n\\]\nResumo: A série é convergente.\n\n\n\nVoltar à Página Principal\n\n🔙 Voltar para Séries Matemáticas\n\n\n\n\n\n\nReferences\n\nApostol, T. M. (1967). Calculus, volume i. Blaisdell Publishing Company.\n\n\nStewart, J. (2013). Cálculo: Volume 1 (7th ed.). Cengage Learning."
+    "text": "Enunciado do Problema\nConsidere a série numérica:\n\\[\n\\sum_{n=1}^{\\infty} \\frac{1}{n^2}\n\\]\n\nDetermine se a série é convergente ou divergente.\nJustifique usando uma comparação ou teste adequado.\n\n\n\nSolução (Clique para expandir)\n\n\nVer Solução\n\n\nA série apresentada é:\n\\[\n\\sum_{n=1}^{\\infty} \\frac{1}{n^2}\n\\]\nEsta é uma série p com \\(p = 2 &gt; 1\\).\nLogo, a série converge pelo critério das séries p.\nAlém disso, sabemos que:\n\\[\n\\sum_{n=1}^{\\infty} \\frac{1}{n^2} = \\frac{\\pi^2}{6}\n\\]\nResumo: A série é convergente.\n\n\n\nVoltar à Página Principal\nVoltar ao Índice\n\n\n\n\n\nReferences\n\nApostol, T. M. (1967). Calculus, volume i. Blaisdell Publishing Company.\n\n\nStewart, J. (2013). Cálculo: Volume 1 (7th ed.). Cengage Learning."
   },
   {
     "objectID": "posts/series-matematicas/series-matematicas.html",
@@ -242,7 +242,7 @@
     "href": "posts/series-matematicas/series-matematicas.html#séries-matemáticas---avaliação",
     "title": "Séries Matemáticas",
     "section": "Séries Matemáticas - Avaliação",
-    "text": "Séries Matemáticas - Avaliação\n\nProblema de Séries Numéricas"
+    "text": "Séries Matemáticas - Avaliação\n\nProblema de Séries Numéricas\n\n\nVoltar ao Índice"
   },
   {
     "objectID": "posts/termodinamica/aplicacoes-termodinamica.html",
@@ -263,7 +263,14 @@
     "href": "posts/termodinamica/introducao-termodinamica.html",
     "title": "Introdução à Termodinâmica",
     "section": "",
-    "text": "Introdução à Termodinâmica\nConteúdo introdutório sobre a termodinâmica.\n\n🔙 Voltar para Índice de Termodinâmica\n\n\n\n\n\n\n\nReferences\n\nApostol, T. M. (1967). Calculus, volume i. Blaisdell Publishing Company.\n\n\nStewart, J. (2013). Cálculo: Volume 1 (7th ed.). Cengage Learning."
+    "text": "Conteúdo introdutório sobre a termodinâmica.\n\n\nVeja a explicação introdutório no vídeo abaixo:\n\n\n\n\n\n🔙 Voltar para Índice de Termodinâmica"
+  },
+  {
+    "objectID": "posts/termodinamica/introducao-termodinamica.html#vídeo-de-apoio",
+    "href": "posts/termodinamica/introducao-termodinamica.html#vídeo-de-apoio",
+    "title": "Introdução à Termodinâmica",
+    "section": "",
+    "text": "Veja a explicação introdutório no vídeo abaixo:\n\n\n\n\n\n🔙 Voltar para Índice de Termodinâmica"
   },
   {
     "objectID": "posts/termodinamica/segunda-lei.html",

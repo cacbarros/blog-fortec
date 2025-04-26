@@ -113,6 +113,11 @@ A convergência de uma série depende do comportamento da soma parcial, **não a
 
 - [Problema de Séries Numéricas](problema-series.qmd)
 
+---
+
+[Voltar ao Índice](index.html)
+
+
 
 ## Referências
 
