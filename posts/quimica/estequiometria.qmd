@@ -1,0 +1,21 @@
+---
+title: "Estequiometria e Cálculos Químicos"
+description: "Aplicação da estequiometria na resolução de problemas químicos."
+date: 2025-04-26
+categories: [Química]
+format:
+  html:
+    toc: true
+    code-fold: true
+bibliography: referencias.bib
+csl: apa.csl
+nocite: "@*"
+execute:
+  kernel: ctgan_env
+---
+
+# Estequiometria e Cálculos Químicos
+
+Cálculos com equações balanceadas.
+
+---

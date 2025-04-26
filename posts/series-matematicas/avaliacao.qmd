@@ -2,7 +2,7 @@
 title: "Exercícios de Avaliação"
 description: "Exercícios propostos para consolidar os conceitos estudados em séries numéricas."
 date: 2025-04-25
-categories: [Matemática]
+categories: [Cálculo]
 format:
   html:
     toc: true

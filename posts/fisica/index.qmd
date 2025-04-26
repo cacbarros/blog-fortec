@@ -1,0 +1,25 @@
+---
+title: "Física"
+description: "Conteúdos de Física para o ensino secundário, com exemplos de simulações e aplicações práticas."
+date: 2025-04-26
+categories: [Física]
+image: cover-fisica.jpg
+format:
+  html:
+    toc: true
+    code-fold: true
+bibliography: referencias.bib
+csl: apa.csl  # ou outro estilo
+nocite: "@*"
+execute:
+  kernel: ctgan_env
+---
+
+# Física 
+Este módulo explora tópicos essenciais em Física :
+
+- Mecânica
+- Termodinâmica
+- Estrutura da Matéria
+
+Conteúdo disponível em breve.

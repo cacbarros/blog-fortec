@@ -2,7 +2,7 @@
 title: "Séries Geométricas e Harmónicas"
 description: "Estudo das séries geométricas, harmónicas e algumas séries notáveis."
 date: 2025-04-25
-categories: [Matemática]
+categories: [Cálculo]
 format:
   html:
     toc: true

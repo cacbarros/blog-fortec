@@ -1,0 +1,22 @@
+---
+title: "Reações Químicas e Equações"
+description: "Estudo das reações químicas e como representá-las."
+date: 2025-04-26
+categories: [Química]
+format:
+  html:
+    toc: true
+    code-fold: true
+bibliography: referencias.bib
+csl: apa.csl
+nocite: "@*"
+execute:
+  kernel: ctgan_env
+---
+
+# Reações Químicas e Equações
+
+Representação simbólica das reações.
+
+---
+

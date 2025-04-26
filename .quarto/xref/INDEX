@@ -55,5 +55,32 @@
   },
   "posts/termodinamica/index.qmd": {
     "index.html": "8a79c615"
+  },
+  "posts/fisica/index.qmd": {
+    "index.html": "be625eb8"
+  },
+  "posts/quimica/index.qmd": {
+    "index.html": "fcf1e723"
+  },
+  "posts/quimica/avaliacao-quimica.qmd": {
+    "avaliacao-quimica.html": "318f8d0f"
+  },
+  "posts/quimica/estequiometria.qmd": {
+    "estequiometria.html": "0a23e96d"
+  },
+  "posts/quimica/estrutura-atomica.qmd": {
+    "estrutura-atomica.html": "6ab21542"
+  },
+  "posts/quimica/introducao-quimica.qmd": {
+    "introducao-quimica.html": "403ab3ee"
+  },
+  "posts/quimica/ligacoes-quimicas.qmd": {
+    "ligacoes-quimicas.html": "fdd09052"
+  },
+  "posts/quimica/reacoes-equacoes.qmd": {
+    "reacoes-equacoes.html": "ebfb54db"
+  },
+  "posts/quimica/indice-quimica.qmd": {
+    "indice-quimica.html": "8b052f7f"
   }
 }

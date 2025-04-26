@@ -1,0 +1,21 @@
+---
+title: "Estrutura Atómica da Matéria"
+description: "Descrição dos átomos e organização da matéria."
+date: 2025-04-26
+categories: [Química]
+format:
+  html:
+    toc: true
+    code-fold: true
+bibliography: referencias.bib
+csl: apa.csl
+nocite: "@*"
+execute:
+  kernel: ctgan_env
+---
+
+# Estrutura Atómica da Matéria
+
+Conceitos fundamentais sobre átomos.
+
+---

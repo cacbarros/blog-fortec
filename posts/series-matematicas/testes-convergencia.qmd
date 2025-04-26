@@ -2,7 +2,7 @@
 title: "Testes de Convergência"
 description:  "Apresentação dos testes clássicos de convergência: comparação, razão, raiz, integral, etc."
 date: 2025-04-25
-categories: [Matemática]
+categories: [Cálculo]
 format:
   html:
     toc: true

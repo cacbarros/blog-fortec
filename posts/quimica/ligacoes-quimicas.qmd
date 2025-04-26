@@ -1,0 +1,21 @@
+---
+title: "Ligações Químicas"
+description: "Exploração dos tipos de ligações químicas e suas características."
+date: 2025-04-26
+categories: [Química]
+format:
+  html:
+    toc: true
+    code-fold: true
+bibliography: referencias.bib
+csl: apa.csl
+nocite: "@*"
+execute:
+  kernel: ctgan_env
+---
+
+# Ligações Químicas
+
+Ligações iônicas, covalentes e metálicas.
+
+---

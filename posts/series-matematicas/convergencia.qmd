@@ -2,7 +2,7 @@
 title: "Convergência de Séries"
 description: "Conceitos fundamentais e critérios básicos para a convergência de séries numéricas."
 date: 2025-04-25
-categories: [Matemática]
+categories: [Cálculo]
 format:
   html:
     toc: true

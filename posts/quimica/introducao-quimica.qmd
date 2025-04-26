@@ -1,0 +1,21 @@
+---
+title: "Introdução à Química"
+description: "Visão geral da estrutura da matéria e sua organização."
+date: 2025-04-26
+categories: [Química]
+format:
+  html:
+    toc: true
+    code-fold: true
+bibliography: referencias.bib
+csl: apa.csl
+nocite: "@*"
+execute:
+  kernel: ctgan_env
+---
+
+# Introdução à Química
+
+Conteúdo introdutório.
+
+---
