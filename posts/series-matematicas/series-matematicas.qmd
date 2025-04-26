@@ -1,0 +1,121 @@
+---
+title: "Séries Matemáticas"
+description: "Introdução a séries numéricas, com exemplos de convergência e resolução com Python."
+date: 2025-04-25
+categories: [Matemática]
+image: cover.jpg
+format:
+  html:
+    toc: true
+    code-fold: true
+bibliography: referencias.bib
+csl: apa.csl  # ou outro estilo (opcional)
+nocite: "@*"
+execute:
+  kernel: ctgan_env
+---
+
+## Definição
+
+Uma **série** é a soma dos termos de uma sequência:
+
+$$
+\sum_{n=1}^{\infty} a_n
+$$
+
+Dizemos que uma série **converge** se a sequência das somas parciais tem limite finito [@apostol]:
+
+$$
+S_N = \sum_{n=1}^{N} a_n \longrightarrow S \quad \text{quando } N \to \infty
+$$
+
+# 🏁 Introdução
+
+As séries numéricas desempenham um papel fundamental no estudo de fenómenos contínuos e discretos.  
+Uma série é a soma de uma sequência infinita de números.
+
+A sua análise inclui:
+
+- Identificação de convergência ou divergência,
+- Estudo de séries especiais,
+- Aplicação prática em Física, Engenharia, e Matemática Avançada.
+
+---
+
+# Problema Resolvido: Série dos quadrados
+
+Um exemplo clássico de série numérica é a série dos inversos dos quadrados dos naturais:
+
+$$
+\sum_{n=1}^{\infty} \frac{1}{n^2}
+$$
+
+O problema pode ser explorado clicando no link abaixo:
+
+[Resolver o problema da Série dos Quadrados](problema-series.html)
+
+---
+
+[🔙 Voltar ao Índice](index.html)
+
+## Exemplo 1 — Série Geométrica
+
+Considere a série:
+
+$$
+\sum_{n=0}^{\infty} ar^n = a + ar + ar^2 + ar^3 + \dots
+$$
+
+Se $|r| < 1$, então a série converge para:
+
+$$
+\sum_{n=0}^{\infty} ar^n = \frac{a}{1 - r}
+$$
+
+### Resolução em Python
+
+```{python}
+# Série geométrica: soma parcial com a = 2 e r = 0.5
+a = 2
+r = 0.5
+N = 10
+
+soma = sum(a * r**n for n in range(N))
+soma_limite = a / (1 - r)
+
+print(f"Soma dos {N} primeiros termos: {soma:.4f}")
+print(f"Valor limite (teórico): {soma_limite:.4f}")
+```
+
+
+## Exemplo 2 — Série Harmónica
+
+A série harmónica é dada por:
+
+$$
+\sum_{n=1}^{\infty} \frac{1}{n}
+$$
+
+Embora os termos $1/n$ tendam a zero, a série **diverge** (soma parcial cresce sem limite).
+
+### Resolução em Python
+
+```{python}
+# Soma parcial da série harmónica
+N = 20
+soma = sum(1/n for n in range(1, N+1))
+print(f"Soma dos {N} primeiros termos: {soma:.4f}")
+```
+
+
+## Observação
+
+A convergência de uma série depende do comportamento da soma parcial, **não apenas** da tendência dos termos $a_n$.
+
+## Séries Matemáticas - Avaliação
+
+- [Problema de Séries Numéricas](problema-series.qmd)
+
+
+## Referências
+

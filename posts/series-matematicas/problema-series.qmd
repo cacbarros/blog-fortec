@@ -3,7 +3,6 @@ title: "Séries Matemáticas"
 description: "Problema de Séries Numéricas"
 date: 2025-04-25
 categories: [Matemática]
-image: cover.jpg
 format:
   html:
     toc: true

@@ -1,0 +1,30 @@
+---
+title: "Séries Geométricas e Harmónicas"
+description: "Estudo das séries geométricas, harmónicas e algumas séries notáveis."
+date: 2025-04-25
+categories: [Matemática]
+format:
+  html:
+    toc: true
+    code-fold: true
+bibliography: referencias.bib
+csl: apa.csl  # ou outro estilo (opcional)
+nocite: "@*"
+execute:
+  kernel: ctgan_env
+---
+
+# Séries Geométricas e Harmónicas
+
+Nesta secção estudamos:
+
+- Séries Geométricas,
+- Séries Harmónicas,
+- Exemplos clássicos,
+- Aplicações.
+
+Conteúdo a desenvolver...
+
+---
+
+[🔙 Voltar ao Índice](index.html)

@@ -22,6 +22,41 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+/* CSS for syntax highlighting */
+html { -webkit-text-size-adjust: 100%; }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
 /* CSS for citations */
 div.csl-bib-body { }
 div.csl-entry {
@@ -90,6 +125,35 @@ div.csl-indent {
   }
 }</script>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="../../styles.css">
 </head>
@@ -171,9 +235,21 @@ div.csl-indent {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#índice-do-módulo" id="toc-índice-do-módulo" class="nav-link active" data-scroll-target="#índice-do-módulo">Índice do Módulo</a>
+  <li><a href="#definição" id="toc-definição" class="nav-link active" data-scroll-target="#definição">Definição</a></li>
+  <li><a href="#introdução" id="toc-introdução" class="nav-link" data-scroll-target="#introdução">🏁 Introdução</a></li>
+  <li><a href="#problema-resolvido-série-dos-quadrados" id="toc-problema-resolvido-série-dos-quadrados" class="nav-link" data-scroll-target="#problema-resolvido-série-dos-quadrados">Problema Resolvido: Série dos quadrados</a>
   <ul class="collapse">
-  <li><a href="#objetivos-do-módulo" id="toc-objetivos-do-módulo" class="nav-link" data-scroll-target="#objetivos-do-módulo">Objetivos do Módulo</a></li>
+  <li><a href="#exemplo-1-série-geométrica" id="toc-exemplo-1-série-geométrica" class="nav-link" data-scroll-target="#exemplo-1-série-geométrica">Exemplo 1 — Série Geométrica</a>
+  <ul class="collapse">
+  <li><a href="#resolução-em-python" id="toc-resolução-em-python" class="nav-link" data-scroll-target="#resolução-em-python">Resolução em Python</a></li>
+  </ul></li>
+  <li><a href="#exemplo-2-série-harmónica" id="toc-exemplo-2-série-harmónica" class="nav-link" data-scroll-target="#exemplo-2-série-harmónica">Exemplo 2 — Série Harmónica</a>
+  <ul class="collapse">
+  <li><a href="#resolução-em-python-1" id="toc-resolução-em-python-1" class="nav-link" data-scroll-target="#resolução-em-python-1">Resolução em Python</a></li>
+  </ul></li>
+  <li><a href="#observação" id="toc-observação" class="nav-link" data-scroll-target="#observação">Observação</a></li>
+  <li><a href="#séries-matemáticas---avaliação" id="toc-séries-matemáticas---avaliação" class="nav-link" data-scroll-target="#séries-matemáticas---avaliação">Séries Matemáticas - Avaliação</a></li>
+  <li><a href="#referências" id="toc-referências" class="nav-link" data-scroll-target="#referências">Referências</a></li>
   </ul></li>
   </ul>
 </nav>
@@ -185,34 +261,114 @@ div.csl-indent {
 
 
 
-<section id="índice-do-módulo" class="level1">
-<h1>Índice do Módulo</h1>
+<section id="definição" class="level2">
+<h2 class="anchored" data-anchor-id="definição">Definição</h2>
+<p>Uma <strong>série</strong> é a soma dos termos de uma sequência:</p>
+<p><span class="math display">\[
+\sum_{n=1}^{\infty} a_n
+\]</span></p>
+<p>Dizemos que uma série <strong>converge</strong> se a sequência das somas parciais tem limite finito <span class="citation" data-cites="apostol">(<a href="#ref-apostol" role="doc-biblioref">Apostol, 1967</a>)</span>:</p>
+<p><span class="math display">\[
+S_N = \sum_{n=1}^{N} a_n \longrightarrow S \quad \text{quando } N \to \infty
+\]</span></p>
+</section>
+<section id="introdução" class="level1">
+<h1>🏁 Introdução</h1>
+<p>As séries numéricas desempenham um papel fundamental no estudo de fenómenos contínuos e discretos.<br>
+Uma série é a soma de uma sequência infinita de números.</p>
+<p>A sua análise inclui:</p>
 <ul>
-<li><a href="series-matematicas.html">Introdução às Séries Numéricas</a></li>
-<li><a href="convergencia.html">Convergência de Séries</a></li>
-<li><a href="testes-convergencia.html">Testes de Convergência</a></li>
-<li><a href="series-especiais.html">Séries Geométricas e Harmónicas</a></li>
-<li><a href="avaliacao.html">Exercícios de Avaliação</a></li>
+<li>Identificação de convergência ou divergência,</li>
+<li>Estudo de séries especiais,</li>
+<li>Aplicação prática em Física, Engenharia, e Matemática Avançada.</li>
 </ul>
 <hr>
-<section id="objetivos-do-módulo" class="level2">
-<h2 class="anchored" data-anchor-id="objetivos-do-módulo">Objetivos do Módulo</h2>
-<p>Este módulo visa:</p>
+</section>
+<section id="problema-resolvido-série-dos-quadrados" class="level1">
+<h1>Problema Resolvido: Série dos quadrados</h1>
+<p>Um exemplo clássico de série numérica é a série dos inversos dos quadrados dos naturais:</p>
+<p><span class="math display">\[
+\sum_{n=1}^{\infty} \frac{1}{n^2}
+\]</span></p>
+<p>O problema pode ser explorado clicando no link abaixo:</p>
+<p><a href="problema-series.html">Resolver o problema da Série dos Quadrados</a></p>
+<hr>
+<p><a href="index.html">🔙 Voltar ao Índice</a></p>
+<section id="exemplo-1-série-geométrica" class="level2">
+<h2 class="anchored" data-anchor-id="exemplo-1-série-geométrica">Exemplo 1 — Série Geométrica</h2>
+<p>Considere a série:</p>
+<p><span class="math display">\[
+\sum_{n=0}^{\infty} ar^n = a + ar + ar^2 + ar^3 + \dots
+\]</span></p>
+<p>Se <span class="math inline">\(|r| &lt; 1\)</span>, então a série converge para:</p>
+<p><span class="math display">\[
+\sum_{n=0}^{\infty} ar^n = \frac{a}{1 - r}
+\]</span></p>
+<section id="resolução-em-python" class="level3">
+<h3 class="anchored" data-anchor-id="resolução-em-python">Resolução em Python</h3>
+<div id="02c8b86e" class="cell" data-execution_count="1">
+<details class="code-fold">
+<summary>Code</summary>
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Série geométrica: soma parcial com a = 2 e r = 0.5</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>a <span class="op">=</span> <span class="dv">2</span></span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>r <span class="op">=</span> <span class="fl">0.5</span></span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>N <span class="op">=</span> <span class="dv">10</span></span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a>soma <span class="op">=</span> <span class="bu">sum</span>(a <span class="op">*</span> r<span class="op">**</span>n <span class="cf">for</span> n <span class="kw">in</span> <span class="bu">range</span>(N))</span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>soma_limite <span class="op">=</span> a <span class="op">/</span> (<span class="dv">1</span> <span class="op">-</span> r)</span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="ss">f"Soma dos </span><span class="sc">{</span>N<span class="sc">}</span><span class="ss"> primeiros termos: </span><span class="sc">{</span>soma<span class="sc">:.4f}</span><span class="ss">"</span>)</span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="ss">f"Valor limite (teórico): </span><span class="sc">{</span>soma_limite<span class="sc">:.4f}</span><span class="ss">"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+<div class="cell-output cell-output-stdout">
+<pre><code>Soma dos 10 primeiros termos: 3.9961
+Valor limite (teórico): 4.0000</code></pre>
+</div>
+</div>
+</section>
+</section>
+<section id="exemplo-2-série-harmónica" class="level2">
+<h2 class="anchored" data-anchor-id="exemplo-2-série-harmónica">Exemplo 2 — Série Harmónica</h2>
+<p>A série harmónica é dada por:</p>
+<p><span class="math display">\[
+\sum_{n=1}^{\infty} \frac{1}{n}
+\]</span></p>
+<p>Embora os termos <span class="math inline">\(1/n\)</span> tendam a zero, a série <strong>diverge</strong> (soma parcial cresce sem limite).</p>
+<section id="resolução-em-python-1" class="level3">
+<h3 class="anchored" data-anchor-id="resolução-em-python-1">Resolução em Python</h3>
+<div id="e61c2d15" class="cell" data-execution_count="2">
+<details class="code-fold">
+<summary>Code</summary>
+<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Soma parcial da série harmónica</span></span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a>N <span class="op">=</span> <span class="dv">20</span></span>
+<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a>soma <span class="op">=</span> <span class="bu">sum</span>(<span class="dv">1</span><span class="op">/</span>n <span class="cf">for</span> n <span class="kw">in</span> <span class="bu">range</span>(<span class="dv">1</span>, N<span class="op">+</span><span class="dv">1</span>))</span>
+<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="ss">f"Soma dos </span><span class="sc">{</span>N<span class="sc">}</span><span class="ss"> primeiros termos: </span><span class="sc">{</span>soma<span class="sc">:.4f}</span><span class="ss">"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+<div class="cell-output cell-output-stdout">
+<pre><code>Soma dos 20 primeiros termos: 3.5977</code></pre>
+</div>
+</div>
+</section>
+</section>
+<section id="observação" class="level2">
+<h2 class="anchored" data-anchor-id="observação">Observação</h2>
+<p>A convergência de uma série depende do comportamento da soma parcial, <strong>não apenas</strong> da tendência dos termos <span class="math inline">\(a_n\)</span>.</p>
+</section>
+<section id="séries-matemáticas---avaliação" class="level2">
+<h2 class="anchored" data-anchor-id="séries-matemáticas---avaliação">Séries Matemáticas - Avaliação</h2>
 <ul>
-<li>Introduzir o conceito de séries como somatórios infinitos;</li>
-<li>Analisar a convergência e divergência de séries;</li>
-<li>Aplicar testes clássicos de convergência (comparação, razão, raiz, etc.);</li>
-<li>Estudar séries geométricas e harmónicas;</li>
-<li>Consolidar o conhecimento através de exercícios de avaliação.</li>
+<li><a href="../../posts/series-matematicas/problema-series.html">Problema de Séries Numéricas</a></li>
 </ul>
-<p>Siga a sequência sugerida para obter uma compreensão sólida e progressiva do tema.</p>
+</section>
+<section id="referências" class="level2">
+
 
 
 
 </section>
 </section>
 
-<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" data-line-spacing="2" role="list">
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">Referências</h2><div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" data-line-spacing="2" role="list">
 <div id="ref-apostol" class="csl-entry" role="listitem">
 Apostol, T. M. (1967). <em>Calculus, volume i</em>. Blaisdell Publishing Company.
 </div>

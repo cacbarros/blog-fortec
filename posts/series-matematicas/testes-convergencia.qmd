@@ -1,0 +1,32 @@
+---
+title: "Testes de Convergência"
+description:  "Apresentação dos testes clássicos de convergência: comparação, razão, raiz, integral, etc."
+date: 2025-04-25
+categories: [Matemática]
+format:
+  html:
+    toc: true
+    code-fold: true
+bibliography: referencias.bib
+csl: apa.csl  # ou outro estilo (opcional)
+nocite: "@*"
+execute:
+  kernel: ctgan_env
+---
+
+
+# Testes de Convergência
+
+Nesta secção abordamos:
+
+- Teste da Comparação,
+- Teste da Razão,
+- Teste da Raiz,
+- Teste da Integral,
+- Exemplos práticos de aplicação.
+
+Conteúdo a desenvolver...
+
+---
+
+[Voltar ao Índice](index.html)

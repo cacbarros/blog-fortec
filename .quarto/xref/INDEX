@@ -22,5 +22,20 @@
   },
   "exemplo.qmd": {
     "exemplo.html": "76eb060b"
+  },
+  "posts/series-matematicas/avaliacao.qmd": {
+    "avaliacao.html": "32aeabeb"
+  },
+  "posts/series-matematicas/convergencia.qmd": {
+    "convergencia.html": "16ca4694"
+  },
+  "posts/series-matematicas/series-especiais.qmd": {
+    "series-especiais.html": "52093e78"
+  },
+  "posts/series-matematicas/series-matematicas.qmd": {
+    "series-matematicas.html": "87f2ea08"
+  },
+  "posts/series-matematicas/testes-convergencia.qmd": {
+    "testes-convergencia.html": "646439d2"
   }
 }

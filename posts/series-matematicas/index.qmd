@@ -15,79 +15,24 @@ execute:
   kernel: ctgan_env
 ---
 
-## Definição
+# Índice do Módulo
 
-Uma **série** é a soma dos termos de uma sequência:
+- [Introdução às Séries Numéricas](series-matematicas.html)
+- [Convergência de Séries](convergencia.html)
+- [Testes de Convergência](testes-convergencia.html)
+- [Séries Geométricas e Harmónicas](series-especiais.html)
+- [Exercícios de Avaliação](avaliacao.html)
 
-$$
-\sum_{n=1}^{\infty} a_n
-$$
+---
 
-Dizemos que uma série **converge** se a sequência das somas parciais tem limite finito [@apostol]:
+##  Objetivos do Módulo
 
-$$
-S_N = \sum_{n=1}^{N} a_n \longrightarrow S \quad \text{quando } N \to \infty
-$$
+Este módulo visa:
 
+- Introduzir o conceito de séries como somatórios infinitos;
+- Analisar a convergência e divergência de séries;
+- Aplicar testes clássicos de convergência (comparação, razão, raiz, etc.);
+- Estudar séries geométricas e harmónicas;
+- Consolidar o conhecimento através de exercícios de avaliação.
 
-## Exemplo 1 — Série Geométrica
-
-Considere a série:
-
-$$
-\sum_{n=0}^{\infty} ar^n = a + ar + ar^2 + ar^3 + \dots
-$$
-
-Se $|r| < 1$, então a série converge para:
-
-$$
-\sum_{n=0}^{\infty} ar^n = \frac{a}{1 - r}
-$$
-
-### Resolução em Python
-
-```{python}
-# Série geométrica: soma parcial com a = 2 e r = 0.5
-a = 2
-r = 0.5
-N = 10
-
-soma = sum(a * r**n for n in range(N))
-soma_limite = a / (1 - r)
-
-print(f"Soma dos {N} primeiros termos: {soma:.4f}")
-print(f"Valor limite (teórico): {soma_limite:.4f}")
-```
-
-
-## Exemplo 2 — Série Harmónica
-
-A série harmónica é dada por:
-
-$$
-\sum_{n=1}^{\infty} \frac{1}{n}
-$$
-
-Embora os termos $1/n$ tendam a zero, a série **diverge** (soma parcial cresce sem limite).
-
-### Resolução em Python
-
-```{python}
-# Soma parcial da série harmónica
-N = 20
-soma = sum(1/n for n in range(1, N+1))
-print(f"Soma dos {N} primeiros termos: {soma:.4f}")
-```
-
-
-## Observação
-
-A convergência de uma série depende do comportamento da soma parcial, **não apenas** da tendência dos termos $a_n$.
-
-## Séries Matemáticas - Avaliação
-
-- [Problema de Séries Numéricas](problema-series.qmd)
-
-
-## Referências
-
+Siga a sequência sugerida para obter uma compreensão sólida e progressiva do tema.
