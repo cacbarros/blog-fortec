@@ -277,7 +277,7 @@
     "href": "about.html",
     "title": "Sobre",
     "section": "",
-    "text": "Sobre o Blog Fortec\nO Blog Fortec é um projeto educacional aberto que visa apoiar o estudo de disciplinas fundamentais como Matemática, Física, Química, Termodinâmica e Climatização.\nAqui você encontrará:\n\nTextos explicativos claros e acessíveis,\nExemplos resolvidos com Python e Jupyter,\nExecução de códigos diretamente no Google Colab,\nÁudios explicativos integrados (via Vocaroo),\nVídeos educativos incorporados do YouTube,\nExercícios de avaliação para consolidar o conhecimento.\n\n\n\nObjetivo do Projeto\nO principal objetivo é disponibilizar conteúdos educativos de qualidade, de forma gratuita, utilizando tecnologias modernas de publicação aberta e ambientes interativos.\n\n\nTecnologias Utilizadas\n\nQuarto\nGitHub Pages\nPython\nJupyterLab\nGoogle Colab\nYouTube\nVocaroo\n\n\n\nAcesso Aberto\nTodo o conteúdo deste blog é disponibilizado de forma aberta e gratuita para promover o acesso ao conhecimento e apoiar estudantes, professores e autodidatas.\n\n\nContato\nPara sugestões, dúvidas ou parcerias:\n\nGitHub: cacbarros\nRepositório do projeto: Blog Fortec no GitHub"
+    "text": "Sobre o Blog Fortec\nO Blog Fortec é um projeto educacional aberto que visa apoiar o estudo de disciplinas fundamentais como Matemática, Física, Química, Termodinâmica e Climatização.\nAqui você encontrará:\n\nTextos explicativos claros e acessíveis,\nExemplos resolvidos com Python e Jupyter,\nExecução de códigos diretamente no Google Colab,\nÁudios explicativos integrados (via Vocaroo),\nVídeos educativos incorporados do YouTube,\nExercícios de avaliação para consolidar o conhecimento.\n\n\n\nObjetivo do Projeto\nO principal objetivo é disponibilizar conteúdos educativos de qualidade, de forma gratuita, utilizando tecnologias modernas de publicação aberta e ambientes interativos.\n\n\nTecnologias Utilizadas\n\nQuarto\nGitHub Pages\nPython\nJupyterLab\nGoogle Colab\nYouTube\nVocaroo\n\n\n\nAcesso Aberto\nTodo o conteúdo deste blog é disponibilizado de forma aberta e gratuita para promover o acesso ao conhecimento e apoiar estudantes, professores e autodidatas.\n\n\nContato\nPara sugestões, dúvidas ou parcerias:\n\nGitHub: cacbarros\nRepositório do projeto: Blog Fortec no GitHub\n\n\n\nTeste inicial completo"
   },
   {
     "objectID": "index.html",
@@ -305,14 +305,14 @@
     "href": "posts/calculo/index.html",
     "title": "Séries Matemáticas",
     "section": "",
-    "text": "Introdução às Séries Numéricas\nConvergência de Séries\nTestes de Convergência\nSéries Geométricas e Harmónicas\nExercícios de Avaliação\n\n\n\n\nEste módulo visa:\n\nIntroduzir o conceito de séries como somatórios infinitos;\nAnalisar a convergência e divergência de séries;\nAplicar testes clássicos de convergência (comparação, razão, raiz, etc.);\nEstudar séries geométricas e harmónicas;\nConsolidar o conhecimento através de exercícios de avaliação.\n\nSiga a sequência sugerida para obter uma compreensão sólida e progressiva do tema.\n\n\nVoltar ao Início"
+    "text": "Introdução às Séries Numéricas\nConvergência de Séries\nTestes de Convergência\nSéries Geométricas e Harmónicas\nExercícios de Avaliação\n\n\n\n\nEste módulo visa:\n\nIntroduzir o conceito de séries como somatórios infinitos;\nAnalisar a convergência e divergência de séries utilizando métodos apropriados;\nAplicar testes clássicos de convergência (comparação, razão, raiz, etc.);\nEstudar séries geométricas e harmónicas;\nConsolidar o conhecimento através de exercícios de avaliação.\n\nSiga a sequência sugerida para obter uma compreensão sólida e progressiva do tema.\n\n\nVoltar ao Início"
   },
   {
     "objectID": "posts/calculo/index.html#objetivos-do-módulo",
     "href": "posts/calculo/index.html#objetivos-do-módulo",
     "title": "Séries Matemáticas",
     "section": "",
-    "text": "Este módulo visa:\n\nIntroduzir o conceito de séries como somatórios infinitos;\nAnalisar a convergência e divergência de séries;\nAplicar testes clássicos de convergência (comparação, razão, raiz, etc.);\nEstudar séries geométricas e harmónicas;\nConsolidar o conhecimento através de exercícios de avaliação.\n\nSiga a sequência sugerida para obter uma compreensão sólida e progressiva do tema.\n\n\nVoltar ao Início"
+    "text": "Este módulo visa:\n\nIntroduzir o conceito de séries como somatórios infinitos;\nAnalisar a convergência e divergência de séries utilizando métodos apropriados;\nAplicar testes clássicos de convergência (comparação, razão, raiz, etc.);\nEstudar séries geométricas e harmónicas;\nConsolidar o conhecimento através de exercícios de avaliação.\n\nSiga a sequência sugerida para obter uma compreensão sólida e progressiva do tema.\n\n\nVoltar ao Início"
   },
   {
     "objectID": "posts/calculo/series-especiais.html",
