@@ -1,15 +1,13 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
-<head>
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.7.29">
 
-<meta charset="utf-8" />
-<meta name="generator" content="quarto-1.7.29" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
-
-<meta name="dcterms.date" content="2025-04-25" />
-<meta name="description" content="Introdução a séries numéricas, com exemplos de convergência e resolução com Python." />
+<meta name="dcterms.date" content="2025-04-25">
+<meta name="description" content="Introdução a séries numéricas, com exemplos de convergência e resolução com Python.">
 
 <title>Séries Matemáticas – Blog Educacional</title>
 <style>
@@ -46,7 +44,24 @@ div.csl-indent {
   margin-left: 2em;
 }</style>
 
-<!-- htmldependencies:E3FAD763 -->
+
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-0815c480559380816a4d1ea211a47e91.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap-dfb324f25d9b1687192fa8be62ac8f9c.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -105,75 +120,67 @@ window.Quarto = {
 };
 </script>
 
-<link rel="stylesheet" href="../../styles.css" />
+<link rel="stylesheet" href="../../styles.css">
 </head>
 
-<body>
+<body class="nav-fixed quarto-light">
 
 <div id="quarto-search-results"></div>
-  <header id="quarto-header" class="headroom fixed-top">
+  <header id="quarto-header" class="headroom fixed-top quarto-banner">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="/index.html">
+    <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">Blog Educacional</span>
     </a>
   </div>
             <div id="quarto-search" class="" title="Search"></div>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
-  aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation"
-  onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="/welcome/index.html"> 
+    <a class="nav-link" href="../../welcome/index.html"> 
 <span class="menu-text">Início</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="/posts/calculo/index.html"> 
+    <a class="nav-link" href="../../posts/calculo/index.html"> 
 <span class="menu-text">Cálculo</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="/posts/algebra/index.html"> 
+    <a class="nav-link" href="../../posts/algebra/index.html"> 
 <span class="menu-text">Álgebra</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="/posts/fisica/index.html"> 
+    <a class="nav-link" href="../../posts/fisica/index.html"> 
 <span class="menu-text">Física</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="/posts/quimica/index.html"> 
+    <a class="nav-link" href="../../posts/quimica/index.html"> 
 <span class="menu-text">Química</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="/posts/termodinamica/index.html"> 
+    <a class="nav-link" href="../../posts/termodinamica/index.html"> 
 <span class="menu-text">Termodinâmica</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="/posts/climatizacao/index.html"> 
+    <a class="nav-link" href="../../posts/climatizacao/index.html"> 
 <span class="menu-text">Climatização</span></a>
   </li>  
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="/about.html"> 
+    <a class="nav-link" href="../../about.html"> 
 <span class="menu-text">Sobre o Blog Fortec</span></a>
   </li>  
   <li class="nav-item compact">
-    <a class="nav-link" href="https://github.com/"> <i 
-  class="bi bi-github" 
-  role="img" 
->
+    <a class="nav-link" href="https://github.com/"> <i class="bi bi-github" role="img">
 </i> 
 <span class="menu-text"></span></a>
   </li>  
   <li class="nav-item compact">
-    <a class="nav-link" href="https://twitter.com"> <i 
-  class="bi bi-twitter" 
-  role="img" 
->
+    <a class="nav-link" href="https://twitter.com"> <i class="bi bi-twitter" role="img">
 </i> 
 <span class="menu-text"></span></a>
   </li>  
@@ -185,18 +192,8 @@ window.Quarto = {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
-<!-- sidebar -->
-<!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <div id="quarto-toc-target"></div>
-    </div>
-<!-- main -->
-<main class="content" id="quarto-document-content">
-
-
-<header id="title-block-header" class="quarto-title-block default">
-  <div class="quarto-title-banner">
+<header id="title-block-header" class="quarto-title-block default page-columns page-full">
+  <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-body">
       <h1 class="title">Séries Matemáticas</h1>
                   <div>
@@ -225,44 +222,54 @@ window.Quarto = {
     </div>
     
   
-  </header>
-
-<nav id="TOC" role="doc-toc">
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#introdução" id="toc-introdução">Introdução</a>
-  <ul>
-  <li><a href="#comentário-didático" id="toc-comentário-didático">Comentário Didático</a></li>
-  <li><a href="#definição" id="toc-definição">Definição</a></li>
+  <li><a href="#introdução" id="toc-introdução" class="nav-link active" data-scroll-target="#introdução">Introdução</a>
+  <ul class="collapse">
+  <li><a href="#comentário-didático" id="toc-comentário-didático" class="nav-link" data-scroll-target="#comentário-didático">Comentário Didático</a></li>
+  <li><a href="#definição" id="toc-definição" class="nav-link" data-scroll-target="#definição">Definição</a></li>
   </ul></li>
-  <li><a href="#introdução-1" id="toc-introdução-1">Introdução</a>
-  <ul>
-  <li><a href="#vídeo-de-apoio" id="toc-vídeo-de-apoio">Vídeo de Apoio</a></li>
+  <li><a href="#introdução-1" id="toc-introdução-1" class="nav-link" data-scroll-target="#introdução-1">Introdução</a>
+  <ul class="collapse">
+  <li><a href="#vídeo-de-apoio" id="toc-vídeo-de-apoio" class="nav-link" data-scroll-target="#vídeo-de-apoio">Vídeo de Apoio</a></li>
   </ul></li>
-  <li><a href="#exemplos-trabalhados" id="toc-exemplos-trabalhados">Exemplos Trabalhados</a>
-  <ul>
-  <li><a href="#representação-gráfica-interativa" id="toc-representação-gráfica-interativa">Representação Gráfica Interativa</a></li>
-  <li><a href="#observação" id="toc-observação">Observação</a></li>
-  <li><a href="#recursos-disponíveis" id="toc-recursos-disponíveis">Recursos Disponíveis</a></li>
-  <li><a href="#referências" id="toc-referências">Referências</a></li>
+  <li><a href="#exemplos-trabalhados" id="toc-exemplos-trabalhados" class="nav-link" data-scroll-target="#exemplos-trabalhados">Exemplos Trabalhados</a>
+  <ul class="collapse">
+  <li><a href="#representação-gráfica-interativa" id="toc-representação-gráfica-interativa" class="nav-link" data-scroll-target="#representação-gráfica-interativa">Representação Gráfica Interativa</a></li>
+  <li><a href="#observação" id="toc-observação" class="nav-link" data-scroll-target="#observação">Observação</a></li>
+  <li><a href="#recursos-disponíveis" id="toc-recursos-disponíveis" class="nav-link" data-scroll-target="#recursos-disponíveis">Recursos Disponíveis</a></li>
+  <li><a href="#referências" id="toc-referências" class="nav-link" data-scroll-target="#referências">Referências</a></li>
   </ul></li>
   </ul>
 </nav>
+    </div>
+<!-- main -->
+<main class="content quarto-banner-title-block" id="quarto-document-content">
+
+
+
+
+
 <section id="introdução" class="level1">
 <h1>Introdução</h1>
-<p>Já imaginou somar infinitos números e ainda assim chegar a um valor finito?<br />
+<p>Já imaginou somar infinitos números e ainda assim chegar a um valor finito?<br>
 Esta é a fascinante realidade das séries matemáticas!</p>
 <p>Nesta lição, vamos explorar os conceitos fundamentais das séries numéricas: o que são, como se comportam e como podemos analisá-las com ferramentas práticas.</p>
 <section id="comentário-didático" class="level2">
-<h2>Comentário Didático</h2>
+<h2 class="anchored" data-anchor-id="comentário-didático">Comentário Didático</h2>
 <p>Para aprofundar a compreensão deste tema, ouça o comentário didático:</p>
 <div style="text-align: center; margin: 20px 0;">
 <p><iframe width="300" height="60" src="https://vocaroo.com/embed/1etqgpx4oz3K?autoplay=0" frameborder="0" allow="autoplay"></iframe> <br> <a href="https://voca.ro/1etqgpx4oz3K" target="_blank" style="font-size: 0.9em; text-decoration: none; color: #007BFF;"> Ouvir no Vocaroo </a></p>
 </div>
 </section>
 <section id="definição" class="level2">
-<h2>Definição</h2>
+<h2 class="anchored" data-anchor-id="definição">Definição</h2>
 <p>Uma <strong>série</strong> é a soma dos termos de uma sequência:</p>
 <p><span class="math display">\[
 \sum_{n=1}^{\infty} a_n
@@ -283,9 +290,9 @@ S_N = \sum_{n=1}^{N} a_n \longrightarrow S \quad \text{quando } N \to \infty
 <li>Aplicação prática em Física, Engenharia, e Matemática Avançada.</li>
 </ul>
 <section id="vídeo-de-apoio" class="level2">
-<h2>Vídeo de Apoio</h2>
+<h2 class="anchored" data-anchor-id="vídeo-de-apoio">Vídeo de Apoio</h2>
 <div style="text-align: center; margin: 20px 0;">
-<p><iframe width="560" height="315" src="https://www.youtube.com/embed/JPsaS5nJxdU?si=7abGdScCTeFpBJzz" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen> </iframe></p>
+<p><iframe width="560" height="315" src="https://www.youtube.com/embed/JPsaS5nJxdU?si=7abGdScCTeFpBJzz" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen=""> </iframe></p>
 </div>
 </section>
 </section>
@@ -299,44 +306,41 @@ S_N = \sum_{n=1}^{N} a_n \longrightarrow S \quad \text{quando } N \to \infty
 <li>Funções auxiliares externas, como a soma de séries e geração da sequência de Fibonacci.</li>
 </ul>
 <section id="representação-gráfica-interativa" class="level2">
-<h2>Representação Gráfica Interativa</h2>
+<h2 class="anchored" data-anchor-id="representação-gráfica-interativa">Representação Gráfica Interativa</h2>
 <p>Explore a série de forma interativa no Geogebra:</p>
 <div style="text-align: center; margin: 20px 0;">
-<p><iframe src="https://www.geogebra.org/classic/ugujjbzc?embed" width="100%" height="600" style="max-width: 800px; border: 1px solid #e4e4e4; border-radius: 4px;" frameborder="0" allowfullscreen> </iframe></p>
+<p><iframe src="https://www.geogebra.org/classic/ugujjbzc?embed" width="100%" height="600" style="max-width: 800px; border: 1px solid #e4e4e4; border-radius: 4px;" frameborder="0" allowfullscreen=""> </iframe></p>
 </div>
 </section>
 <section id="observação" class="level2">
-<h2>Observação</h2>
+<h2 class="anchored" data-anchor-id="observação">Observação</h2>
 <p>A convergência de uma série depende do comportamento da soma parcial, <strong>não apenas</strong> da tendência dos termos <span class="math inline">\(a_n\)</span>.</p>
 </section>
 <section id="recursos-disponíveis" class="level2">
-<h2>Recursos Disponíveis</h2>
+<h2 class="anchored" data-anchor-id="recursos-disponíveis">Recursos Disponíveis</h2>
 <p>Explore, execute ou veja o conteúdo completo desta lição:</p>
 <p align="center">
-<a href="https://colab.research.google.com/github/cacbarros/blog-fortec/blob/main/python/calculo/series_matematicas.ipynb" target="_blank"> <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open in Colab" style="height: 32px; margin: 5px;"> </a> <a href="https://mybinder.org/v2/gh/cacbarros/blog-fortec/HEAD?labpath=python/calculo/series_matematicas.ipynb" target="_blank"> <img src="https://mybinder.org/badge_logo.svg" alt="Launch Binder" style="height: 32px; margin: 5px;"> </a> <a href="https://github.com/cacbarros/blog-fortec/blob/main/python/calculo/series_matematicas.ipynb" target="_blank"> <img src="https://img.shields.io/badge/Ver%20Código%20Fonte-181717?style=flat-square&logo=github&logoColor=white" alt="Ver Código no GitHub" style="height: 32px; margin: 5px;"> </a> <a href="avaliacao.html" target="_blank"> <img src="https://img.shields.io/badge/Resolver%20Exercícios-FF9800?style=flat-square&logo=bookstack&logoColor=white" alt="Resolver Exercícios" style="height: 32px; margin: 5px;"> </a> <a href="index.html" style="display: inline-block; background-color: #17a2b8; color: white; font-weight: bold; padding: 8px 16px; border-radius: 8px; text-decoration: none; margin: 5px;"> Voltar para Índice de Cálculo </a>
+<a href="https://colab.research.google.com/github/cacbarros/blog-fortec/blob/main/python/calculo/series_matematicas.ipynb" target="_blank"> <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open in Colab" style="height: 32px; margin: 5px;"> </a> <a href="https://mybinder.org/v2/gh/cacbarros/blog-fortec/HEAD?labpath=python/calculo/series_matematicas.ipynb" target="_blank"> <img src="https://mybinder.org/badge_logo.svg" alt="Launch Binder" style="height: 32px; margin: 5px;"> </a> <a href="https://github.com/cacbarros/blog-fortec/blob/main/python/calculo/series_matematicas.ipynb" target="_blank"> <img src="https://img.shields.io/badge/Ver%20Código%20Fonte-181717?style=flat-square&amp;logo=github&amp;logoColor=white" alt="Ver Código no GitHub" style="height: 32px; margin: 5px;"> </a> <a href="avaliacao.html" target="_blank"> <img src="https://img.shields.io/badge/Resolver%20Exercícios-FF9800?style=flat-square&amp;logo=bookstack&amp;logoColor=white" alt="Resolver Exercícios" style="height: 32px; margin: 5px;"> </a> <a href="index.html" style="display: inline-block; background-color: #17a2b8; color: white; font-weight: bold; padding: 8px 16px; border-radius: 8px; text-decoration: none; margin: 5px;"> Voltar para Índice de Cálculo </a>
 </p>
+<hr>
 </section>
 <section id="referências" class="level2">
-<h2>Referências</h2>
-<div id="quarto-navigation-envelope" class="hidden">
-<p><span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLWludC1zaWRlYmFyLXRpdGxl">Blog Educacional</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLWludC1uYXZiYXItdGl0bGU=">Blog Educacional</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLWludC1uYXZiYXI6SW7DrWNpbw==">Início</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLWludC1uYXZiYXI6L3dlbGNvbWUvaW5kZXguaHRtbA==">/welcome/index.html</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLWludC1uYXZiYXI6Q8OhbGN1bG8=">Cálculo</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLWludC1uYXZiYXI6L3Bvc3RzL2NhbGN1bG8vaW5kZXguaHRtbA==">/posts/calculo/index.html</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLWludC1uYXZiYXI6w4FsZ2VicmE=">Álgebra</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLWludC1uYXZiYXI6L3Bvc3RzL2FsZ2VicmEvaW5kZXguaHRtbA==">/posts/algebra/index.html</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLWludC1uYXZiYXI6RsOtc2ljYQ==">Física</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLWludC1uYXZiYXI6L3Bvc3RzL2Zpc2ljYS9pbmRleC5odG1s">/posts/fisica/index.html</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLWludC1uYXZiYXI6UXXDrW1pY2E=">Química</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLWludC1uYXZiYXI6L3Bvc3RzL3F1aW1pY2EvaW5kZXguaHRtbA==">/posts/quimica/index.html</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLWludC1uYXZiYXI6VGVybW9kaW7Dom1pY2E=">Termodinâmica</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLWludC1uYXZiYXI6L3Bvc3RzL3Rlcm1vZGluYW1pY2EvaW5kZXguaHRtbA==">/posts/termodinamica/index.html</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLWludC1uYXZiYXI6Q2xpbWF0aXphw6fDo28=">Climatização</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLWludC1uYXZiYXI6L3Bvc3RzL2NsaW1hdGl6YWNhby9pbmRleC5odG1s">/posts/climatizacao/index.html</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLWludC1uYXZiYXI6U29icmUgbyBCbG9nIEZvcnRlYw==">Sobre o Blog Fortec</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLWludC1uYXZiYXI6L2Fib3V0Lmh0bWw=">/about.html</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLWludC1uYXZiYXI6aHR0cHM6Ly9naXRodWIuY29tLw==">https://github.com/</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLWludC1uYXZiYXI6aHR0cHM6Ly90d2l0dGVyLmNvbQ==">https://twitter.com</span></p>
-</div>
-<div id="quarto-meta-markdown" class="hidden">
-<p><span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLW1ldGF0aXRsZQ==">Séries Matemáticas – Blog Educacional</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLXR3aXR0ZXJjYXJkdGl0bGU=">Séries Matemáticas – Blog Educacional</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLW9nY2FyZHRpdGxl">Séries Matemáticas – Blog Educacional</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLW1ldGFzaXRlbmFtZQ==">Blog Educacional</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLXR3aXR0ZXJjYXJkZGVzYw==">Introdução a séries numéricas, com exemplos de convergência e resolução com Python.</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLW9nY2FyZGRkZXNj">Introdução a séries numéricas, com exemplos de convergência e resolução com Python.</span></p>
-</div>
-<div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" data-line-spacing="2" role="list">
+
+
+
+
+</section>
+</section>
+
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">Referências</h2><div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" data-line-spacing="2" role="list">
 <div id="ref-apostol" class="csl-entry" role="listitem">
 Apostol, T. M. (1967). <em>Calculus, volume i</em>. Blaisdell Publishing Company.
 </div>
 <div id="ref-stewart" class="csl-entry" role="listitem">
 Stewart, J. (2013). <em>Cálculo: Volume 1</em> (7th ed.). Cengage Learning.
 </div>
-</div>
-</section>
-</section>
-
-</main> <!-- /main -->
-<script id = "quarto-html-after-body" type="application/javascript">
+</div></section></div></main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";
     const anchorJS = new window.AnchorJS();
@@ -737,6 +741,7 @@ Stewart, J. (2013). <em>Cálculo: Volume 1</em> (7th ed.). Cengage Learning.
   </script>
 </div> <!-- /content -->
 
-</body>
 
-</html>
+
+
+</body></html>
