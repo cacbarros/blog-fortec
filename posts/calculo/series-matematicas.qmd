@@ -157,6 +157,37 @@ Clique no badge abaixo para abrir o notebook e executar o código diretamente:
 </div>
 
 
+## 📥 Recursos Disponíveis
+
+Explore o conteúdo completo desta lição:
+
+
+
+### 🚀 Executar no Google Colab
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/cacbarros/blog-fortec/blob/main/python/series_matematicas.ipynb)
+
+
+
+### 🔍 Ver Código Fonte no GitHub
+
+[![Ver Código Fonte no GitHub](https://img.shields.io/badge/Ver%20Código%20Fonte%20no%20GitHub-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/cacbarros/blog-fortec/blob/main/python/series_matematicas.py)
+
+
+
+### 📥 Baixar Notebook
+
+[![Baixar Notebook](https://img.shields.io/badge/Baixar%20Notebook-4CAF50?style=flat-square&logo=google-drive&logoColor=white)](../../python/series_matematicas.ipynb)
+
+
+
+### 📝 Resolver Exercícios
+
+[![Resolver Exercícios](https://img.shields.io/badge/Resolver%20Exercícios-FF9800?style=flat-square&logo=bookstack&logoColor=white)](avaliacao.html)
+
+
+
+
 ## Observação
 
 A convergência de uma série depende do comportamento da soma parcial, **não apenas** da tendência dos termos $a_n$.
