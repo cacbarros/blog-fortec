@@ -94,7 +94,7 @@ Explore a série de forma interativa no Geogebra:
   </iframe>
 </div>
 
-
+---
 
 ## Observação
 
