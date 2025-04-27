@@ -8,7 +8,7 @@ format:
     toc: true
     code-fold: true
 bibliography: referencias.bib
-csl: apa.csl  # ou outro estilo (opcional)
+csl: apa.csl
 nocite: "@*"
 execute:
   kernel: ctgan_env
@@ -21,7 +21,7 @@ Esta é a fascinante realidade das séries matemáticas!
 
 Nesta lição, vamos explorar os conceitos fundamentais das séries numéricas: o que são, como se comportam e como podemos analisá-las com ferramentas práticas.
 
----
+
 
 ## Comentário Didático
 
@@ -30,13 +30,12 @@ Para aprofundar a compreensão deste tema, ouça o comentário didático:
 <div style="text-align: center; margin: 20px 0;">
   <iframe width="300" height="60" src="https://vocaroo.com/embed/1etqgpx4oz3K?autoplay=0" frameborder="0" allow="autoplay"></iframe>
   <br>
-  <a href="https://voca.ro/1etqgpx4oz3K" title="Vocaroo Voice Recorder" target="_blank" style="font-size: 0.9em; text-decoration: none; color: #007BFF;">
+  <a href="https://voca.ro/1etqgpx4oz3K" target="_blank" style="font-size: 0.9em; text-decoration: none; color: #007BFF;">
     Ouvir no Vocaroo
   </a>
 </div>
 
 
----
 
 ## Definição
 
@@ -52,10 +51,11 @@ $$
 S_N = \sum_{n=1}^{N} a_n \longrightarrow S \quad \text{quando } N \to \infty
 $$
 
-# 🏁 Introdução
 
-As séries numéricas desempenham um papel fundamental no estudo de fenómenos contínuos e discretos.  
-Uma série é a soma de uma sequência infinita de números.
+
+# Introdução
+
+As séries numéricas desempenham um papel fundamental no estudo de fenómenos contínuos e discretos.
 
 A sua análise inclui:
 
@@ -63,119 +63,25 @@ A sua análise inclui:
 - Estudo de séries especiais,
 - Aplicação prática em Física, Engenharia, e Matemática Avançada.
 
----
+
 
 ## Vídeo de Apoio
 
-Veja a explicação introdutória no vídeo abaixo:
-
 <div style="text-align: center; margin: 20px 0;">
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/JPsaS5nJxdU?si=7abGdScCTeFpBJzz" 
-    title="YouTube video player" frameborder="0" 
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/JPsaS5nJxdU?si=7abGdScCTeFpBJzz" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
   </iframe>
 </div>
 
 
-## Exemplo 1 — Série Geométrica
 
-Considere a série:
+# Exemplos Trabalhados
 
-$$
-\sum_{n=0}^{\infty} ar^n = a + ar + ar^2 + ar^3 + \dots
-$$
+Nesta lição você poderá estudar:
 
-Se $|r| < 1$, então a série converge para:
-
-$$
-\sum_{n=0}^{\infty} ar^n = \frac{a}{1 - r}
-$$
-
-### Resolução em Python
-
-```{python}
-# Série geométrica: soma parcial com a = 2 e r = 0.5
-a = 2
-r = 0.5
-N = 10
-
-soma = sum(a * r**n for n in range(N))
-soma_limite = a / (1 - r)
-
-print(f"Soma dos {N} primeiros termos: {soma:.4f}")
-print(f"Valor limite (teórico): {soma_limite:.4f}")
-```
-
-
-## Exemplo 2 — Série Harmónica
-
-A série harmónica é dada por:
-
-$$
-\sum_{n=1}^{\infty} \frac{1}{n}
-$$
-
-Embora os termos $1/n$ tendam a zero, a série **diverge** (soma parcial cresce sem limite).
-
-### Resolução em Python
-
-```{python}
-# Soma parcial da série harmónica
-N = 20
-soma = sum(1/n for n in range(1, N+1))
-print(f"Soma dos {N} primeiros termos: {soma:.4f}")
-```
-
-## Exemplo 3 — Código Python Externo
-
-Além dos exemplos resolvidos acima, disponibilizamos um script Python que implementa uma função geral para calcular a soma dos $n$ primeiros termos de uma série geométrica:
-
-```{python}
-# Código presente em: python/series_matematicas.py
-
-def soma_serie_geometrica(a, r, n):
-    """
-    Calcula a soma dos n primeiros termos de uma série geométrica.
-    a: termo inicial
-    r: razão
-    n: número de termos
-    """
-    soma = a * (1 - r**n) / (1 - r) if r != 1 else a * n
-    return soma
-
-# Exemplo de uso
-if __name__ == "__main__":
-    a = 2
-    r = 0.5
-    n = 10
-    resultado = soma_serie_geometrica(a, r, n)
-    print(f"Soma dos {n} primeiros termos: {resultado:.4f}")
-```
-
-## Exemplo 4 — Código Python Externo
-
-Para complementar o estudo de séries matemáticas, disponibilizamos um script Python que gera os $n$ primeiros termos da sequência de Fibonacci, uma sequência clássica que surge em muitos contextos matemáticos e naturais:
-
-
-```{python}
-# Código presente em: python/serie_fibonacci.py
-
-def fibonacci(n):
-    """
-    Retorna uma lista com os n primeiros termos da sequência de Fibonacci.
-    """
-    seq = [0, 1]
-    for i in range(2, n):
-        seq.append(seq[-1] + seq[-2])
-    return seq[:n]
-
-# Exemplo de uso
-if __name__ == "__main__":
-    n = 10
-    resultado = fibonacci(n)
-    print(f"Primeiros {n} termos da sequência de Fibonacci: {resultado}")
-```
+- Série Geométrica e sua convergência,
+- Série Harmónica e seu comportamento divergente,
+- Aplicações práticas implementadas em **Python**,
+- Funções auxiliares externas, como a soma de séries e geração da sequência de Fibonacci.
 
 
 
@@ -184,21 +90,20 @@ if __name__ == "__main__":
 Explore a série de forma interativa no Geogebra:
 
 <div style="text-align: center; margin: 20px 0;">
-  <iframe 
-    src="https://www.geogebra.org/classic/ugujjbzc?embed" 
-    width="100%" 
-    height="600" 
-    allowfullscreen 
-    style="max-width: 800px; border: 1px solid #e4e4e4; border-radius: 4px;"
-    frameborder="0">
+  <iframe src="https://www.geogebra.org/classic/ugujjbzc?embed" width="100%" height="600" style="max-width: 800px; border: 1px solid #e4e4e4; border-radius: 4px;" frameborder="0" allowfullscreen>
   </iframe>
 </div>
 
 
 
+## Observação
+
+A convergência de uma série depende do comportamento da soma parcial, **não apenas** da tendência dos termos $a_n$.
+
+
 ## Recursos Disponíveis
 
-Explore o conteúdo completo desta lição:
+Explore, execute ou veja o conteúdo completo desta lição:
 
 <p align="center">
   <a href="https://colab.research.google.com/github/cacbarros/blog-fortec/blob/main/python/calculo/series_matematicas.ipynb" target="_blank">
@@ -207,31 +112,16 @@ Explore o conteúdo completo desta lição:
   <a href="https://mybinder.org/v2/gh/cacbarros/blog-fortec/HEAD?labpath=python/calculo/series_matematicas.ipynb" target="_blank">
     <img src="https://mybinder.org/badge_logo.svg" alt="Launch Binder" style="height: 32px; margin: 5px;">
   </a>
-  <a href="https://github.com/cacbarros/blog-fortec/blob/main/python/calculo/series_matematicas.py" target="_blank">
+  <a href="https://github.com/cacbarros/blog-fortec/blob/main/python/calculo/series_matematicas.ipynb" target="_blank">
     <img src="https://img.shields.io/badge/Ver%20Código%20Fonte-181717?style=flat-square&logo=github&logoColor=white" alt="Ver Código no GitHub" style="height: 32px; margin: 5px;">
-  </a>
-  <a href="../../python/calculo/series_matematicas.ipynb" download>
-    <img src="https://img.shields.io/badge/Baixar%20Notebook-4CAF50?style=flat-square&logo=google-drive&logoColor=white" alt="Baixar Notebook" style="height: 32px; margin: 5px;">
   </a>
   <a href="avaliacao.html" target="_blank">
     <img src="https://img.shields.io/badge/Resolver%20Exercícios-FF9800?style=flat-square&logo=bookstack&logoColor=white" alt="Resolver Exercícios" style="height: 32px; margin: 5px;">
   </a>
+  <a href="index.html" style="display: inline-block; background-color: #17a2b8; color: white; font-weight: bold; padding: 8px 16px; border-radius: 8px; text-decoration: none; margin: 5px;">
+    Voltar para Índice de Cálculo
+  </a>
 </p>
 
 
-## Observação
-
-A convergência de uma série depende do comportamento da soma parcial, **não apenas** da tendência dos termos $a_n$.
-
-## Séries Matemáticas - Avaliação
-
-- [Problema de Séries Numéricas](problema-series.qmd)
-
----
-
-<p><a href="index.html" style="padding: 8px 16px; background-color: #17a2b8; color: white; border-radius: 5px; text-decoration: none;">Voltar para Índice de Séries Matemáticas</a></p>
-
-
-
 ## Referências
-

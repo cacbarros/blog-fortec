@@ -256,7 +256,7 @@
     "href": "posts/calculo/series-matematicas.html",
     "title": "Séries Matemáticas",
     "section": "",
-    "text": "Já imaginou somar infinitos números e ainda assim chegar a um valor finito?\nEsta é a fascinante realidade das séries matemáticas!\nNesta lição, vamos explorar os conceitos fundamentais das séries numéricas: o que são, como se comportam e como podemos analisá-las com ferramentas práticas.\n\n\n\nPara aprofundar a compreensão deste tema, ouça o comentário didático:\n\n   Ouvir no Vocaroo \n\n\n\n\n\nUma série é a soma dos termos de uma sequência:\n\\[\n\\sum_{n=1}^{\\infty} a_n\n\\]\nDizemos que uma série converge se a sequência das somas parciais tem limite finito (Apostol, 1967):\n\\[\nS_N = \\sum_{n=1}^{N} a_n \\longrightarrow S \\quad \\text{quando } N \\to \\infty\n\\]"
+    "text": "Já imaginou somar infinitos números e ainda assim chegar a um valor finito?\nEsta é a fascinante realidade das séries matemáticas!\nNesta lição, vamos explorar os conceitos fundamentais das séries numéricas: o que são, como se comportam e como podemos analisá-las com ferramentas práticas.\n\n\nPara aprofundar a compreensão deste tema, ouça o comentário didático:\n\n   Ouvir no Vocaroo \n\n\n\n\nUma série é a soma dos termos de uma sequência:\n\\[\n\\sum_{n=1}^{\\infty} a_n\n\\]\nDizemos que uma série converge se a sequência das somas parciais tem limite finito (Apostol, 1967):\n\\[\nS_N = \\sum_{n=1}^{N} a_n \\longrightarrow S \\quad \\text{quando } N \\to \\infty\n\\]"
   },
   {
     "objectID": "posts/calculo/series-matematicas.html#comentário-didático",
@@ -277,35 +277,7 @@
     "href": "posts/calculo/series-matematicas.html#vídeo-de-apoio",
     "title": "Séries Matemáticas",
     "section": "Vídeo de Apoio",
-    "text": "Vídeo de Apoio\nVeja a explicação introdutória no vídeo abaixo:"
-  },
-  {
-    "objectID": "posts/calculo/series-matematicas.html#exemplo-1-série-geométrica",
-    "href": "posts/calculo/series-matematicas.html#exemplo-1-série-geométrica",
-    "title": "Séries Matemáticas",
-    "section": "Exemplo 1 — Série Geométrica",
-    "text": "Exemplo 1 — Série Geométrica\nConsidere a série:\n\\[\n\\sum_{n=0}^{\\infty} ar^n = a + ar + ar^2 + ar^3 + \\dots\n\\]\nSe \\(|r| &lt; 1\\), então a série converge para:\n\\[\n\\sum_{n=0}^{\\infty} ar^n = \\frac{a}{1 - r}\n\\]\n\nResolução em Python\n\n\nCode\n# Série geométrica: soma parcial com a = 2 e r = 0.5\na = 2\nr = 0.5\nN = 10\n\nsoma = sum(a * r**n for n in range(N))\nsoma_limite = a / (1 - r)\n\nprint(f\"Soma dos {N} primeiros termos: {soma:.4f}\")\nprint(f\"Valor limite (teórico): {soma_limite:.4f}\")\n\n\nSoma dos 10 primeiros termos: 3.9961\nValor limite (teórico): 4.0000"
-  },
-  {
-    "objectID": "posts/calculo/series-matematicas.html#exemplo-2-série-harmónica",
-    "href": "posts/calculo/series-matematicas.html#exemplo-2-série-harmónica",
-    "title": "Séries Matemáticas",
-    "section": "Exemplo 2 — Série Harmónica",
-    "text": "Exemplo 2 — Série Harmónica\nA série harmónica é dada por:\n\\[\n\\sum_{n=1}^{\\infty} \\frac{1}{n}\n\\]\nEmbora os termos \\(1/n\\) tendam a zero, a série diverge (soma parcial cresce sem limite).\n\nResolução em Python\n\n\nCode\n# Soma parcial da série harmónica\nN = 20\nsoma = sum(1/n for n in range(1, N+1))\nprint(f\"Soma dos {N} primeiros termos: {soma:.4f}\")\n\n\nSoma dos 20 primeiros termos: 3.5977"
-  },
-  {
-    "objectID": "posts/calculo/series-matematicas.html#exemplo-3-código-python-externo",
-    "href": "posts/calculo/series-matematicas.html#exemplo-3-código-python-externo",
-    "title": "Séries Matemáticas",
-    "section": "Exemplo 3 — Código Python Externo",
-    "text": "Exemplo 3 — Código Python Externo\nAlém dos exemplos resolvidos acima, disponibilizamos um script Python que implementa uma função geral para calcular a soma dos \\(n\\) primeiros termos de uma série geométrica:\n\n\nCode\n# Código presente em: python/series_matematicas.py\n\ndef soma_serie_geometrica(a, r, n):\n    \"\"\"\n    Calcula a soma dos n primeiros termos de uma série geométrica.\n    a: termo inicial\n    r: razão\n    n: número de termos\n    \"\"\"\n    soma = a * (1 - r**n) / (1 - r) if r != 1 else a * n\n    return soma\n\n# Exemplo de uso\nif __name__ == \"__main__\":\n    a = 2\n    r = 0.5\n    n = 10\n    resultado = soma_serie_geometrica(a, r, n)\n    print(f\"Soma dos {n} primeiros termos: {resultado:.4f}\")\n\n\nSoma dos 10 primeiros termos: 3.9961"
-  },
-  {
-    "objectID": "posts/calculo/series-matematicas.html#exemplo-4-código-python-externo",
-    "href": "posts/calculo/series-matematicas.html#exemplo-4-código-python-externo",
-    "title": "Séries Matemáticas",
-    "section": "Exemplo 4 — Código Python Externo",
-    "text": "Exemplo 4 — Código Python Externo\nPara complementar o estudo de séries matemáticas, disponibilizamos um script Python que gera os \\(n\\) primeiros termos da sequência de Fibonacci, uma sequência clássica que surge em muitos contextos matemáticos e naturais:\n\n\nCode\n# Código presente em: python/serie_fibonacci.py\n\ndef fibonacci(n):\n    \"\"\"\n    Retorna uma lista com os n primeiros termos da sequência de Fibonacci.\n    \"\"\"\n    seq = [0, 1]\n    for i in range(2, n):\n        seq.append(seq[-1] + seq[-2])\n    return seq[:n]\n\n# Exemplo de uso\nif __name__ == \"__main__\":\n    n = 10\n    resultado = fibonacci(n)\n    print(f\"Primeiros {n} termos da sequência de Fibonacci: {resultado}\")\n\n\nPrimeiros 10 termos da sequência de Fibonacci: [0, 1, 1, 2, 3, 5, 8, 13, 21, 34]"
+    "text": "Vídeo de Apoio"
   },
   {
     "objectID": "posts/calculo/series-matematicas.html#representação-gráfica-interativa",
@@ -315,13 +287,6 @@
     "text": "Representação Gráfica Interativa\nExplore a série de forma interativa no Geogebra:"
   },
   {
-    "objectID": "posts/calculo/series-matematicas.html#recursos-disponíveis",
-    "href": "posts/calculo/series-matematicas.html#recursos-disponíveis",
-    "title": "Séries Matemáticas",
-    "section": "Recursos Disponíveis",
-    "text": "Recursos Disponíveis\nExplore o conteúdo completo desta lição:"
-  },
-  {
     "objectID": "posts/calculo/series-matematicas.html#observação",
     "href": "posts/calculo/series-matematicas.html#observação",
     "title": "Séries Matemáticas",
@@ -329,11 +294,11 @@
     "text": "Observação\nA convergência de uma série depende do comportamento da soma parcial, não apenas da tendência dos termos \\(a_n\\)."
   },
   {
-    "objectID": "posts/calculo/series-matematicas.html#séries-matemáticas---avaliação",
-    "href": "posts/calculo/series-matematicas.html#séries-matemáticas---avaliação",
+    "objectID": "posts/calculo/series-matematicas.html#recursos-disponíveis",
+    "href": "posts/calculo/series-matematicas.html#recursos-disponíveis",
     "title": "Séries Matemáticas",
-    "section": "Séries Matemáticas - Avaliação",
-    "text": "Séries Matemáticas - Avaliação\n\nProblema de Séries Numéricas\n\n\n\nVoltar para Índice de Séries Matemáticas"
+    "section": "Recursos Disponíveis",
+    "text": "Recursos Disponíveis\nExplore, execute ou veja o conteúdo completo desta lição:\n\n             Voltar para Índice de Cálculo"
   },
   {
     "objectID": "posts/climatizacao/avaliacao-climatizacao.html",
