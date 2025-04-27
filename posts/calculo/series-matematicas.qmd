@@ -140,12 +140,12 @@ Você pode também visualizar e fazer o download do script Python diretamente:
   </a>
 </div>
 
-## 🚀 Executar o Notebook no Google Colab
+## Executar o Notebook no Google Colab
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/cacbarros/blog-fortec/blob/main/python/series_matematicas.ipynb)
 
 
-## 🚀 Executar o Notebook no Google Colab
+## Executar o Notebook no Google Colab
 
 Se preferir, pode explorar o exemplo interativamente no ambiente de nuvem do Google Colab.  
 Clique no badge abaixo para abrir o notebook e executar o código diretamente:
@@ -157,35 +157,30 @@ Clique no badge abaixo para abrir o notebook e executar o código diretamente:
 </div>
 
 
-## 📥 Recursos Disponíveis
+## Recursos Disponíveis
 
 Explore o conteúdo completo desta lição:
 
 
 
-### 🚀 Executar no Google Colab
+## 📥 Recursos Disponíveis
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/cacbarros/blog-fortec/blob/main/python/series_matematicas.ipynb)
+Explore o conteúdo completo desta lição:
 
-
-
-### 🔍 Ver Código Fonte no GitHub
-
-[![Ver Código Fonte no GitHub](https://img.shields.io/badge/Ver%20Código%20Fonte%20no%20GitHub-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/cacbarros/blog-fortec/blob/main/python/series_matematicas.py)
-
-
-
-### 📥 Baixar Notebook
-
-[![Baixar Notebook](https://img.shields.io/badge/Baixar%20Notebook-4CAF50?style=flat-square&logo=google-drive&logoColor=white)](../../python/series_matematicas.ipynb)
-
-
-
-### 📝 Resolver Exercícios
-
-[![Resolver Exercícios](https://img.shields.io/badge/Resolver%20Exercícios-FF9800?style=flat-square&logo=bookstack&logoColor=white)](avaliacao.html)
-
-
+<p align="center">
+  <a href="https://colab.research.google.com/github/cacbarros/blog-fortec/blob/main/python/series_matematicas.ipynb" target="_blank">
+    <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open in Colab" style="height: 32px; margin: 5px;">
+  </a>
+  <a href="https://github.com/cacbarros/blog-fortec/blob/main/python/series_matematicas.py" target="_blank">
+    <img src="https://img.shields.io/badge/Ver%20Código%20Fonte-181717?style=flat-square&logo=github&logoColor=white" alt="Ver Código no GitHub" style="height: 32px; margin: 5px;">
+  </a>
+  <a href="../../python/series_matematicas.ipynb" download>
+    <img src="https://img.shields.io/badge/Baixar%20Notebook-4CAF50?style=flat-square&logo=google-drive&logoColor=white" alt="Baixar Notebook" style="height: 32px; margin: 5px;">
+  </a>
+  <a href="avaliacao.html" target="_blank">
+    <img src="https://img.shields.io/badge/Resolver%20Exercícios-FF9800?style=flat-square&logo=bookstack&logoColor=white" alt="Resolver Exercícios" style="height: 32px; margin: 5px;">
+  </a>
+</p>
 
 
 ## Observação
