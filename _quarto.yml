@@ -22,6 +22,7 @@ website:
         file: posts/climatizacao/index.qmd
     right:
       - about.qmd
+      - recursos.qmd   # <- adiciona o link para recursos aqui!
       - icon: github
         href: https://github.com/
       - icon: twitter

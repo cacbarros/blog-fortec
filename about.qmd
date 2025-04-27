@@ -1,5 +1,5 @@
 ---
-title: "Sobre o Blog Fortec"
+title: "Sobre"
 description: "Informações sobre o projeto educacional Blog Fortec."
 format:
   html:

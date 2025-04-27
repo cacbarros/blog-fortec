@@ -1,0 +1,53 @@
+---
+title: "Recursos"
+description: "Página de acesso aos materiais complementares: áudios, notebooks, scripts Python e imagens."
+categories: [Recursos]
+format:
+  html:
+    toc: true
+    code-fold: false
+---
+
+# Recursos Disponíveis
+
+Nesta página, você encontra todos os materiais complementares do Blog Fortec para explorar livremente!
+
+---
+
+## Áudios Didáticos
+
+- [Comentário sobre Séries Matemáticas](../assets/audio/comentario_series_matematicas.mp3)
+
+
+## Notebooks Interativos
+
+- [Notebook de Séries Matemáticas (Colab)](https://colab.research.google.com/github/cacbarros/blog-fortec/blob/main/python/calculo/series_matematicas.ipynb)
+- [Notebook de Séries Matemáticas](https://colab.research.google.com/github/cacbarros/blog-fortec/blob/main/python/calculo/series_matematicas.ipynb)
+- [Notebook de Séries Matemáticas](https://github.com/cacbarros/blog-fortec/blob/main/python/calculo/series_matematicas.ipynb)
+- [Notebook de Séries Matemáticas](https://github.com/cacbarros/blog-fortec/blob/main/python/calculo/serie_fibonacci.ipynb)
+
+
+## Scripts Python
+
+- [Script de Série Geométrica](https://github.com/cacbarros/blog-fortec/blob/main/python/calculo/series_matematicas.py)
+- [Script de Sequência de Fibonacci](https://github.com/cacbarros/blog-fortec/blob/main/python/calculo/serie_fibonacci.py)
+
+
+## Imagens Educativas
+
+<div style="display: flex; flex-wrap: wrap; gap: 20px; justify-content: center;">
+  <img src="../assets/images/cover.jpg" alt="Capa Séries" style="width:300px; border-radius: 8px;">
+  <img src="../assets/images/cover-calculo.jpg" alt="Capa Cálculo" style="width:300px; border-radius: 8px;">
+  <img src="../assets/images/cover-quimica.jpg" alt="Capa Química" style="width:300px; border-radius: 8px;">
+  <img src="../assets/images/cover-fisica.jpg" alt="Capa Física" style="width:300px; border-radius: 8px;">
+  <img src="../assets/images/cover-termodinamica.jpg" alt="Capa Termodinâmica" style="width:300px; border-radius: 8px;">
+  <img src="../assets/images/cover-algebra.jpg" alt="Capa Álgebra" style="width:300px; border-radius: 8px;">
+  <img src="../assets/images/cover-climatizacao.jpg" alt="Capa Climatização" style="width:300px; border-radius: 8px;">
+  <img src="../assets/images/profile.jpg" alt="Capa Profile" style="width:300px; border-radius: 8px;">
+</div>
+
+---
+
+# Observação
+
+Todo o conteúdo é disponibilizado de forma aberta para fins educacionais, respeitando as boas práticas de uso e citação.
