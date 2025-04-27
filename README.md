@@ -43,6 +43,15 @@ O projeto combina explicações claras, exemplos resolvidos, áudios didáticos,
 - `styles.css`: Estilos personalizados do blog.
 - `referencias.bib` e `apa.csl`: Gestão automática de bibliografias e citações.
 
+
+# Blog Educacional - Séries Matemáticas
+
+Este notebook faz parte do conteúdo do blog **Blog Fortec**.
+
+## 📚 Acesso rápido
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/cacbarros/blog-fortec/blob/main/python/series_matematicas.ipynb)
+
 ## 📜 Licença
 
 Este projeto está licenciado sob a licença [Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/).

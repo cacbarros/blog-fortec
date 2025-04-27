@@ -140,6 +140,22 @@ Você pode também visualizar e fazer o download do script Python diretamente:
   </a>
 </div>
 
+## 🚀 Executar o Notebook no Google Colab
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/cacbarros/blog-fortec/blob/main/python/series_matematicas.ipynb)
+
+
+## 🚀 Executar o Notebook no Google Colab
+
+Se preferir, pode explorar o exemplo interativamente no ambiente de nuvem do Google Colab.  
+Clique no badge abaixo para abrir o notebook e executar o código diretamente:
+
+<div style="text-align: center; margin: 20px 0;">
+  <a href="https://colab.research.google.com/github/cacbarros/blog-fortec/blob/main/python/series_matematicas.ipynb" target="_blank">
+    <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open in Colab" style="height: 60px;">
+  </a>
+</div>
+
 
 ## Observação
 
