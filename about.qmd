@@ -1,12 +1,9 @@
 ---
 title: "Sobre o Blog Fortec"
-image: profile.jpg
-about:
-  template: jolla
-  links:
-    - icon: github
-      text: GitHub
-      href: https://github.com/cacbarros
+description: "Informações sobre o projeto educacional Blog Fortec."
+format:
+  html:
+    toc: true
 ---
 
 # Sobre o Blog Fortec
@@ -36,11 +33,11 @@ O principal objetivo é disponibilizar conteúdos educativos de qualidade, de fo
 - [YouTube](https://youtube.com/)
 - [Vocaroo](https://vocaroo.com/)
 
-# Acesso Aberto
+# 🌍 Acesso Aberto
 
 Todo o conteúdo deste blog é disponibilizado de forma aberta e gratuita para promover o acesso ao conhecimento e apoiar estudantes, professores e autodidatas.
 
-#  Contato
+# 📬 Contato
 
 Para sugestões, dúvidas ou parcerias:
 

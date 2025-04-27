@@ -219,9 +219,9 @@
   {
     "objectID": "about.html",
     "href": "about.html",
-    "title": "About",
+    "title": "Sobre o Blog Fortec",
     "section": "",
-    "text": "About this blog"
+    "text": "Sobre o Blog Fortec\nO Blog Fortec é um projeto educacional aberto que visa apoiar o estudo de disciplinas fundamentais como Matemática, Física, Química, Termodinâmica e Climatização.\nAqui você encontrará:\n\nTextos explicativos claros e acessíveis,\nExemplos resolvidos com Python e Jupyter,\nExecução de códigos diretamente no Google Colab,\nÁudios explicativos integrados (via Vocaroo),\nVídeos educativos incorporados do YouTube,\nExercícios de avaliação para consolidar o conhecimento.\n\n\n\nObjetivo do Projeto\nO principal objetivo é disponibilizar conteúdos educativos de qualidade, de forma gratuita, utilizando tecnologias modernas de publicação aberta e ambientes interativos.\n\n\n🔧 Tecnologias Utilizadas\n\nQuarto\nGitHub Pages\nPython\nJupyterLab\nGoogle Colab\nYouTube\nVocaroo\n\n\n\n🌍 Acesso Aberto\nTodo o conteúdo deste blog é disponibilizado de forma aberta e gratuita para promover o acesso ao conhecimento e apoiar estudantes, professores e autodidatas.\n\n\n📬 Contato\nPara sugestões, dúvidas ou parcerias:\n\nGitHub: cacbarros\nRepositório do projeto: Blog Fortec no GitHub"
   },
   {
     "objectID": "index.html",
