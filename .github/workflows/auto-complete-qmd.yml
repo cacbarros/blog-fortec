@@ -1,0 +1,27 @@
+name: Atualizar status de lições no Project
+
+on:
+  push:
+    paths:
+      - 'posts/**/*.qmd'   # Só aciona se mudar arquivos .qmd dentro da pasta posts
+
+jobs:
+  update-project:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Verificar o repositório
+        uses: actions/checkout@v4
+
+      - name: Listar arquivos modificados
+        id: files
+        run: |
+          echo "Modified files:"
+          git diff --name-only ${{ github.event.before }} ${{ github.sha }}
+
+      - name: Atualizar Project Card
+        uses: peter-evans/update-project-card@v2
+        with:
+          project-url: https://github.com/users/cacbarros/projects/1   # <- Atualize se o número do projeto for diferente!
+          column-name: "Concluído"
+          github-token: ${{ secrets.GITHUB_TOKEN }}
