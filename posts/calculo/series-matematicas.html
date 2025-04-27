@@ -265,8 +265,12 @@ window.Quarto = {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#definição" id="toc-definição" class="nav-link active" data-scroll-target="#definição">Definição</a></li>
-  <li><a href="#introdução" id="toc-introdução" class="nav-link" data-scroll-target="#introdução">🏁 Introdução</a>
+  <li><a href="#introdução" id="toc-introdução" class="nav-link active" data-scroll-target="#introdução">Introdução</a>
+  <ul class="collapse">
+  <li><a href="#comentário-didático" id="toc-comentário-didático" class="nav-link" data-scroll-target="#comentário-didático">Comentário Didático</a></li>
+  <li><a href="#definição" id="toc-definição" class="nav-link" data-scroll-target="#definição">Definição</a></li>
+  </ul></li>
+  <li><a href="#introdução-1" id="toc-introdução-1" class="nav-link" data-scroll-target="#introdução-1">🏁 Introdução</a>
   <ul class="collapse">
   <li><a href="#vídeo-de-apoio" id="toc-vídeo-de-apoio" class="nav-link" data-scroll-target="#vídeo-de-apoio">Vídeo de Apoio</a></li>
   <li><a href="#exemplo-1-série-geométrica" id="toc-exemplo-1-série-geométrica" class="nav-link" data-scroll-target="#exemplo-1-série-geométrica">Exemplo 1 — Série Geométrica</a>
@@ -277,12 +281,7 @@ window.Quarto = {
   <ul class="collapse">
   <li><a href="#resolução-em-python-1" id="toc-resolução-em-python-1" class="nav-link" data-scroll-target="#resolução-em-python-1">Resolução em Python</a></li>
   </ul></li>
-  <li><a href="#exemplo-3-código-python-externo" id="toc-exemplo-3-código-python-externo" class="nav-link" data-scroll-target="#exemplo-3-código-python-externo">Exemplo 3 — Código Python Externo</a>
-  <ul class="collapse">
-  <li><a href="#aceda-ao-código-completo" id="toc-aceda-ao-código-completo" class="nav-link" data-scroll-target="#aceda-ao-código-completo">Aceda ao código completo</a></li>
-  </ul></li>
-  <li><a href="#executar-o-notebook-no-google-colab" id="toc-executar-o-notebook-no-google-colab" class="nav-link" data-scroll-target="#executar-o-notebook-no-google-colab">Executar o Notebook no Google Colab</a></li>
-  <li><a href="#executar-o-notebook-no-google-colab-1" id="toc-executar-o-notebook-no-google-colab-1" class="nav-link" data-scroll-target="#executar-o-notebook-no-google-colab-1">Executar o Notebook no Google Colab</a></li>
+  <li><a href="#exemplo-3-código-python-externo" id="toc-exemplo-3-código-python-externo" class="nav-link" data-scroll-target="#exemplo-3-código-python-externo">Exemplo 3 — Código Python Externo</a></li>
   <li><a href="#recursos-disponíveis" id="toc-recursos-disponíveis" class="nav-link" data-scroll-target="#recursos-disponíveis">Recursos Disponíveis</a></li>
   <li><a href="#observação" id="toc-observação" class="nav-link" data-scroll-target="#observação">Observação</a></li>
   <li><a href="#séries-matemáticas---avaliação" id="toc-séries-matemáticas---avaliação" class="nav-link" data-scroll-target="#séries-matemáticas---avaliação">Séries Matemáticas - Avaliação</a></li>
@@ -298,6 +297,20 @@ window.Quarto = {
 
 
 
+<section id="introdução" class="level1">
+<h1>Introdução</h1>
+<p>Já imaginou somar infinitos números e ainda assim chegar a um valor finito?<br>
+Esta é a fascinante realidade das séries matemáticas!</p>
+<p>Nesta lição, vamos explorar os conceitos fundamentais das séries numéricas: o que são, como se comportam e como podemos analisá-las com ferramentas práticas.</p>
+<hr>
+<section id="comentário-didático" class="level2">
+<h2 class="anchored" data-anchor-id="comentário-didático">Comentário Didático</h2>
+<p>Para aprofundar a compreensão deste tema, ouça o comentário didático:</p>
+<div style="text-align: center; margin: 20px 0;">
+<p><audio controls="" style="width: 80%;"> <source src="https://docs.google.com/uc?export=download&amp;id=15wNhnWIXe22VuSZyWnCT6NuHUTGF3SlN" type="audio/mpeg"> O seu navegador não suporta a reprodução de áudio. </audio></p>
+</div>
+<hr>
+</section>
 <section id="definição" class="level2">
 <h2 class="anchored" data-anchor-id="definição">Definição</h2>
 <p>Uma <strong>série</strong> é a soma dos termos de uma sequência:</p>
@@ -309,7 +322,8 @@ window.Quarto = {
 S_N = \sum_{n=1}^{N} a_n \longrightarrow S \quad \text{quando } N \to \infty
 \]</span></p>
 </section>
-<section id="introdução" class="level1">
+</section>
+<section id="introdução-1" class="level1">
 <h1>🏁 Introdução</h1>
 <p>As séries numéricas desempenham um papel fundamental no estudo de fenómenos contínuos e discretos.<br>
 Uma série é a soma de uma sequência infinita de números.</p>
@@ -339,7 +353,7 @@ Uma série é a soma de uma sequência infinita de números.</p>
 \]</span></p>
 <section id="resolução-em-python" class="level3">
 <h3 class="anchored" data-anchor-id="resolução-em-python">Resolução em Python</h3>
-<div id="24d804d0" class="cell" data-execution_count="1">
+<div id="ba63d346" class="cell" data-execution_count="1">
 <details class="code-fold">
 <summary>Code</summary>
 <div class="sourceCode cell-code" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Série geométrica: soma parcial com a = 2 e r = 0.5</span></span>
@@ -369,7 +383,7 @@ Valor limite (teórico): 4.0000</code></pre>
 <p>Embora os termos <span class="math inline">\(1/n\)</span> tendam a zero, a série <strong>diverge</strong> (soma parcial cresce sem limite).</p>
 <section id="resolução-em-python-1" class="level3">
 <h3 class="anchored" data-anchor-id="resolução-em-python-1">Resolução em Python</h3>
-<div id="f59889aa" class="cell" data-execution_count="2">
+<div id="b36fe139" class="cell" data-execution_count="2">
 <details class="code-fold">
 <summary>Code</summary>
 <div class="sourceCode cell-code" id="cb3"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Soma parcial da série harmónica</span></span>
@@ -386,7 +400,7 @@ Valor limite (teórico): 4.0000</code></pre>
 <section id="exemplo-3-código-python-externo" class="level2">
 <h2 class="anchored" data-anchor-id="exemplo-3-código-python-externo">Exemplo 3 — Código Python Externo</h2>
 <p>Além dos exemplos resolvidos acima, disponibilizamos um script Python que implementa uma função geral para calcular a soma dos <span class="math inline">\(n\)</span> primeiros termos de uma série geométrica:</p>
-<div id="68fcf016" class="cell" data-execution_count="3">
+<div id="daebed2c" class="cell" data-execution_count="3">
 <details class="code-fold">
 <summary>Code</summary>
 <div class="sourceCode cell-code" id="cb5"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Código presente em: python/series_matematicas.py</span></span>
@@ -412,33 +426,6 @@ Valor limite (teórico): 4.0000</code></pre>
 <div class="cell-output cell-output-stdout">
 <pre><code>Soma dos 10 primeiros termos: 3.9961</code></pre>
 </div>
-</div>
-<section id="aceda-ao-código-completo" class="level3">
-<h3 class="anchored" data-anchor-id="aceda-ao-código-completo">Aceda ao código completo</h3>
-<p>Você pode também visualizar e fazer o download do script Python diretamente:</p>
-<div style="display: flex; flex-wrap: wrap; gap: 16px; justify-content: center; margin: 20px 0;">
-<a href="../../python/series_matematicas.py" download="" style="padding: 12px 24px; background-color: #198754; color: white; border-radius: 8px; text-decoration: none; font-size: 1.1em;"> 📥 Baixar Código Python </a> <a href="../../python/series_matematicas.py" target="_blank" style="padding: 12px 24px; background-color: #0d6efd; color: white; border-radius: 8px; text-decoration: none; font-size: 1.1em;"> 📖 Ver Código Online </a>
-</div>
-<div style="text-align: center; margin: 20px 0;">
-<p><a href="https://colab.research.google.com/github/cacbarros/blog-fortec/blob/main/python/series_matematicas.ipynb" target="_blank" style="padding: 12px 24px; background-color: #f9ab00; color: black; border-radius: 8px; text-decoration: none; font-size: 1.1em;"> Executar no Google Colab </a></p>
-</div>
-</section>
-</section>
-<section id="executar-o-notebook-no-google-colab" class="level2">
-<h2 class="anchored" data-anchor-id="executar-o-notebook-no-google-colab">Executar o Notebook no Google Colab</h2>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><a href="https://colab.research.google.com/github/cacbarros/blog-fortec/blob/main/python/series_matematicas.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" class="img-fluid figure-img"></a></p>
-<figcaption>Open In Colab</figcaption>
-</figure>
-</div>
-</section>
-<section id="executar-o-notebook-no-google-colab-1" class="level2">
-<h2 class="anchored" data-anchor-id="executar-o-notebook-no-google-colab-1">Executar o Notebook no Google Colab</h2>
-<p>Se preferir, pode explorar o exemplo interativamente no ambiente de nuvem do Google Colab.<br>
-Clique no badge abaixo para abrir o notebook e executar o código diretamente:</p>
-<div style="text-align: center; margin: 20px 0;">
-<p><a href="https://colab.research.google.com/github/cacbarros/blog-fortec/blob/main/python/series_matematicas.ipynb" target="_blank"> <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open in Colab" style="height: 60px;"> </a></p>
 </div>
 </section>
 <section id="recursos-disponíveis" class="level2">
@@ -882,4 +869,4 @@ Stewart, J. (2013). <em>Cálculo: Volume 1</em> (7th ed.). Cengage Learning.
 
 
 
-</body></html>
+</body></html>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           

@@ -14,6 +14,28 @@ execute:
   kernel: ctgan_env
 ---
 
+# Introdução
+
+Já imaginou somar infinitos números e ainda assim chegar a um valor finito?  
+Esta é a fascinante realidade das séries matemáticas!
+
+Nesta lição, vamos explorar os conceitos fundamentais das séries numéricas: o que são, como se comportam e como podemos analisá-las com ferramentas práticas.
+
+---
+
+## Comentário Didático
+
+Para aprofundar a compreensão deste tema, ouça o comentário didático:
+
+<div style="text-align: center; margin: 20px 0;">
+  <audio controls style="width: 80%;">
+    <source src="https://docs.google.com/uc?export=download&id=15wNhnWIXe22VuSZyWnCT6NuHUTGF3SlN" type="audio/mpeg">
+    O seu navegador não suporta a reprodução de áudio.
+  </audio>
+</div>
+
+---
+
 ## Definição
 
 Uma **série** é a soma dos termos de uma sequência:
@@ -128,33 +150,6 @@ if __name__ == "__main__":
     resultado = soma_serie_geometrica(a, r, n)
     print(f"Soma dos {n} primeiros termos: {resultado:.4f}")
 ```
-
-### Aceda ao código completo
-Você pode também visualizar e fazer o download do script Python diretamente:
-
-<div style="display: flex; flex-wrap: wrap; gap: 16px; justify-content: center; margin: 20px 0;"> <a href="../../python/series_matematicas.py" download style="padding: 12px 24px; background-color: #198754; color: white; border-radius: 8px; text-decoration: none; font-size: 1.1em;"> 📥 Baixar Código Python </a> <a href="../../python/series_matematicas.py" target="_blank" style="padding: 12px 24px; background-color: #0d6efd; color: white; border-radius: 8px; text-decoration: none; font-size: 1.1em;"> 📖 Ver Código Online </a> </div>
-
-<div style="text-align: center; margin: 20px 0;">
-  <a href="https://colab.research.google.com/github/cacbarros/blog-fortec/blob/main/python/series_matematicas.ipynb" target="_blank" style="padding: 12px 24px; background-color: #f9ab00; color: black; border-radius: 8px; text-decoration: none; font-size: 1.1em;">
-    Executar no Google Colab
-  </a>
-</div>
-
-## Executar o Notebook no Google Colab
-
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/cacbarros/blog-fortec/blob/main/python/series_matematicas.ipynb)
-
-
-## Executar o Notebook no Google Colab
-
-Se preferir, pode explorar o exemplo interativamente no ambiente de nuvem do Google Colab.  
-Clique no badge abaixo para abrir o notebook e executar o código diretamente:
-
-<div style="text-align: center; margin: 20px 0;">
-  <a href="https://colab.research.google.com/github/cacbarros/blog-fortec/blob/main/python/series_matematicas.ipynb" target="_blank">
-    <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open in Colab" style="height: 60px;">
-  </a>
-</div>
 
 
 ## Recursos Disponíveis

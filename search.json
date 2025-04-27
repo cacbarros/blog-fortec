@@ -256,7 +256,14 @@
     "href": "posts/calculo/series-matematicas.html",
     "title": "Séries Matemáticas",
     "section": "",
-    "text": "Uma série é a soma dos termos de uma sequência:\n\\[\n\\sum_{n=1}^{\\infty} a_n\n\\]\nDizemos que uma série converge se a sequência das somas parciais tem limite finito (Apostol, 1967):\n\\[\nS_N = \\sum_{n=1}^{N} a_n \\longrightarrow S \\quad \\text{quando } N \\to \\infty\n\\]"
+    "text": "Já imaginou somar infinitos números e ainda assim chegar a um valor finito?\nEsta é a fascinante realidade das séries matemáticas!\nNesta lição, vamos explorar os conceitos fundamentais das séries numéricas: o que são, como se comportam e como podemos analisá-las com ferramentas práticas.\n\n\n\nPara aprofundar a compreensão deste tema, ouça o comentário didático:\n\n  O seu navegador não suporta a reprodução de áudio. \n\n\n\n\n\nUma série é a soma dos termos de uma sequência:\n\\[\n\\sum_{n=1}^{\\infty} a_n\n\\]\nDizemos que uma série converge se a sequência das somas parciais tem limite finito (Apostol, 1967):\n\\[\nS_N = \\sum_{n=1}^{N} a_n \\longrightarrow S \\quad \\text{quando } N \\to \\infty\n\\]"
+  },
+  {
+    "objectID": "posts/calculo/series-matematicas.html#comentário-didático",
+    "href": "posts/calculo/series-matematicas.html#comentário-didático",
+    "title": "Séries Matemáticas",
+    "section": "",
+    "text": "Para aprofundar a compreensão deste tema, ouça o comentário didático:\n\n  O seu navegador não suporta a reprodução de áudio."
   },
   {
     "objectID": "posts/calculo/series-matematicas.html#definição",
@@ -291,21 +298,7 @@
     "href": "posts/calculo/series-matematicas.html#exemplo-3-código-python-externo",
     "title": "Séries Matemáticas",
     "section": "Exemplo 3 — Código Python Externo",
-    "text": "Exemplo 3 — Código Python Externo\nAlém dos exemplos resolvidos acima, disponibilizamos um script Python que implementa uma função geral para calcular a soma dos \\(n\\) primeiros termos de uma série geométrica:\n\n\nCode\n# Código presente em: python/series_matematicas.py\n\ndef soma_serie_geometrica(a, r, n):\n    \"\"\"\n    Calcula a soma dos n primeiros termos de uma série geométrica.\n    a: termo inicial\n    r: razão\n    n: número de termos\n    \"\"\"\n    soma = a * (1 - r**n) / (1 - r) if r != 1 else a * n\n    return soma\n\n# Exemplo de uso\nif __name__ == \"__main__\":\n    a = 2\n    r = 0.5\n    n = 10\n    resultado = soma_serie_geometrica(a, r, n)\n    print(f\"Soma dos {n} primeiros termos: {resultado:.4f}\")\n\n\nSoma dos 10 primeiros termos: 3.9961\n\n\n\nAceda ao código completo\nVocê pode também visualizar e fazer o download do script Python diretamente:\n\n 📥 Baixar Código Python   📖 Ver Código Online \n\n\n Executar no Google Colab"
-  },
-  {
-    "objectID": "posts/calculo/series-matematicas.html#executar-o-notebook-no-google-colab",
-    "href": "posts/calculo/series-matematicas.html#executar-o-notebook-no-google-colab",
-    "title": "Séries Matemáticas",
-    "section": "Executar o Notebook no Google Colab",
-    "text": "Executar o Notebook no Google Colab\n\n\n\nOpen In Colab"
-  },
-  {
-    "objectID": "posts/calculo/series-matematicas.html#executar-o-notebook-no-google-colab-1",
-    "href": "posts/calculo/series-matematicas.html#executar-o-notebook-no-google-colab-1",
-    "title": "Séries Matemáticas",
-    "section": "Executar o Notebook no Google Colab",
-    "text": "Executar o Notebook no Google Colab\nSe preferir, pode explorar o exemplo interativamente no ambiente de nuvem do Google Colab.\nClique no badge abaixo para abrir o notebook e executar o código diretamente:"
+    "text": "Exemplo 3 — Código Python Externo\nAlém dos exemplos resolvidos acima, disponibilizamos um script Python que implementa uma função geral para calcular a soma dos \\(n\\) primeiros termos de uma série geométrica:\n\n\nCode\n# Código presente em: python/series_matematicas.py\n\ndef soma_serie_geometrica(a, r, n):\n    \"\"\"\n    Calcula a soma dos n primeiros termos de uma série geométrica.\n    a: termo inicial\n    r: razão\n    n: número de termos\n    \"\"\"\n    soma = a * (1 - r**n) / (1 - r) if r != 1 else a * n\n    return soma\n\n# Exemplo de uso\nif __name__ == \"__main__\":\n    a = 2\n    r = 0.5\n    n = 10\n    resultado = soma_serie_geometrica(a, r, n)\n    print(f\"Soma dos {n} primeiros termos: {resultado:.4f}\")\n\n\nSoma dos 10 primeiros termos: 3.9961"
   },
   {
     "objectID": "posts/calculo/series-matematicas.html#recursos-disponíveis",
