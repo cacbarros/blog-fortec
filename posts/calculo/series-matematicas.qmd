@@ -155,15 +155,15 @@ if __name__ == "__main__":
 
 ## Representação Gráfica Interativa
 
-Explore a série geométrica de forma interativa no Geogebra:
+Explore a série de forma interativa no Geogebra:
 
 <div style="text-align: center; margin: 20px 0;">
   <iframe 
-    src="https://www.geogebra.org/classic/wxyyks5z?embed" 
-    width="800" 
+    src="https://www.geogebra.org/classic/ugujjbzc?embed" 
+    width="100%" 
     height="600" 
     allowfullscreen 
-    style="border: 1px solid #e4e4e4; border-radius: 4px;"
+    style="max-width: 800px; border: 1px solid #e4e4e4; border-radius: 4px;"
     frameborder="0">
   </iframe>
 </div>
