@@ -36,6 +36,8 @@ Este módulo visa:
 - Consolidar o conhecimento através de exercícios de avaliação.
 
 Siga a sequência sugerida para obter uma compreensão sólida e progressiva do tema.
+<!-- Pequena atualização para testar automação -->
+
 
 ---
 
