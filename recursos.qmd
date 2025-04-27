@@ -36,14 +36,14 @@ Nesta página, você encontra todos os materiais complementares do Blog Fortec p
 ## Imagens Educativas
 
 <div style="display: flex; flex-wrap: wrap; gap: 20px; justify-content: center;">
-  <img src="../assets/images/cover.jpg" alt="Capa Séries" style="width:300px; border-radius: 8px;">
-  <img src="../assets/images/cover-calculo.jpg" alt="Capa Cálculo" style="width:300px; border-radius: 8px;">
-  <img src="../assets/images/cover-quimica.jpg" alt="Capa Química" style="width:300px; border-radius: 8px;">
-  <img src="../assets/images/cover-fisica.jpg" alt="Capa Física" style="width:300px; border-radius: 8px;">
-  <img src="../assets/images/cover-termodinamica.jpg" alt="Capa Termodinâmica" style="width:300px; border-radius: 8px;">
-  <img src="../assets/images/cover-algebra.jpg" alt="Capa Álgebra" style="width:300px; border-radius: 8px;">
-  <img src="../assets/images/cover-climatizacao.jpg" alt="Capa Climatização" style="width:300px; border-radius: 8px;">
-  <img src="../assets/images/profile.jpg" alt="Capa Profile" style="width:300px; border-radius: 8px;">
+  <img src="/assets/images/cover.jpg" alt="Capa Séries" style="width:300px; border-radius: 8px;">
+  <img src="/assets/images/cover-calculo.jpg" alt="Capa Cálculo" style="width:300px; border-radius: 8px;">
+  <img src="/assets/images/cover-quimica.jpg" alt="Capa Química" style="width:300px; border-radius: 8px;">
+  <img src="/assets/images/cover-fisica.jpg" alt="Capa Física" style="width:300px; border-radius: 8px;">
+  <img src="/assets/images/cover-termodinamica.jpg" alt="Capa Termodinâmica" style="width:300px; border-radius: 8px;">
+  <img src="/assets/images/cover-algebra.jpg" alt="Capa Álgebra" style="width:300px; border-radius: 8px;">
+  <img src="/assets/images/cover-climatizacao.jpg" alt="Capa Climatização" style="width:300px; border-radius: 8px;">
+  <img src="/assets/images/profile.jpg" alt="Capa Profile" style="width:300px; border-radius: 8px;">
 </div>
 
 ---
