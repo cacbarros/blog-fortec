@@ -37,3 +37,7 @@ Este módulo visa:
 - Consolidar os conceitos através de exercícios práticos.
 
 Siga a sequência para construir uma compreensão robusta da termodinâmica.
+
+---
+
+<p><a href="../../index.html" style="padding: 8px 16px; background-color: #17a2b8; color: white; border-radius: 5px; text-decoration: none;">Voltar ao Início</a></p>

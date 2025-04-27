@@ -7,9 +7,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="dcterms.date" content="2025-04-25">
-<meta name="description" content="Introdução ao uso de LaTeX no blog com exemplo da fórmula resolvente.">
+<meta name="description" content="Estudo das séries geométricas, harmónicas e algumas séries notáveis.">
 
-<title>Equações Quadráticas – blog-quarto</title>
+<title>Séries Geométricas e Harmónicas – Blog Educacional</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -22,7 +22,27 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+  margin-bottom: 0em;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
@@ -70,35 +90,6 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
 
 <link rel="stylesheet" href="../../styles.css">
 </head>
@@ -111,7 +102,7 @@ window.Quarto = {
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
     <a class="navbar-brand" href="../../index.html">
-    <span class="navbar-title">blog-quarto</span>
+    <span class="navbar-title">Blog Educacional</span>
     </a>
   </div>
             <div id="quarto-search" class="" title="Search"></div>
@@ -119,6 +110,36 @@ window.Quarto = {
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../../welcome/index.html"> 
+<span class="menu-text">Início</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../posts/calculo/index.html"> 
+<span class="menu-text">Cálculo</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../posts/algebra/index.html"> 
+<span class="menu-text">Álgebra</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../posts/fisica/index.html"> 
+<span class="menu-text">Física</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../posts/quimica/index.html"> 
+<span class="menu-text">Química</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../posts/termodinamica/index.html"> 
+<span class="menu-text">Termodinâmica</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../posts/climatizacao/index.html"> 
+<span class="menu-text">Climatização</span></a>
+  </li>  
+</ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
     <a class="nav-link" href="../../about.html"> 
@@ -145,14 +166,14 @@ window.Quarto = {
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-body">
-      <h1 class="title">Equações Quadráticas</h1>
+      <h1 class="title">Séries Geométricas e Harmónicas</h1>
                   <div>
         <div class="description">
-          Introdução ao uso de LaTeX no blog com exemplo da fórmula resolvente.
+          Estudo das séries geométricas, harmónicas e algumas séries notáveis.
         </div>
       </div>
                           <div class="quarto-categories">
-                <div class="quarto-category">Matemática</div>
+                <div class="quarto-category">Cálculo</div>
               </div>
                   </div>
   </div>
@@ -175,8 +196,14 @@ window.Quarto = {
   </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#séries-geométricas-e-harmónicas" id="toc-séries-geométricas-e-harmónicas" class="nav-link active" data-scroll-target="#séries-geométricas-e-harmónicas">Séries Geométricas e Harmónicas</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content quarto-banner-title-block" id="quarto-document-content">
@@ -185,31 +212,33 @@ window.Quarto = {
 
 
 
-<p>Equações do 2º grau aparecem frequentemente na matemática elementar.<br>
-A sua forma geral é:</p>
-<p><span class="math display">\[
-ax^2 + bx + c = 0
-\]</span></p>
-<p>A solução pode ser obtida pela fórmula resolvente:</p>
-<p><span class="math display">\[
-x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}
-\]</span></p>
-<p>Por exemplo, para a equação:</p>
-<p><span class="math display">\[
-2x^2 - 4x - 6 = 0
-\]</span></p>
-<p>Temos:</p>
-<p><span class="math display">\[
-x = \frac{-(-4) \pm \sqrt{(-4)^2 - 4(2)(-6)}}{2(2)} = \frac{4 \pm \sqrt{64}}{4} = \frac{4 \pm 8}{4}
-\]</span></p>
-<p>Logo, as soluções são:</p>
-<p><span class="math display">\[
-x_1 = 3 \quad \text{e} \quad x_2 = -1
-\]</span></p>
+<section id="séries-geométricas-e-harmónicas" class="level1">
+<h1>Séries Geométricas e Harmónicas</h1>
+<p>Nesta secção estudamos:</p>
+<ul>
+<li>Séries Geométricas,</li>
+<li>Séries Harmónicas,</li>
+<li>Exemplos clássicos,</li>
+<li>Aplicações.</li>
+</ul>
+<p>Conteúdo a desenvolver…</p>
+<hr>
+<p>
+<a href="index.html" style="padding: 8px 16px; background-color: #17a2b8; color: white; border-radius: 5px; text-decoration: none;">Voltar para Índice de Séries Matemáticas</a>
+</p>
 
 
 
-</main> <!-- /main -->
+</section>
+
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" data-line-spacing="2" role="list">
+<div id="ref-apostol" class="csl-entry" role="listitem">
+Apostol, T. M. (1967). <em>Calculus, volume i</em>. Blaisdell Publishing Company.
+</div>
+<div id="ref-stewart" class="csl-entry" role="listitem">
+Stewart, J. (2013). <em>Cálculo: Volume 1</em> (7th ed.). Cengage Learning.
+</div>
+</div></section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";

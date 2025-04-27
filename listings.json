@@ -2,6 +2,8 @@
   {
     "listing": "/index.html",
     "items": [
+      "/posts/algebra/equacoes-quadraticas.html",
+      "/posts/algebra/index.html",
       "/posts/climatizacao/avaliacao-climatizacao.html",
       "/posts/climatizacao/componentes-hvac.html",
       "/posts/climatizacao/eficiencia-energetica.html",
@@ -36,16 +38,14 @@
       "/posts/termodinamica/introducao-termodinamica.html",
       "/posts/termodinamica/primeira-lei.html",
       "/posts/termodinamica/segunda-lei.html",
-      "/posts/equacoes-quadraticas/index.html",
-      "/posts/post-with-code/index.html",
-      "/posts/series-matematicas/avaliacao.html",
-      "/posts/series-matematicas/convergencia.html",
-      "/posts/series-matematicas/index.html",
-      "/posts/series-matematicas/problema-series.html",
-      "/posts/series-matematicas/series-especiais.html",
-      "/posts/series-matematicas/series-matematicas.html",
-      "/posts/series-matematicas/testes-convergencia.html",
-      "/posts/welcome/index.html"
+      "/posts/calculo/avaliacao.html",
+      "/posts/calculo/convergencia.html",
+      "/posts/calculo/index.html",
+      "/posts/calculo/problema-series.html",
+      "/posts/calculo/series-especiais.html",
+      "/posts/calculo/series-matematicas.html",
+      "/posts/calculo/testes-convergencia.html",
+      "/posts/post-with-code/index.html"
     ]
   }
 ]

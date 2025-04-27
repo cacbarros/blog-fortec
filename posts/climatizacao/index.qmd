@@ -33,3 +33,7 @@ Este módulo visa:
 - Analisar os princípios físicos fundamentais utilizados em sistemas HVAC;
 - Identificar e compreender os principais componentes de sistemas de climatização;
 - Avaliar o desempenho energético de instalações.
+
+---
+
+<p><a href="../../index.html" style="padding: 8px 16px; background-color: #17a2b8; color: white; border-radius: 5px; text-decoration: none;">Voltar ao Início</a></p>

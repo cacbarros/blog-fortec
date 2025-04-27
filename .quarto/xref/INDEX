@@ -151,5 +151,38 @@
   },
   "posts/climatizacao/principios-termodinamicos.qmd": {
     "principios-termodinamicos.html": "783183c9"
+  },
+  "posts/equacoes-quadraticas/equacoes-quadraticas.qmd": {
+    "equacoes-quadraticas.html": "d4d53ebf"
+  },
+  "posts/algebra/equacoes-quadraticas.qmd": {
+    "equacoes-quadraticas.html": "ef6f9176"
+  },
+  "posts/algebra/index.qmd": {
+    "index.html": "574ea845"
+  },
+  "posts/calculo/avaliacao.qmd": {
+    "avaliacao.html": "bccafa27"
+  },
+  "posts/calculo/convergencia.qmd": {
+    "convergencia.html": "9a95dedf"
+  },
+  "posts/calculo/index.qmd": {
+    "index.html": "4e1346de"
+  },
+  "posts/calculo/problema-series.qmd": {
+    "problema-series.html": "26a8dea9"
+  },
+  "posts/calculo/series-especiais.qmd": {
+    "series-especiais.html": "4a18ac12"
+  },
+  "posts/calculo/series-matematicas.qmd": {
+    "series-matematicas.html": "878193a1"
+  },
+  "posts/calculo/testes-convergencia.qmd": {
+    "testes-convergencia.html": "118a66c9"
+  },
+  "welcome/index.qmd": {
+    "index.html": "5c629c0d"
   }
 }

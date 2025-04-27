@@ -1,0 +1,8 @@
+---
+title: "Álgebra: Equações Quadráticas"
+format: html
+---
+
+# 🧮 Álgebra: Equações Quadráticas
+
+Em breve conteúdos e exercícios sobre equações quadráticas!

@@ -36,3 +36,8 @@ Este módulo visa:
 - Consolidar os conhecimentos através de exercícios práticos.
 
 Siga a sequência sugerida para construir uma compreensão sólida da Física Clássica.
+
+---
+
+<p><a href="../../index.html" style="padding: 8px 16px; background-color: #17a2b8; color: white; border-radius: 5px; text-decoration: none;">Voltar ao Início</a></p>
+

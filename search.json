@@ -1,10 +1,31 @@
 [
   {
-    "objectID": "posts/welcome/index.html",
-    "href": "posts/welcome/index.html",
-    "title": "Welcome To My Blog",
+    "objectID": "welcome/index.html",
+    "href": "welcome/index.html",
+    "title": "Bem-vindo ao Blog Educacional",
     "section": "",
-    "text": "This is the first post in a Quarto blog. Welcome!\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
+    "text": "Este espaço foi criado para apoiar estudantes, professores e autodidatas nas áreas da Matemática, Física, Química, Termodinâmica e Ciências Técnicas.\nExplore os principais temas disponíveis:\n\n\nNeste blog, você poderá estudar:\n\nCálculo: Séries matemáticas, limites, derivadas, integrais e aplicações práticas.\nÁlgebra: Equações quadráticas, sistemas de equações, polinómios, matrizes e mais.\nFísica: Leis fundamentais, aplicações práticas e resolução de problemas.\nClimatização: Estudo de processos térmicos e sistemas de climatização.\nQuímica: Fundamentos de química geral, reações e aplicações industriais.\nTermodinâmica: Princípios de conservação de energia, sistemas termodinâmicos e ciclos.\n\nCada secção inclui textos explicativos, exemplos resolvidos, áudios didáticos e atividades práticas.\n\n\n\n\n Cálculo \n Álgebra \n Física \n Climatização \n Química \n Termodinâmica \n\n\n\n\nEste blog é desenvolvido para tornar o conhecimento acessível, organizado e aplicado de forma prática.\nExplore ao seu ritmo e aproveite todos os recursos disponíveis!\n\n\n Começar por Cálculo"
+  },
+  {
+    "objectID": "welcome/index.html#o-que-pode-explorar-aqui",
+    "href": "welcome/index.html#o-que-pode-explorar-aqui",
+    "title": "Bem-vindo ao Blog Educacional",
+    "section": "",
+    "text": "Neste blog, você poderá estudar:\n\nCálculo: Séries matemáticas, limites, derivadas, integrais e aplicações práticas.\nÁlgebra: Equações quadráticas, sistemas de equações, polinómios, matrizes e mais.\nFísica: Leis fundamentais, aplicações práticas e resolução de problemas.\nClimatização: Estudo de processos térmicos e sistemas de climatização.\nQuímica: Fundamentos de química geral, reações e aplicações industriais.\nTermodinâmica: Princípios de conservação de energia, sistemas termodinâmicos e ciclos.\n\nCada secção inclui textos explicativos, exemplos resolvidos, áudios didáticos e atividades práticas."
+  },
+  {
+    "objectID": "welcome/index.html#aceda-diretamente-aos-temas",
+    "href": "welcome/index.html#aceda-diretamente-aos-temas",
+    "title": "Bem-vindo ao Blog Educacional",
+    "section": "",
+    "text": "Cálculo \n Álgebra \n Física \n Climatização \n Química \n Termodinâmica"
+  },
+  {
+    "objectID": "welcome/index.html#sobre-o-projeto",
+    "href": "welcome/index.html#sobre-o-projeto",
+    "title": "Bem-vindo ao Blog Educacional",
+    "section": "",
+    "text": "Este blog é desenvolvido para tornar o conhecimento acessível, organizado e aplicado de forma prática.\nExplore ao seu ritmo e aproveite todos os recursos disponíveis!\n\n\n Começar por Cálculo"
   },
   {
     "objectID": "posts/termodinamica/primeira-lei.html",
@@ -18,14 +39,14 @@
     "href": "posts/termodinamica/index.html",
     "title": "Termodinâmica Geral",
     "section": "",
-    "text": "Introdução à Termodinâmica\nPrimeira Lei da Termodinâmica\nSegunda Lei da Termodinâmica\nCiclos Termodinâmicos\nAplicativos de Termodinâmica\nExercícios de Avaliação\n\n\n\n\nEste módulo visa:\n\nIntroduzir os conceitos fundamentais da termodinâmica;\nEstudar a primeira e segunda leis;\nAnalisar ciclos típicos como Carnot e Rankine;\nAplicar conhecimentos a sistemas de engenharia;\nConsolidar os conceitos através de exercícios práticos.\n\nSiga a sequência para construir uma compreensão robusta da termodinâmica."
+    "text": "Introdução à Termodinâmica\nPrimeira Lei da Termodinâmica\nSegunda Lei da Termodinâmica\nCiclos Termodinâmicos\nAplicativos de Termodinâmica\nExercícios de Avaliação\n\n\n\n\nEste módulo visa:\n\nIntroduzir os conceitos fundamentais da termodinâmica;\nEstudar a primeira e segunda leis;\nAnalisar ciclos típicos como Carnot e Rankine;\nAplicar conhecimentos a sistemas de engenharia;\nConsolidar os conceitos através de exercícios práticos.\n\nSiga a sequência para construir uma compreensão robusta da termodinâmica.\n\n\nVoltar ao Início"
   },
   {
     "objectID": "posts/termodinamica/index.html#objetivos-do-módulo",
     "href": "posts/termodinamica/index.html#objetivos-do-módulo",
     "title": "Termodinâmica Geral",
     "section": "",
-    "text": "Este módulo visa:\n\nIntroduzir os conceitos fundamentais da termodinâmica;\nEstudar a primeira e segunda leis;\nAnalisar ciclos típicos como Carnot e Rankine;\nAplicar conhecimentos a sistemas de engenharia;\nConsolidar os conceitos através de exercícios práticos.\n\nSiga a sequência para construir uma compreensão robusta da termodinâmica."
+    "text": "Este módulo visa:\n\nIntroduzir os conceitos fundamentais da termodinâmica;\nEstudar a primeira e segunda leis;\nAnalisar ciclos típicos como Carnot e Rankine;\nAplicar conhecimentos a sistemas de engenharia;\nConsolidar os conceitos através de exercícios práticos.\n\nSiga a sequência para construir uma compreensão robusta da termodinâmica.\n\n\nVoltar ao Início"
   },
   {
     "objectID": "posts/termodinamica/avaliacao-termodinamica.html",
@@ -35,130 +56,88 @@
     "text": "Exercícios de Avaliação\nExercícios para consolidação.\n\nVoltar para Índice de Termodinâmica\n\n\n\n\n\n\n\nReferences\n\nApostol, T. M. (1967). Calculus, volume i. Blaisdell Publishing Company.\n\n\nStewart, J. (2013). Cálculo: Volume 1 (7th ed.). Cengage Learning."
   },
   {
-    "objectID": "posts/series-matematicas/testes-convergencia.html",
-    "href": "posts/series-matematicas/testes-convergencia.html",
-    "title": "Testes de Convergência",
+    "objectID": "posts/quimica/reacoes-equacoes.html",
+    "href": "posts/quimica/reacoes-equacoes.html",
+    "title": "Reações Químicas e Equações",
     "section": "",
-    "text": "Testes de Convergência\nNesta secção abordamos:\n\nTeste da Comparação,\nTeste da Razão,\nTeste da Raiz,\nTeste da Integral,\nExemplos práticos de aplicação.\n\nConteúdo a desenvolver…\n\n\nVoltar para Índice de Séries Matemáticas\n\n\n\n\n\n\nReferences\n\nApostol, T. M. (1967). Calculus, volume i. Blaisdell Publishing Company.\n\n\nStewart, J. (2013). Cálculo: Volume 1 (7th ed.). Cengage Learning."
+    "text": "Reações Químicas e Equações\nRepresentação simbólica das reações.\n\n\nVoltar para Índice de Química\n\n\n\n\n\n\nReferences\n\nApostol, T. M. (1967). Calculus, volume i. Blaisdell Publishing Company.\n\n\nStewart, J. (2013). Cálculo: Volume 1 (7th ed.). Cengage Learning."
   },
   {
-    "objectID": "posts/series-matematicas/series-especiais.html",
-    "href": "posts/series-matematicas/series-especiais.html",
-    "title": "Séries Geométricas e Harmónicas",
+    "objectID": "posts/quimica/introducao-quimica.html",
+    "href": "posts/quimica/introducao-quimica.html",
+    "title": "Introdução à Química",
     "section": "",
-    "text": "Séries Geométricas e Harmónicas\nNesta secção estudamos:\n\nSéries Geométricas,\nSéries Harmónicas,\nExemplos clássicos,\nAplicações.\n\nConteúdo a desenvolver…\n\n\nVoltar para Índice de Séries Matemáticas\n\n\n\n\n\n\nReferences\n\nApostol, T. M. (1967). Calculus, volume i. Blaisdell Publishing Company.\n\n\nStewart, J. (2013). Cálculo: Volume 1 (7th ed.). Cengage Learning."
+    "text": "Introdução à Química\nConteúdo introdutório.\n\n\nVoltar para Índice de Química\n\n\n\n\n\n\nReferences\n\nApostol, T. M. (1967). Calculus, volume i. Blaisdell Publishing Company.\n\n\nStewart, J. (2013). Cálculo: Volume 1 (7th ed.). Cengage Learning."
   },
   {
-    "objectID": "posts/series-matematicas/index.html",
-    "href": "posts/series-matematicas/index.html",
-    "title": "Séries Matemáticas",
+    "objectID": "posts/quimica/estrutura-atomica.html",
+    "href": "posts/quimica/estrutura-atomica.html",
+    "title": "Estrutura Atómica da Matéria",
     "section": "",
-    "text": "Introdução às Séries Numéricas\nConvergência de Séries\nTestes de Convergência\nSéries Geométricas e Harmónicas\nExercícios de Avaliação\n\n\n\n\nEste módulo visa:\n\nIntroduzir o conceito de séries como somatórios infinitos;\nAnalisar a convergência e divergência de séries;\nAplicar testes clássicos de convergência (comparação, razão, raiz, etc.);\nEstudar séries geométricas e harmónicas;\nConsolidar o conhecimento através de exercícios de avaliação.\n\nSiga a sequência sugerida para obter uma compreensão sólida e progressiva do tema."
+    "text": "Estrutura Atómica da Matéria\nConceitos fundamentais sobre átomos.\n\n\nVoltar para Índice de Química\n\n\n\n\n\n\nReferences\n\nApostol, T. M. (1967). Calculus, volume i. Blaisdell Publishing Company.\n\n\nStewart, J. (2013). Cálculo: Volume 1 (7th ed.). Cengage Learning."
   },
   {
-    "objectID": "posts/series-matematicas/index.html#objetivos-do-módulo",
-    "href": "posts/series-matematicas/index.html#objetivos-do-módulo",
-    "title": "Séries Matemáticas",
-    "section": "",
-    "text": "Este módulo visa:\n\nIntroduzir o conceito de séries como somatórios infinitos;\nAnalisar a convergência e divergência de séries;\nAplicar testes clássicos de convergência (comparação, razão, raiz, etc.);\nEstudar séries geométricas e harmónicas;\nConsolidar o conhecimento através de exercícios de avaliação.\n\nSiga a sequência sugerida para obter uma compreensão sólida e progressiva do tema."
-  },
-  {
-    "objectID": "posts/series-matematicas/avaliacao.html",
-    "href": "posts/series-matematicas/avaliacao.html",
+    "objectID": "posts/quimica/avaliacao-quimica.html",
+    "href": "posts/quimica/avaliacao-quimica.html",
     "title": "Exercícios de Avaliação",
     "section": "",
-    "text": "Exercícios de Avaliação\nPropostas de exercícios:\n\nVerificar a convergência de uma série geométrica.\nAplicar o teste da razão numa série dada.\nIdentificar séries divergentes entre exemplos apresentados.\nAplicações práticas em Física ou Engenharia.\n\nConteúdo a desenvolver…\n\n\nVoltar para Índice de Séries Matemáticas\n\n\n\n\n\n\nReferences\n\nApostol, T. M. (1967). Calculus, volume i. Blaisdell Publishing Company.\n\n\nStewart, J. (2013). Cálculo: Volume 1 (7th ed.). Cengage Learning."
+    "text": "Exercícios de Avaliação\nQuestões práticas para testar seus conhecimentos.\n\n\nVoltar para Índice de Química\n\n\n\n\n\n\nReferences\n\nApostol, T. M. (1967). Calculus, volume i. Blaisdell Publishing Company.\n\n\nStewart, J. (2013). Cálculo: Volume 1 (7th ed.). Cengage Learning."
   },
   {
-    "objectID": "posts/quimica/ligacoes-quimicas.html",
-    "href": "posts/quimica/ligacoes-quimicas.html",
-    "title": "Ligações Químicas",
+    "objectID": "posts/matematica/trigonometria.html",
+    "href": "posts/matematica/trigonometria.html",
+    "title": "Trigonometria",
     "section": "",
-    "text": "Ligações Químicas\nLigações iônicas, covalentes e metálicas.\n\n\nVoltar para Índice de Química\n\n\n\n\n\n\nReferences\n\nApostol, T. M. (1967). Calculus, volume i. Blaisdell Publishing Company.\n\n\nStewart, J. (2013). Cálculo: Volume 1 (7th ed.). Cengage Learning."
+    "text": "Trigonometria\nEstudo de relações trigonométricas e suas aplicações.\n\n Voltar para Índice de Matemática\n\n\n\n\n\n\n\nReferences\n\nApostol, T. M. (1967). Calculus, volume i. Blaisdell Publishing Company.\n\n\nStewart, J. (2013). Cálculo: Volume 1 (7th ed.). Cengage Learning."
   },
   {
-    "objectID": "posts/quimica/index.html",
-    "href": "posts/quimica/index.html",
-    "title": "Química Geral",
+    "objectID": "posts/matematica/numeros-reais.html",
+    "href": "posts/matematica/numeros-reais.html",
+    "title": "Números Reais",
     "section": "",
-    "text": "Introdução à Química\nEstrutura Atómica da Matéria\nLigações Químicas\nReações Químicas e Equações\nEstequiometria e Cálculos Químicos\nExercícios de Avaliação\n\n\n\n\nEste módulo visa:\n\nCompreender a estrutura atómica e os princípios da organização da matéria;\nEstudar os diferentes tipos de ligações químicas e suas propriedades;\nAprender a escrever e equilibrar equações químicas;\nAplicar conceitos de estequiometria para resolver problemas práticos;\nConsolidar os conhecimentos adquiridos através de exercícios de avaliação.\n\nSiga a sequência sugerida para garantir uma aprendizagem sólida e estruturada da Química."
+    "text": "Números Reais\nExploração dos conjuntos numéricos e suas propriedades fundamentais.\n\n Voltar para Índice de Matemática\n\n\n\n\n\n\n\nReferences\n\nApostol, T. M. (1967). Calculus, volume i. Blaisdell Publishing Company.\n\n\nStewart, J. (2013). Cálculo: Volume 1 (7th ed.). Cengage Learning."
   },
   {
-    "objectID": "posts/quimica/index.html#objetivos-do-módulo",
-    "href": "posts/quimica/index.html#objetivos-do-módulo",
-    "title": "Química Geral",
+    "objectID": "posts/matematica/geometria-analitica.html",
+    "href": "posts/matematica/geometria-analitica.html",
+    "title": "Geometria Analítica",
     "section": "",
-    "text": "Este módulo visa:\n\nCompreender a estrutura atómica e os princípios da organização da matéria;\nEstudar os diferentes tipos de ligações químicas e suas propriedades;\nAprender a escrever e equilibrar equações químicas;\nAplicar conceitos de estequiometria para resolver problemas práticos;\nConsolidar os conhecimentos adquiridos através de exercícios de avaliação.\n\nSiga a sequência sugerida para garantir uma aprendizagem sólida e estruturada da Química."
+    "text": "Geometria Analítica\nAnálise das propriedades geométricas através da álgebra.\n\n Voltar para Índice de Matemática\n\n\n\n\n\n\n\nReferences\n\nApostol, T. M. (1967). Calculus, volume i. Blaisdell Publishing Company.\n\n\nStewart, J. (2013). Cálculo: Volume 1 (7th ed.). Cengage Learning."
   },
   {
-    "objectID": "posts/quimica/estequiometria.html",
-    "href": "posts/quimica/estequiometria.html",
-    "title": "Estequiometria e Cálculos Químicos",
-    "section": "",
-    "text": "Estequiometria e Cálculos Químicos\nCálculos com equações balanceadas.\n\n\nVoltar para Índice de Química\n\n\n\n\n\n\nReferences\n\nApostol, T. M. (1967). Calculus, volume i. Blaisdell Publishing Company.\n\n\nStewart, J. (2013). Cálculo: Volume 1 (7th ed.). Cengage Learning."
-  },
-  {
-    "objectID": "posts/post-with-code/index.html",
-    "href": "posts/post-with-code/index.html",
-    "title": "Post With Code",
-    "section": "",
-    "text": "This is a post with executable code."
-  },
-  {
-    "objectID": "posts/matematica/polinomios.html",
-    "href": "posts/matematica/polinomios.html",
-    "title": "Polinómios",
-    "section": "",
-    "text": "Polinómios\nExploração de operações algébricas e fatorização.\n\n Voltar para Índice de Matemática\n\n\n\n\n\n\n\nReferences\n\nApostol, T. M. (1967). Calculus, volume i. Blaisdell Publishing Company.\n\n\nStewart, J. (2013). Cálculo: Volume 1 (7th ed.). Cengage Learning."
-  },
-  {
-    "objectID": "posts/matematica/index.html",
-    "href": "posts/matematica/index.html",
-    "title": "Matemática Secundário",
-    "section": "",
-    "text": "Números Reais\nFunções e Gráficos\nTrigonometria\nPolinómios\nGeometria Analítica\nExercícios de Avaliação\n\n\n\n\nEste módulo visa:\n\nConsolidar conceitos básicos de Matemática;\nDesenvolver competências de análise de funções e equações;\nAplicar conhecimentos em problemas práticos;\nPreparar para exames e avaliações finais."
-  },
-  {
-    "objectID": "posts/matematica/index.html#objetivos-do-módulo",
-    "href": "posts/matematica/index.html#objetivos-do-módulo",
-    "title": "Matemática Secundário",
-    "section": "",
-    "text": "Este módulo visa:\n\nConsolidar conceitos básicos de Matemática;\nDesenvolver competências de análise de funções e equações;\nAplicar conhecimentos em problemas práticos;\nPreparar para exames e avaliações finais."
-  },
-  {
-    "objectID": "posts/matematica/funcoes-graficos.html",
-    "href": "posts/matematica/funcoes-graficos.html",
-    "title": "Funções e Gráficos",
-    "section": "",
-    "text": "Funções e Gráficos\nEstudo das relações funcionais e interpretação de gráficos.\n\n Voltar para Índice de Matemática\n\n\n\n\n\n\n\nReferences\n\nApostol, T. M. (1967). Calculus, volume i. Blaisdell Publishing Company.\n\n\nStewart, J. (2013). Cálculo: Volume 1 (7th ed.). Cengage Learning."
-  },
-  {
-    "objectID": "posts/fisica/trabalho-energia.html",
-    "href": "posts/fisica/trabalho-energia.html",
-    "title": "Trabalho e Energia",
-    "section": "",
-    "text": "Trabalho e Energia\nAnálise da relação entre força, deslocamento e energia.\n\n Voltar para Índice de Física\n\n\n\n\n\n\n\nReferences\n\nApostol, T. M. (1967). Calculus, volume i. Blaisdell Publishing Company.\n\n\nStewart, J. (2013). Cálculo: Volume 1 (7th ed.). Cengage Learning."
-  },
-  {
-    "objectID": "posts/fisica/introducao-fisica.html",
-    "href": "posts/fisica/introducao-fisica.html",
-    "title": "Introdução à Física",
-    "section": "",
-    "text": "Introdução à Física\nApresentação dos princípios básicos da Física.\n\nVoltar para Índice de Física\n\n\n\n\n\n\n\nReferences\n\nApostol, T. M. (1967). Calculus, volume i. Blaisdell Publishing Company.\n\n\nStewart, J. (2013). Cálculo: Volume 1 (7th ed.). Cengage Learning."
-  },
-  {
-    "objectID": "posts/fisica/dinamica.html",
-    "href": "posts/fisica/dinamica.html",
-    "title": "Dinâmica",
-    "section": "",
-    "text": "Dinâmica\nAnálise das forças que atuam nos corpos.\n\nVoltar para Índice de Física\n\n\n\n\n\n\n\nReferences\n\nApostol, T. M. (1967). Calculus, volume i. Blaisdell Publishing Company.\n\n\nStewart, J. (2013). Cálculo: Volume 1 (7th ed.). Cengage Learning."
-  },
-  {
-    "objectID": "posts/fisica/avaliacao-fisica.html",
-    "href": "posts/fisica/avaliacao-fisica.html",
+    "objectID": "posts/matematica/avaliacao-matematica.html",
+    "href": "posts/matematica/avaliacao-matematica.html",
     "title": "Exercícios de Avaliação",
     "section": "",
-    "text": "Exercícios de Avaliação\nExercícios para praticar e consolidar o conteúdo.\n\nVoltar para Índice de Física\n\n\n\n\n\n\n\nReferences\n\nApostol, T. M. (1967). Calculus, volume i. Blaisdell Publishing Company.\n\n\nStewart, J. (2013). Cálculo: Volume 1 (7th ed.). Cengage Learning."
+    "text": "Exercícios de Avaliação\nExercícios para aplicação prática dos conceitos aprendidos.\n\n Voltar para Índice de Matemática\n\n\n\n\n\n\n\nReferences\n\nApostol, T. M. (1967). Calculus, volume i. Blaisdell Publishing Company.\n\n\nStewart, J. (2013). Cálculo: Volume 1 (7th ed.). Cengage Learning."
+  },
+  {
+    "objectID": "posts/fisica/leis-conservacao.html",
+    "href": "posts/fisica/leis-conservacao.html",
+    "title": "Leis da Conservação",
+    "section": "",
+    "text": "Leis da Conservação\nEstudo das leis fundamentais de conservação.\n\n Voltar para Índice de Física\n\n\n\n\n\n\n\nReferences\n\nApostol, T. M. (1967). Calculus, volume i. Blaisdell Publishing Company.\n\n\nStewart, J. (2013). Cálculo: Volume 1 (7th ed.). Cengage Learning."
+  },
+  {
+    "objectID": "posts/fisica/index.html",
+    "href": "posts/fisica/index.html",
+    "title": "Física Geral",
+    "section": "",
+    "text": "Introdução à Física\nCinemática\nDinâmica\nTrabalho e Energia\nLeis da Conservação\nExercícios de Avaliação\n\n\n\n\nEste módulo visa:\n\nIntroduzir os princípios fundamentais da Física;\nDesenvolver competências de análise de movimento e forças;\nAplicar as leis da conservação da energia e do momento;\nConsolidar os conhecimentos através de exercícios práticos.\n\nSiga a sequência sugerida para construir uma compreensão sólida da Física Clássica.\n\n\nVoltar ao Início"
+  },
+  {
+    "objectID": "posts/fisica/index.html#objetivos-do-módulo",
+    "href": "posts/fisica/index.html#objetivos-do-módulo",
+    "title": "Física Geral",
+    "section": "",
+    "text": "Este módulo visa:\n\nIntroduzir os princípios fundamentais da Física;\nDesenvolver competências de análise de movimento e forças;\nAplicar as leis da conservação da energia e do momento;\nConsolidar os conhecimentos através de exercícios práticos.\n\nSiga a sequência sugerida para construir uma compreensão sólida da Física Clássica.\n\n\nVoltar ao Início"
+  },
+  {
+    "objectID": "posts/fisica/cinematica.html",
+    "href": "posts/fisica/cinematica.html",
+    "title": "Cinemática",
+    "section": "",
+    "text": "Cinemática\nDescrição dos tipos de movimento.\n\nVoltar para Índice de Física\n\n\n\n\n\n\n\nReferences\n\nApostol, T. M. (1967). Calculus, volume i. Blaisdell Publishing Company.\n\n\nStewart, J. (2013). Cálculo: Volume 1 (7th ed.). Cengage Learning."
   },
   {
     "objectID": "posts/climatizacao/principios-termodinamicos.html",
@@ -172,14 +151,14 @@
     "href": "posts/climatizacao/index.html",
     "title": "Climatização e Sistemas HVAC",
     "section": "",
-    "text": "Introdução à Climatização\nPrincípios Termodinâmicos Aplicados\nComponentes dos Sistemas HVAC\nAvaliação de Eficiência Energética\nExercícios de Avaliação\n\n\n\n\nEste módulo visa:\n\nIntroduzir os conceitos de conforto térmico e climatização;\nAnalisar os princípios físicos fundamentais utilizados em sistemas HVAC;\nIdentificar e compreender os principais componentes de sistemas de climatização;\nAvaliar o desempenho energético de instalações."
+    "text": "Introdução à Climatização\nPrincípios Termodinâmicos Aplicados\nComponentes dos Sistemas HVAC\nAvaliação de Eficiência Energética\nExercícios de Avaliação\n\n\n\n\nEste módulo visa:\n\nIntroduzir os conceitos de conforto térmico e climatização;\nAnalisar os princípios físicos fundamentais utilizados em sistemas HVAC;\nIdentificar e compreender os principais componentes de sistemas de climatização;\nAvaliar o desempenho energético de instalações.\n\n\n\nVoltar ao Início"
   },
   {
     "objectID": "posts/climatizacao/index.html#objetivos-do-módulo",
     "href": "posts/climatizacao/index.html#objetivos-do-módulo",
     "title": "Climatização e Sistemas HVAC",
     "section": "",
-    "text": "Este módulo visa:\n\nIntroduzir os conceitos de conforto térmico e climatização;\nAnalisar os princípios físicos fundamentais utilizados em sistemas HVAC;\nIdentificar e compreender os principais componentes de sistemas de climatização;\nAvaliar o desempenho energético de instalações."
+    "text": "Este módulo visa:\n\nIntroduzir os conceitos de conforto térmico e climatização;\nAnalisar os princípios físicos fundamentais utilizados em sistemas HVAC;\nIdentificar e compreender os principais componentes de sistemas de climatização;\nAvaliar o desempenho energético de instalações.\n\n\n\nVoltar ao Início"
   },
   {
     "objectID": "posts/climatizacao/componentes-hvac.html",
@@ -189,11 +168,53 @@
     "text": "Componentes dos Sistemas HVAC\nConhecimento dos principais componentes de um sistema HVAC.\n\n Voltar para Índice de Climatização\n\n\n\n\n\n\n\nReferences\n\nApostol, T. M. (1967). Calculus, volume i. Blaisdell Publishing Company.\n\n\nStewart, J. (2013). Cálculo: Volume 1 (7th ed.). Cengage Learning."
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "blog-quarto",
+    "objectID": "posts/calculo/testes-convergencia.html",
+    "href": "posts/calculo/testes-convergencia.html",
+    "title": "Testes de Convergência",
     "section": "",
-    "text": "Séries \n Matemática \n Física \n Química \n Climatização \n Termodinâmica \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nExercícios de Avaliação\n\n\n\nClimatização\n\n\n\nQuestões práticas para reforço dos conceitos de climatização.\n\n\n\n\n\nApr 26, 2025\n\n\n\n\n\n\n\n\n\n\n\n\nComponentes dos Sistemas HVAC\n\n\n\nClimatização\n\n\n\nIdentificação e funcionamento de componentes HVAC.\n\n\n\n\n\nApr 26, 2025\n\n\n\n\n\n\n\n\n\n\n\n\nAvaliação de Eficiência Energética\n\n\n\nClimatização\n\n\n\nCritérios de avaliação da eficiência em sistemas de climatização.\n\n\n\n\n\nApr 26, 2025\n\n\n\n\n\n\n\n\n\n\n\n\nClimatização e Sistemas HVAC\n\n\n\nClimatização\n\n\n\nConceitos fundamentais sobre climatização, ventiladores e sistemas de HVAC.\n\n\n\n\n\nApr 26, 2025\n\n\n\n\n\n\n\n\n\n\n\n\nIntrodução à Climatização\n\n\n\nClimatização\n\n\n\nConceitos iniciais de climatização e conforto térmico.\n\n\n\n\n\nApr 26, 2025\n\n\n\n\n\n\n\n\n\n\n\n\nPrincípios Termodinâmicos Aplicados\n\n\n\nClimatização\n\n\n\nFundamentos de termodinâmica aplicados à climatização.\n\n\n\n\n\nApr 26, 2025\n\n\n\n\n\n\n\n\n\n\n\n\nExercícios de Avaliação\n\n\n\nFísica\n\n\n\nQuestões práticas sobre Física.\n\n\n\n\n\nApr 26, 2025\n\n\n\n\n\n\n\n\n\n\n\n\nCinemática\n\n\n\nFísica\n\n\n\nEstudo do movimento dos corpos.\n\n\n\n\n\nApr 26, 2025\n\n\n\n\n\n\n\n\n\n\n\n\nDinâmica\n\n\n\nFísica\n\n\n\nEstudo das forças e suas interações.\n\n\n\n\n\nApr 26, 2025\n\n\n\n\n\n\n\n\n\n\n\n\nFísica Geral\n\n\n\nFísica\n\n\n\nIntrodução aos conceitos fundamentais da Física Clássica.\n\n\n\n\n\nApr 26, 2025\n\n\n\n\n\n\n\n\n\n\n\n\nIntrodução à Física\n\n\n\nFísica\n\n\n\nConceitos iniciais da Física Clássica.\n\n\n\n\n\nApr 26, 2025\n\n\n\n\n\n\n\n\n\n\n\n\nLeis da Conservação\n\n\n\nFísica\n\n\n\nConservação de energia e quantidade de movimento.\n\n\n\n\n\nApr 26, 2025\n\n\n\n\n\n\n\n\n\n\n\n\nTrabalho e Energia\n\n\n\nFísica\n\n\n\nEstudo do trabalho realizado e transformações de energia.\n\n\n\n\n\nApr 26, 2025\n\n\n\n\n\n\n\n\n\n\n\n\nExercícios de Avaliação\n\n\n\nMatemática\n\n\n\nQuestões práticas para consolidar conhecimentos matemáticos.\n\n\n\n\n\nApr 26, 2025\n\n\n\n\n\n\n\n\n\n\n\n\nFunções e Gráficos\n\n\n\nMatemática\n\n\n\nIntrodução a funções matemáticas e suas representações.\n\n\n\n\n\nApr 26, 2025\n\n\n\n\n\n\n\n\n\n\n\n\nGeometria Analítica\n\n\n\nMatemática\n\n\n\nConceitos de pontos, retas e planos no espaço.\n\n\n\n\n\nApr 26, 2025\n\n\n\n\n\n\n\n\n\n\n\n\nMatemática Secundário\n\n\n\nMatemática\n\n\n\nConceitos fundamentais de Matemática do Ensino Secundário.\n\n\n\n\n\nApr 26, 2025\n\n\n\n\n\n\n\n\n\n\n\n\nNúmeros Reais\n\n\n\nMatemática\n\n\n\nConceitos e propriedades dos números reais.\n\n\n\n\n\nApr 26, 2025\n\n\n\n\n\n\n\n\n\n\n\n\nPolinómios\n\n\n\nMatemática\n\n\n\nDefinição e operações com polinómios.\n\n\n\n\n\nApr 26, 2025\n\n\n\n\n\n\n\n\n\n\n\n\nTrigonometria\n\n\n\nMatemática\n\n\n\nConceitos básicos e aplicações da trigonometria.\n\n\n\n\n\nApr 26, 2025\n\n\n\n\n\n\n\n\n\n\n\n\nExercícios de Avaliação\n\n\n\nQuímica\n\n\n\nConjunto de exercícios para consolidação dos conhecimentos em Química.\n\n\n\n\n\nApr 26, 2025\n\n\n\n\n\n\n\n\n\n\n\n\nEstequiometria e Cálculos Químicos\n\n\n\nQuímica\n\n\n\nAplicação da estequiometria na resolução de problemas químicos.\n\n\n\n\n\nApr 26, 2025\n\n\n\n\n\n\n\n\n\n\n\n\nEstrutura Atómica da Matéria\n\n\n\nQuímica\n\n\n\nDescrição dos átomos e organização da matéria.\n\n\n\n\n\nApr 26, 2025\n\n\n\n\n\n\n\n\n\n\n\n\nQuímica Geral\n\n\n\nQuímica\n\n\n\nIntrodução à estrutura da matéria, ligações químicas, reações e aplicações básicas.\n\n\n\n\n\nApr 26, 2025\n\n\n\n\n\n\n\n\n\n\n\n\nIntrodução à Química\n\n\n\nQuímica\n\n\n\nVisão geral da estrutura da matéria e sua organização.\n\n\n\n\n\nApr 26, 2025\n\n\n\n\n\n\n\n\n\n\n\n\nLigações Químicas\n\n\n\nQuímica\n\n\n\nExploração dos tipos de ligações químicas e suas características.\n\n\n\n\n\nApr 26, 2025\n\n\n\n\n\n\n\n\n\n\n\n\nReações Químicas e Equações\n\n\n\nQuímica\n\n\n\nEstudo das reações químicas e como representá-las.\n\n\n\n\n\nApr 26, 2025\n\n\n\n\n\n\n\n\n\n\n\n\nAplicações de Termodinâmica\n\n\n\nTermodinâmica\n\n\n\nCasos práticos em sistemas reais.\n\n\n\n\n\nApr 26, 2025\n\n\n\n\n\n\n\n\n\n\n\n\nExercícios de Avaliação\n\n\n\nTermodinâmica\n\n\n\nQuestões práticas sobre termodinâmica.\n\n\n\n\n\nApr 26, 2025\n\n\n\n\n\n\n\n\n\n\n\n\nCiclos Termodinâmicos\n\n\n\nTermodinâmica\n\n\n\nDescrição de ciclos típicos: Carnot, Rankine, etc.\n\n\n\n\n\nApr 26, 2025\n\n\n\n\n\n\n\n\n\n\n\n\nTermodinâmica Geral\n\n\n\nTermodinâmica\n\n\n\nIntrodução às leis da termodinâmica e aplicações em sistemas físicos.\n\n\n\n\n\nApr 26, 2025\n\n\n\n\n\n\n\n\n\n\n\n\nIntrodução à Termodinâmica\n\n\n\nTermodinâmica\n\n\n\nConceitos fundamentais da termodinâmica.\n\n\n\n\n\nApr 26, 2025\n\n\n\n\n\n\n\n\n\n\n\n\nPrimeira Lei da Termodinâmica\n\n\n\nTermodinâmica\n\n\n\nConservação da energia em sistemas físicos.\n\n\n\n\n\nApr 26, 2025\n\n\n\n\n\n\n\n\n\n\n\n\nSegunda Lei da Termodinâmica\n\n\n\nTermodinâmica\n\n\n\nConceito de entropia e irreversibilidade.\n\n\n\n\n\nApr 26, 2025\n\n\n\n\n\n\n\n\n\n\n\n\nEquações Quadráticas\n\n\n\nMatemática\n\n\n\nIntrodução ao uso de LaTeX no blog com exemplo da fórmula resolvente.\n\n\n\n\n\nApr 25, 2025\n\n\n\n\n\n\n\n\n\n\n\n\nPost With Code\n\n\n\nnews\n\ncode\n\nanalysis\n\n\n\n\n\n\n\n\n\nApr 25, 2025\n\n\nHarlow Malloc\n\n\n\n\n\n\n\n\n\n\n\n\nExercícios de Avaliação\n\n\n\nCálculo\n\n\n\nExercícios propostos para consolidar os conceitos estudados em séries numéricas.\n\n\n\n\n\nApr 25, 2025\n\n\n\n\n\n\n\n\n\n\n\n\nConvergência de Séries\n\n\n\nCálculo\n\n\n\nConceitos fundamentais e critérios básicos para a convergência de séries numéricas.\n\n\n\n\n\nApr 25, 2025\n\n\n\n\n\n\n\n\n\n\n\n\nSéries Matemáticas\n\n\n\nCálculo\n\n\n\nIntrodução a séries numéricas, com exemplos de convergência e resolução com Python.\n\n\n\n\n\nApr 25, 2025\n\n\n\n\n\n\n\n\n\n\n\n\nSéries Matemáticas\n\n\n\nCálculo\n\n\n\nProblema de Séries Numéricas\n\n\n\n\n\nApr 25, 2025\n\n\n\n\n\n\n\n\n\n\n\n\nSéries Geométricas e Harmónicas\n\n\n\nCálculo\n\n\n\nEstudo das séries geométricas, harmónicas e algumas séries notáveis.\n\n\n\n\n\nApr 25, 2025\n\n\n\n\n\n\n\n\n\n\n\n\nSéries Matemáticas\n\n\n\nCálculo\n\n\n\nIntrodução a séries numéricas, com exemplos de convergência e resolução com Python.\n\n\n\n\n\nApr 25, 2025\n\n\n\n\n\n\n\n\n\n\n\n\nTestes de Convergência\n\n\n\nCálculo\n\n\n\nApresentação dos testes clássicos de convergência: comparação, razão, raiz, integral, etc.\n\n\n\n\n\nApr 25, 2025\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome To My Blog\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nApr 22, 2025\n\n\nTristan O’Malley\n\n\n\n\n\nNo matching items"
+    "text": "Testes de Convergência\nNesta secção abordamos:\n\nTeste da Comparação,\nTeste da Razão,\nTeste da Raiz,\nTeste da Integral,\nExemplos práticos de aplicação.\n\nConteúdo a desenvolver…\n\n\nVoltar para Índice de Séries Matemáticas\n\n\n\n\n\n\nReferences\n\nApostol, T. M. (1967). Calculus, volume i. Blaisdell Publishing Company.\n\n\nStewart, J. (2013). Cálculo: Volume 1 (7th ed.). Cengage Learning."
+  },
+  {
+    "objectID": "posts/calculo/series-especiais.html",
+    "href": "posts/calculo/series-especiais.html",
+    "title": "Séries Geométricas e Harmónicas",
+    "section": "",
+    "text": "Séries Geométricas e Harmónicas\nNesta secção estudamos:\n\nSéries Geométricas,\nSéries Harmónicas,\nExemplos clássicos,\nAplicações.\n\nConteúdo a desenvolver…\n\n\nVoltar para Índice de Séries Matemáticas\n\n\n\n\n\n\nReferences\n\nApostol, T. M. (1967). Calculus, volume i. Blaisdell Publishing Company.\n\n\nStewart, J. (2013). Cálculo: Volume 1 (7th ed.). Cengage Learning."
+  },
+  {
+    "objectID": "posts/calculo/index.html",
+    "href": "posts/calculo/index.html",
+    "title": "Séries Matemáticas",
+    "section": "",
+    "text": "Introdução às Séries Numéricas\nConvergência de Séries\nTestes de Convergência\nSéries Geométricas e Harmónicas\nExercícios de Avaliação\n\n\n\n\nEste módulo visa:\n\nIntroduzir o conceito de séries como somatórios infinitos;\nAnalisar a convergência e divergência de séries;\nAplicar testes clássicos de convergência (comparação, razão, raiz, etc.);\nEstudar séries geométricas e harmónicas;\nConsolidar o conhecimento através de exercícios de avaliação.\n\nSiga a sequência sugerida para obter uma compreensão sólida e progressiva do tema.\n\n\nVoltar ao Início"
+  },
+  {
+    "objectID": "posts/calculo/index.html#objetivos-do-módulo",
+    "href": "posts/calculo/index.html#objetivos-do-módulo",
+    "title": "Séries Matemáticas",
+    "section": "",
+    "text": "Este módulo visa:\n\nIntroduzir o conceito de séries como somatórios infinitos;\nAnalisar a convergência e divergência de séries;\nAplicar testes clássicos de convergência (comparação, razão, raiz, etc.);\nEstudar séries geométricas e harmónicas;\nConsolidar o conhecimento através de exercícios de avaliação.\n\nSiga a sequência sugerida para obter uma compreensão sólida e progressiva do tema.\n\n\nVoltar ao Início"
+  },
+  {
+    "objectID": "posts/calculo/avaliacao.html",
+    "href": "posts/calculo/avaliacao.html",
+    "title": "Exercícios de Avaliação",
+    "section": "",
+    "text": "Exercícios de Avaliação\nPropostas de exercícios:\n\nVerificar a convergência de uma série geométrica.\nAplicar o teste da razão numa série dada.\nIdentificar séries divergentes entre exemplos apresentados.\nAplicações práticas em Física ou Engenharia.\n\nConteúdo a desenvolver…\n\n\nVoltar para Índice de Séries Matemáticas\n\n\n\n\n\n\nReferences\n\nApostol, T. M. (1967). Calculus, volume i. Blaisdell Publishing Company.\n\n\nStewart, J. (2013). Cálculo: Volume 1 (7th ed.). Cengage Learning."
+  },
+  {
+    "objectID": "posts/algebra/equacoes-quadraticas.html",
+    "href": "posts/algebra/equacoes-quadraticas.html",
+    "title": "Álgebra: Equações Quadráticas",
+    "section": "",
+    "text": "🧮 Álgebra: Equações Quadráticas\nEm breve conteúdos e exercícios sobre equações quadráticas!"
+  },
+  {
+    "objectID": "exemplo.html",
+    "href": "exemplo.html",
+    "title": "Enunciado do Problema",
+    "section": "",
+    "text": "title: “Séries Matemáticas” description: “Problema de Séries Numéricas” date: 2025-04-25 categories: [Matemática] image: cover.jpg format: html: toc: true code-fold: true bibliography: referencias.bib csl: apa.csl # ou outro estilo (opcional) nocite: “@*” execute: kernel: ctgan_env —\n\nEnunciado do Problema\nConsidere a série numérica:\n\\[\n\\sum_{n=1}^{\\infty} \\frac{1}{n^2}\n\\]\n\nDetermine se a série é convergente ou divergente.\nJustifique usando uma comparação ou teste adequado.\n\n\n\nSolução (Clique para expandir)\n\n\nVer Solução\n\n\nA série apresentada é:\n\\[\n\\sum_{n=1}^{\\infty} \\frac{1}{n^2}\n\\]\nEsta é uma série p com \\(p = 2 &gt; 1\\).\nLogo, a série converge pelo critério das séries p.\nAlém disso, sabemos que:\n\\[\n\\sum_{n=1}^{\\infty} \\frac{1}{n^2} = \\frac{\\pi^2}{6}\n\\]\nResumo: A série é convergente.\n\n\n\nCódigo Python (clique para expandir)\n\n# Aproximação numérica da soma\napprox = sum(1 / (n**2) for n in range(1, 10000))\nprint(approx)\n\n1.6448340618480652"
   },
   {
     "objectID": "about.html",
@@ -203,11 +224,81 @@
     "text": "About this blog"
   },
   {
-    "objectID": "exemplo.html",
-    "href": "exemplo.html",
-    "title": "Enunciado do Problema",
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "blog-quarto",
     "section": "",
-    "text": "title: “Séries Matemáticas” description: “Problema de Séries Numéricas” date: 2025-04-25 categories: [Matemática] image: cover.jpg format: html: toc: true code-fold: true bibliography: referencias.bib csl: apa.csl # ou outro estilo (opcional) nocite: “@*” execute: kernel: ctgan_env —\n\nEnunciado do Problema\nConsidere a série numérica:\n\\[\n\\sum_{n=1}^{\\infty} \\frac{1}{n^2}\n\\]\n\nDetermine se a série é convergente ou divergente.\nJustifique usando uma comparação ou teste adequado.\n\n\n\nSolução (Clique para expandir)\n\n\nVer Solução\n\n\nA série apresentada é:\n\\[\n\\sum_{n=1}^{\\infty} \\frac{1}{n^2}\n\\]\nEsta é uma série p com \\(p = 2 &gt; 1\\).\nLogo, a série converge pelo critério das séries p.\nAlém disso, sabemos que:\n\\[\n\\sum_{n=1}^{\\infty} \\frac{1}{n^2} = \\frac{\\pi^2}{6}\n\\]\nResumo: A série é convergente.\n\n\n\nCódigo Python (clique para expandir)\n\n# Aproximação numérica da soma\napprox = sum(1 / (n**2) for n in range(1, 10000))\nprint(approx)\n\n1.6448340618480652"
+    "text": "Álgebra: Equações Quadráticas\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nÁlgebra\n\n\nÍndice de temas de Álgebra do Ensino Secundário.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nExercícios de Avaliação\n\n\n\nClimatização\n\n\n\nQuestões práticas para reforço dos conceitos de climatização.\n\n\n\n\n\nApr 26, 2025\n\n\n\n\n\n\n\n\n\n\n\n\nComponentes dos Sistemas HVAC\n\n\n\nClimatização\n\n\n\nIdentificação e funcionamento de componentes HVAC.\n\n\n\n\n\nApr 26, 2025\n\n\n\n\n\n\n\n\n\n\n\n\nAvaliação de Eficiência Energética\n\n\n\nClimatização\n\n\n\nCritérios de avaliação da eficiência em sistemas de climatização.\n\n\n\n\n\nApr 26, 2025\n\n\n\n\n\n\n\n\n\n\n\n\nClimatização e Sistemas HVAC\n\n\n\nClimatização\n\n\n\nConceitos fundamentais sobre climatização, ventiladores e sistemas de HVAC.\n\n\n\n\n\nApr 26, 2025\n\n\n\n\n\n\n\n\n\n\n\n\nIntrodução à Climatização\n\n\n\nClimatização\n\n\n\nConceitos iniciais de climatização e conforto térmico.\n\n\n\n\n\nApr 26, 2025\n\n\n\n\n\n\n\n\n\n\n\n\nPrincípios Termodinâmicos Aplicados\n\n\n\nClimatização\n\n\n\nFundamentos de termodinâmica aplicados à climatização.\n\n\n\n\n\nApr 26, 2025\n\n\n\n\n\n\n\n\n\n\n\n\nExercícios de Avaliação\n\n\n\nFísica\n\n\n\nQuestões práticas sobre Física.\n\n\n\n\n\nApr 26, 2025\n\n\n\n\n\n\n\n\n\n\n\n\nCinemática\n\n\n\nFísica\n\n\n\nEstudo do movimento dos corpos.\n\n\n\n\n\nApr 26, 2025\n\n\n\n\n\n\n\n\n\n\n\n\nDinâmica\n\n\n\nFísica\n\n\n\nEstudo das forças e suas interações.\n\n\n\n\n\nApr 26, 2025\n\n\n\n\n\n\n\n\n\n\n\n\nFísica Geral\n\n\n\nFísica\n\n\n\nIntrodução aos conceitos fundamentais da Física Clássica.\n\n\n\n\n\nApr 26, 2025\n\n\n\n\n\n\n\n\n\n\n\n\nIntrodução à Física\n\n\n\nFísica\n\n\n\nConceitos iniciais da Física Clássica.\n\n\n\n\n\nApr 26, 2025\n\n\n\n\n\n\n\n\n\n\n\n\nLeis da Conservação\n\n\n\nFísica\n\n\n\nConservação de energia e quantidade de movimento.\n\n\n\n\n\nApr 26, 2025\n\n\n\n\n\n\n\n\n\n\n\n\nTrabalho e Energia\n\n\n\nFísica\n\n\n\nEstudo do trabalho realizado e transformações de energia.\n\n\n\n\n\nApr 26, 2025\n\n\n\n\n\n\n\n\n\n\n\n\nExercícios de Avaliação\n\n\n\nMatemática\n\n\n\nQuestões práticas para consolidar conhecimentos matemáticos.\n\n\n\n\n\nApr 26, 2025\n\n\n\n\n\n\n\n\n\n\n\n\nFunções e Gráficos\n\n\n\nMatemática\n\n\n\nIntrodução a funções matemáticas e suas representações.\n\n\n\n\n\nApr 26, 2025\n\n\n\n\n\n\n\n\n\n\n\n\nGeometria Analítica\n\n\n\nMatemática\n\n\n\nConceitos de pontos, retas e planos no espaço.\n\n\n\n\n\nApr 26, 2025\n\n\n\n\n\n\n\n\n\n\n\n\nMatemática Secundário\n\n\n\nMatemática\n\n\n\nConceitos fundamentais de Matemática do Ensino Secundário.\n\n\n\n\n\nApr 26, 2025\n\n\n\n\n\n\n\n\n\n\n\n\nNúmeros Reais\n\n\n\nMatemática\n\n\n\nConceitos e propriedades dos números reais.\n\n\n\n\n\nApr 26, 2025\n\n\n\n\n\n\n\n\n\n\n\n\nPolinómios\n\n\n\nMatemática\n\n\n\nDefinição e operações com polinómios.\n\n\n\n\n\nApr 26, 2025\n\n\n\n\n\n\n\n\n\n\n\n\nTrigonometria\n\n\n\nMatemática\n\n\n\nConceitos básicos e aplicações da trigonometria.\n\n\n\n\n\nApr 26, 2025\n\n\n\n\n\n\n\n\n\n\n\n\nExercícios de Avaliação\n\n\n\nQuímica\n\n\n\nConjunto de exercícios para consolidação dos conhecimentos em Química.\n\n\n\n\n\nApr 26, 2025\n\n\n\n\n\n\n\n\n\n\n\n\nEstequiometria e Cálculos Químicos\n\n\n\nQuímica\n\n\n\nAplicação da estequiometria na resolução de problemas químicos.\n\n\n\n\n\nApr 26, 2025\n\n\n\n\n\n\n\n\n\n\n\n\nEstrutura Atómica da Matéria\n\n\n\nQuímica\n\n\n\nDescrição dos átomos e organização da matéria.\n\n\n\n\n\nApr 26, 2025\n\n\n\n\n\n\n\n\n\n\n\n\nQuímica Geral\n\n\n\nQuímica\n\n\n\nIntrodução à estrutura da matéria, ligações químicas, reações e aplicações básicas.\n\n\n\n\n\nApr 26, 2025\n\n\n\n\n\n\n\n\n\n\n\n\nIntrodução à Química\n\n\n\nQuímica\n\n\n\nVisão geral da estrutura da matéria e sua organização.\n\n\n\n\n\nApr 26, 2025\n\n\n\n\n\n\n\n\n\n\n\n\nLigações Químicas\n\n\n\nQuímica\n\n\n\nExploração dos tipos de ligações químicas e suas características.\n\n\n\n\n\nApr 26, 2025\n\n\n\n\n\n\n\n\n\n\n\n\nReações Químicas e Equações\n\n\n\nQuímica\n\n\n\nEstudo das reações químicas e como representá-las.\n\n\n\n\n\nApr 26, 2025\n\n\n\n\n\n\n\n\n\n\n\n\nAplicações de Termodinâmica\n\n\n\nTermodinâmica\n\n\n\nCasos práticos em sistemas reais.\n\n\n\n\n\nApr 26, 2025\n\n\n\n\n\n\n\n\n\n\n\n\nExercícios de Avaliação\n\n\n\nTermodinâmica\n\n\n\nQuestões práticas sobre termodinâmica.\n\n\n\n\n\nApr 26, 2025\n\n\n\n\n\n\n\n\n\n\n\n\nCiclos Termodinâmicos\n\n\n\nTermodinâmica\n\n\n\nDescrição de ciclos típicos: Carnot, Rankine, etc.\n\n\n\n\n\nApr 26, 2025\n\n\n\n\n\n\n\n\n\n\n\n\nTermodinâmica Geral\n\n\n\nTermodinâmica\n\n\n\nIntrodução às leis da termodinâmica e aplicações em sistemas físicos.\n\n\n\n\n\nApr 26, 2025\n\n\n\n\n\n\n\n\n\n\n\n\nIntrodução à Termodinâmica\n\n\n\nTermodinâmica\n\n\n\nConceitos fundamentais da termodinâmica.\n\n\n\n\n\nApr 26, 2025\n\n\n\n\n\n\n\n\n\n\n\n\nPrimeira Lei da Termodinâmica\n\n\n\nTermodinâmica\n\n\n\nConservação da energia em sistemas físicos.\n\n\n\n\n\nApr 26, 2025\n\n\n\n\n\n\n\n\n\n\n\n\nSegunda Lei da Termodinâmica\n\n\n\nTermodinâmica\n\n\n\nConceito de entropia e irreversibilidade.\n\n\n\n\n\nApr 26, 2025\n\n\n\n\n\n\n\n\n\n\n\n\nExercícios de Avaliação\n\n\n\nCálculo\n\n\n\nExercícios propostos para consolidar os conceitos estudados em séries numéricas.\n\n\n\n\n\nApr 25, 2025\n\n\n\n\n\n\n\n\n\n\n\n\nConvergência de Séries\n\n\n\nCálculo\n\n\n\nConceitos fundamentais e critérios básicos para a convergência de séries numéricas.\n\n\n\n\n\nApr 25, 2025\n\n\n\n\n\n\n\n\n\n\n\n\nSéries Matemáticas\n\n\n\nCálculo\n\n\n\nIntrodução a séries numéricas, com exemplos de convergência e resolução com Python.\n\n\n\n\n\nApr 25, 2025\n\n\n\n\n\n\n\n\n\n\n\n\nSéries Matemáticas\n\n\n\nCálculo\n\n\n\nProblema de Séries Numéricas\n\n\n\n\n\nApr 25, 2025\n\n\n\n\n\n\n\n\n\n\n\n\nSéries Geométricas e Harmónicas\n\n\n\nCálculo\n\n\n\nEstudo das séries geométricas, harmónicas e algumas séries notáveis.\n\n\n\n\n\nApr 25, 2025\n\n\n\n\n\n\n\n\n\n\n\n\nSéries Matemáticas\n\n\n\nCálculo\n\n\n\nIntrodução a séries numéricas, com exemplos de convergência e resolução com Python.\n\n\n\n\n\nApr 25, 2025\n\n\n\n\n\n\n\n\n\n\n\n\nTestes de Convergência\n\n\n\nCálculo\n\n\n\nApresentação dos testes clássicos de convergência: comparação, razão, raiz, integral, etc.\n\n\n\n\n\nApr 25, 2025\n\n\n\n\n\n\n\n\n\n\n\n\nPost With Code\n\n\n\nnews\n\ncode\n\nanalysis\n\n\n\n\n\n\n\n\n\nApr 25, 2025\n\n\nHarlow Malloc\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "posts/algebra/index.html",
+    "href": "posts/algebra/index.html",
+    "title": "Álgebra",
+    "section": "",
+    "text": "🧮 Álgebra: Índice de Temas\nNesta secção, exploraremos diversos tópicos fundamentais de Álgebra:\n\nEquações Quadráticas\n(Em breve) Sistemas de Equações Lineares\n(Em breve) Polinómios e Raízes\n(Em breve) Matrizes e Determinantes\n\nClique nos tópicos para aceder ao conteúdo.\n\n\nVoltar ao Início"
+  },
+  {
+    "objectID": "posts/calculo/convergencia.html",
+    "href": "posts/calculo/convergencia.html",
+    "title": "Convergência de Séries",
+    "section": "",
+    "text": "Convergência de Séries\nNesta secção estudamos:\n\nDefinição de convergência e divergência,\nSéries convergentes versus séries divergentes,\nExemplos básicos.\n\nConteúdo a desenvolver…\n\n\nVoltar para Índice de Séries Matemáticas\n\n\n\n\n\n\nReferences\n\nApostol, T. M. (1967). Calculus, volume i. Blaisdell Publishing Company.\n\n\nStewart, J. (2013). Cálculo: Volume 1 (7th ed.). Cengage Learning."
+  },
+  {
+    "objectID": "posts/calculo/problema-series.html",
+    "href": "posts/calculo/problema-series.html",
+    "title": "Séries Matemáticas",
+    "section": "",
+    "text": "Enunciado do Problema\nConsidere a série numérica:\n\\[\n\\sum_{n=1}^{\\infty} \\frac{1}{n^2}\n\\]\n\nDetermine se a série é convergente ou divergente.\nJustifique usando uma comparação ou teste adequado.\n\n\n\nSolução (Clique para expandir)\n\n\nVer Solução\n\n\nA série apresentada é:\n\\[\n\\sum_{n=1}^{\\infty} \\frac{1}{n^2}\n\\]\nEsta é uma série p com \\(p = 2 &gt; 1\\).\nLogo, a série converge pelo critério das séries p.\nAlém disso, sabemos que:\n\\[\n\\sum_{n=1}^{\\infty} \\frac{1}{n^2} = \\frac{\\pi^2}{6}\n\\]\nResumo: A série é convergente.\n\n\n\nVoltar à Página Principal\n\n\nVoltar para Índice de Séries Matemáticas\n\n\n\n\n\n\nReferences\n\nApostol, T. M. (1967). Calculus, volume i. Blaisdell Publishing Company.\n\n\nStewart, J. (2013). Cálculo: Volume 1 (7th ed.). Cengage Learning."
+  },
+  {
+    "objectID": "posts/calculo/series-matematicas.html",
+    "href": "posts/calculo/series-matematicas.html",
+    "title": "Séries Matemáticas",
+    "section": "",
+    "text": "Uma série é a soma dos termos de uma sequência:\n\\[\n\\sum_{n=1}^{\\infty} a_n\n\\]\nDizemos que uma série converge se a sequência das somas parciais tem limite finito (Apostol, 1967):\n\\[\nS_N = \\sum_{n=1}^{N} a_n \\longrightarrow S \\quad \\text{quando } N \\to \\infty\n\\]"
+  },
+  {
+    "objectID": "posts/calculo/series-matematicas.html#definição",
+    "href": "posts/calculo/series-matematicas.html#definição",
+    "title": "Séries Matemáticas",
+    "section": "",
+    "text": "Uma série é a soma dos termos de uma sequência:\n\\[\n\\sum_{n=1}^{\\infty} a_n\n\\]\nDizemos que uma série converge se a sequência das somas parciais tem limite finito (Apostol, 1967):\n\\[\nS_N = \\sum_{n=1}^{N} a_n \\longrightarrow S \\quad \\text{quando } N \\to \\infty\n\\]"
+  },
+  {
+    "objectID": "posts/calculo/series-matematicas.html#vídeo-de-apoio",
+    "href": "posts/calculo/series-matematicas.html#vídeo-de-apoio",
+    "title": "Séries Matemáticas",
+    "section": "Vídeo de Apoio",
+    "text": "Vídeo de Apoio\nVeja a explicação introdutória no vídeo abaixo:"
+  },
+  {
+    "objectID": "posts/calculo/series-matematicas.html#exemplo-1-série-geométrica",
+    "href": "posts/calculo/series-matematicas.html#exemplo-1-série-geométrica",
+    "title": "Séries Matemáticas",
+    "section": "Exemplo 1 — Série Geométrica",
+    "text": "Exemplo 1 — Série Geométrica\nConsidere a série:\n\\[\n\\sum_{n=0}^{\\infty} ar^n = a + ar + ar^2 + ar^3 + \\dots\n\\]\nSe \\(|r| &lt; 1\\), então a série converge para:\n\\[\n\\sum_{n=0}^{\\infty} ar^n = \\frac{a}{1 - r}\n\\]\n\nResolução em Python\n\n\nCode\n# Série geométrica: soma parcial com a = 2 e r = 0.5\na = 2\nr = 0.5\nN = 10\n\nsoma = sum(a * r**n for n in range(N))\nsoma_limite = a / (1 - r)\n\nprint(f\"Soma dos {N} primeiros termos: {soma:.4f}\")\nprint(f\"Valor limite (teórico): {soma_limite:.4f}\")\n\n\nSoma dos 10 primeiros termos: 3.9961\nValor limite (teórico): 4.0000"
+  },
+  {
+    "objectID": "posts/calculo/series-matematicas.html#exemplo-2-série-harmónica",
+    "href": "posts/calculo/series-matematicas.html#exemplo-2-série-harmónica",
+    "title": "Séries Matemáticas",
+    "section": "Exemplo 2 — Série Harmónica",
+    "text": "Exemplo 2 — Série Harmónica\nA série harmónica é dada por:\n\\[\n\\sum_{n=1}^{\\infty} \\frac{1}{n}\n\\]\nEmbora os termos \\(1/n\\) tendam a zero, a série diverge (soma parcial cresce sem limite).\n\nResolução em Python\n\n\nCode\n# Soma parcial da série harmónica\nN = 20\nsoma = sum(1/n for n in range(1, N+1))\nprint(f\"Soma dos {N} primeiros termos: {soma:.4f}\")\n\n\nSoma dos 20 primeiros termos: 3.5977"
+  },
+  {
+    "objectID": "posts/calculo/series-matematicas.html#observação",
+    "href": "posts/calculo/series-matematicas.html#observação",
+    "title": "Séries Matemáticas",
+    "section": "Observação",
+    "text": "Observação\nA convergência de uma série depende do comportamento da soma parcial, não apenas da tendência dos termos \\(a_n\\)."
+  },
+  {
+    "objectID": "posts/calculo/series-matematicas.html#séries-matemáticas---avaliação",
+    "href": "posts/calculo/series-matematicas.html#séries-matemáticas---avaliação",
+    "title": "Séries Matemáticas",
+    "section": "Séries Matemáticas - Avaliação",
+    "text": "Séries Matemáticas - Avaliação\n\nProblema de Séries Numéricas\n\n\n\nVoltar para Índice de Séries Matemáticas"
   },
   {
     "objectID": "posts/climatizacao/avaliacao-climatizacao.html",
@@ -231,158 +322,95 @@
     "text": "Introdução à Climatização\nExploração dos conceitos de conforto térmico e qualidade do ar interior.\n\n Voltar para Índice de Climatização\n\n\n\n\n\n\n\nReferences\n\nApostol, T. M. (1967). Calculus, volume i. Blaisdell Publishing Company.\n\n\nStewart, J. (2013). Cálculo: Volume 1 (7th ed.). Cengage Learning."
   },
   {
-    "objectID": "posts/equacoes-quadraticas/index.html",
-    "href": "posts/equacoes-quadraticas/index.html",
-    "title": "Equações Quadráticas",
-    "section": "",
-    "text": "Equações do 2º grau aparecem frequentemente na matemática elementar.\nA sua forma geral é:\n\\[\nax^2 + bx + c = 0\n\\]\nA solução pode ser obtida pela fórmula resolvente:\n\\[\nx = \\frac{-b \\pm \\sqrt{b^2 - 4ac}}{2a}\n\\]\nPor exemplo, para a equação:\n\\[\n2x^2 - 4x - 6 = 0\n\\]\nTemos:\n\\[\nx = \\frac{-(-4) \\pm \\sqrt{(-4)^2 - 4(2)(-6)}}{2(2)} = \\frac{4 \\pm \\sqrt{64}}{4} = \\frac{4 \\pm 8}{4}\n\\]\nLogo, as soluções são:\n\\[\nx_1 = 3 \\quad \\text{e} \\quad x_2 = -1\n\\]"
-  },
-  {
-    "objectID": "posts/fisica/cinematica.html",
-    "href": "posts/fisica/cinematica.html",
-    "title": "Cinemática",
-    "section": "",
-    "text": "Cinemática\nDescrição dos tipos de movimento.\n\nVoltar para Índice de Física\n\n\n\n\n\n\n\nReferences\n\nApostol, T. M. (1967). Calculus, volume i. Blaisdell Publishing Company.\n\n\nStewart, J. (2013). Cálculo: Volume 1 (7th ed.). Cengage Learning."
-  },
-  {
-    "objectID": "posts/fisica/index.html",
-    "href": "posts/fisica/index.html",
-    "title": "Física Geral",
-    "section": "",
-    "text": "Introdução à Física\nCinemática\nDinâmica\nTrabalho e Energia\nLeis da Conservação\nExercícios de Avaliação\n\n\n\n\nEste módulo visa:\n\nIntroduzir os princípios fundamentais da Física;\nDesenvolver competências de análise de movimento e forças;\nAplicar as leis da conservação da energia e do momento;\nConsolidar os conhecimentos através de exercícios práticos.\n\nSiga a sequência sugerida para construir uma compreensão sólida da Física Clássica."
-  },
-  {
-    "objectID": "posts/fisica/index.html#objetivos-do-módulo",
-    "href": "posts/fisica/index.html#objetivos-do-módulo",
-    "title": "Física Geral",
-    "section": "",
-    "text": "Este módulo visa:\n\nIntroduzir os princípios fundamentais da Física;\nDesenvolver competências de análise de movimento e forças;\nAplicar as leis da conservação da energia e do momento;\nConsolidar os conhecimentos através de exercícios práticos.\n\nSiga a sequência sugerida para construir uma compreensão sólida da Física Clássica."
-  },
-  {
-    "objectID": "posts/fisica/leis-conservacao.html",
-    "href": "posts/fisica/leis-conservacao.html",
-    "title": "Leis da Conservação",
-    "section": "",
-    "text": "Leis da Conservação\nEstudo das leis fundamentais de conservação.\n\n Voltar para Índice de Física\n\n\n\n\n\n\n\nReferences\n\nApostol, T. M. (1967). Calculus, volume i. Blaisdell Publishing Company.\n\n\nStewart, J. (2013). Cálculo: Volume 1 (7th ed.). Cengage Learning."
-  },
-  {
-    "objectID": "posts/matematica/avaliacao-matematica.html",
-    "href": "posts/matematica/avaliacao-matematica.html",
+    "objectID": "posts/fisica/avaliacao-fisica.html",
+    "href": "posts/fisica/avaliacao-fisica.html",
     "title": "Exercícios de Avaliação",
     "section": "",
-    "text": "Exercícios de Avaliação\nExercícios para aplicação prática dos conceitos aprendidos.\n\n Voltar para Índice de Matemática\n\n\n\n\n\n\n\nReferences\n\nApostol, T. M. (1967). Calculus, volume i. Blaisdell Publishing Company.\n\n\nStewart, J. (2013). Cálculo: Volume 1 (7th ed.). Cengage Learning."
+    "text": "Exercícios de Avaliação\nExercícios para praticar e consolidar o conteúdo.\n\nVoltar para Índice de Física\n\n\n\n\n\n\n\nReferences\n\nApostol, T. M. (1967). Calculus, volume i. Blaisdell Publishing Company.\n\n\nStewart, J. (2013). Cálculo: Volume 1 (7th ed.). Cengage Learning."
   },
   {
-    "objectID": "posts/matematica/geometria-analitica.html",
-    "href": "posts/matematica/geometria-analitica.html",
-    "title": "Geometria Analítica",
+    "objectID": "posts/fisica/dinamica.html",
+    "href": "posts/fisica/dinamica.html",
+    "title": "Dinâmica",
     "section": "",
-    "text": "Geometria Analítica\nAnálise das propriedades geométricas através da álgebra.\n\n Voltar para Índice de Matemática\n\n\n\n\n\n\n\nReferences\n\nApostol, T. M. (1967). Calculus, volume i. Blaisdell Publishing Company.\n\n\nStewart, J. (2013). Cálculo: Volume 1 (7th ed.). Cengage Learning."
+    "text": "Dinâmica\nAnálise das forças que atuam nos corpos.\n\nVoltar para Índice de Física\n\n\n\n\n\n\n\nReferences\n\nApostol, T. M. (1967). Calculus, volume i. Blaisdell Publishing Company.\n\n\nStewart, J. (2013). Cálculo: Volume 1 (7th ed.). Cengage Learning."
   },
   {
-    "objectID": "posts/matematica/numeros-reais.html",
-    "href": "posts/matematica/numeros-reais.html",
-    "title": "Números Reais",
+    "objectID": "posts/fisica/introducao-fisica.html",
+    "href": "posts/fisica/introducao-fisica.html",
+    "title": "Introdução à Física",
     "section": "",
-    "text": "Números Reais\nExploração dos conjuntos numéricos e suas propriedades fundamentais.\n\n Voltar para Índice de Matemática\n\n\n\n\n\n\n\nReferences\n\nApostol, T. M. (1967). Calculus, volume i. Blaisdell Publishing Company.\n\n\nStewart, J. (2013). Cálculo: Volume 1 (7th ed.). Cengage Learning."
+    "text": "Introdução à Física\nApresentação dos princípios básicos da Física.\n\nVoltar para Índice de Física\n\n\n\n\n\n\n\nReferences\n\nApostol, T. M. (1967). Calculus, volume i. Blaisdell Publishing Company.\n\n\nStewart, J. (2013). Cálculo: Volume 1 (7th ed.). Cengage Learning."
   },
   {
-    "objectID": "posts/matematica/trigonometria.html",
-    "href": "posts/matematica/trigonometria.html",
-    "title": "Trigonometria",
+    "objectID": "posts/fisica/trabalho-energia.html",
+    "href": "posts/fisica/trabalho-energia.html",
+    "title": "Trabalho e Energia",
     "section": "",
-    "text": "Trigonometria\nEstudo de relações trigonométricas e suas aplicações.\n\n Voltar para Índice de Matemática\n\n\n\n\n\n\n\nReferences\n\nApostol, T. M. (1967). Calculus, volume i. Blaisdell Publishing Company.\n\n\nStewart, J. (2013). Cálculo: Volume 1 (7th ed.). Cengage Learning."
+    "text": "Trabalho e Energia\nAnálise da relação entre força, deslocamento e energia.\n\n Voltar para Índice de Física\n\n\n\n\n\n\n\nReferences\n\nApostol, T. M. (1967). Calculus, volume i. Blaisdell Publishing Company.\n\n\nStewart, J. (2013). Cálculo: Volume 1 (7th ed.). Cengage Learning."
   },
   {
-    "objectID": "posts/quimica/avaliacao-quimica.html",
-    "href": "posts/quimica/avaliacao-quimica.html",
-    "title": "Exercícios de Avaliação",
+    "objectID": "posts/matematica/funcoes-graficos.html",
+    "href": "posts/matematica/funcoes-graficos.html",
+    "title": "Funções e Gráficos",
     "section": "",
-    "text": "Exercícios de Avaliação\nQuestões práticas para testar seus conhecimentos.\n\n\nVoltar para Índice de Química\n\n\n\n\n\n\nReferences\n\nApostol, T. M. (1967). Calculus, volume i. Blaisdell Publishing Company.\n\n\nStewart, J. (2013). Cálculo: Volume 1 (7th ed.). Cengage Learning."
+    "text": "Funções e Gráficos\nEstudo das relações funcionais e interpretação de gráficos.\n\n Voltar para Índice de Matemática\n\n\n\n\n\n\n\nReferences\n\nApostol, T. M. (1967). Calculus, volume i. Blaisdell Publishing Company.\n\n\nStewart, J. (2013). Cálculo: Volume 1 (7th ed.). Cengage Learning."
   },
   {
-    "objectID": "posts/quimica/estrutura-atomica.html",
-    "href": "posts/quimica/estrutura-atomica.html",
-    "title": "Estrutura Atómica da Matéria",
+    "objectID": "posts/matematica/index.html",
+    "href": "posts/matematica/index.html",
+    "title": "Matemática Secundário",
     "section": "",
-    "text": "Estrutura Atómica da Matéria\nConceitos fundamentais sobre átomos.\n\n\nVoltar para Índice de Química\n\n\n\n\n\n\nReferences\n\nApostol, T. M. (1967). Calculus, volume i. Blaisdell Publishing Company.\n\n\nStewart, J. (2013). Cálculo: Volume 1 (7th ed.). Cengage Learning."
+    "text": "Números Reais\nFunções e Gráficos\nTrigonometria\nPolinómios\nGeometria Analítica\nExercícios de Avaliação\n\n\n\n\nEste módulo visa:\n\nConsolidar conceitos básicos de Matemática;\nDesenvolver competências de análise de funções e equações;\nAplicar conhecimentos em problemas práticos;\nPreparar para exames e avaliações finais.\n\n\n\nVoltar ao Início"
   },
   {
-    "objectID": "posts/quimica/introducao-quimica.html",
-    "href": "posts/quimica/introducao-quimica.html",
-    "title": "Introdução à Química",
+    "objectID": "posts/matematica/index.html#objetivos-do-módulo",
+    "href": "posts/matematica/index.html#objetivos-do-módulo",
+    "title": "Matemática Secundário",
     "section": "",
-    "text": "Introdução à Química\nConteúdo introdutório.\n\n\nVoltar para Índice de Química\n\n\n\n\n\n\nReferences\n\nApostol, T. M. (1967). Calculus, volume i. Blaisdell Publishing Company.\n\n\nStewart, J. (2013). Cálculo: Volume 1 (7th ed.). Cengage Learning."
+    "text": "Este módulo visa:\n\nConsolidar conceitos básicos de Matemática;\nDesenvolver competências de análise de funções e equações;\nAplicar conhecimentos em problemas práticos;\nPreparar para exames e avaliações finais.\n\n\n\nVoltar ao Início"
   },
   {
-    "objectID": "posts/quimica/reacoes-equacoes.html",
-    "href": "posts/quimica/reacoes-equacoes.html",
-    "title": "Reações Químicas e Equações",
+    "objectID": "posts/matematica/polinomios.html",
+    "href": "posts/matematica/polinomios.html",
+    "title": "Polinómios",
     "section": "",
-    "text": "Reações Químicas e Equações\nRepresentação simbólica das reações.\n\n\nVoltar para Índice de Química\n\n\n\n\n\n\nReferences\n\nApostol, T. M. (1967). Calculus, volume i. Blaisdell Publishing Company.\n\n\nStewart, J. (2013). Cálculo: Volume 1 (7th ed.). Cengage Learning."
+    "text": "Polinómios\nExploração de operações algébricas e fatorização.\n\n Voltar para Índice de Matemática\n\n\n\n\n\n\n\nReferences\n\nApostol, T. M. (1967). Calculus, volume i. Blaisdell Publishing Company.\n\n\nStewart, J. (2013). Cálculo: Volume 1 (7th ed.). Cengage Learning."
   },
   {
-    "objectID": "posts/series-matematicas/convergencia.html",
-    "href": "posts/series-matematicas/convergencia.html",
-    "title": "Convergência de Séries",
+    "objectID": "posts/post-with-code/index.html",
+    "href": "posts/post-with-code/index.html",
+    "title": "Post With Code",
     "section": "",
-    "text": "Convergência de Séries\nNesta secção estudamos:\n\nDefinição de convergência e divergência,\nSéries convergentes versus séries divergentes,\nExemplos básicos.\n\nConteúdo a desenvolver…\n\n\nVoltar para Índice de Séries Matemáticas\n\n\n\n\n\n\nReferences\n\nApostol, T. M. (1967). Calculus, volume i. Blaisdell Publishing Company.\n\n\nStewart, J. (2013). Cálculo: Volume 1 (7th ed.). Cengage Learning."
+    "text": "This is a post with executable code."
   },
   {
-    "objectID": "posts/series-matematicas/problema-series.html",
-    "href": "posts/series-matematicas/problema-series.html",
-    "title": "Séries Matemáticas",
+    "objectID": "posts/quimica/estequiometria.html",
+    "href": "posts/quimica/estequiometria.html",
+    "title": "Estequiometria e Cálculos Químicos",
     "section": "",
-    "text": "Enunciado do Problema\nConsidere a série numérica:\n\\[\n\\sum_{n=1}^{\\infty} \\frac{1}{n^2}\n\\]\n\nDetermine se a série é convergente ou divergente.\nJustifique usando uma comparação ou teste adequado.\n\n\n\nSolução (Clique para expandir)\n\n\nVer Solução\n\n\nA série apresentada é:\n\\[\n\\sum_{n=1}^{\\infty} \\frac{1}{n^2}\n\\]\nEsta é uma série p com \\(p = 2 &gt; 1\\).\nLogo, a série converge pelo critério das séries p.\nAlém disso, sabemos que:\n\\[\n\\sum_{n=1}^{\\infty} \\frac{1}{n^2} = \\frac{\\pi^2}{6}\n\\]\nResumo: A série é convergente.\n\n\n\nVoltar à Página Principal\n\n\nVoltar para Índice de Séries Matemáticas\n\n\n\n\n\n\nReferences\n\nApostol, T. M. (1967). Calculus, volume i. Blaisdell Publishing Company.\n\n\nStewart, J. (2013). Cálculo: Volume 1 (7th ed.). Cengage Learning."
+    "text": "Estequiometria e Cálculos Químicos\nCálculos com equações balanceadas.\n\n\nVoltar para Índice de Química\n\n\n\n\n\n\nReferences\n\nApostol, T. M. (1967). Calculus, volume i. Blaisdell Publishing Company.\n\n\nStewart, J. (2013). Cálculo: Volume 1 (7th ed.). Cengage Learning."
   },
   {
-    "objectID": "posts/series-matematicas/series-matematicas.html",
-    "href": "posts/series-matematicas/series-matematicas.html",
-    "title": "Séries Matemáticas",
+    "objectID": "posts/quimica/index.html",
+    "href": "posts/quimica/index.html",
+    "title": "Química Geral",
     "section": "",
-    "text": "Uma série é a soma dos termos de uma sequência:\n\\[\n\\sum_{n=1}^{\\infty} a_n\n\\]\nDizemos que uma série converge se a sequência das somas parciais tem limite finito (Apostol, 1967):\n\\[\nS_N = \\sum_{n=1}^{N} a_n \\longrightarrow S \\quad \\text{quando } N \\to \\infty\n\\]"
+    "text": "Introdução à Química\nEstrutura Atómica da Matéria\nLigações Químicas\nReações Químicas e Equações\nEstequiometria e Cálculos Químicos\nExercícios de Avaliação\n\n\n\n\nEste módulo visa:\n\nCompreender a estrutura atómica e os princípios da organização da matéria;\nEstudar os diferentes tipos de ligações químicas e suas propriedades;\nAprender a escrever e equilibrar equações químicas;\nAplicar conceitos de estequiometria para resolver problemas práticos;\nConsolidar os conhecimentos adquiridos através de exercícios de avaliação.\n\nSiga a sequência sugerida para garantir uma aprendizagem sólida e estruturada da Química.\n\n\nVoltar ao Início"
   },
   {
-    "objectID": "posts/series-matematicas/series-matematicas.html#definição",
-    "href": "posts/series-matematicas/series-matematicas.html#definição",
-    "title": "Séries Matemáticas",
+    "objectID": "posts/quimica/index.html#objetivos-do-módulo",
+    "href": "posts/quimica/index.html#objetivos-do-módulo",
+    "title": "Química Geral",
     "section": "",
-    "text": "Uma série é a soma dos termos de uma sequência:\n\\[\n\\sum_{n=1}^{\\infty} a_n\n\\]\nDizemos que uma série converge se a sequência das somas parciais tem limite finito (Apostol, 1967):\n\\[\nS_N = \\sum_{n=1}^{N} a_n \\longrightarrow S \\quad \\text{quando } N \\to \\infty\n\\]"
+    "text": "Este módulo visa:\n\nCompreender a estrutura atómica e os princípios da organização da matéria;\nEstudar os diferentes tipos de ligações químicas e suas propriedades;\nAprender a escrever e equilibrar equações químicas;\nAplicar conceitos de estequiometria para resolver problemas práticos;\nConsolidar os conhecimentos adquiridos através de exercícios de avaliação.\n\nSiga a sequência sugerida para garantir uma aprendizagem sólida e estruturada da Química.\n\n\nVoltar ao Início"
   },
   {
-    "objectID": "posts/series-matematicas/series-matematicas.html#vídeo-de-apoio",
-    "href": "posts/series-matematicas/series-matematicas.html#vídeo-de-apoio",
-    "title": "Séries Matemáticas",
-    "section": "Vídeo de Apoio",
-    "text": "Vídeo de Apoio\nVeja a explicação introdutória no vídeo abaixo:"
-  },
-  {
-    "objectID": "posts/series-matematicas/series-matematicas.html#exemplo-1-série-geométrica",
-    "href": "posts/series-matematicas/series-matematicas.html#exemplo-1-série-geométrica",
-    "title": "Séries Matemáticas",
-    "section": "Exemplo 1 — Série Geométrica",
-    "text": "Exemplo 1 — Série Geométrica\nConsidere a série:\n\\[\n\\sum_{n=0}^{\\infty} ar^n = a + ar + ar^2 + ar^3 + \\dots\n\\]\nSe \\(|r| &lt; 1\\), então a série converge para:\n\\[\n\\sum_{n=0}^{\\infty} ar^n = \\frac{a}{1 - r}\n\\]\n\nResolução em Python\n\n\nCode\n# Série geométrica: soma parcial com a = 2 e r = 0.5\na = 2\nr = 0.5\nN = 10\n\nsoma = sum(a * r**n for n in range(N))\nsoma_limite = a / (1 - r)\n\nprint(f\"Soma dos {N} primeiros termos: {soma:.4f}\")\nprint(f\"Valor limite (teórico): {soma_limite:.4f}\")\n\n\nSoma dos 10 primeiros termos: 3.9961\nValor limite (teórico): 4.0000"
-  },
-  {
-    "objectID": "posts/series-matematicas/series-matematicas.html#exemplo-2-série-harmónica",
-    "href": "posts/series-matematicas/series-matematicas.html#exemplo-2-série-harmónica",
-    "title": "Séries Matemáticas",
-    "section": "Exemplo 2 — Série Harmónica",
-    "text": "Exemplo 2 — Série Harmónica\nA série harmónica é dada por:\n\\[\n\\sum_{n=1}^{\\infty} \\frac{1}{n}\n\\]\nEmbora os termos \\(1/n\\) tendam a zero, a série diverge (soma parcial cresce sem limite).\n\nResolução em Python\n\n\nCode\n# Soma parcial da série harmónica\nN = 20\nsoma = sum(1/n for n in range(1, N+1))\nprint(f\"Soma dos {N} primeiros termos: {soma:.4f}\")\n\n\nSoma dos 20 primeiros termos: 3.5977"
-  },
-  {
-    "objectID": "posts/series-matematicas/series-matematicas.html#observação",
-    "href": "posts/series-matematicas/series-matematicas.html#observação",
-    "title": "Séries Matemáticas",
-    "section": "Observação",
-    "text": "Observação\nA convergência de uma série depende do comportamento da soma parcial, não apenas da tendência dos termos \\(a_n\\)."
-  },
-  {
-    "objectID": "posts/series-matematicas/series-matematicas.html#séries-matemáticas---avaliação",
-    "href": "posts/series-matematicas/series-matematicas.html#séries-matemáticas---avaliação",
-    "title": "Séries Matemáticas",
-    "section": "Séries Matemáticas - Avaliação",
-    "text": "Séries Matemáticas - Avaliação\n\nProblema de Séries Numéricas\n\n\n\nVoltar para Índice de Séries Matemáticas"
+    "objectID": "posts/quimica/ligacoes-quimicas.html",
+    "href": "posts/quimica/ligacoes-quimicas.html",
+    "title": "Ligações Químicas",
+    "section": "",
+    "text": "Ligações Químicas\nLigações iônicas, covalentes e metálicas.\n\n\nVoltar para Índice de Química\n\n\n\n\n\n\nReferences\n\nApostol, T. M. (1967). Calculus, volume i. Blaisdell Publishing Company.\n\n\nStewart, J. (2013). Cálculo: Volume 1 (7th ed.). Cengage Learning."
   },
   {
     "objectID": "posts/termodinamica/aplicacoes-termodinamica.html",

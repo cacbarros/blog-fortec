@@ -6,10 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Tristan O’Malley">
-<meta name="dcterms.date" content="2025-04-22">
+<meta name="dcterms.date" content="2025-04-25">
+<meta name="description" content="Introdução a séries numéricas, com exemplos de convergência e resolução com Python.">
 
-<title>Welcome To My Blog – blog-quarto</title>
+<title>Séries Matemáticas – Blog Educacional</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -22,7 +22,27 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+  margin-bottom: 0em;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
@@ -74,7 +94,7 @@ ul.task-list li input[type="checkbox"] {
 <link rel="stylesheet" href="../../styles.css">
 </head>
 
-<body class="nav-fixed fullcontent quarto-light">
+<body class="nav-fixed quarto-light">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top quarto-banner">
@@ -82,7 +102,7 @@ ul.task-list li input[type="checkbox"] {
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
     <a class="navbar-brand" href="../../index.html">
-    <span class="navbar-title">blog-quarto</span>
+    <span class="navbar-title">Blog Educacional</span>
     </a>
   </div>
             <div id="quarto-search" class="" title="Search"></div>
@@ -90,6 +110,36 @@ ul.task-list li input[type="checkbox"] {
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../../welcome/index.html"> 
+<span class="menu-text">Início</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link active" href="../../posts/calculo/index.html" aria-current="page"> 
+<span class="menu-text">Cálculo</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../posts/algebra/index.html"> 
+<span class="menu-text">Álgebra</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../posts/fisica/index.html"> 
+<span class="menu-text">Física</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../posts/quimica/index.html"> 
+<span class="menu-text">Química</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../posts/termodinamica/index.html"> 
+<span class="menu-text">Termodinâmica</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../posts/climatizacao/index.html"> 
+<span class="menu-text">Climatização</span></a>
+  </li>  
+</ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
     <a class="nav-link" href="../../about.html"> 
@@ -116,9 +166,14 @@ ul.task-list li input[type="checkbox"] {
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-body">
-      <h1 class="title">Welcome To My Blog</h1>
-                                <div class="quarto-categories">
-                <div class="quarto-category">news</div>
+      <h1 class="title">Séries Matemáticas</h1>
+                  <div>
+        <div class="description">
+          Introdução a séries numéricas, com exemplos de convergência e resolução com Python.
+        </div>
+      </div>
+                          <div class="quarto-categories">
+                <div class="quarto-category">Cálculo</div>
               </div>
                   </div>
   </div>
@@ -126,17 +181,11 @@ ul.task-list li input[type="checkbox"] {
   
   <div class="quarto-title-meta">
 
-      <div>
-      <div class="quarto-title-meta-heading">Author</div>
-      <div class="quarto-title-meta-contents">
-               <p>Tristan O’Malley </p>
-            </div>
-    </div>
       
       <div>
       <div class="quarto-title-meta-heading">Published</div>
       <div class="quarto-title-meta-contents">
-        <p class="date">April 22, 2025</p>
+        <p class="date">April 25, 2025</p>
       </div>
     </div>
     
@@ -147,7 +196,18 @@ ul.task-list li input[type="checkbox"] {
   </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#índice-do-módulo" id="toc-índice-do-módulo" class="nav-link active" data-scroll-target="#índice-do-módulo">Índice do Módulo</a>
+  <ul class="collapse">
+  <li><a href="#objetivos-do-módulo" id="toc-objetivos-do-módulo" class="nav-link" data-scroll-target="#objetivos-do-módulo">Objetivos do Módulo</a></li>
+  </ul></li>
+  </ul>
+</nav>
+    </div>
 <!-- main -->
 <main class="content quarto-banner-title-block" id="quarto-document-content">
 
@@ -155,13 +215,45 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<p>This is the first post in a Quarto blog. Welcome!</p>
-<p><img src="thumbnail.jpg" class="img-fluid"></p>
-<p>Since this post doesn’t specify an explicit <code>image</code>, the first image in the post will be used in the listing page of posts.</p>
+<section id="índice-do-módulo" class="level1">
+<h1>Índice do Módulo</h1>
+<ul>
+<li><a href="series-matematicas.html">Introdução às Séries Numéricas</a></li>
+<li><a href="convergencia.html">Convergência de Séries</a></li>
+<li><a href="testes-convergencia.html">Testes de Convergência</a></li>
+<li><a href="series-especiais.html">Séries Geométricas e Harmónicas</a></li>
+<li><a href="avaliacao.html">Exercícios de Avaliação</a></li>
+</ul>
+<hr>
+<section id="objetivos-do-módulo" class="level2">
+<h2 class="anchored" data-anchor-id="objetivos-do-módulo">Objetivos do Módulo</h2>
+<p>Este módulo visa:</p>
+<ul>
+<li>Introduzir o conceito de séries como somatórios infinitos;</li>
+<li>Analisar a convergência e divergência de séries;</li>
+<li>Aplicar testes clássicos de convergência (comparação, razão, raiz, etc.);</li>
+<li>Estudar séries geométricas e harmónicas;</li>
+<li>Consolidar o conhecimento através de exercícios de avaliação.</li>
+</ul>
+<p>Siga a sequência sugerida para obter uma compreensão sólida e progressiva do tema.</p>
+<hr>
+<p>
+<a href="../../index.html" style="padding: 8px 16px; background-color: #17a2b8; color: white; border-radius: 5px; text-decoration: none;">Voltar ao Início</a>
+</p>
 
 
 
-</main> <!-- /main -->
+</section>
+</section>
+
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" data-line-spacing="2" role="list">
+<div id="ref-apostol" class="csl-entry" role="listitem">
+Apostol, T. M. (1967). <em>Calculus, volume i</em>. Blaisdell Publishing Company.
+</div>
+<div id="ref-stewart" class="csl-entry" role="listitem">
+Stewart, J. (2013). <em>Cálculo: Volume 1</em> (7th ed.). Cengage Learning.
+</div>
+</div></section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";

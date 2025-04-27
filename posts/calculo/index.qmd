@@ -36,3 +36,8 @@ Este módulo visa:
 - Consolidar o conhecimento através de exercícios de avaliação.
 
 Siga a sequência sugerida para obter uma compreensão sólida e progressiva do tema.
+
+---
+
+<p><a href="../../index.html" style="padding: 8px 16px; background-color: #17a2b8; color: white; border-radius: 5px; text-decoration: none;">Voltar ao Início</a></p>
+

@@ -1,0 +1,71 @@
+---
+title: "Bem-vindo ao Blog Educacional"
+format: html
+---
+
+# Bem-vindo ao Blog Educacional!
+
+Este espaço foi criado para apoiar estudantes, professores e autodidatas nas áreas da Matemática, Física, Química, Termodinâmica e Ciências Técnicas.
+
+Explore os principais temas disponíveis:
+
+
+## O que pode explorar aqui?
+
+Neste blog, você poderá estudar:
+
+- **Cálculo**: Séries matemáticas, limites, derivadas, integrais e aplicações práticas.
+- **Álgebra**: Equações quadráticas, sistemas de equações, polinómios, matrizes e mais.
+- **Física**: Leis fundamentais, aplicações práticas e resolução de problemas.
+- **Climatização**: Estudo de processos térmicos e sistemas de climatização.
+- **Química**: Fundamentos de química geral, reações e aplicações industriais.
+- **Termodinâmica**: Princípios de conservação de energia, sistemas termodinâmicos e ciclos.
+
+Cada secção inclui textos explicativos, exemplos resolvidos, áudios didáticos e atividades práticas.
+
+
+## Aceda diretamente aos temas:
+
+<div style="display: flex; flex-wrap: wrap; gap: 12px; justify-content: center;">
+
+<a href="/posts/calculo/" style="padding: 12px 24px; background-color: #0d6efd; color: white; border-radius: 6px; text-decoration: none; font-size: 1em;">
+Cálculo
+</a>
+
+<a href="/posts/algebra/" style="padding: 12px 24px; background-color: #198754; color: white; border-radius: 6px; text-decoration: none; font-size: 1em;">
+Álgebra
+</a>
+
+<a href="/posts/fisica/" style="padding: 12px 24px; background-color: #dc3545; color: white; border-radius: 6px; text-decoration: none; font-size: 1em;">
+Física
+</a>
+
+<a href="/posts/climatizacao/" style="padding: 12px 24px; background-color: #fd7e14; color: white; border-radius: 6px; text-decoration: none; font-size: 1em;">
+Climatização
+</a>
+
+<a href="/posts/quimica/" style="padding: 12px 24px; background-color: #6610f2; color: white; border-radius: 6px; text-decoration: none; font-size: 1em;">
+Química
+</a>
+
+<a href="/posts/termodinamica/" style="padding: 12px 24px; background-color: #6f42c1; color: white; border-radius: 6px; text-decoration: none; font-size: 1em;">
+Termodinâmica
+</a>
+
+</div>
+
+
+## Sobre o Projeto
+
+Este blog é desenvolvido para tornar o conhecimento acessível, organizado e aplicado de forma prática.  
+Explore ao seu ritmo e aproveite todos os recursos disponíveis!
+
+---
+
+<p style="text-align: center;">
+  <a href="/posts/calculo/" style="padding: 12px 24px; background-color: #17a2b8; color: white; border-radius: 8px; text-decoration: none; font-size: 1.1em;">
+    Começar por Cálculo
+  </a>
+</p>
+
+

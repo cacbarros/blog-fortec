@@ -1,22 +1,35 @@
 project:
   type: website
-  output-dir: .    # <- Adicionado: gerar na raiz
+  output-dir: .
 
 website:
-  title: "blog-quarto"
+  title: "Blog Educacional"
   navbar:
+    left:
+      - text: "Início"
+        file: welcome/index.qmd
+      - text: "Cálculo"
+        file: posts/calculo/index.qmd  # Mantém o index que já existe
+      - text: "Álgebra"
+        file: posts/algebra/index.qmd  # Novo index a criar
+      - text: "Física"
+        file: posts/fisica/index.qmd
+      - text: "Química"
+        file: posts/quimica/index.qmd
+      - text: "Termodinâmica"
+        file: posts/termodinamica/index.qmd
+      - text: "Climatização"
+        file: posts/climatizacao/index.qmd
     right:
       - about.qmd
       - icon: github
         href: https://github.com/
       - icon: twitter
         href: https://twitter.com
+
 format:
   html:
     theme:
       - cosmo
       - brand
     css: styles.css
-
-
-
