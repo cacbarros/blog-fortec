@@ -28,11 +28,13 @@ Nesta lição, vamos explorar os conceitos fundamentais das séries numéricas: 
 Para aprofundar a compreensão deste tema, ouça o comentário didático:
 
 <div style="text-align: center; margin: 20px 0;">
-<audio controls style="width: 80%;">
-  <source src="https://docs.google.com/uc?export=download&id=15wNhnWIXe22VuSZyWnCT6NuHUTGF3SlN" type="audio/mpeg">
-  O seu navegador não suporta a reprodução de áudio.
-</audio>
+  <iframe width="300" height="60" src="https://vocaroo.com/embed/1etqgpx4oz3K?autoplay=0" frameborder="0" allow="autoplay"></iframe>
+  <br>
+  <a href="https://voca.ro/1etqgpx4oz3K" title="Vocaroo Voice Recorder" target="_blank" style="font-size: 0.9em; text-decoration: none; color: #007BFF;">
+    Ouvir no Vocaroo
+  </a>
 </div>
+
 
 ---
 

@@ -256,14 +256,14 @@
     "href": "posts/calculo/series-matematicas.html",
     "title": "Séries Matemáticas",
     "section": "",
-    "text": "Já imaginou somar infinitos números e ainda assim chegar a um valor finito?\nEsta é a fascinante realidade das séries matemáticas!\nNesta lição, vamos explorar os conceitos fundamentais das séries numéricas: o que são, como se comportam e como podemos analisá-las com ferramentas práticas.\n\n\n\nPara aprofundar a compreensão deste tema, ouça o comentário didático:\n\n\n\nO seu navegador não suporta a reprodução de áudio. \n\n\n\n\nUma série é a soma dos termos de uma sequência:\n\\[\n\\sum_{n=1}^{\\infty} a_n\n\\]\nDizemos que uma série converge se a sequência das somas parciais tem limite finito (Apostol, 1967):\n\\[\nS_N = \\sum_{n=1}^{N} a_n \\longrightarrow S \\quad \\text{quando } N \\to \\infty\n\\]\n\n\n\nAs séries numéricas desempenham um papel fundamental no estudo de fenómenos contínuos e discretos.\nUma série é a soma de uma sequência infinita de números.\nA sua análise inclui:\n\nIdentificação de convergência ou divergência,\nEstudo de séries especiais,\nAplicação prática em Física, Engenharia, e Matemática Avançada.\n\n\n\n\nVeja a explicação introdutória no vídeo abaixo:\n\n \n\n\n\n\nConsidere a série:\n\\[\n\\sum_{n=0}^{\\infty} ar^n = a + ar + ar^2 + ar^3 + \\dots\n\\]\nSe \\(|r| &lt; 1\\), então a série converge para:\n\\[\n\\sum_{n=0}^{\\infty} ar^n = \\frac{a}{1 - r}\n\\]\n\n\n\n\nCode\n# Série geométrica: soma parcial com a = 2 e r = 0.5\na = 2\nr = 0.5\nN = 10\n\nsoma = sum(a * r**n for n in range(N))\nsoma_limite = a / (1 - r)\n\nprint(f\"Soma dos {N} primeiros termos: {soma:.4f}\")\nprint(f\"Valor limite (teórico): {soma_limite:.4f}\")\n\n\nSoma dos 10 primeiros termos: 3.9961\nValor limite (teórico): 4.0000\n\n\n\n\n\n\nA série harmónica é dada por:\n\\[\n\\sum_{n=1}^{\\infty} \\frac{1}{n}\n\\]\nEmbora os termos \\(1/n\\) tendam a zero, a série diverge (soma parcial cresce sem limite).\n\n\n\n\nCode\n# Soma parcial da série harmónica\nN = 20\nsoma = sum(1/n for n in range(1, N+1))\nprint(f\"Soma dos {N} primeiros termos: {soma:.4f}\")\n\n\nSoma dos 20 primeiros termos: 3.5977\n\n\n\n\n\n\nAlém dos exemplos resolvidos acima, disponibilizamos um script Python que implementa uma função geral para calcular a soma dos \\(n\\) primeiros termos de uma série geométrica:\n\n\nCode\n# Código presente em: python/series_matematicas.py\n\ndef soma_serie_geometrica(a, r, n):\n    \"\"\"\n    Calcula a soma dos n primeiros termos de uma série geométrica.\n    a: termo inicial\n    r: razão\n    n: número de termos\n    \"\"\"\n    soma = a * (1 - r**n) / (1 - r) if r != 1 else a * n\n    return soma\n\n# Exemplo de uso\nif __name__ == \"__main__\":\n    a = 2\n    r = 0.5\n    n = 10\n    resultado = soma_serie_geometrica(a, r, n)\n    print(f\"Soma dos {n} primeiros termos: {resultado:.4f}\")\n\n\nSoma dos 10 primeiros termos: 3.9961\n\n\n\n\n\nExplore o conteúdo completo desta lição:\n\n           \n\n\n\n\nA convergência de uma série depende do comportamento da soma parcial, não apenas da tendência dos termos \\(a_n\\).\n\n\n\n\nProblema de Séries Numéricas\n\n\n\nVoltar para Índice de Séries Matemáticas"
+    "text": "Já imaginou somar infinitos números e ainda assim chegar a um valor finito?\nEsta é a fascinante realidade das séries matemáticas!\nNesta lição, vamos explorar os conceitos fundamentais das séries numéricas: o que são, como se comportam e como podemos analisá-las com ferramentas práticas.\n\n\n\nPara aprofundar a compreensão deste tema, ouça o comentário didático:\n\n   Ouvir no Vocaroo \n\n\n\n\n\nUma série é a soma dos termos de uma sequência:\n\\[\n\\sum_{n=1}^{\\infty} a_n\n\\]\nDizemos que uma série converge se a sequência das somas parciais tem limite finito (Apostol, 1967):\n\\[\nS_N = \\sum_{n=1}^{N} a_n \\longrightarrow S \\quad \\text{quando } N \\to \\infty\n\\]"
   },
   {
     "objectID": "posts/calculo/series-matematicas.html#comentário-didático",
     "href": "posts/calculo/series-matematicas.html#comentário-didático",
     "title": "Séries Matemáticas",
     "section": "",
-    "text": "Para aprofundar a compreensão deste tema, ouça o comentário didático:\n\n\n\nO seu navegador não suporta a reprodução de áudio. \n\n\n\n\nUma série é a soma dos termos de uma sequência:\n\\[\n\\sum_{n=1}^{\\infty} a_n\n\\]\nDizemos que uma série converge se a sequência das somas parciais tem limite finito (Apostol, 1967):\n\\[\nS_N = \\sum_{n=1}^{N} a_n \\longrightarrow S \\quad \\text{quando } N \\to \\infty\n\\]\n\n\n\nAs séries numéricas desempenham um papel fundamental no estudo de fenómenos contínuos e discretos.\nUma série é a soma de uma sequência infinita de números.\nA sua análise inclui:\n\nIdentificação de convergência ou divergência,\nEstudo de séries especiais,\nAplicação prática em Física, Engenharia, e Matemática Avançada.\n\n\n\n\nVeja a explicação introdutória no vídeo abaixo:\n\n \n\n\n\n\nConsidere a série:\n\\[\n\\sum_{n=0}^{\\infty} ar^n = a + ar + ar^2 + ar^3 + \\dots\n\\]\nSe \\(|r| &lt; 1\\), então a série converge para:\n\\[\n\\sum_{n=0}^{\\infty} ar^n = \\frac{a}{1 - r}\n\\]\n\n\n\n\nCode\n# Série geométrica: soma parcial com a = 2 e r = 0.5\na = 2\nr = 0.5\nN = 10\n\nsoma = sum(a * r**n for n in range(N))\nsoma_limite = a / (1 - r)\n\nprint(f\"Soma dos {N} primeiros termos: {soma:.4f}\")\nprint(f\"Valor limite (teórico): {soma_limite:.4f}\")\n\n\nSoma dos 10 primeiros termos: 3.9961\nValor limite (teórico): 4.0000\n\n\n\n\n\n\nA série harmónica é dada por:\n\\[\n\\sum_{n=1}^{\\infty} \\frac{1}{n}\n\\]\nEmbora os termos \\(1/n\\) tendam a zero, a série diverge (soma parcial cresce sem limite).\n\n\n\n\nCode\n# Soma parcial da série harmónica\nN = 20\nsoma = sum(1/n for n in range(1, N+1))\nprint(f\"Soma dos {N} primeiros termos: {soma:.4f}\")\n\n\nSoma dos 20 primeiros termos: 3.5977\n\n\n\n\n\n\nAlém dos exemplos resolvidos acima, disponibilizamos um script Python que implementa uma função geral para calcular a soma dos \\(n\\) primeiros termos de uma série geométrica:\n\n\nCode\n# Código presente em: python/series_matematicas.py\n\ndef soma_serie_geometrica(a, r, n):\n    \"\"\"\n    Calcula a soma dos n primeiros termos de uma série geométrica.\n    a: termo inicial\n    r: razão\n    n: número de termos\n    \"\"\"\n    soma = a * (1 - r**n) / (1 - r) if r != 1 else a * n\n    return soma\n\n# Exemplo de uso\nif __name__ == \"__main__\":\n    a = 2\n    r = 0.5\n    n = 10\n    resultado = soma_serie_geometrica(a, r, n)\n    print(f\"Soma dos {n} primeiros termos: {resultado:.4f}\")\n\n\nSoma dos 10 primeiros termos: 3.9961\n\n\n\n\n\nExplore o conteúdo completo desta lição:\n\n           \n\n\n\n\nA convergência de uma série depende do comportamento da soma parcial, não apenas da tendência dos termos \\(a_n\\).\n\n\n\n\nProblema de Séries Numéricas\n\n\n\nVoltar para Índice de Séries Matemáticas"
+    "text": "Para aprofundar a compreensão deste tema, ouça o comentário didático:\n\n   Ouvir no Vocaroo"
   },
   {
     "objectID": "posts/calculo/series-matematicas.html#definição",
@@ -276,50 +276,50 @@
     "objectID": "posts/calculo/series-matematicas.html#vídeo-de-apoio",
     "href": "posts/calculo/series-matematicas.html#vídeo-de-apoio",
     "title": "Séries Matemáticas",
-    "section": "",
-    "text": "Veja a explicação introdutória no vídeo abaixo:"
+    "section": "Vídeo de Apoio",
+    "text": "Vídeo de Apoio\nVeja a explicação introdutória no vídeo abaixo:"
   },
   {
     "objectID": "posts/calculo/series-matematicas.html#exemplo-1-série-geométrica",
     "href": "posts/calculo/series-matematicas.html#exemplo-1-série-geométrica",
     "title": "Séries Matemáticas",
-    "section": "",
-    "text": "Considere a série:\n\\[\n\\sum_{n=0}^{\\infty} ar^n = a + ar + ar^2 + ar^3 + \\dots\n\\]\nSe \\(|r| &lt; 1\\), então a série converge para:\n\\[\n\\sum_{n=0}^{\\infty} ar^n = \\frac{a}{1 - r}\n\\]\n\n\n\n\nCode\n# Série geométrica: soma parcial com a = 2 e r = 0.5\na = 2\nr = 0.5\nN = 10\n\nsoma = sum(a * r**n for n in range(N))\nsoma_limite = a / (1 - r)\n\nprint(f\"Soma dos {N} primeiros termos: {soma:.4f}\")\nprint(f\"Valor limite (teórico): {soma_limite:.4f}\")\n\n\nSoma dos 10 primeiros termos: 3.9961\nValor limite (teórico): 4.0000"
+    "section": "Exemplo 1 — Série Geométrica",
+    "text": "Exemplo 1 — Série Geométrica\nConsidere a série:\n\\[\n\\sum_{n=0}^{\\infty} ar^n = a + ar + ar^2 + ar^3 + \\dots\n\\]\nSe \\(|r| &lt; 1\\), então a série converge para:\n\\[\n\\sum_{n=0}^{\\infty} ar^n = \\frac{a}{1 - r}\n\\]\n\nResolução em Python\n\n\nCode\n# Série geométrica: soma parcial com a = 2 e r = 0.5\na = 2\nr = 0.5\nN = 10\n\nsoma = sum(a * r**n for n in range(N))\nsoma_limite = a / (1 - r)\n\nprint(f\"Soma dos {N} primeiros termos: {soma:.4f}\")\nprint(f\"Valor limite (teórico): {soma_limite:.4f}\")\n\n\nSoma dos 10 primeiros termos: 3.9961\nValor limite (teórico): 4.0000"
   },
   {
     "objectID": "posts/calculo/series-matematicas.html#exemplo-2-série-harmónica",
     "href": "posts/calculo/series-matematicas.html#exemplo-2-série-harmónica",
     "title": "Séries Matemáticas",
-    "section": "",
-    "text": "A série harmónica é dada por:\n\\[\n\\sum_{n=1}^{\\infty} \\frac{1}{n}\n\\]\nEmbora os termos \\(1/n\\) tendam a zero, a série diverge (soma parcial cresce sem limite).\n\n\n\n\nCode\n# Soma parcial da série harmónica\nN = 20\nsoma = sum(1/n for n in range(1, N+1))\nprint(f\"Soma dos {N} primeiros termos: {soma:.4f}\")\n\n\nSoma dos 20 primeiros termos: 3.5977"
+    "section": "Exemplo 2 — Série Harmónica",
+    "text": "Exemplo 2 — Série Harmónica\nA série harmónica é dada por:\n\\[\n\\sum_{n=1}^{\\infty} \\frac{1}{n}\n\\]\nEmbora os termos \\(1/n\\) tendam a zero, a série diverge (soma parcial cresce sem limite).\n\nResolução em Python\n\n\nCode\n# Soma parcial da série harmónica\nN = 20\nsoma = sum(1/n for n in range(1, N+1))\nprint(f\"Soma dos {N} primeiros termos: {soma:.4f}\")\n\n\nSoma dos 20 primeiros termos: 3.5977"
   },
   {
     "objectID": "posts/calculo/series-matematicas.html#exemplo-3-código-python-externo",
     "href": "posts/calculo/series-matematicas.html#exemplo-3-código-python-externo",
     "title": "Séries Matemáticas",
-    "section": "",
-    "text": "Além dos exemplos resolvidos acima, disponibilizamos um script Python que implementa uma função geral para calcular a soma dos \\(n\\) primeiros termos de uma série geométrica:\n\n\nCode\n# Código presente em: python/series_matematicas.py\n\ndef soma_serie_geometrica(a, r, n):\n    \"\"\"\n    Calcula a soma dos n primeiros termos de uma série geométrica.\n    a: termo inicial\n    r: razão\n    n: número de termos\n    \"\"\"\n    soma = a * (1 - r**n) / (1 - r) if r != 1 else a * n\n    return soma\n\n# Exemplo de uso\nif __name__ == \"__main__\":\n    a = 2\n    r = 0.5\n    n = 10\n    resultado = soma_serie_geometrica(a, r, n)\n    print(f\"Soma dos {n} primeiros termos: {resultado:.4f}\")\n\n\nSoma dos 10 primeiros termos: 3.9961"
+    "section": "Exemplo 3 — Código Python Externo",
+    "text": "Exemplo 3 — Código Python Externo\nAlém dos exemplos resolvidos acima, disponibilizamos um script Python que implementa uma função geral para calcular a soma dos \\(n\\) primeiros termos de uma série geométrica:\n\n\nCode\n# Código presente em: python/series_matematicas.py\n\ndef soma_serie_geometrica(a, r, n):\n    \"\"\"\n    Calcula a soma dos n primeiros termos de uma série geométrica.\n    a: termo inicial\n    r: razão\n    n: número de termos\n    \"\"\"\n    soma = a * (1 - r**n) / (1 - r) if r != 1 else a * n\n    return soma\n\n# Exemplo de uso\nif __name__ == \"__main__\":\n    a = 2\n    r = 0.5\n    n = 10\n    resultado = soma_serie_geometrica(a, r, n)\n    print(f\"Soma dos {n} primeiros termos: {resultado:.4f}\")\n\n\nSoma dos 10 primeiros termos: 3.9961"
   },
   {
     "objectID": "posts/calculo/series-matematicas.html#recursos-disponíveis",
     "href": "posts/calculo/series-matematicas.html#recursos-disponíveis",
     "title": "Séries Matemáticas",
-    "section": "",
-    "text": "Explore o conteúdo completo desta lição:"
+    "section": "Recursos Disponíveis",
+    "text": "Recursos Disponíveis\nExplore o conteúdo completo desta lição:"
   },
   {
     "objectID": "posts/calculo/series-matematicas.html#observação",
     "href": "posts/calculo/series-matematicas.html#observação",
     "title": "Séries Matemáticas",
-    "section": "",
-    "text": "A convergência de uma série depende do comportamento da soma parcial, não apenas da tendência dos termos \\(a_n\\)."
+    "section": "Observação",
+    "text": "Observação\nA convergência de uma série depende do comportamento da soma parcial, não apenas da tendência dos termos \\(a_n\\)."
   },
   {
     "objectID": "posts/calculo/series-matematicas.html#séries-matemáticas---avaliação",
     "href": "posts/calculo/series-matematicas.html#séries-matemáticas---avaliação",
     "title": "Séries Matemáticas",
-    "section": "",
-    "text": "Problema de Séries Numéricas\n\n\n\nVoltar para Índice de Séries Matemáticas"
+    "section": "Séries Matemáticas - Avaliação",
+    "text": "Séries Matemáticas - Avaliação\n\nProblema de Séries Numéricas\n\n\n\nVoltar para Índice de Séries Matemáticas"
   },
   {
     "objectID": "posts/climatizacao/avaliacao-climatizacao.html",
