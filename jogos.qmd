@@ -1,0 +1,49 @@
+---
+title: "Jogos Educativos"
+description: "Atividades lúdicas para estimular o raciocínio e a aprendizagem."
+format:
+  html:
+    toc: true
+    code-fold: false
+---
+
+# Jogos Educativos
+
+Explore atividades lúdicas para estimular o raciocínio lógico e reforçar seus conhecimentos!
+
+---
+
+## Xadrez Online
+
+<div style="text-align: center; margin: 20px 0;">
+  <iframe src="https://lichess.org/embed" width="800" height="600" frameborder="0"></iframe>
+</div>
+
+
+---
+
+## Xadrez Online
+
+<p style="text-align: center;">
+  <a href="https://www.chess.com/play/online" target="_blank" style="padding: 10px 20px; background-color: #17a2b8; color: white; border-radius: 8px; text-decoration: none; font-size: 1.2em;">
+    Jogar Xadrez no Chess.com
+  </a>
+</p>
+
+
+## Outros Jogos de Lógica
+
+- [Sudoku Online](https://sudoku.com/) — Resolva desafios de Sudoku.
+- [Jogo de Operacoes Matemáticas](https://www.coolmathgames.com/) — Pratique cálculos e lógica.
+- [Jogos de Física Interativos](https://www.physicsgames.net/) — Explore conceitos de força, energia e movimento.
+- [Laboratório de Química Virtual](https://phet.colorado.edu/pt/simulations/category/chemistry) — Simule reações químicas.
+
+---
+
+# Em Breve
+
+Novos jogos serão disponibilizados para explorar ainda mais temas de Matemática, Física, Química e Termodinâmica!
+
+---
+
+<p><a href="index.html" style="padding: 8px 16px; background-color: #17a2b8; color: white; border-radius: 5px; text-decoration: none;">Voltar para Início</a></p>

@@ -20,6 +20,8 @@ website:
         file: posts/termodinamica/index.qmd
       - text: "Climatização"
         file: posts/climatizacao/index.qmd
+      - text: "Jogos"
+        file: jogos.qmd
     right:
       - about.qmd
       - recursos.qmd   # <- adiciona o link para recursos aqui!
