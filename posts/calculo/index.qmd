@@ -30,7 +30,7 @@ execute:
 Este módulo visa:
 
 - Introduzir o conceito de séries como somatórios infinitos;
-- Analisar a convergência e divergência de séries;
+- Analisar a convergência e divergência de séries utilizando métodos apropriados;
 - Aplicar testes clássicos de convergência (comparação, razão, raiz, etc.);
 - Estudar séries geométricas e harmónicas;
 - Consolidar o conhecimento através de exercícios de avaliação.
