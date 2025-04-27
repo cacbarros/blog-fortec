@@ -13,22 +13,22 @@ Explore atividades lúdicas para estimular o raciocínio lógico e reforçar seu
 
 ---
 
-## Xadrez Online
+## ♟️ Xadrez Online
 
-<div style="text-align: center; margin: 20px 0;">
-  <iframe src="https://lichess.org/embed" width="800" height="600" frameborder="0"></iframe>
-</div>
+<p style="text-align: center; margin: 20px 0;">
+  <a href="https://lichess.org" target="_blank" style="padding: 10px 20px; background-color: #5c6bc0; color: white; border-radius: 8px; text-decoration: none; font-size: 1.2em;">
+    Jogar Xadrez no Lichess.org
+  </a>
+</p>
 
-
----
-
-## Xadrez Online
-
-<p style="text-align: center;">
+<p style="text-align: center; margin: 20px 0;">
   <a href="https://www.chess.com/play/online" target="_blank" style="padding: 10px 20px; background-color: #17a2b8; color: white; border-radius: 8px; text-decoration: none; font-size: 1.2em;">
     Jogar Xadrez no Chess.com
   </a>
 </p>
+
+---
+
 
 
 ## Outros Jogos de Lógica
