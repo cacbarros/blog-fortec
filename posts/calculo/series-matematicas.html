@@ -277,6 +277,10 @@ window.Quarto = {
   <ul class="collapse">
   <li><a href="#resolução-em-python-1" id="toc-resolução-em-python-1" class="nav-link" data-scroll-target="#resolução-em-python-1">Resolução em Python</a></li>
   </ul></li>
+  <li><a href="#exemplo-3-código-python-externo" id="toc-exemplo-3-código-python-externo" class="nav-link" data-scroll-target="#exemplo-3-código-python-externo">Exemplo 3 — Código Python Externo</a>
+  <ul class="collapse">
+  <li><a href="#aceda-ao-código-completo" id="toc-aceda-ao-código-completo" class="nav-link" data-scroll-target="#aceda-ao-código-completo">Aceda ao código completo</a></li>
+  </ul></li>
   <li><a href="#observação" id="toc-observação" class="nav-link" data-scroll-target="#observação">Observação</a></li>
   <li><a href="#séries-matemáticas---avaliação" id="toc-séries-matemáticas---avaliação" class="nav-link" data-scroll-target="#séries-matemáticas---avaliação">Séries Matemáticas - Avaliação</a></li>
   <li><a href="#referências" id="toc-referências" class="nav-link" data-scroll-target="#referências">Referências</a></li>
@@ -332,7 +336,7 @@ Uma série é a soma de uma sequência infinita de números.</p>
 \]</span></p>
 <section id="resolução-em-python" class="level3">
 <h3 class="anchored" data-anchor-id="resolução-em-python">Resolução em Python</h3>
-<div id="e27a949f" class="cell" data-execution_count="1">
+<div id="057d4ed0" class="cell" data-execution_count="1">
 <details class="code-fold">
 <summary>Code</summary>
 <div class="sourceCode cell-code" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Série geométrica: soma parcial com a = 2 e r = 0.5</span></span>
@@ -362,7 +366,7 @@ Valor limite (teórico): 4.0000</code></pre>
 <p>Embora os termos <span class="math inline">\(1/n\)</span> tendam a zero, a série <strong>diverge</strong> (soma parcial cresce sem limite).</p>
 <section id="resolução-em-python-1" class="level3">
 <h3 class="anchored" data-anchor-id="resolução-em-python-1">Resolução em Python</h3>
-<div id="13147f43" class="cell" data-execution_count="2">
+<div id="de112488" class="cell" data-execution_count="2">
 <details class="code-fold">
 <summary>Code</summary>
 <div class="sourceCode cell-code" id="cb3"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Soma parcial da série harmónica</span></span>
@@ -373,6 +377,47 @@ Valor limite (teórico): 4.0000</code></pre>
 <div class="cell-output cell-output-stdout">
 <pre><code>Soma dos 20 primeiros termos: 3.5977</code></pre>
 </div>
+</div>
+</section>
+</section>
+<section id="exemplo-3-código-python-externo" class="level2">
+<h2 class="anchored" data-anchor-id="exemplo-3-código-python-externo">Exemplo 3 — Código Python Externo</h2>
+<p>Além dos exemplos resolvidos acima, disponibilizamos um script Python que implementa uma função geral para calcular a soma dos <span class="math inline">\(n\)</span> primeiros termos de uma série geométrica:</p>
+<div id="d535baaf" class="cell" data-execution_count="3">
+<details class="code-fold">
+<summary>Code</summary>
+<div class="sourceCode cell-code" id="cb5"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Código presente em: python/series_matematicas.py</span></span>
+<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> soma_serie_geometrica(a, r, n):</span>
+<span id="cb5-4"><a href="#cb5-4" aria-hidden="true" tabindex="-1"></a>    <span class="co">"""</span></span>
+<span id="cb5-5"><a href="#cb5-5" aria-hidden="true" tabindex="-1"></a><span class="co">    Calcula a soma dos n primeiros termos de uma série geométrica.</span></span>
+<span id="cb5-6"><a href="#cb5-6" aria-hidden="true" tabindex="-1"></a><span class="co">    a: termo inicial</span></span>
+<span id="cb5-7"><a href="#cb5-7" aria-hidden="true" tabindex="-1"></a><span class="co">    r: razão</span></span>
+<span id="cb5-8"><a href="#cb5-8" aria-hidden="true" tabindex="-1"></a><span class="co">    n: número de termos</span></span>
+<span id="cb5-9"><a href="#cb5-9" aria-hidden="true" tabindex="-1"></a><span class="co">    """</span></span>
+<span id="cb5-10"><a href="#cb5-10" aria-hidden="true" tabindex="-1"></a>    soma <span class="op">=</span> a <span class="op">*</span> (<span class="dv">1</span> <span class="op">-</span> r<span class="op">**</span>n) <span class="op">/</span> (<span class="dv">1</span> <span class="op">-</span> r) <span class="cf">if</span> r <span class="op">!=</span> <span class="dv">1</span> <span class="cf">else</span> a <span class="op">*</span> n</span>
+<span id="cb5-11"><a href="#cb5-11" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> soma</span>
+<span id="cb5-12"><a href="#cb5-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-13"><a href="#cb5-13" aria-hidden="true" tabindex="-1"></a><span class="co"># Exemplo de uso</span></span>
+<span id="cb5-14"><a href="#cb5-14" aria-hidden="true" tabindex="-1"></a><span class="cf">if</span> <span class="va">__name__</span> <span class="op">==</span> <span class="st">"__main__"</span>:</span>
+<span id="cb5-15"><a href="#cb5-15" aria-hidden="true" tabindex="-1"></a>    a <span class="op">=</span> <span class="dv">2</span></span>
+<span id="cb5-16"><a href="#cb5-16" aria-hidden="true" tabindex="-1"></a>    r <span class="op">=</span> <span class="fl">0.5</span></span>
+<span id="cb5-17"><a href="#cb5-17" aria-hidden="true" tabindex="-1"></a>    n <span class="op">=</span> <span class="dv">10</span></span>
+<span id="cb5-18"><a href="#cb5-18" aria-hidden="true" tabindex="-1"></a>    resultado <span class="op">=</span> soma_serie_geometrica(a, r, n)</span>
+<span id="cb5-19"><a href="#cb5-19" aria-hidden="true" tabindex="-1"></a>    <span class="bu">print</span>(<span class="ss">f"Soma dos </span><span class="sc">{</span>n<span class="sc">}</span><span class="ss"> primeiros termos: </span><span class="sc">{</span>resultado<span class="sc">:.4f}</span><span class="ss">"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+<div class="cell-output cell-output-stdout">
+<pre><code>Soma dos 10 primeiros termos: 3.9961</code></pre>
+</div>
+</div>
+<section id="aceda-ao-código-completo" class="level3">
+<h3 class="anchored" data-anchor-id="aceda-ao-código-completo">Aceda ao código completo</h3>
+<p>Você pode também visualizar e fazer o download do script Python diretamente:</p>
+<div style="display: flex; flex-wrap: wrap; gap: 16px; justify-content: center; margin: 20px 0;">
+<a href="../../python/series_matematicas.py" download="" style="padding: 12px 24px; background-color: #198754; color: white; border-radius: 8px; text-decoration: none; font-size: 1.1em;"> 📥 Baixar Código Python </a> <a href="../../python/series_matematicas.py" target="_blank" style="padding: 12px 24px; background-color: #0d6efd; color: white; border-radius: 8px; text-decoration: none; font-size: 1.1em;"> 📖 Ver Código Online </a>
+</div>
+<div style="text-align: center; margin: 20px 0;">
+<p><a href="https://colab.research.google.com/github/cacbarros/blog-fortec/blob/main/python/series_matematicas.ipynb" target="_blank" style="padding: 12px 24px; background-color: #f9ab00; color: black; border-radius: 8px; text-decoration: none; font-size: 1.1em;"> Executar no Google Colab </a></p>
 </div>
 </section>
 </section>

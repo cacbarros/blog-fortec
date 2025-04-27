@@ -103,6 +103,43 @@ soma = sum(1/n for n in range(1, N+1))
 print(f"Soma dos {N} primeiros termos: {soma:.4f}")
 ```
 
+## Exemplo 3 — Código Python Externo
+
+Além dos exemplos resolvidos acima, disponibilizamos um script Python que implementa uma função geral para calcular a soma dos $n$ primeiros termos de uma série geométrica:
+
+```{python}
+# Código presente em: python/series_matematicas.py
+
+def soma_serie_geometrica(a, r, n):
+    """
+    Calcula a soma dos n primeiros termos de uma série geométrica.
+    a: termo inicial
+    r: razão
+    n: número de termos
+    """
+    soma = a * (1 - r**n) / (1 - r) if r != 1 else a * n
+    return soma
+
+# Exemplo de uso
+if __name__ == "__main__":
+    a = 2
+    r = 0.5
+    n = 10
+    resultado = soma_serie_geometrica(a, r, n)
+    print(f"Soma dos {n} primeiros termos: {resultado:.4f}")
+```
+
+### Aceda ao código completo
+Você pode também visualizar e fazer o download do script Python diretamente:
+
+<div style="display: flex; flex-wrap: wrap; gap: 16px; justify-content: center; margin: 20px 0;"> <a href="../../python/series_matematicas.py" download style="padding: 12px 24px; background-color: #198754; color: white; border-radius: 8px; text-decoration: none; font-size: 1.1em;"> 📥 Baixar Código Python </a> <a href="../../python/series_matematicas.py" target="_blank" style="padding: 12px 24px; background-color: #0d6efd; color: white; border-radius: 8px; text-decoration: none; font-size: 1.1em;"> 📖 Ver Código Online </a> </div>
+
+<div style="text-align: center; margin: 20px 0;">
+  <a href="https://colab.research.google.com/github/cacbarros/blog-fortec/blob/main/python/series_matematicas.ipynb" target="_blank" style="padding: 12px 24px; background-color: #f9ab00; color: black; border-radius: 8px; text-decoration: none; font-size: 1.1em;">
+    Executar no Google Colab
+  </a>
+</div>
+
 
 ## Observação
 

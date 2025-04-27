@@ -287,6 +287,13 @@
     "text": "Exemplo 2 — Série Harmónica\nA série harmónica é dada por:\n\\[\n\\sum_{n=1}^{\\infty} \\frac{1}{n}\n\\]\nEmbora os termos \\(1/n\\) tendam a zero, a série diverge (soma parcial cresce sem limite).\n\nResolução em Python\n\n\nCode\n# Soma parcial da série harmónica\nN = 20\nsoma = sum(1/n for n in range(1, N+1))\nprint(f\"Soma dos {N} primeiros termos: {soma:.4f}\")\n\n\nSoma dos 20 primeiros termos: 3.5977"
   },
   {
+    "objectID": "posts/calculo/series-matematicas.html#exemplo-3-código-python-externo",
+    "href": "posts/calculo/series-matematicas.html#exemplo-3-código-python-externo",
+    "title": "Séries Matemáticas",
+    "section": "Exemplo 3 — Código Python Externo",
+    "text": "Exemplo 3 — Código Python Externo\nAlém dos exemplos resolvidos acima, disponibilizamos um script Python que implementa uma função geral para calcular a soma dos \\(n\\) primeiros termos de uma série geométrica:\n\n\nCode\n# Código presente em: python/series_matematicas.py\n\ndef soma_serie_geometrica(a, r, n):\n    \"\"\"\n    Calcula a soma dos n primeiros termos de uma série geométrica.\n    a: termo inicial\n    r: razão\n    n: número de termos\n    \"\"\"\n    soma = a * (1 - r**n) / (1 - r) if r != 1 else a * n\n    return soma\n\n# Exemplo de uso\nif __name__ == \"__main__\":\n    a = 2\n    r = 0.5\n    n = 10\n    resultado = soma_serie_geometrica(a, r, n)\n    print(f\"Soma dos {n} primeiros termos: {resultado:.4f}\")\n\n\nSoma dos 10 primeiros termos: 3.9961\n\n\n\nAceda ao código completo\nVocê pode também visualizar e fazer o download do script Python diretamente:\n\n 📥 Baixar Código Python   📖 Ver Código Online \n\n\n Executar no Google Colab"
+  },
+  {
     "objectID": "posts/calculo/series-matematicas.html#observação",
     "href": "posts/calculo/series-matematicas.html#observação",
     "title": "Séries Matemáticas",
