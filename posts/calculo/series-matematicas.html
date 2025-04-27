@@ -1,15 +1,13 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
-<head>
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.7.29">
 
-<meta charset="utf-8" />
-<meta name="generator" content="quarto-1.7.29" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
-
-<meta name="dcterms.date" content="2025-04-25" />
-<meta name="description" content="Introdução a séries numéricas, com exemplos de convergência e resolução com Python." />
+<meta name="dcterms.date" content="2025-04-25">
+<meta name="description" content="Introdução a séries numéricas, com exemplos de convergência e resolução com Python.">
 
 <title>Séries Matemáticas – Blog Educacional</title>
 <style>
@@ -81,7 +79,24 @@ div.csl-indent {
   margin-left: 2em;
 }</style>
 
-<!-- htmldependencies:E3FAD763 -->
+
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-0815c480559380816a4d1ea211a47e91.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap-dfb324f25d9b1687192fa8be62ac8f9c.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -140,75 +155,67 @@ window.Quarto = {
 };
 </script>
 
-<link rel="stylesheet" href="../../styles.css" />
+<link rel="stylesheet" href="../../styles.css">
 </head>
 
-<body>
+<body class="nav-fixed quarto-light">
 
 <div id="quarto-search-results"></div>
-  <header id="quarto-header" class="headroom fixed-top">
+  <header id="quarto-header" class="headroom fixed-top quarto-banner">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="/index.html">
+    <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">Blog Educacional</span>
     </a>
   </div>
             <div id="quarto-search" class="" title="Search"></div>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
-  aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation"
-  onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="/welcome/index.html"> 
+    <a class="nav-link" href="../../welcome/index.html"> 
 <span class="menu-text">Início</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="/posts/calculo/index.html"> 
+    <a class="nav-link" href="../../posts/calculo/index.html"> 
 <span class="menu-text">Cálculo</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="/posts/algebra/index.html"> 
+    <a class="nav-link" href="../../posts/algebra/index.html"> 
 <span class="menu-text">Álgebra</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="/posts/fisica/index.html"> 
+    <a class="nav-link" href="../../posts/fisica/index.html"> 
 <span class="menu-text">Física</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="/posts/quimica/index.html"> 
+    <a class="nav-link" href="../../posts/quimica/index.html"> 
 <span class="menu-text">Química</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="/posts/termodinamica/index.html"> 
+    <a class="nav-link" href="../../posts/termodinamica/index.html"> 
 <span class="menu-text">Termodinâmica</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="/posts/climatizacao/index.html"> 
+    <a class="nav-link" href="../../posts/climatizacao/index.html"> 
 <span class="menu-text">Climatização</span></a>
   </li>  
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="/about.html"> 
+    <a class="nav-link" href="../../about.html"> 
 <span class="menu-text">About</span></a>
   </li>  
   <li class="nav-item compact">
-    <a class="nav-link" href="https://github.com/"> <i 
-  class="bi bi-github" 
-  role="img" 
->
+    <a class="nav-link" href="https://github.com/"> <i class="bi bi-github" role="img">
 </i> 
 <span class="menu-text"></span></a>
   </li>  
   <li class="nav-item compact">
-    <a class="nav-link" href="https://twitter.com"> <i 
-  class="bi bi-twitter" 
-  role="img" 
->
+    <a class="nav-link" href="https://twitter.com"> <i class="bi bi-twitter" role="img">
 </i> 
 <span class="menu-text"></span></a>
   </li>  
@@ -220,18 +227,8 @@ window.Quarto = {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
-<!-- sidebar -->
-<!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <div id="quarto-toc-target"></div>
-    </div>
-<!-- main -->
-<main class="content" id="quarto-document-content">
-
-
-<header id="title-block-header" class="quarto-title-block default">
-  <div class="quarto-title-banner">
+<header id="title-block-header" class="quarto-title-block default page-columns page-full">
+  <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-body">
       <h1 class="title">Séries Matemáticas</h1>
                   <div>
@@ -260,40 +257,49 @@ window.Quarto = {
     </div>
     
   
-  </header>
-
-<nav id="TOC" role="doc-toc">
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#definição" id="toc-definição">Definição</a></li>
-  <li><a href="#introdução" id="toc-introdução">🏁 Introdução</a>
-  <ul>
-  <li><a href="#vídeo-de-apoio" id="toc-vídeo-de-apoio">Vídeo de Apoio</a></li>
-  <li><a href="#exemplo-1-série-geométrica" id="toc-exemplo-1-série-geométrica">Exemplo 1 — Série Geométrica</a>
-  <ul>
-  <li><a href="#resolução-em-python" id="toc-resolução-em-python">Resolução em Python</a></li>
+  <li><a href="#definição" id="toc-definição" class="nav-link active" data-scroll-target="#definição">Definição</a></li>
+  <li><a href="#introdução" id="toc-introdução" class="nav-link" data-scroll-target="#introdução">🏁 Introdução</a>
+  <ul class="collapse">
+  <li><a href="#vídeo-de-apoio" id="toc-vídeo-de-apoio" class="nav-link" data-scroll-target="#vídeo-de-apoio">Vídeo de Apoio</a></li>
+  <li><a href="#exemplo-1-série-geométrica" id="toc-exemplo-1-série-geométrica" class="nav-link" data-scroll-target="#exemplo-1-série-geométrica">Exemplo 1 — Série Geométrica</a>
+  <ul class="collapse">
+  <li><a href="#resolução-em-python" id="toc-resolução-em-python" class="nav-link" data-scroll-target="#resolução-em-python">Resolução em Python</a></li>
   </ul></li>
-  <li><a href="#exemplo-2-série-harmónica" id="toc-exemplo-2-série-harmónica">Exemplo 2 — Série Harmónica</a>
-  <ul>
-  <li><a href="#resolução-em-python-1" id="toc-resolução-em-python-1">Resolução em Python</a></li>
+  <li><a href="#exemplo-2-série-harmónica" id="toc-exemplo-2-série-harmónica" class="nav-link" data-scroll-target="#exemplo-2-série-harmónica">Exemplo 2 — Série Harmónica</a>
+  <ul class="collapse">
+  <li><a href="#resolução-em-python-1" id="toc-resolução-em-python-1" class="nav-link" data-scroll-target="#resolução-em-python-1">Resolução em Python</a></li>
   </ul></li>
-  <li><a href="#exemplo-3-código-python-externo" id="toc-exemplo-3-código-python-externo">Exemplo 3 — Código Python Externo</a>
-  <ul>
-  <li><a href="#aceda-ao-código-completo" id="toc-aceda-ao-código-completo">Aceda ao código completo</a></li>
+  <li><a href="#exemplo-3-código-python-externo" id="toc-exemplo-3-código-python-externo" class="nav-link" data-scroll-target="#exemplo-3-código-python-externo">Exemplo 3 — Código Python Externo</a>
+  <ul class="collapse">
+  <li><a href="#aceda-ao-código-completo" id="toc-aceda-ao-código-completo" class="nav-link" data-scroll-target="#aceda-ao-código-completo">Aceda ao código completo</a></li>
   </ul></li>
-  <li><a href="#executar-o-notebook-no-google-colab" id="toc-executar-o-notebook-no-google-colab">Executar o Notebook no Google Colab</a></li>
-  <li><a href="#executar-o-notebook-no-google-colab-1" id="toc-executar-o-notebook-no-google-colab-1">Executar o Notebook no Google Colab</a></li>
-  <li><a href="#recursos-disponíveis" id="toc-recursos-disponíveis">Recursos Disponíveis</a></li>
-  <li><a href="#recursos-disponíveis-1" id="toc-recursos-disponíveis-1">📥 Recursos Disponíveis</a></li>
-  <li><a href="#observação" id="toc-observação">Observação</a></li>
-  <li><a href="#séries-matemáticas---avaliação" id="toc-séries-matemáticas---avaliação">Séries Matemáticas - Avaliação</a></li>
-  <li><a href="#referências" id="toc-referências">Referências</a></li>
+  <li><a href="#executar-o-notebook-no-google-colab" id="toc-executar-o-notebook-no-google-colab" class="nav-link" data-scroll-target="#executar-o-notebook-no-google-colab">Executar o Notebook no Google Colab</a></li>
+  <li><a href="#executar-o-notebook-no-google-colab-1" id="toc-executar-o-notebook-no-google-colab-1" class="nav-link" data-scroll-target="#executar-o-notebook-no-google-colab-1">Executar o Notebook no Google Colab</a></li>
+  <li><a href="#recursos-disponíveis" id="toc-recursos-disponíveis" class="nav-link" data-scroll-target="#recursos-disponíveis">Recursos Disponíveis</a></li>
+  <li><a href="#observação" id="toc-observação" class="nav-link" data-scroll-target="#observação">Observação</a></li>
+  <li><a href="#séries-matemáticas---avaliação" id="toc-séries-matemáticas---avaliação" class="nav-link" data-scroll-target="#séries-matemáticas---avaliação">Séries Matemáticas - Avaliação</a></li>
+  <li><a href="#referências" id="toc-referências" class="nav-link" data-scroll-target="#referências">Referências</a></li>
   </ul></li>
   </ul>
 </nav>
+    </div>
+<!-- main -->
+<main class="content quarto-banner-title-block" id="quarto-document-content">
+
+
+
+
+
 <section id="definição" class="level2">
-<h2>Definição</h2>
+<h2 class="anchored" data-anchor-id="definição">Definição</h2>
 <p>Uma <strong>série</strong> é a soma dos termos de uma sequência:</p>
 <p><span class="math display">\[
 \sum_{n=1}^{\infty} a_n
@@ -305,7 +311,7 @@ S_N = \sum_{n=1}^{N} a_n \longrightarrow S \quad \text{quando } N \to \infty
 </section>
 <section id="introdução" class="level1">
 <h1>🏁 Introdução</h1>
-<p>As séries numéricas desempenham um papel fundamental no estudo de fenómenos contínuos e discretos.<br />
+<p>As séries numéricas desempenham um papel fundamental no estudo de fenómenos contínuos e discretos.<br>
 Uma série é a soma de uma sequência infinita de números.</p>
 <p>A sua análise inclui:</p>
 <ul>
@@ -313,19 +319,16 @@ Uma série é a soma de uma sequência infinita de números.</p>
 <li>Estudo de séries especiais,</li>
 <li>Aplicação prática em Física, Engenharia, e Matemática Avançada.</li>
 </ul>
-<hr />
+<hr>
 <section id="vídeo-de-apoio" class="level2">
-<h2>Vídeo de Apoio</h2>
+<h2 class="anchored" data-anchor-id="vídeo-de-apoio">Vídeo de Apoio</h2>
 <p>Veja a explicação introdutória no vídeo abaixo:</p>
 <div style="text-align: center; margin: 20px 0;">
-<p><iframe width="560" height="315" src="https://www.youtube.com/embed/JPsaS5nJxdU?si=7abGdScCTeFpBJzz" 
-    title="YouTube video player" frameborder="0" 
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen> </iframe></p>
+<p><iframe width="560" height="315" src="https://www.youtube.com/embed/JPsaS5nJxdU?si=7abGdScCTeFpBJzz" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""> </iframe></p>
 </div>
 </section>
 <section id="exemplo-1-série-geométrica" class="level2">
-<h2>Exemplo 1 — Série Geométrica</h2>
+<h2 class="anchored" data-anchor-id="exemplo-1-série-geométrica">Exemplo 1 — Série Geométrica</h2>
 <p>Considere a série:</p>
 <p><span class="math display">\[
 \sum_{n=0}^{\infty} ar^n = a + ar + ar^2 + ar^3 + \dots
@@ -335,11 +338,11 @@ Uma série é a soma de uma sequência infinita de números.</p>
 \sum_{n=0}^{\infty} ar^n = \frac{a}{1 - r}
 \]</span></p>
 <section id="resolução-em-python" class="level3">
-<h3>Resolução em Python</h3>
-<div id="d407c158" class="cell" data-execution_count="1">
+<h3 class="anchored" data-anchor-id="resolução-em-python">Resolução em Python</h3>
+<div id="24d804d0" class="cell" data-execution_count="1">
 <details class="code-fold">
 <summary>Code</summary>
-<div class="sourceCode" id="cb1"><pre class="sourceCode python cell-code"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Série geométrica: soma parcial com a = 2 e r = 0.5</span></span>
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Série geométrica: soma parcial com a = 2 e r = 0.5</span></span>
 <span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>a <span class="op">=</span> <span class="dv">2</span></span>
 <span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>r <span class="op">=</span> <span class="fl">0.5</span></span>
 <span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>N <span class="op">=</span> <span class="dv">10</span></span>
@@ -347,8 +350,8 @@ Uma série é a soma de uma sequência infinita de números.</p>
 <span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a>soma <span class="op">=</span> <span class="bu">sum</span>(a <span class="op">*</span> r<span class="op">**</span>n <span class="cf">for</span> n <span class="kw">in</span> <span class="bu">range</span>(N))</span>
 <span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>soma_limite <span class="op">=</span> a <span class="op">/</span> (<span class="dv">1</span> <span class="op">-</span> r)</span>
 <span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="ss">f&quot;Soma dos </span><span class="sc">{</span>N<span class="sc">}</span><span class="ss"> primeiros termos: </span><span class="sc">{</span>soma<span class="sc">:.4f}</span><span class="ss">&quot;</span>)</span>
-<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="ss">f&quot;Valor limite (teórico): </span><span class="sc">{</span>soma_limite<span class="sc">:.4f}</span><span class="ss">&quot;</span>)</span></code></pre></div>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="ss">f"Soma dos </span><span class="sc">{</span>N<span class="sc">}</span><span class="ss"> primeiros termos: </span><span class="sc">{</span>soma<span class="sc">:.4f}</span><span class="ss">"</span>)</span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="ss">f"Valor limite (teórico): </span><span class="sc">{</span>soma_limite<span class="sc">:.4f}</span><span class="ss">"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </details>
 <div class="cell-output cell-output-stdout">
 <pre><code>Soma dos 10 primeiros termos: 3.9961
@@ -358,21 +361,21 @@ Valor limite (teórico): 4.0000</code></pre>
 </section>
 </section>
 <section id="exemplo-2-série-harmónica" class="level2">
-<h2>Exemplo 2 — Série Harmónica</h2>
+<h2 class="anchored" data-anchor-id="exemplo-2-série-harmónica">Exemplo 2 — Série Harmónica</h2>
 <p>A série harmónica é dada por:</p>
 <p><span class="math display">\[
 \sum_{n=1}^{\infty} \frac{1}{n}
 \]</span></p>
 <p>Embora os termos <span class="math inline">\(1/n\)</span> tendam a zero, a série <strong>diverge</strong> (soma parcial cresce sem limite).</p>
 <section id="resolução-em-python-1" class="level3">
-<h3>Resolução em Python</h3>
-<div id="db2321bc" class="cell" data-execution_count="2">
+<h3 class="anchored" data-anchor-id="resolução-em-python-1">Resolução em Python</h3>
+<div id="f59889aa" class="cell" data-execution_count="2">
 <details class="code-fold">
 <summary>Code</summary>
-<div class="sourceCode" id="cb3"><pre class="sourceCode python cell-code"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Soma parcial da série harmónica</span></span>
+<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Soma parcial da série harmónica</span></span>
 <span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a>N <span class="op">=</span> <span class="dv">20</span></span>
 <span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a>soma <span class="op">=</span> <span class="bu">sum</span>(<span class="dv">1</span><span class="op">/</span>n <span class="cf">for</span> n <span class="kw">in</span> <span class="bu">range</span>(<span class="dv">1</span>, N<span class="op">+</span><span class="dv">1</span>))</span>
-<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="ss">f&quot;Soma dos </span><span class="sc">{</span>N<span class="sc">}</span><span class="ss"> primeiros termos: </span><span class="sc">{</span>soma<span class="sc">:.4f}</span><span class="ss">&quot;</span>)</span></code></pre></div>
+<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="ss">f"Soma dos </span><span class="sc">{</span>N<span class="sc">}</span><span class="ss"> primeiros termos: </span><span class="sc">{</span>soma<span class="sc">:.4f}</span><span class="ss">"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </details>
 <div class="cell-output cell-output-stdout">
 <pre><code>Soma dos 20 primeiros termos: 3.5977</code></pre>
@@ -381,40 +384,40 @@ Valor limite (teórico): 4.0000</code></pre>
 </section>
 </section>
 <section id="exemplo-3-código-python-externo" class="level2">
-<h2>Exemplo 3 — Código Python Externo</h2>
+<h2 class="anchored" data-anchor-id="exemplo-3-código-python-externo">Exemplo 3 — Código Python Externo</h2>
 <p>Além dos exemplos resolvidos acima, disponibilizamos um script Python que implementa uma função geral para calcular a soma dos <span class="math inline">\(n\)</span> primeiros termos de uma série geométrica:</p>
-<div id="67e6eb0d" class="cell" data-execution_count="3">
+<div id="68fcf016" class="cell" data-execution_count="3">
 <details class="code-fold">
 <summary>Code</summary>
-<div class="sourceCode" id="cb5"><pre class="sourceCode python cell-code"><code class="sourceCode python"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Código presente em: python/series_matematicas.py</span></span>
+<div class="sourceCode cell-code" id="cb5"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Código presente em: python/series_matematicas.py</span></span>
 <span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> soma_serie_geometrica(a, r, n):</span>
-<span id="cb5-4"><a href="#cb5-4" aria-hidden="true" tabindex="-1"></a>    <span class="co">&quot;&quot;&quot;</span></span>
+<span id="cb5-4"><a href="#cb5-4" aria-hidden="true" tabindex="-1"></a>    <span class="co">"""</span></span>
 <span id="cb5-5"><a href="#cb5-5" aria-hidden="true" tabindex="-1"></a><span class="co">    Calcula a soma dos n primeiros termos de uma série geométrica.</span></span>
 <span id="cb5-6"><a href="#cb5-6" aria-hidden="true" tabindex="-1"></a><span class="co">    a: termo inicial</span></span>
 <span id="cb5-7"><a href="#cb5-7" aria-hidden="true" tabindex="-1"></a><span class="co">    r: razão</span></span>
 <span id="cb5-8"><a href="#cb5-8" aria-hidden="true" tabindex="-1"></a><span class="co">    n: número de termos</span></span>
-<span id="cb5-9"><a href="#cb5-9" aria-hidden="true" tabindex="-1"></a><span class="co">    &quot;&quot;&quot;</span></span>
+<span id="cb5-9"><a href="#cb5-9" aria-hidden="true" tabindex="-1"></a><span class="co">    """</span></span>
 <span id="cb5-10"><a href="#cb5-10" aria-hidden="true" tabindex="-1"></a>    soma <span class="op">=</span> a <span class="op">*</span> (<span class="dv">1</span> <span class="op">-</span> r<span class="op">**</span>n) <span class="op">/</span> (<span class="dv">1</span> <span class="op">-</span> r) <span class="cf">if</span> r <span class="op">!=</span> <span class="dv">1</span> <span class="cf">else</span> a <span class="op">*</span> n</span>
 <span id="cb5-11"><a href="#cb5-11" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> soma</span>
 <span id="cb5-12"><a href="#cb5-12" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb5-13"><a href="#cb5-13" aria-hidden="true" tabindex="-1"></a><span class="co"># Exemplo de uso</span></span>
-<span id="cb5-14"><a href="#cb5-14" aria-hidden="true" tabindex="-1"></a><span class="cf">if</span> <span class="va">__name__</span> <span class="op">==</span> <span class="st">&quot;__main__&quot;</span>:</span>
+<span id="cb5-14"><a href="#cb5-14" aria-hidden="true" tabindex="-1"></a><span class="cf">if</span> <span class="va">__name__</span> <span class="op">==</span> <span class="st">"__main__"</span>:</span>
 <span id="cb5-15"><a href="#cb5-15" aria-hidden="true" tabindex="-1"></a>    a <span class="op">=</span> <span class="dv">2</span></span>
 <span id="cb5-16"><a href="#cb5-16" aria-hidden="true" tabindex="-1"></a>    r <span class="op">=</span> <span class="fl">0.5</span></span>
 <span id="cb5-17"><a href="#cb5-17" aria-hidden="true" tabindex="-1"></a>    n <span class="op">=</span> <span class="dv">10</span></span>
 <span id="cb5-18"><a href="#cb5-18" aria-hidden="true" tabindex="-1"></a>    resultado <span class="op">=</span> soma_serie_geometrica(a, r, n)</span>
-<span id="cb5-19"><a href="#cb5-19" aria-hidden="true" tabindex="-1"></a>    <span class="bu">print</span>(<span class="ss">f&quot;Soma dos </span><span class="sc">{</span>n<span class="sc">}</span><span class="ss"> primeiros termos: </span><span class="sc">{</span>resultado<span class="sc">:.4f}</span><span class="ss">&quot;</span>)</span></code></pre></div>
+<span id="cb5-19"><a href="#cb5-19" aria-hidden="true" tabindex="-1"></a>    <span class="bu">print</span>(<span class="ss">f"Soma dos </span><span class="sc">{</span>n<span class="sc">}</span><span class="ss"> primeiros termos: </span><span class="sc">{</span>resultado<span class="sc">:.4f}</span><span class="ss">"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </details>
 <div class="cell-output cell-output-stdout">
 <pre><code>Soma dos 10 primeiros termos: 3.9961</code></pre>
 </div>
 </div>
 <section id="aceda-ao-código-completo" class="level3">
-<h3>Aceda ao código completo</h3>
+<h3 class="anchored" data-anchor-id="aceda-ao-código-completo">Aceda ao código completo</h3>
 <p>Você pode também visualizar e fazer o download do script Python diretamente:</p>
 <div style="display: flex; flex-wrap: wrap; gap: 16px; justify-content: center; margin: 20px 0;">
-<a href="../../python/series_matematicas.py" download style="padding: 12px 24px; background-color: #198754; color: white; border-radius: 8px; text-decoration: none; font-size: 1.1em;"> 📥 Baixar Código Python </a> <a href="../../python/series_matematicas.py" target="_blank" style="padding: 12px 24px; background-color: #0d6efd; color: white; border-radius: 8px; text-decoration: none; font-size: 1.1em;"> 📖 Ver Código Online </a>
+<a href="../../python/series_matematicas.py" download="" style="padding: 12px 24px; background-color: #198754; color: white; border-radius: 8px; text-decoration: none; font-size: 1.1em;"> 📥 Baixar Código Python </a> <a href="../../python/series_matematicas.py" target="_blank" style="padding: 12px 24px; background-color: #0d6efd; color: white; border-radius: 8px; text-decoration: none; font-size: 1.1em;"> 📖 Ver Código Online </a>
 </div>
 <div style="text-align: center; margin: 20px 0;">
 <p><a href="https://colab.research.google.com/github/cacbarros/blog-fortec/blob/main/python/series_matematicas.ipynb" target="_blank" style="padding: 12px 24px; background-color: #f9ab00; color: black; border-radius: 8px; text-decoration: none; font-size: 1.1em;"> Executar no Google Colab </a></p>
@@ -422,68 +425,60 @@ Valor limite (teórico): 4.0000</code></pre>
 </section>
 </section>
 <section id="executar-o-notebook-no-google-colab" class="level2">
-<h2>Executar o Notebook no Google Colab</h2>
+<h2 class="anchored" data-anchor-id="executar-o-notebook-no-google-colab">Executar o Notebook no Google Colab</h2>
 <div class="quarto-figure quarto-figure-center">
-<figure>
-<p><a href="https://colab.research.google.com/github/cacbarros/blog-fortec/blob/main/python/series_matematicas.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" class="img-fluid" /></a></p>
+<figure class="figure">
+<p><a href="https://colab.research.google.com/github/cacbarros/blog-fortec/blob/main/python/series_matematicas.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" class="img-fluid figure-img"></a></p>
 <figcaption>Open In Colab</figcaption>
 </figure>
 </div>
 </section>
 <section id="executar-o-notebook-no-google-colab-1" class="level2">
-<h2>Executar o Notebook no Google Colab</h2>
-<p>Se preferir, pode explorar o exemplo interativamente no ambiente de nuvem do Google Colab.<br />
+<h2 class="anchored" data-anchor-id="executar-o-notebook-no-google-colab-1">Executar o Notebook no Google Colab</h2>
+<p>Se preferir, pode explorar o exemplo interativamente no ambiente de nuvem do Google Colab.<br>
 Clique no badge abaixo para abrir o notebook e executar o código diretamente:</p>
 <div style="text-align: center; margin: 20px 0;">
 <p><a href="https://colab.research.google.com/github/cacbarros/blog-fortec/blob/main/python/series_matematicas.ipynb" target="_blank"> <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open in Colab" style="height: 60px;"> </a></p>
 </div>
 </section>
 <section id="recursos-disponíveis" class="level2">
-<h2>Recursos Disponíveis</h2>
-<p>Explore o conteúdo completo desta lição:</p>
-</section>
-<section id="recursos-disponíveis-1" class="level2">
-<h2>📥 Recursos Disponíveis</h2>
+<h2 class="anchored" data-anchor-id="recursos-disponíveis">Recursos Disponíveis</h2>
 <p>Explore o conteúdo completo desta lição:</p>
 <p align="center">
-<a href="https://colab.research.google.com/github/cacbarros/blog-fortec/blob/main/python/series_matematicas.ipynb" target="_blank"> <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open in Colab" style="height: 32px; margin: 5px;"> </a> <a href="https://github.com/cacbarros/blog-fortec/blob/main/python/series_matematicas.py" target="_blank"> <img src="https://img.shields.io/badge/Ver%20Código%20Fonte-181717?style=flat-square&logo=github&logoColor=white" alt="Ver Código no GitHub" style="height: 32px; margin: 5px;"> </a> <a href="../../python/series_matematicas.ipynb" download> <img src="https://img.shields.io/badge/Baixar%20Notebook-4CAF50?style=flat-square&logo=google-drive&logoColor=white" alt="Baixar Notebook" style="height: 32px; margin: 5px;"> </a> <a href="avaliacao.html" target="_blank"> <img src="https://img.shields.io/badge/Resolver%20Exercícios-FF9800?style=flat-square&logo=bookstack&logoColor=white" alt="Resolver Exercícios" style="height: 32px; margin: 5px;"> </a>
+<a href="https://colab.research.google.com/github/cacbarros/blog-fortec/blob/main/python/series_matematicas.ipynb" target="_blank"> <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open in Colab" style="height: 32px; margin: 5px;"> </a> <a href="https://github.com/cacbarros/blog-fortec/blob/main/python/series_matematicas.py" target="_blank"> <img src="https://img.shields.io/badge/Ver%20Código%20Fonte-181717?style=flat-square&amp;logo=github&amp;logoColor=white" alt="Ver Código no GitHub" style="height: 32px; margin: 5px;"> </a> <a href="../../python/series_matematicas.ipynb" download=""> <img src="https://img.shields.io/badge/Baixar%20Notebook-4CAF50?style=flat-square&amp;logo=google-drive&amp;logoColor=white" alt="Baixar Notebook" style="height: 32px; margin: 5px;"> </a> <a href="avaliacao.html" target="_blank"> <img src="https://img.shields.io/badge/Resolver%20Exercícios-FF9800?style=flat-square&amp;logo=bookstack&amp;logoColor=white" alt="Resolver Exercícios" style="height: 32px; margin: 5px;"> </a>
 </p>
 </section>
 <section id="observação" class="level2">
-<h2>Observação</h2>
+<h2 class="anchored" data-anchor-id="observação">Observação</h2>
 <p>A convergência de uma série depende do comportamento da soma parcial, <strong>não apenas</strong> da tendência dos termos <span class="math inline">\(a_n\)</span>.</p>
 </section>
 <section id="séries-matemáticas---avaliação" class="level2">
-<h2>Séries Matemáticas - Avaliação</h2>
+<h2 class="anchored" data-anchor-id="séries-matemáticas---avaliação">Séries Matemáticas - Avaliação</h2>
 <ul>
-<li><a href="problema-series.qmd">Problema de Séries Numéricas</a></li>
+<li><a href="../../posts/calculo/problema-series.html">Problema de Séries Numéricas</a></li>
 </ul>
-<hr />
+<hr>
 <p>
 <a href="index.html" style="padding: 8px 16px; background-color: #17a2b8; color: white; border-radius: 5px; text-decoration: none;">Voltar para Índice de Séries Matemáticas</a>
 </p>
 </section>
 <section id="referências" class="level2">
-<h2>Referências</h2>
-<div id="quarto-navigation-envelope" class="hidden">
-<p><span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLWludC1zaWRlYmFyLXRpdGxl">Blog Educacional</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLWludC1uYXZiYXItdGl0bGU=">Blog Educacional</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLWludC1uYXZiYXI6SW7DrWNpbw==">Início</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLWludC1uYXZiYXI6L3dlbGNvbWUvaW5kZXguaHRtbA==">/welcome/index.html</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLWludC1uYXZiYXI6Q8OhbGN1bG8=">Cálculo</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLWludC1uYXZiYXI6L3Bvc3RzL2NhbGN1bG8vaW5kZXguaHRtbA==">/posts/calculo/index.html</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLWludC1uYXZiYXI6w4FsZ2VicmE=">Álgebra</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLWludC1uYXZiYXI6L3Bvc3RzL2FsZ2VicmEvaW5kZXguaHRtbA==">/posts/algebra/index.html</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLWludC1uYXZiYXI6RsOtc2ljYQ==">Física</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLWludC1uYXZiYXI6L3Bvc3RzL2Zpc2ljYS9pbmRleC5odG1s">/posts/fisica/index.html</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLWludC1uYXZiYXI6UXXDrW1pY2E=">Química</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLWludC1uYXZiYXI6L3Bvc3RzL3F1aW1pY2EvaW5kZXguaHRtbA==">/posts/quimica/index.html</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLWludC1uYXZiYXI6VGVybW9kaW7Dom1pY2E=">Termodinâmica</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLWludC1uYXZiYXI6L3Bvc3RzL3Rlcm1vZGluYW1pY2EvaW5kZXguaHRtbA==">/posts/termodinamica/index.html</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLWludC1uYXZiYXI6Q2xpbWF0aXphw6fDo28=">Climatização</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLWludC1uYXZiYXI6L3Bvc3RzL2NsaW1hdGl6YWNhby9pbmRleC5odG1s">/posts/climatizacao/index.html</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLWludC1uYXZiYXI6QWJvdXQ=">About</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLWludC1uYXZiYXI6L2Fib3V0Lmh0bWw=">/about.html</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLWludC1uYXZiYXI6aHR0cHM6Ly9naXRodWIuY29tLw==">https://github.com/</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLWludC1uYXZiYXI6aHR0cHM6Ly90d2l0dGVyLmNvbQ==">https://twitter.com</span></p>
-</div>
-<div id="quarto-meta-markdown" class="hidden">
-<p><span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLW1ldGF0aXRsZQ==">Séries Matemáticas – Blog Educacional</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLXR3aXR0ZXJjYXJkdGl0bGU=">Séries Matemáticas – Blog Educacional</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLW9nY2FyZHRpdGxl">Séries Matemáticas – Blog Educacional</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLW1ldGFzaXRlbmFtZQ==">Blog Educacional</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLXR3aXR0ZXJjYXJkZGVzYw==">Introdução a séries numéricas, com exemplos de convergência e resolução com Python.</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLW9nY2FyZGRkZXNj">Introdução a séries numéricas, com exemplos de convergência e resolução com Python.</span></p>
-</div>
-<div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" data-line-spacing="2" role="list">
+
+
+
+
+</section>
+</section>
+
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">Referências</h2><div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" data-line-spacing="2" role="list">
 <div id="ref-apostol" class="csl-entry" role="listitem">
 Apostol, T. M. (1967). <em>Calculus, volume i</em>. Blaisdell Publishing Company.
 </div>
 <div id="ref-stewart" class="csl-entry" role="listitem">
 Stewart, J. (2013). <em>Cálculo: Volume 1</em> (7th ed.). Cengage Learning.
 </div>
-</div>
-</section>
-</section>
-
-</main> <!-- /main -->
-<script id = "quarto-html-after-body" type="application/javascript">
+</div></section></div></main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";
     const anchorJS = new window.AnchorJS();
@@ -852,4 +847,39 @@ Stewart, J. (2013). <em>Cálculo: Volume 1</em> (7th ed.). Cengage Learning.
             el,
             cites: cites.split(' ')
           };
+        } else {
+          return findCites(el.parentElement)
         }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+
+
+
+
+</body></html>

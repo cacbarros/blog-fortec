@@ -161,12 +161,6 @@ Clique no badge abaixo para abrir o notebook e executar o código diretamente:
 
 Explore o conteúdo completo desta lição:
 
-
-
-## 📥 Recursos Disponíveis
-
-Explore o conteúdo completo desta lição:
-
 <p align="center">
   <a href="https://colab.research.google.com/github/cacbarros/blog-fortec/blob/main/python/series_matematicas.ipynb" target="_blank">
     <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open in Colab" style="height: 32px; margin: 5px;">
