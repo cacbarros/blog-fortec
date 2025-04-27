@@ -221,7 +221,7 @@
     "href": "about.html",
     "title": "Sobre o Blog Fortec",
     "section": "",
-    "text": "Sobre o Blog Fortec\nO Blog Fortec é um projeto educacional aberto que visa apoiar o estudo de disciplinas fundamentais como Matemática, Física, Química, Termodinâmica e Climatização.\nAqui você encontrará:\n\nTextos explicativos claros e acessíveis,\nExemplos resolvidos com Python e Jupyter,\nExecução de códigos diretamente no Google Colab,\nÁudios explicativos integrados (via Vocaroo),\nVídeos educativos incorporados do YouTube,\nExercícios de avaliação para consolidar o conhecimento.\n\n\n\nObjetivo do Projeto\nO principal objetivo é disponibilizar conteúdos educativos de qualidade, de forma gratuita, utilizando tecnologias modernas de publicação aberta e ambientes interativos.\n\n\n🔧 Tecnologias Utilizadas\n\nQuarto\nGitHub Pages\nPython\nJupyterLab\nGoogle Colab\nYouTube\nVocaroo\n\n\n\n🌍 Acesso Aberto\nTodo o conteúdo deste blog é disponibilizado de forma aberta e gratuita para promover o acesso ao conhecimento e apoiar estudantes, professores e autodidatas.\n\n\n📬 Contato\nPara sugestões, dúvidas ou parcerias:\n\nGitHub: cacbarros\nRepositório do projeto: Blog Fortec no GitHub"
+    "text": "Sobre o Blog Fortec\nO Blog Fortec é um projeto educacional aberto que visa apoiar o estudo de disciplinas fundamentais como Matemática, Física, Química, Termodinâmica e Climatização.\nAqui você encontrará:\n\nTextos explicativos claros e acessíveis,\nExemplos resolvidos com Python e Jupyter,\nExecução de códigos diretamente no Google Colab,\nÁudios explicativos integrados (via Vocaroo),\nVídeos educativos incorporados do YouTube,\nExercícios de avaliação para consolidar o conhecimento.\n\n\n\nObjetivo do Projeto\nO principal objetivo é disponibilizar conteúdos educativos de qualidade, de forma gratuita, utilizando tecnologias modernas de publicação aberta e ambientes interativos.\n\n\nTecnologias Utilizadas\n\nQuarto\nGitHub Pages\nPython\nJupyterLab\nGoogle Colab\nYouTube\nVocaroo\n\n\n\nAcesso Aberto\nTodo o conteúdo deste blog é disponibilizado de forma aberta e gratuita para promover o acesso ao conhecimento e apoiar estudantes, professores e autodidatas.\n\n\nContato\nPara sugestões, dúvidas ou parcerias:\n\nGitHub: cacbarros\nRepositório do projeto: Blog Fortec no GitHub"
   },
   {
     "objectID": "index.html",
@@ -299,6 +299,13 @@
     "title": "Séries Matemáticas",
     "section": "Exemplo 3 — Código Python Externo",
     "text": "Exemplo 3 — Código Python Externo\nAlém dos exemplos resolvidos acima, disponibilizamos um script Python que implementa uma função geral para calcular a soma dos \\(n\\) primeiros termos de uma série geométrica:\n\n\nCode\n# Código presente em: python/series_matematicas.py\n\ndef soma_serie_geometrica(a, r, n):\n    \"\"\"\n    Calcula a soma dos n primeiros termos de uma série geométrica.\n    a: termo inicial\n    r: razão\n    n: número de termos\n    \"\"\"\n    soma = a * (1 - r**n) / (1 - r) if r != 1 else a * n\n    return soma\n\n# Exemplo de uso\nif __name__ == \"__main__\":\n    a = 2\n    r = 0.5\n    n = 10\n    resultado = soma_serie_geometrica(a, r, n)\n    print(f\"Soma dos {n} primeiros termos: {resultado:.4f}\")\n\n\nSoma dos 10 primeiros termos: 3.9961"
+  },
+  {
+    "objectID": "posts/calculo/series-matematicas.html#representação-gráfica-interativa",
+    "href": "posts/calculo/series-matematicas.html#representação-gráfica-interativa",
+    "title": "Séries Matemáticas",
+    "section": "Representação Gráfica Interativa",
+    "text": "Representação Gráfica Interativa\nExplore a série geométrica de forma interativa no Geogebra:"
   },
   {
     "objectID": "posts/calculo/series-matematicas.html#recursos-disponíveis",

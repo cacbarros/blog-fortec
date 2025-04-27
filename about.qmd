@@ -23,7 +23,7 @@ Aqui você encontrará:
 
 O principal objetivo é disponibilizar conteúdos educativos de qualidade, de forma gratuita, utilizando tecnologias modernas de publicação aberta e ambientes interativos.
 
-# 🔧 Tecnologias Utilizadas
+# Tecnologias Utilizadas
 
 - [Quarto](https://quarto.org/)
 - [GitHub Pages](https://pages.github.com/)
@@ -33,11 +33,11 @@ O principal objetivo é disponibilizar conteúdos educativos de qualidade, de fo
 - [YouTube](https://youtube.com/)
 - [Vocaroo](https://vocaroo.com/)
 
-# 🌍 Acesso Aberto
+# Acesso Aberto
 
 Todo o conteúdo deste blog é disponibilizado de forma aberta e gratuita para promover o acesso ao conhecimento e apoiar estudantes, professores e autodidatas.
 
-# 📬 Contato
+# Contato
 
 Para sugestões, dúvidas ou parcerias:
 
