@@ -178,6 +178,7 @@ if __name__ == "__main__":
 ```
 
 
+
 ## Representação Gráfica Interativa
 
 Explore a série de forma interativa no Geogebra:
@@ -200,16 +201,16 @@ Explore a série de forma interativa no Geogebra:
 Explore o conteúdo completo desta lição:
 
 <p align="center">
-  <a href="https://colab.research.google.com/github/cacbarros/blog-fortec/blob/main/python/series_matematicas.ipynb" target="_blank">
+  <a href="https://colab.research.google.com/github/cacbarros/blog-fortec/blob/main/python/calculo/series_matematicas.ipynb" target="_blank">
     <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open in Colab" style="height: 32px; margin: 5px;">
   </a>
-  <a href="https://mybinder.org/v2/gh/cacbarros/blog-fortec/HEAD?labpath=python/series_matematicas.ipynb" target="_blank">
+  <a href="https://mybinder.org/v2/gh/cacbarros/blog-fortec/HEAD?labpath=python/calculo/series_matematicas.ipynb" target="_blank">
     <img src="https://mybinder.org/badge_logo.svg" alt="Launch Binder" style="height: 32px; margin: 5px;">
   </a>
-  <a href="https://github.com/cacbarros/blog-fortec/blob/main/python/series_matematicas.py" target="_blank">
+  <a href="https://github.com/cacbarros/blog-fortec/blob/main/python/calculo/series_matematicas.py" target="_blank">
     <img src="https://img.shields.io/badge/Ver%20Código%20Fonte-181717?style=flat-square&logo=github&logoColor=white" alt="Ver Código no GitHub" style="height: 32px; margin: 5px;">
   </a>
-  <a href="../../python/series_matematicas.ipynb" download>
+  <a href="../../python/calculo/series_matematicas.ipynb" download>
     <img src="https://img.shields.io/badge/Baixar%20Notebook-4CAF50?style=flat-square&logo=google-drive&logoColor=white" alt="Baixar Notebook" style="height: 32px; margin: 5px;">
   </a>
   <a href="avaliacao.html" target="_blank">
