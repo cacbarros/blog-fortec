@@ -130,6 +130,7 @@ format:
     css: styles.css
     include-before-body:
       - text: '<script src="/footer.js"></script>'
+    include-after-body: matomo.js
     toc: true
 search: true
 filters:
