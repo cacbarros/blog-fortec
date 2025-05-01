@@ -131,7 +131,7 @@ format:
     include-before-body:
       - text: '<script src="/footer.js"></script>'
     toc: true
-
+search: true
 filters:
   - watermark
 

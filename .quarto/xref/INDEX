@@ -1,6 +1,7 @@
 {
   "about.qmd": {
-    "about.html": "26210bcb"
+    "about.html": "26210bcb",
+    "about.tex": "5b49761e"
   },
   "index.qmd": {
     "index.html": "9c1e7930"
@@ -76,7 +77,8 @@
     "introducao-quimica.html": "403ab3ee"
   },
   "posts/quimica/ligacoes-quimicas.qmd": {
-    "ligacoes-quimicas.html": "fdd09052"
+    "ligacoes-quimicas.html": "fdd09052",
+    "ligacoes-quimicas.tex": "4377545b"
   },
   "posts/quimica/reacoes-equacoes.qmd": {
     "reacoes-equacoes.html": "ebfb54db"
@@ -94,14 +96,16 @@
     "ciclos-termodinamicos.html": "bc016a22"
   },
   "posts/termodinamica/introducao-termodinamica.qmd": {
-    "introducao-termodinamica.html": "e5f02b0c"
+    "introducao-termodinamica.html": "e5f02b0c",
+    "introducao-termodinamica.tex": "1d56d484"
   },
   "posts/termodinamica/primeira-lei.qmd": {
     "primeira-lei.html": "187c430c",
     "primeira-lei.tex": "cc6e6487"
   },
   "posts/termodinamica/segunda-lei.qmd": {
-    "segunda-lei.html": "fc63b1b4"
+    "segunda-lei.html": "fc63b1b4",
+    "segunda-lei.tex": "3e8d8733"
   },
   "posts/fisica/avaliacao-fisica.qmd": {
     "avaliacao-fisica.html": "92dda5be"
@@ -111,7 +115,8 @@
     "cinematica.tex": "8d2bc015"
   },
   "posts/fisica/dinamica.qmd": {
-    "dinamica.html": "572a56b0"
+    "dinamica.html": "572a56b0",
+    "dinamica.tex": "92eebe86"
   },
   "posts/fisica/introducao-fisica.qmd": {
     "introducao-fisica.html": "952f74d1"
@@ -120,7 +125,8 @@
     "leis-conservacao.html": "bc853323"
   },
   "posts/fisica/trabalho-energia.qmd": {
-    "trabalho-energia.html": "36e52fb5"
+    "trabalho-energia.html": "36e52fb5",
+    "trabalho-energia.tex": "c5f02a22"
   },
   "posts/matematica/avaliacao-matematica.qmd": {
     "avaliacao-matematica.html": "cf2d4b02"
@@ -204,66 +210,80 @@
     "polinomios.tex": "31ab3486"
   },
   "posts/algebra/produtos-notaveis.qmd": {
-    "produtos-notaveis.html": "86ac4bc1"
+    "produtos-notaveis.html": "86ac4bc1",
+    "produtos-notaveis.tex": "1442fb63"
   },
   "posts/algebra/sistemas-lineares.qmd": {
-    "sistemas-lineares.html": "7f38fbd6"
+    "sistemas-lineares.html": "7f38fbd6",
+    "sistemas-lineares.tex": "042cd97c"
   },
   "posts/quimica/equilibrio-quimico.qmd": {
     "equilibrio-quimico.html": "e4b46806",
     "equilibrio-quimico.tex": "1cb3e8bd"
   },
   "posts/quimica/ph-solucoes.qmd": {
-    "ph-solucoes.html": "b031932c"
+    "ph-solucoes.html": "b031932c",
+    "ph-solucoes.tex": "57c80e31"
   },
   "posts/quimica/reacoes-quimicas.qmd": {
     "reacoes-quimicas.html": "bf6d7e41",
     "reacoes-quimicas.tex": "966f822e"
   },
   "posts/fisica/gravitacao-universal.qmd": {
-    "gravitacao-universal.html": "7dcaf9fe"
+    "gravitacao-universal.html": "7dcaf9fe",
+    "gravitacao-universal.tex": "91bf43ea"
   },
   "posts/fisica/leis-newton.qmd": {
     "leis-newton.html": "16d904b9",
     "leis-newton.tex": "d6c2d8ab"
   },
   "posts/termodinamica/eficiencia-ciclos.qmd": {
-    "eficiencia-ciclos.html": "8fb99f63"
+    "eficiencia-ciclos.html": "8fb99f63",
+    "eficiencia-ciclos.tex": "f44b55b7"
   },
   "posts/termodinamica/entropia.qmd": {
-    "entropia.html": "b355683a"
+    "entropia.html": "b355683a",
+    "entropia.tex": "c2a64823"
   },
   "posts/climatizacao/automacao-controle.qmd": {
-    "automacao-controle.html": "3b314288"
+    "automacao-controle.html": "3b314288",
+    "automacao-controle.tex": "50be27bf"
   },
   "posts/climatizacao/carga-termica.qmd": {
-    "carga-termica.html": "fa45dfb4"
+    "carga-termica.html": "fa45dfb4",
+    "carga-termica.tex": "6b587b93"
   },
   "posts/climatizacao/chillers-torres.qmd": {
-    "chillers-torres.html": "2cdce36a"
+    "chillers-torres.html": "2cdce36a",
+    "chillers-torres.tex": "34ecaa21"
   },
   "posts/climatizacao/qualidade-ar.qmd": {
     "qualidade-ar.html": "30d1a9f6",
     "qualidade-ar.tex": "7d64a071"
   },
   "posts/climatizacao/ventilacao-natural.qmd": {
-    "ventilacao-natural.html": "66106968"
+    "ventilacao-natural.html": "66106968",
+    "ventilacao-natural.tex": "c615e74d"
   },
   "posts/calculo/aplicacoes-derivada.qmd": {
-    "aplicacoes-derivada.html": "0b4aabc4"
+    "aplicacoes-derivada.html": "0b4aabc4",
+    "aplicacoes-derivada.tex": "98d5bf9c"
   },
   "posts/calculo/derivadas.qmd": {
-    "derivadas.html": "d59f4949"
+    "derivadas.html": "d59f4949",
+    "derivadas.tex": "800f4dc1"
   },
   "posts/calculo/integrais.qmd": {
-    "integrais.html": "4c92d43c"
+    "integrais.html": "4c92d43c",
+    "integrais.tex": "683910f6"
   },
   "posts/calculo/limites.qmd": {
     "limites.html": "b3078d4f",
     "limites.tex": "b1afc2a5"
   },
   "posts/calculo/teorema-fundamental.qmd": {
-    "teorema-fundamental.html": "2f5f24e2"
+    "teorema-fundamental.html": "2f5f24e2",
+    "teorema-fundamental.tex": "1b2ca319"
   },
   "posts/series/avaliacao.qmd": {
     "avaliacao.html": "d5a66997"
@@ -286,35 +306,44 @@
     "testes-convergencia.html": "780ec963"
   },
   "posts/series/aplicacoes-engenharia.qmd": {
-    "aplicacoes-engenharia.html": "a32f0c69"
+    "aplicacoes-engenharia.html": "a32f0c69",
+    "aplicacoes-engenharia.tex": "95e8ae12"
   },
   "posts/series/convergencia-series.qmd": {
-    "convergencia-series.html": "78be5444"
+    "convergencia-series.html": "78be5444",
+    "convergencia-series.tex": "708ef3ba"
   },
   "posts/series/series-numericas.qmd": {
-    "series-numericas.html": "7a1d0140"
+    "series-numericas.html": "7a1d0140",
+    "series-numericas.tex": "b35e1860"
   },
   "posts/series/series-potencias.qmd": {
-    "series-potencias.html": "fd66a098"
+    "series-potencias.html": "fd66a098",
+    "series-potencias.tex": "5f9560e4"
   },
   "posts/series/series-taylor.qmd": {
-    "series-taylor.html": "7db8d524"
+    "series-taylor.html": "7db8d524",
+    "series-taylor.tex": "d1fb36d7"
   },
   "posts/jogos/aprendizagem-jogos.qmd": {
-    "aprendizagem-jogos.html": "92e6e072"
+    "aprendizagem-jogos.html": "92e6e072",
+    "aprendizagem-jogos.tex": "7bd8dee3"
   },
   "posts/jogos/ferramentas-plataformas.qmd": {
-    "ferramentas-plataformas.html": "309bc6af"
+    "ferramentas-plataformas.html": "309bc6af",
+    "ferramentas-plataformas.tex": "05bae234"
   },
   "posts/jogos/introducao-gamificacao.qmd": {
-    "introducao-gamificacao.html": "b0c201b7"
+    "introducao-gamificacao.html": "b0c201b7",
+    "introducao-gamificacao.tex": "aa56a405"
   },
   "posts/jogos/jogos-matematicos.qmd": {
     "jogos-matematicos.html": "1b900a00",
     "jogos-matematicos.tex": "45ae819b"
   },
   "posts/jogos/simulacoes-interativas.qmd": {
-    "simulacoes-interativas.html": "4c2308c1"
+    "simulacoes-interativas.html": "4c2308c1",
+    "simulacoes-interativas.tex": "2dc05104"
   },
   "sobre.qmd": {
     "sobre.html": "92283071"
