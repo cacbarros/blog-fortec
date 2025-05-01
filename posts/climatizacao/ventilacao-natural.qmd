@@ -1,0 +1,30 @@
+---
+title: "Climatização: Ventilação Natural"
+filters:
+  - watermark
+watermark:
+  text: "RASCUNHO"
+  size: 1.5
+  angle: 30
+  color: "#FF0000"
+  opacity: 0.1
+format:
+  html: default
+  pdf: default
+toc: true
+code-fold: true
+bibliography: climatizacao.bib
+csl: apa.csl
+nocite: "@*"
+reference-title: "Referências"
+---
+
+# Climatização: Ventilação Natural
+
+Em breve conteúdos e exercícios sobre ventilação natural!
+
+---
+
+📄 [Download em PDF](./ventilacao-natural.pdf){target="_blank"}
+
+## Referências

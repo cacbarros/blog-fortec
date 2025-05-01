@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Álgebra: Equações Quadráticas – Blog Educacional</title>
+<title>Álgebra: Equações Quadráticas – Blog Fortec</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -20,7 +20,27 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+  margin-bottom: 0em;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
@@ -39,7 +59,8 @@ ul.task-list li input[type="checkbox"] {
 <link href="../../site_libs/quarto-html/quarto-syntax-highlighting-0815c480559380816a4d1ea211a47e91.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap-dfb324f25d9b1687192fa8be62ac8f9c.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-f7bceeac66e80756059b4ac30f4daffe.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="../../site_libs/quarto-contrib/watermark-1.0.11/watermark.min.js"></script>
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -72,7 +93,7 @@ ul.task-list li input[type="checkbox"] {
 <link rel="stylesheet" href="../../styles.css">
 </head>
 
-<body class="nav-fixed fullcontent quarto-light">
+<body class="nav-fixed quarto-light">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top quarto-banner">
@@ -80,7 +101,7 @@ ul.task-list li input[type="checkbox"] {
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
     <a class="navbar-brand" href="../../index.html">
-    <span class="navbar-title">Blog Educacional</span>
+    <span class="navbar-title">Blog Fortec</span>
     </a>
   </div>
             <div id="quarto-search" class="" title="Search"></div>
@@ -90,56 +111,236 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../../welcome/index.html"> 
+    <a class="nav-link" href="../../index.html"> 
 <span class="menu-text">Início</span></a>
   </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="../../posts/calculo/index.html"> 
-<span class="menu-text">Cálculo</span></a>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-lgebra" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Álgebra</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-lgebra">    
+        <li>
+    <a class="dropdown-item" href="../../posts/algebra/equacoes-quadraticas.html">
+ <span class="dropdown-text">Equações Quadráticas</span></a>
   </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="../../posts/algebra/index.html"> 
-<span class="menu-text">Álgebra</span></a>
+        <li>
+    <a class="dropdown-item" href="../../posts/algebra/sistemas-lineares.html">
+ <span class="dropdown-text">Sistemas Lineares</span></a>
   </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="../../posts/fisica/index.html"> 
-<span class="menu-text">Física</span></a>
+        <li>
+    <a class="dropdown-item" href="../../posts/algebra/produtos-notaveis.html">
+ <span class="dropdown-text">Produtos Notáveis</span></a>
   </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="../../posts/quimica/index.html"> 
-<span class="menu-text">Química</span></a>
+        <li>
+    <a class="dropdown-item" href="../../posts/algebra/polinomios.html">
+ <span class="dropdown-text">Polinómios</span></a>
   </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="../../posts/termodinamica/index.html"> 
-<span class="menu-text">Termodinâmica</span></a>
+        <li>
+    <a class="dropdown-item" href="../../posts/algebra/fatoracao.html">
+ <span class="dropdown-text">Fatoração</span></a>
   </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="../../posts/climatizacao/index.html"> 
-<span class="menu-text">Climatização</span></a>
+    </ul>
+  </li>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-química" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Química</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-química">    
+        <li>
+    <a class="dropdown-item" href="../../posts/quimica/reacoes-quimicas.html">
+ <span class="dropdown-text">Reações Químicas</span></a>
   </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="../../jogos.html"> 
-<span class="menu-text">Jogos</span></a>
+        <li>
+    <a class="dropdown-item" href="../../posts/quimica/equilibrio-quimico.html">
+ <span class="dropdown-text">Equilíbrio Químico</span></a>
   </li>  
-</ul>
-            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+        <li>
+    <a class="dropdown-item" href="../../posts/quimica/estequiometria.html">
+ <span class="dropdown-text">Estequiometria</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../posts/quimica/ph-solucoes.html">
+ <span class="dropdown-text">pH e Soluções</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../posts/quimica/ligacoes-quimicas.html">
+ <span class="dropdown-text">Ligações Químicas</span></a>
+  </li>  
+    </ul>
+  </li>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-física" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Física</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-física">    
+        <li>
+    <a class="dropdown-item" href="../../posts/fisica/cinematica.html">
+ <span class="dropdown-text">Cinemática</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../posts/fisica/dinamica.html">
+ <span class="dropdown-text">Dinâmica</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../posts/fisica/leis-newton.html">
+ <span class="dropdown-text">Leis de Newton</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../posts/fisica/trabalho-energia.html">
+ <span class="dropdown-text">Trabalho e Energia</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../posts/fisica/gravitacao-universal.html">
+ <span class="dropdown-text">Gravitação Universal</span></a>
+  </li>  
+    </ul>
+  </li>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-termodinâmica" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Termodinâmica</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-termodinâmica">    
+        <li>
+    <a class="dropdown-item" href="../../posts/termodinamica/introducao-termodinamica.html">
+ <span class="dropdown-text">Introdução à Termodinâmica</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../posts/termodinamica/primeira-lei.html">
+ <span class="dropdown-text">Primeira Lei</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../posts/termodinamica/segunda-lei.html">
+ <span class="dropdown-text">Segunda Lei</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../posts/termodinamica/entropia.html">
+ <span class="dropdown-text">Entropia</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../posts/termodinamica/eficiencia-ciclos.html">
+ <span class="dropdown-text">Eficiência de Ciclos</span></a>
+  </li>  
+    </ul>
+  </li>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-climatização" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Climatização</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-climatização">    
+        <li>
+    <a class="dropdown-item" href="../../posts/climatizacao/carga-termica.html">
+ <span class="dropdown-text">Carga Térmica</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../posts/climatizacao/ventilacao-natural.html">
+ <span class="dropdown-text">Ventilação Natural</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../posts/climatizacao/chillers-torres.html">
+ <span class="dropdown-text">Chillers e Torres</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../posts/climatizacao/qualidade-ar.html">
+ <span class="dropdown-text">Qualidade do Ar Interior</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../posts/climatizacao/automacao-controle.html">
+ <span class="dropdown-text">Automação e Controlo</span></a>
+  </li>  
+    </ul>
+  </li>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-cálculo" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Cálculo</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-cálculo">    
+        <li>
+    <a class="dropdown-item" href="../../posts/calculo/limites.html">
+ <span class="dropdown-text">Limites</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../posts/calculo/derivadas.html">
+ <span class="dropdown-text">Derivadas</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../posts/calculo/integrais.html">
+ <span class="dropdown-text">Integrais</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../posts/calculo/aplicacoes-derivada.html">
+ <span class="dropdown-text">Aplicações da Derivada</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../posts/calculo/teorema-fundamental.html">
+ <span class="dropdown-text">Teorema Fundamental do Cálculo</span></a>
+  </li>  
+    </ul>
+  </li>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-séries-matemáticas" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Séries Matemáticas</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-séries-matemáticas">    
+        <li>
+    <a class="dropdown-item" href="../../posts/series/series-numericas.html">
+ <span class="dropdown-text">Séries Numéricas</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../posts/series/series-matematicas.html">
+ <span class="dropdown-text">Séries Matemáticas</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../posts/series/problema-series.html">
+ <span class="dropdown-text">Problema de séries</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../posts/series/series-potencias.html">
+ <span class="dropdown-text">Séries de Potências</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../posts/series/convergencia-series.html">
+ <span class="dropdown-text">Convergência de Séries</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../posts/series/series-taylor.html">
+ <span class="dropdown-text">Séries de Taylor</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../posts/series/aplicacoes-engenharia.html">
+ <span class="dropdown-text">Aplicações em Engenharia</span></a>
+  </li>  
+    </ul>
+  </li>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-jogos" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Jogos</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-jogos">    
+        <li>
+    <a class="dropdown-item" href="../../posts/jogos/introducao-gamificacao.html">
+ <span class="dropdown-text">Introdução à Gamificação</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../posts/jogos/jogos-matematicos.html">
+ <span class="dropdown-text">Jogos Matemáticos</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../posts/jogos/simulacoes-interativas.html">
+ <span class="dropdown-text">Simulações Interativas</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../posts/jogos/aprendizagem-jogos.html">
+ <span class="dropdown-text">Aprendizagem Baseada em Jogos</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../posts/jogos/ferramentas-plataformas.html">
+ <span class="dropdown-text">Ferramentas e Plataformas</span></a>
+  </li>  
+    </ul>
+  </li>
   <li class="nav-item">
-    <a class="nav-link" href="../../about.html"> 
+    <a class="nav-link" href="../../sobre.html"> 
 <span class="menu-text">Sobre</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="../../recursos.html"> 
-<span class="menu-text">Recursos</span></a>
-  </li>  
-  <li class="nav-item compact">
-    <a class="nav-link" href="https://github.com/"> <i class="bi bi-github" role="img">
-</i> 
-<span class="menu-text"></span></a>
-  </li>  
-  <li class="nav-item compact">
-    <a class="nav-link" href="https://twitter.com"> <i class="bi bi-twitter" role="img">
-</i> 
-<span class="menu-text"></span></a>
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
@@ -168,9 +369,21 @@ ul.task-list li input[type="checkbox"] {
   </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#álgebra-equações-quadráticas" id="toc-álgebra-equações-quadráticas" class="nav-link active" data-scroll-target="#álgebra-equações-quadráticas">🧮 Álgebra: Equações Quadráticas</a>
+  <ul class="collapse">
+  <li><a href="#referências" id="toc-referências" class="nav-link" data-scroll-target="#referências">Referências</a></li>
+  </ul></li>
+  </ul>
+<div class="quarto-alternate-formats"><h2>Other Formats</h2><ul><li><a href="equacoes-quadraticas.pdf"><i class="bi bi-file-pdf"></i>PDF</a></li></ul></div></nav>
+    </div>
 <!-- main -->
 <main class="content quarto-banner-title-block" id="quarto-document-content">
+<script src="../../footer.js"></script>
 
 
 
@@ -179,11 +392,21 @@ ul.task-list li input[type="checkbox"] {
 <section id="álgebra-equações-quadráticas" class="level1">
 <h1>🧮 Álgebra: Equações Quadráticas</h1>
 <p>Em breve conteúdos e exercícios sobre equações quadráticas!</p>
+<hr>
+<p>📄 <a href="./equacoes-quadraticas.pdf" target="_blank">Download em PDF</a></p>
+<section id="referências" class="level2">
+
+
 
 
 </section>
+</section>
 
-</main> <!-- /main -->
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">Referências</h2><div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" data-line-spacing="2" role="list">
+<div id="ref-exemplo2025" class="csl-entry" role="listitem">
+Autor, A. (2025). <em>Exemplo de referência</em>. Editora Exemplo.
+</div>
+</div></section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";
@@ -256,7 +479,7 @@ ul.task-list li input[type="checkbox"] {
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp('/' + window.location.host + '/');
+        var filterRegex = new RegExp("https:\/\/cacbarros\.github\.io\/blog-fortec\/");
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }
@@ -584,6 +807,41 @@ ul.task-list li input[type="checkbox"] {
   });
   </script>
 </div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+      &nbsp;
+    </div>   
+    <div class="nav-footer-center">
+<div class="footer-custom">
+<p><img src="../../quarto-logo.png" alt="Logotipo Quarto" height="24" style="vertical-align:middle; margin-right:8px;"> © <span id="anoAtual"></span> C. A. C. Barros · <a href="https://quarto.org" target="_blank">Quarto</a> · <a href="https://github.com/cacbarros/blog-fortec" target="_blank">GitHub</a><br> <small>Atualizado em: <span id="dataModificacao"></span></small></p>
+</div>
+</div>
+    <div class="nav-footer-right">
+      &nbsp;
+    </div>
+  </div>
+</footer>
+<script>
+    const baseFontSize = parseFloat(getComputedStyle(document.documentElement).fontSize);
+    const watermark = new XWatermark.XWatermark();
+    watermark.init("RASCUNHO", {
+      parentSelector: "body",
+      prevent: true,
+      observer: true,
+      mode: "normal",
+      font: "system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', 'Noto Sans', 'Liberation Sans', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji'",
+      fontsize: baseFontSize * 1.500000,
+      angle: -30.000000,
+      color: "#FF0000",
+      alpha: 0.100000,
+      cols: 10,
+      rows: 50,
+      xSpace: baseFontSize * 4.000000,
+      ySpace: baseFontSize * 4.000000,
+      zIndex: -1
+    });
+    </script>
 
 
 

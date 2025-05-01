@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>blog-quarto – Blog Educacional</title>
+<title>Início – Blog Fortec</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -30,8 +30,6 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-listing/list.min.js"></script>
-<script src="site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
@@ -41,7 +39,8 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-0815c480559380816a4d1ea211a47e91.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-dfb324f25d9b1687192fa8be62ac8f9c.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-f7bceeac66e80756059b4ac30f4daffe.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="site_libs/quarto-contrib/watermark-1.0.11/watermark.min.js"></script>
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -69,79 +68,20 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
 
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-date','listing-title','listing-author','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      page: 25,
-    pagination: { item: "<li class='page-item'><a class='page page-link' href='#'></a></li>" },
-      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description","listing-categories"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
-
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
 
 <link rel="stylesheet" href="styles.css">
 </head>
 
-<body class="nav-fixed quarto-light">
+<body class="nav-fixed fullcontent quarto-light">
 
 <div id="quarto-search-results"></div>
-  <header id="quarto-header" class="headroom fixed-top quarto-banner">
+  <header id="quarto-header" class="headroom fixed-top">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
     <a class="navbar-brand" href="./index.html">
-    <span class="navbar-title">Blog Educacional</span>
+    <span class="navbar-title">Blog Fortec</span>
     </a>
   </div>
             <div id="quarto-search" class="" title="Search"></div>
@@ -151,56 +91,236 @@ window.Quarto = {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./welcome/index.html"> 
+    <a class="nav-link active" href="./index.html" aria-current="page"> 
 <span class="menu-text">Início</span></a>
   </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./posts/calculo/index.html"> 
-<span class="menu-text">Cálculo</span></a>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-lgebra" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Álgebra</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-lgebra">    
+        <li>
+    <a class="dropdown-item" href="./posts/algebra/equacoes-quadraticas.html">
+ <span class="dropdown-text">Equações Quadráticas</span></a>
   </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./posts/algebra/index.html"> 
-<span class="menu-text">Álgebra</span></a>
+        <li>
+    <a class="dropdown-item" href="./posts/algebra/sistemas-lineares.html">
+ <span class="dropdown-text">Sistemas Lineares</span></a>
   </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./posts/fisica/index.html"> 
-<span class="menu-text">Física</span></a>
+        <li>
+    <a class="dropdown-item" href="./posts/algebra/produtos-notaveis.html">
+ <span class="dropdown-text">Produtos Notáveis</span></a>
   </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./posts/quimica/index.html"> 
-<span class="menu-text">Química</span></a>
+        <li>
+    <a class="dropdown-item" href="./posts/algebra/polinomios.html">
+ <span class="dropdown-text">Polinómios</span></a>
   </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./posts/termodinamica/index.html"> 
-<span class="menu-text">Termodinâmica</span></a>
+        <li>
+    <a class="dropdown-item" href="./posts/algebra/fatoracao.html">
+ <span class="dropdown-text">Fatoração</span></a>
   </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./posts/climatizacao/index.html"> 
-<span class="menu-text">Climatização</span></a>
+    </ul>
+  </li>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-química" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Química</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-química">    
+        <li>
+    <a class="dropdown-item" href="./posts/quimica/reacoes-quimicas.html">
+ <span class="dropdown-text">Reações Químicas</span></a>
   </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./jogos.html"> 
-<span class="menu-text">Jogos</span></a>
+        <li>
+    <a class="dropdown-item" href="./posts/quimica/equilibrio-quimico.html">
+ <span class="dropdown-text">Equilíbrio Químico</span></a>
   </li>  
-</ul>
-            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+        <li>
+    <a class="dropdown-item" href="./posts/quimica/estequiometria.html">
+ <span class="dropdown-text">Estequiometria</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./posts/quimica/ph-solucoes.html">
+ <span class="dropdown-text">pH e Soluções</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./posts/quimica/ligacoes-quimicas.html">
+ <span class="dropdown-text">Ligações Químicas</span></a>
+  </li>  
+    </ul>
+  </li>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-física" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Física</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-física">    
+        <li>
+    <a class="dropdown-item" href="./posts/fisica/cinematica.html">
+ <span class="dropdown-text">Cinemática</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./posts/fisica/dinamica.html">
+ <span class="dropdown-text">Dinâmica</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./posts/fisica/leis-newton.html">
+ <span class="dropdown-text">Leis de Newton</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./posts/fisica/trabalho-energia.html">
+ <span class="dropdown-text">Trabalho e Energia</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./posts/fisica/gravitacao-universal.html">
+ <span class="dropdown-text">Gravitação Universal</span></a>
+  </li>  
+    </ul>
+  </li>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-termodinâmica" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Termodinâmica</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-termodinâmica">    
+        <li>
+    <a class="dropdown-item" href="./posts/termodinamica/introducao-termodinamica.html">
+ <span class="dropdown-text">Introdução à Termodinâmica</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./posts/termodinamica/primeira-lei.html">
+ <span class="dropdown-text">Primeira Lei</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./posts/termodinamica/segunda-lei.html">
+ <span class="dropdown-text">Segunda Lei</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./posts/termodinamica/entropia.html">
+ <span class="dropdown-text">Entropia</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./posts/termodinamica/eficiencia-ciclos.html">
+ <span class="dropdown-text">Eficiência de Ciclos</span></a>
+  </li>  
+    </ul>
+  </li>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-climatização" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Climatização</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-climatização">    
+        <li>
+    <a class="dropdown-item" href="./posts/climatizacao/carga-termica.html">
+ <span class="dropdown-text">Carga Térmica</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./posts/climatizacao/ventilacao-natural.html">
+ <span class="dropdown-text">Ventilação Natural</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./posts/climatizacao/chillers-torres.html">
+ <span class="dropdown-text">Chillers e Torres</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./posts/climatizacao/qualidade-ar.html">
+ <span class="dropdown-text">Qualidade do Ar Interior</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./posts/climatizacao/automacao-controle.html">
+ <span class="dropdown-text">Automação e Controlo</span></a>
+  </li>  
+    </ul>
+  </li>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-cálculo" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Cálculo</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-cálculo">    
+        <li>
+    <a class="dropdown-item" href="./posts/calculo/limites.html">
+ <span class="dropdown-text">Limites</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./posts/calculo/derivadas.html">
+ <span class="dropdown-text">Derivadas</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./posts/calculo/integrais.html">
+ <span class="dropdown-text">Integrais</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./posts/calculo/aplicacoes-derivada.html">
+ <span class="dropdown-text">Aplicações da Derivada</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./posts/calculo/teorema-fundamental.html">
+ <span class="dropdown-text">Teorema Fundamental do Cálculo</span></a>
+  </li>  
+    </ul>
+  </li>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-séries-matemáticas" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Séries Matemáticas</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-séries-matemáticas">    
+        <li>
+    <a class="dropdown-item" href="./posts/series/series-numericas.html">
+ <span class="dropdown-text">Séries Numéricas</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./posts/series/series-matematicas.html">
+ <span class="dropdown-text">Séries Matemáticas</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./posts/series/problema-series.html">
+ <span class="dropdown-text">Problema de séries</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./posts/series/series-potencias.html">
+ <span class="dropdown-text">Séries de Potências</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./posts/series/convergencia-series.html">
+ <span class="dropdown-text">Convergência de Séries</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./posts/series/series-taylor.html">
+ <span class="dropdown-text">Séries de Taylor</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./posts/series/aplicacoes-engenharia.html">
+ <span class="dropdown-text">Aplicações em Engenharia</span></a>
+  </li>  
+    </ul>
+  </li>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-jogos" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Jogos</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-jogos">    
+        <li>
+    <a class="dropdown-item" href="./posts/jogos/introducao-gamificacao.html">
+ <span class="dropdown-text">Introdução à Gamificação</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./posts/jogos/jogos-matematicos.html">
+ <span class="dropdown-text">Jogos Matemáticos</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./posts/jogos/simulacoes-interativas.html">
+ <span class="dropdown-text">Simulações Interativas</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./posts/jogos/aprendizagem-jogos.html">
+ <span class="dropdown-text">Aprendizagem Baseada em Jogos</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./posts/jogos/ferramentas-plataformas.html">
+ <span class="dropdown-text">Ferramentas e Plataformas</span></a>
+  </li>  
+    </ul>
+  </li>
   <li class="nav-item">
-    <a class="nav-link" href="./about.html"> 
+    <a class="nav-link" href="./sobre.html"> 
 <span class="menu-text">Sobre</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./recursos.html"> 
-<span class="menu-text">Recursos</span></a>
-  </li>  
-  <li class="nav-item compact">
-    <a class="nav-link" href="https://github.com/"> <i class="bi bi-github" role="img">
-</i> 
-<span class="menu-text"></span></a>
-  </li>  
-  <li class="nav-item compact">
-    <a class="nav-link" href="https://twitter.com"> <i class="bi bi-twitter" role="img">
-</i> 
-<span class="menu-text"></span></a>
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
@@ -210,1226 +330,57 @@ window.Quarto = {
     </nav>
 </header>
 <!-- content -->
-<header id="title-block-header" class="quarto-title-block default page-columns page-full">
-  <div class="quarto-title-banner page-columns page-full">
-    <div class="quarto-title column-page-left">
-      <h1 class="title">blog-quarto</h1>
-                      </div>
-  </div>
-    
-  
-  <div class="quarto-title-meta column-page-left">
-
-      
-    
-      
-    </div>
-    
-  
-  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(44)</span></div><div class="category" data-category="YW5hbHlzaXM=">analysis <span class="quarto-category-count">(1)</span></div><div class="category" data-category="QyVDMyVBMWxjdWxv">Cálculo <span class="quarto-category-count">(7)</span></div><div class="category" data-category="Q2xpbWF0aXphJUMzJUE3JUMzJUEzbw==">Climatização <span class="quarto-category-count">(6)</span></div><div class="category" data-category="Y29kZQ==">code <span class="quarto-category-count">(1)</span></div><div class="category" data-category="RiVDMyVBRHNpY2E=">Física <span class="quarto-category-count">(7)</span></div><div class="category" data-category="TWF0ZW0lQzMlQTF0aWNh">Matemática <span class="quarto-category-count">(7)</span></div><div class="category" data-category="bmV3cw==">news <span class="quarto-category-count">(1)</span></div><div class="category" data-category="UXUlQzMlQURtaWNh">Química <span class="quarto-category-count">(7)</span></div><div class="category" data-category="VGVybW9kaW4lQzMlQTJtaWNh">Termodinâmica <span class="quarto-category-count">(7)</span></div></div></div>
+    
 <!-- main -->
-<main class="content quarto-banner-title-block column-page-left" id="quarto-document-content">
+<main class="content" id="quarto-document-content">
+<script src="./footer.js"></script>
 
-
-
-
-
-
-
-
-
-<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
-<div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-listing-file-modified-sort="1745744129750" data-listing-reading-time-sort="1" data-listing-word-count-sort="8">
-<div class="thumbnail"><a href="./posts/algebra/equacoes-quadraticas.html" class="no-external">
-
-<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/algebra/equacoes-quadraticas.html" class="no-external">Álgebra: Equações Quadráticas</a>
-</h3>
-<div class="delink listing-description"><a href="./posts/algebra/equacoes-quadraticas.html" class="no-external">
-Em breve conteúdos e exercícios sobre equações quadráticas!
-</a></div>
-</div>
-<div class="metadata">
-<a href="./posts/algebra/equacoes-quadraticas.html" class="no-external">
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="1" data-listing-file-modified-sort="1745745954406" data-listing-reading-time-sort="1" data-listing-word-count-sort="46">
-<div class="thumbnail"><a href="./posts/algebra/index.html" class="no-external">
-
-<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/algebra/index.html" class="no-external">Álgebra</a>
-</h3>
-<div class="delink listing-description"><a href="./posts/algebra/index.html" class="no-external">
-<p>Índice de temas de Álgebra do Ensino Secundário.</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="./posts/algebra/index.html" class="no-external">
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="2" data-categories="Q2xpbWF0aXphJUMzJUE3JUMzJUEzbw==" data-listing-date-sort="1745622000000" data-listing-file-modified-sort="1745701393298" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="26">
-<div class="thumbnail"><a href="./posts/climatizacao/avaliacao-climatizacao.html" class="no-external">
-
-<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/climatizacao/avaliacao-climatizacao.html" class="no-external">Exercícios de Avaliação</a>
-</h3>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('Q2xpbWF0aXphJUMzJUE3JUMzJUEzbw=='); return false;">Climatização</div>
-
-</div>
-<div class="delink listing-description"><a href="./posts/climatizacao/avaliacao-climatizacao.html" class="no-external">
-<p>Questões práticas para reforço dos conceitos de climatização.</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="./posts/climatizacao/avaliacao-climatizacao.html" class="no-external">
-<div class="listing-date">
-Apr 26, 2025
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="3" data-categories="Q2xpbWF0aXphJUMzJUE3JUMzJUEzbw==" data-listing-date-sort="1745622000000" data-listing-file-modified-sort="1745701287424" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="25">
-<div class="thumbnail"><a href="./posts/climatizacao/componentes-hvac.html" class="no-external">
-
-<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/climatizacao/componentes-hvac.html" class="no-external">Componentes dos Sistemas HVAC</a>
-</h3>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('Q2xpbWF0aXphJUMzJUE3JUMzJUEzbw=='); return false;">Climatização</div>
-
-</div>
-<div class="delink listing-description"><a href="./posts/climatizacao/componentes-hvac.html" class="no-external">
-<p>Identificação e funcionamento de componentes HVAC.</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="./posts/climatizacao/componentes-hvac.html" class="no-external">
-<div class="listing-date">
-Apr 26, 2025
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="4" data-categories="Q2xpbWF0aXphJUMzJUE3JUMzJUEzbw==" data-listing-date-sort="1745622000000" data-listing-file-modified-sort="1745701323579" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="24">
-<div class="thumbnail"><a href="./posts/climatizacao/eficiencia-energetica.html" class="no-external">
-
-<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/climatizacao/eficiencia-energetica.html" class="no-external">Avaliação de Eficiência Energética</a>
-</h3>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('Q2xpbWF0aXphJUMzJUE3JUMzJUEzbw=='); return false;">Climatização</div>
-
-</div>
-<div class="delink listing-description"><a href="./posts/climatizacao/eficiencia-energetica.html" class="no-external">
-<p>Critérios de avaliação da eficiência em sistemas de climatização.</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="./posts/climatizacao/eficiencia-energetica.html" class="no-external">
-<div class="listing-date">
-Apr 26, 2025
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="5" data-categories="Q2xpbWF0aXphJUMzJUE3JUMzJUEzbw==" data-listing-date-sort="1745622000000" data-listing-file-modified-sort="1745748122390" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="70">
-<div class="thumbnail"><a href="./posts/climatizacao/index.html" class="no-external">
-
-<img loading="lazy" src="./posts/climatizacao/cover-climatizacao.jpg" class="thumbnail-image">
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/climatizacao/index.html" class="no-external">Climatização e Sistemas HVAC</a>
-</h3>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('Q2xpbWF0aXphJUMzJUE3JUMzJUEzbw=='); return false;">Climatização</div>
-
-</div>
-<div class="delink listing-description"><a href="./posts/climatizacao/index.html" class="no-external">
-<p>Conceitos fundamentais sobre climatização, ventiladores e sistemas de HVAC.</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="./posts/climatizacao/index.html" class="no-external">
-<div class="listing-date">
-Apr 26, 2025
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="6" data-categories="Q2xpbWF0aXphJUMzJUE3JUMzJUEzbw==" data-listing-date-sort="1745622000000" data-listing-file-modified-sort="1745701348340" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="28">
-<div class="thumbnail"><a href="./posts/climatizacao/introducao-climatizacao.html" class="no-external">
-
-<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/climatizacao/introducao-climatizacao.html" class="no-external">Introdução à Climatização</a>
-</h3>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('Q2xpbWF0aXphJUMzJUE3JUMzJUEzbw=='); return false;">Climatização</div>
-
-</div>
-<div class="delink listing-description"><a href="./posts/climatizacao/introducao-climatizacao.html" class="no-external">
-<p>Conceitos iniciais de climatização e conforto térmico.</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="./posts/climatizacao/introducao-climatizacao.html" class="no-external">
-<div class="listing-date">
-Apr 26, 2025
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="7" data-categories="Q2xpbWF0aXphJUMzJUE3JUMzJUEzbw==" data-listing-date-sort="1745622000000" data-listing-file-modified-sort="1745701378007" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="24">
-<div class="thumbnail"><a href="./posts/climatizacao/principios-termodinamicos.html" class="no-external">
-
-<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/climatizacao/principios-termodinamicos.html" class="no-external">Princípios Termodinâmicos Aplicados</a>
-</h3>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('Q2xpbWF0aXphJUMzJUE3JUMzJUEzbw=='); return false;">Climatização</div>
-
-</div>
-<div class="delink listing-description"><a href="./posts/climatizacao/principios-termodinamicos.html" class="no-external">
-<p>Fundamentos de termodinâmica aplicados à climatização.</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="./posts/climatizacao/principios-termodinamicos.html" class="no-external">
-<div class="listing-date">
-Apr 26, 2025
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="8" data-categories="RiVDMyVBRHNpY2E=" data-listing-date-sort="1745622000000" data-listing-file-modified-sort="1745698159099" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="23">
-<div class="thumbnail"><a href="./posts/fisica/avaliacao-fisica.html" class="no-external">
-
-<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/fisica/avaliacao-fisica.html" class="no-external">Exercícios de Avaliação</a>
-</h3>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('RiVDMyVBRHNpY2E='); return false;">Física</div>
-
-</div>
-<div class="delink listing-description"><a href="./posts/fisica/avaliacao-fisica.html" class="no-external">
-<p>Questões práticas sobre Física.</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="./posts/fisica/avaliacao-fisica.html" class="no-external">
-<div class="listing-date">
-Apr 26, 2025
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="9" data-categories="RiVDMyVBRHNpY2E=" data-listing-date-sort="1745622000000" data-listing-file-modified-sort="1745698180999" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="21">
-<div class="thumbnail"><a href="./posts/fisica/cinematica.html" class="no-external">
-
-<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/fisica/cinematica.html" class="no-external">Cinemática</a>
-</h3>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('RiVDMyVBRHNpY2E='); return false;">Física</div>
-
-</div>
-<div class="delink listing-description"><a href="./posts/fisica/cinematica.html" class="no-external">
-<p>Estudo do movimento dos corpos.</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="./posts/fisica/cinematica.html" class="no-external">
-<div class="listing-date">
-Apr 26, 2025
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="10" data-categories="RiVDMyVBRHNpY2E=" data-listing-date-sort="1745622000000" data-listing-file-modified-sort="1745698192583" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="23">
-<div class="thumbnail"><a href="./posts/fisica/dinamica.html" class="no-external">
-
-<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/fisica/dinamica.html" class="no-external">Dinâmica</a>
-</h3>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('RiVDMyVBRHNpY2E='); return false;">Física</div>
-
-</div>
-<div class="delink listing-description"><a href="./posts/fisica/dinamica.html" class="no-external">
-<p>Estudo das forças e suas interações.</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="./posts/fisica/dinamica.html" class="no-external">
-<div class="listing-date">
-Apr 26, 2025
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="11" data-categories="RiVDMyVBRHNpY2E=" data-listing-date-sort="1745622000000" data-listing-file-modified-sort="1745748141487" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="76">
-<div class="thumbnail"><a href="./posts/fisica/index.html" class="no-external">
-
-<img loading="lazy" src="./posts/fisica/cover-fisica.jpg" class="thumbnail-image">
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/fisica/index.html" class="no-external">Física Geral</a>
-</h3>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('RiVDMyVBRHNpY2E='); return false;">Física</div>
-
-</div>
-<div class="delink listing-description"><a href="./posts/fisica/index.html" class="no-external">
-<p>Introdução aos conceitos fundamentais da Física Clássica.</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="./posts/fisica/index.html" class="no-external">
-<div class="listing-date">
-Apr 26, 2025
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="12" data-categories="RiVDMyVBRHNpY2E=" data-listing-date-sort="1745622000000" data-listing-file-modified-sort="1745698204920" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="22">
-<div class="thumbnail"><a href="./posts/fisica/introducao-fisica.html" class="no-external">
-
-<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/fisica/introducao-fisica.html" class="no-external">Introdução à Física</a>
-</h3>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('RiVDMyVBRHNpY2E='); return false;">Física</div>
-
-</div>
-<div class="delink listing-description"><a href="./posts/fisica/introducao-fisica.html" class="no-external">
-<p>Conceitos iniciais da Física Clássica.</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="./posts/fisica/introducao-fisica.html" class="no-external">
-<div class="listing-date">
-Apr 26, 2025
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="13" data-categories="RiVDMyVBRHNpY2E=" data-listing-date-sort="1745622000000" data-listing-file-modified-sort="1745698228540" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="23">
-<div class="thumbnail"><a href="./posts/fisica/leis-conservacao.html" class="no-external">
-
-<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/fisica/leis-conservacao.html" class="no-external">Leis da Conservação</a>
-</h3>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('RiVDMyVBRHNpY2E='); return false;">Física</div>
-
-</div>
-<div class="delink listing-description"><a href="./posts/fisica/leis-conservacao.html" class="no-external">
-<p>Conservação de energia e quantidade de movimento.</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="./posts/fisica/leis-conservacao.html" class="no-external">
-<div class="listing-date">
-Apr 26, 2025
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="14" data-categories="RiVDMyVBRHNpY2E=" data-listing-date-sort="1745622000000" data-listing-file-modified-sort="1745698240308" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="25">
-<div class="thumbnail"><a href="./posts/fisica/trabalho-energia.html" class="no-external">
-
-<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/fisica/trabalho-energia.html" class="no-external">Trabalho e Energia</a>
-</h3>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('RiVDMyVBRHNpY2E='); return false;">Física</div>
-
-</div>
-<div class="delink listing-description"><a href="./posts/fisica/trabalho-energia.html" class="no-external">
-<p>Estudo do trabalho realizado e transformações de energia.</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="./posts/fisica/trabalho-energia.html" class="no-external">
-<div class="listing-date">
-Apr 26, 2025
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="15" data-categories="TWF0ZW0lQzMlQTF0aWNh" data-listing-date-sort="1745622000000" data-listing-file-modified-sort="1745700207542" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="24">
-<div class="thumbnail"><a href="./posts/matematica/avaliacao-matematica.html" class="no-external">
-
-<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/matematica/avaliacao-matematica.html" class="no-external">Exercícios de Avaliação</a>
-</h3>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('TWF0ZW0lQzMlQTF0aWNh'); return false;">Matemática</div>
-
-</div>
-<div class="delink listing-description"><a href="./posts/matematica/avaliacao-matematica.html" class="no-external">
-<p>Questões práticas para consolidar conhecimentos matemáticos.</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="./posts/matematica/avaliacao-matematica.html" class="no-external">
-<div class="listing-date">
-Apr 26, 2025
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="16" data-categories="TWF0ZW0lQzMlQTF0aWNh" data-listing-date-sort="1745622000000" data-listing-file-modified-sort="1745700289724" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="25">
-<div class="thumbnail"><a href="./posts/matematica/funcoes-graficos.html" class="no-external">
-
-<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/matematica/funcoes-graficos.html" class="no-external">Funções e Gráficos</a>
-</h3>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('TWF0ZW0lQzMlQTF0aWNh'); return false;">Matemática</div>
-
-</div>
-<div class="delink listing-description"><a href="./posts/matematica/funcoes-graficos.html" class="no-external">
-<p>Introdução a funções matemáticas e suas representações.</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="./posts/matematica/funcoes-graficos.html" class="no-external">
-<div class="listing-date">
-Apr 26, 2025
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="17" data-categories="TWF0ZW0lQzMlQTF0aWNh" data-listing-date-sort="1745622000000" data-listing-file-modified-sort="1745700325804" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="24">
-<div class="thumbnail"><a href="./posts/matematica/geometria-analitica.html" class="no-external">
-
-<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/matematica/geometria-analitica.html" class="no-external">Geometria Analítica</a>
-</h3>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('TWF0ZW0lQzMlQTF0aWNh'); return false;">Matemática</div>
-
-</div>
-<div class="delink listing-description"><a href="./posts/matematica/geometria-analitica.html" class="no-external">
-<p>Conceitos de pontos, retas e planos no espaço.</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="./posts/matematica/geometria-analitica.html" class="no-external">
-<div class="listing-date">
-Apr 26, 2025
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="18" data-categories="TWF0ZW0lQzMlQTF0aWNh" data-listing-date-sort="1745622000000" data-listing-file-modified-sort="1745748158201" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="56">
-<div class="thumbnail"><a href="./posts/matematica/index.html" class="no-external">
-
-<img loading="lazy" src="./posts/matematica/cover-matematica.jpg" class="thumbnail-image">
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/matematica/index.html" class="no-external">Matemática Secundário</a>
-</h3>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('TWF0ZW0lQzMlQTF0aWNh'); return false;">Matemática</div>
-
-</div>
-<div class="delink listing-description"><a href="./posts/matematica/index.html" class="no-external">
-<p>Conceitos fundamentais de Matemática do Ensino Secundário.</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="./posts/matematica/index.html" class="no-external">
-<div class="listing-date">
-Apr 26, 2025
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="19" data-categories="TWF0ZW0lQzMlQTF0aWNh" data-listing-date-sort="1745622000000" data-listing-file-modified-sort="1745700364705" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="25">
-<div class="thumbnail"><a href="./posts/matematica/numeros-reais.html" class="no-external">
-
-<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/matematica/numeros-reais.html" class="no-external">Números Reais</a>
-</h3>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('TWF0ZW0lQzMlQTF0aWNh'); return false;">Matemática</div>
-
-</div>
-<div class="delink listing-description"><a href="./posts/matematica/numeros-reais.html" class="no-external">
-<p>Conceitos e propriedades dos números reais.</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="./posts/matematica/numeros-reais.html" class="no-external">
-<div class="listing-date">
-Apr 26, 2025
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="20" data-categories="TWF0ZW0lQzMlQTF0aWNh" data-listing-date-sort="1745622000000" data-listing-file-modified-sort="1745700399286" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="23">
-<div class="thumbnail"><a href="./posts/matematica/polinomios.html" class="no-external">
-
-<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/matematica/polinomios.html" class="no-external">Polinómios</a>
-</h3>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('TWF0ZW0lQzMlQTF0aWNh'); return false;">Matemática</div>
-
-</div>
-<div class="delink listing-description"><a href="./posts/matematica/polinomios.html" class="no-external">
-<p>Definição e operações com polinómios.</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="./posts/matematica/polinomios.html" class="no-external">
-<div class="listing-date">
-Apr 26, 2025
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="21" data-categories="TWF0ZW0lQzMlQTF0aWNh" data-listing-date-sort="1745622000000" data-listing-file-modified-sort="1745700436321" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="24">
-<div class="thumbnail"><a href="./posts/matematica/trigonometria.html" class="no-external">
-
-<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/matematica/trigonometria.html" class="no-external">Trigonometria</a>
-</h3>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('TWF0ZW0lQzMlQTF0aWNh'); return false;">Matemática</div>
-
-</div>
-<div class="delink listing-description"><a href="./posts/matematica/trigonometria.html" class="no-external">
-<p>Conceitos básicos e aplicações da trigonometria.</p>
-</a></div>
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Início</h1>
 </div>
-<div class="metadata">
-<a href="./posts/matematica/trigonometria.html" class="no-external">
-<div class="listing-date">
-Apr 26, 2025
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="22" data-categories="UXUlQzMlQURtaWNh" data-listing-date-sort="1745622000000" data-listing-file-modified-sort="1745698494192" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="22">
-<div class="thumbnail"><a href="./posts/quimica/avaliacao-quimica.html" class="no-external">
-
-<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/quimica/avaliacao-quimica.html" class="no-external">Exercícios de Avaliação</a>
-</h3>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('UXUlQzMlQURtaWNh'); return false;">Química</div>
-
-</div>
-<div class="delink listing-description"><a href="./posts/quimica/avaliacao-quimica.html" class="no-external">
-<p>Conjunto de exercícios para consolidação dos conhecimentos em Química.</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="./posts/quimica/avaliacao-quimica.html" class="no-external">
-<div class="listing-date">
-Apr 26, 2025
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="23" data-categories="UXUlQzMlQURtaWNh" data-listing-date-sort="1745622000000" data-listing-file-modified-sort="1745698516510" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="20">
-<div class="thumbnail"><a href="./posts/quimica/estequiometria.html" class="no-external">
-
-<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/quimica/estequiometria.html" class="no-external">Estequiometria e Cálculos Químicos</a>
-</h3>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('UXUlQzMlQURtaWNh'); return false;">Química</div>
-
-</div>
-<div class="delink listing-description"><a href="./posts/quimica/estequiometria.html" class="no-external">
-<p>Aplicação da estequiometria na resolução de problemas químicos.</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="./posts/quimica/estequiometria.html" class="no-external">
-<div class="listing-date">
-Apr 26, 2025
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="24" data-categories="UXUlQzMlQURtaWNh" data-listing-date-sort="1745622000000" data-listing-file-modified-sort="1745698530490" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="20">
-<div class="thumbnail"><a href="./posts/quimica/estrutura-atomica.html" class="no-external">
-
-<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/quimica/estrutura-atomica.html" class="no-external">Estrutura Atómica da Matéria</a>
-</h3>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('UXUlQzMlQURtaWNh'); return false;">Química</div>
-
-</div>
-<div class="delink listing-description"><a href="./posts/quimica/estrutura-atomica.html" class="no-external">
-<p>Descrição dos átomos e organização da matéria.</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="./posts/quimica/estrutura-atomica.html" class="no-external">
-<div class="listing-date">
-Apr 26, 2025
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="25" data-categories="UXUlQzMlQURtaWNh" data-listing-date-sort="1745622000000" data-listing-file-modified-sort="1745748175128" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="97">
-<div class="thumbnail"><a href="./posts/quimica/index.html" class="no-external">
-
-<img loading="lazy" data-src="./posts/quimica/cover-quimica.jpg" class="thumbnail-image">
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/quimica/index.html" class="no-external">Química Geral</a>
-</h3>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('UXUlQzMlQURtaWNh'); return false;">Química</div>
-
-</div>
-<div class="delink listing-description"><a href="./posts/quimica/index.html" class="no-external">
-<p>Introdução à estrutura da matéria, ligações químicas, reações e aplicações básicas.</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="./posts/quimica/index.html" class="no-external">
-<div class="listing-date">
-Apr 26, 2025
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="26" data-categories="UXUlQzMlQURtaWNh" data-listing-date-sort="1745622000000" data-listing-file-modified-sort="1745698548307" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="18">
-<div class="thumbnail"><a href="./posts/quimica/introducao-quimica.html" class="no-external">
-
-<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/quimica/introducao-quimica.html" class="no-external">Introdução à Química</a>
-</h3>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('UXUlQzMlQURtaWNh'); return false;">Química</div>
-
-</div>
-<div class="delink listing-description"><a href="./posts/quimica/introducao-quimica.html" class="no-external">
-<p>Visão geral da estrutura da matéria e sua organização.</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="./posts/quimica/introducao-quimica.html" class="no-external">
-<div class="listing-date">
-Apr 26, 2025
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="27" data-categories="UXUlQzMlQURtaWNh" data-listing-date-sort="1745622000000" data-listing-file-modified-sort="1745698563257" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="21">
-<div class="thumbnail"><a href="./posts/quimica/ligacoes-quimicas.html" class="no-external">
-
-<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/quimica/ligacoes-quimicas.html" class="no-external">Ligações Químicas</a>
-</h3>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('UXUlQzMlQURtaWNh'); return false;">Química</div>
-
-</div>
-<div class="delink listing-description"><a href="./posts/quimica/ligacoes-quimicas.html" class="no-external">
-<p>Exploração dos tipos de ligações químicas e suas características.</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="./posts/quimica/ligacoes-quimicas.html" class="no-external">
-<div class="listing-date">
-Apr 26, 2025
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="28" data-categories="UXUlQzMlQURtaWNh" data-listing-date-sort="1745622000000" data-listing-file-modified-sort="1745698580161" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="20">
-<div class="thumbnail"><a href="./posts/quimica/reacoes-equacoes.html" class="no-external">
-
-<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/quimica/reacoes-equacoes.html" class="no-external">Reações Químicas e Equações</a>
-</h3>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('UXUlQzMlQURtaWNh'); return false;">Química</div>
-
-</div>
-<div class="delink listing-description"><a href="./posts/quimica/reacoes-equacoes.html" class="no-external">
-<p>Estudo das reações químicas e como representá-las.</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="./posts/quimica/reacoes-equacoes.html" class="no-external">
-<div class="listing-date">
-Apr 26, 2025
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="29" data-categories="VGVybW9kaW4lQzMlQTJtaWNh" data-listing-date-sort="1745622000000" data-listing-file-modified-sort="1745691322372" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="19">
-<div class="thumbnail"><a href="./posts/termodinamica/aplicacoes-termodinamica.html" class="no-external">
-
-<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/termodinamica/aplicacoes-termodinamica.html" class="no-external">Aplicações de Termodinâmica</a>
-</h3>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('VGVybW9kaW4lQzMlQTJtaWNh'); return false;">Termodinâmica</div>
-
-</div>
-<div class="delink listing-description"><a href="./posts/termodinamica/aplicacoes-termodinamica.html" class="no-external">
-<p>Casos práticos em sistemas reais.</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="./posts/termodinamica/aplicacoes-termodinamica.html" class="no-external">
-<div class="listing-date">
-Apr 26, 2025
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="30" data-categories="VGVybW9kaW4lQzMlQTJtaWNh" data-listing-date-sort="1745622000000" data-listing-file-modified-sort="1745691343864" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="19">
-<div class="thumbnail"><a href="./posts/termodinamica/avaliacao-termodinamica.html" class="no-external">
-
-<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/termodinamica/avaliacao-termodinamica.html" class="no-external">Exercícios de Avaliação</a>
-</h3>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('VGVybW9kaW4lQzMlQTJtaWNh'); return false;">Termodinâmica</div>
-
-</div>
-<div class="delink listing-description"><a href="./posts/termodinamica/avaliacao-termodinamica.html" class="no-external">
-<p>Questões práticas sobre termodinâmica.</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="./posts/termodinamica/avaliacao-termodinamica.html" class="no-external">
-<div class="listing-date">
-Apr 26, 2025
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="31" data-categories="VGVybW9kaW4lQzMlQTJtaWNh" data-listing-date-sort="1745622000000" data-listing-file-modified-sort="1745691364595" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="20">
-<div class="thumbnail"><a href="./posts/termodinamica/ciclos-termodinamicos.html" class="no-external">
-
-<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/termodinamica/ciclos-termodinamicos.html" class="no-external">Ciclos Termodinâmicos</a>
-</h3>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('VGVybW9kaW4lQzMlQTJtaWNh'); return false;">Termodinâmica</div>
-
-</div>
-<div class="delink listing-description"><a href="./posts/termodinamica/ciclos-termodinamicos.html" class="no-external">
-<p>Descrição de ciclos típicos: Carnot, Rankine, etc.</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="./posts/termodinamica/ciclos-termodinamicos.html" class="no-external">
-<div class="listing-date">
-Apr 26, 2025
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="32" data-categories="VGVybW9kaW4lQzMlQTJtaWNh" data-listing-date-sort="1745622000000" data-listing-file-modified-sort="1745748199895" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="80">
-<div class="thumbnail"><a href="./posts/termodinamica/index.html" class="no-external">
-
-<img loading="lazy" data-src="./posts/termodinamica/cover-termodinamica.jpg" class="thumbnail-image">
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/termodinamica/index.html" class="no-external">Termodinâmica Geral</a>
-</h3>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('VGVybW9kaW4lQzMlQTJtaWNh'); return false;">Termodinâmica</div>
-
-</div>
-<div class="delink listing-description"><a href="./posts/termodinamica/index.html" class="no-external">
-<p>Introdução às leis da termodinâmica e aplicações em sistemas físicos.</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="./posts/termodinamica/index.html" class="no-external">
-<div class="listing-date">
-Apr 26, 2025
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="33" data-categories="VGVybW9kaW4lQzMlQTJtaWNh" data-listing-date-sort="1745622000000" data-listing-file-modified-sort="1745691385284" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="51">
-<div class="thumbnail"><a href="./posts/termodinamica/introducao-termodinamica.html" class="no-external">
-
-<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/termodinamica/introducao-termodinamica.html" class="no-external">Introdução à Termodinâmica</a>
-</h3>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('VGVybW9kaW4lQzMlQTJtaWNh'); return false;">Termodinâmica</div>
-
-</div>
-<div class="delink listing-description"><a href="./posts/termodinamica/introducao-termodinamica.html" class="no-external">
-<p>Conceitos fundamentais da termodinâmica.</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="./posts/termodinamica/introducao-termodinamica.html" class="no-external">
-<div class="listing-date">
-Apr 26, 2025
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="34" data-categories="VGVybW9kaW4lQzMlQTJtaWNh" data-listing-date-sort="1745622000000" data-listing-file-modified-sort="1745691404262" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="20">
-<div class="thumbnail"><a href="./posts/termodinamica/primeira-lei.html" class="no-external">
-
-<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/termodinamica/primeira-lei.html" class="no-external">Primeira Lei da Termodinâmica</a>
-</h3>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('VGVybW9kaW4lQzMlQTJtaWNh'); return false;">Termodinâmica</div>
-
-</div>
-<div class="delink listing-description"><a href="./posts/termodinamica/primeira-lei.html" class="no-external">
-<p>Conservação da energia em sistemas físicos.</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="./posts/termodinamica/primeira-lei.html" class="no-external">
-<div class="listing-date">
-Apr 26, 2025
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="35" data-categories="VGVybW9kaW4lQzMlQTJtaWNh" data-listing-date-sort="1745622000000" data-listing-file-modified-sort="1745691424996" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="20">
-<div class="thumbnail"><a href="./posts/termodinamica/segunda-lei.html" class="no-external">
-
-<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/termodinamica/segunda-lei.html" class="no-external">Segunda Lei da Termodinâmica</a>
-</h3>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('VGVybW9kaW4lQzMlQTJtaWNh'); return false;">Termodinâmica</div>
-
-</div>
-<div class="delink listing-description"><a href="./posts/termodinamica/segunda-lei.html" class="no-external">
-<p>Conceito de entropia e irreversibilidade.</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="./posts/termodinamica/segunda-lei.html" class="no-external">
-<div class="listing-date">
-Apr 26, 2025
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="36" data-categories="QyVDMyVBMWxjdWxv" data-listing-date-sort="1745535600000" data-listing-file-modified-sort="1745698961587" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="49">
-<div class="thumbnail"><a href="./posts/calculo/avaliacao.html" class="no-external">
-
-<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/calculo/avaliacao.html" class="no-external">Exercícios de Avaliação</a>
-</h3>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('QyVDMyVBMWxjdWxv'); return false;">Cálculo</div>
-
-</div>
-<div class="delink listing-description"><a href="./posts/calculo/avaliacao.html" class="no-external">
-<p>Exercícios propostos para consolidar os conceitos estudados em séries numéricas.</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="./posts/calculo/avaliacao.html" class="no-external">
-<div class="listing-date">
-Apr 25, 2025
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="37" data-categories="QyVDMyVBMWxjdWxv" data-listing-date-sort="1745535600000" data-listing-file-modified-sort="1745698935775" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="34">
-<div class="thumbnail"><a href="./posts/calculo/convergencia.html" class="no-external">
-
-<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/calculo/convergencia.html" class="no-external">Convergência de Séries</a>
-</h3>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('QyVDMyVBMWxjdWxv'); return false;">Cálculo</div>
-
-</div>
-<div class="delink listing-description"><a href="./posts/calculo/convergencia.html" class="no-external">
-<p>Conceitos fundamentais e critérios básicos para a convergência de séries numéricas.</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="./posts/calculo/convergencia.html" class="no-external">
-<div class="listing-date">
-Apr 25, 2025
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="38" data-categories="QyVDMyVBMWxjdWxv" data-listing-date-sort="1745535600000" data-listing-file-modified-sort="1745791319847" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="96">
-<div class="thumbnail"><a href="./posts/calculo/index.html" class="no-external">
-
-<img loading="lazy" data-src="./posts/calculo/cover.jpg" class="thumbnail-image">
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/calculo/index.html" class="no-external">Séries Matemáticas</a>
-</h3>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('QyVDMyVBMWxjdWxv'); return false;">Cálculo</div>
-
-</div>
-<div class="delink listing-description"><a href="./posts/calculo/index.html" class="no-external">
-<p>Introdução a séries numéricas, com exemplos de convergência e resolução com Python.</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="./posts/calculo/index.html" class="no-external">
-<div class="listing-date">
-Apr 25, 2025
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="39" data-categories="QyVDMyVBMWxjdWxv" data-listing-date-sort="1745535600000" data-listing-file-modified-sort="1745698995866" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="80">
-<div class="thumbnail"><a href="./posts/calculo/problema-series.html" class="no-external">
-
-<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/calculo/problema-series.html" class="no-external">Séries Matemáticas</a>
-</h3>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('QyVDMyVBMWxjdWxv'); return false;">Cálculo</div>
-
-</div>
-<div class="delink listing-description"><a href="./posts/calculo/problema-series.html" class="no-external">
-<p>Problema de Séries Numéricas</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="./posts/calculo/problema-series.html" class="no-external">
-<div class="listing-date">
-Apr 25, 2025
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="40" data-categories="QyVDMyVBMWxjdWxv" data-listing-date-sort="1745535600000" data-listing-file-modified-sort="1745699048557" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="29">
-<div class="thumbnail"><a href="./posts/calculo/series-especiais.html" class="no-external">
-
-<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/calculo/series-especiais.html" class="no-external">Séries Geométricas e Harmónicas</a>
-</h3>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('QyVDMyVBMWxjdWxv'); return false;">Cálculo</div>
-
-</div>
-<div class="delink listing-description"><a href="./posts/calculo/series-especiais.html" class="no-external">
-<p>Estudo das séries geométricas, harmónicas e algumas séries notáveis.</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="./posts/calculo/series-especiais.html" class="no-external">
-<div class="listing-date">
-Apr 25, 2025
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="41" data-categories="QyVDMyVBMWxjdWxv" data-listing-date-sort="1745535600000" data-listing-file-modified-sort="1745772647148" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="383">
-<div class="thumbnail"><a href="./posts/calculo/series-matematicas.html" class="no-external">
-
-<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
 
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/calculo/series-matematicas.html" class="no-external">Séries Matemáticas</a>
-</h3>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('QyVDMyVBMWxjdWxv'); return false;">Cálculo</div>
-
-</div>
-<div class="delink listing-description"><a href="./posts/calculo/series-matematicas.html" class="no-external">
-<p>Introdução a séries numéricas, com exemplos de convergência e resolução com Python.</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="./posts/calculo/series-matematicas.html" class="no-external">
-<div class="listing-date">
-Apr 25, 2025
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="42" data-categories="QyVDMyVBMWxjdWxv" data-listing-date-sort="1745535600000" data-listing-file-modified-sort="1745699092601" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="38">
-<div class="thumbnail"><a href="./posts/calculo/testes-convergencia.html" class="no-external">
 
-<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
 
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/calculo/testes-convergencia.html" class="no-external">Testes de Convergência</a>
-</h3>
-<div class="listing-categories">
+<div class="quarto-title-meta">
 
-<div class="listing-category" onclick="window.quartoListingCategory('QyVDMyVBMWxjdWxv'); return false;">Cálculo</div>
+    
+  
+    
+  </div>
+  
 
-</div>
-<div class="delink listing-description"><a href="./posts/calculo/testes-convergencia.html" class="no-external">
-<p>Apresentação dos testes clássicos de convergência: comparação, razão, raiz, integral, etc.</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="./posts/calculo/testes-convergencia.html" class="no-external">
-<div class="listing-date">
-Apr 25, 2025
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="43" data-categories="bmV3cyUyQ2NvZGUlMkNhbmFseXNpcw==" data-listing-date-sort="1745535600000" data-listing-file-modified-sort="1745575148430" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="7">
-<div class="thumbnail"><a href="./posts/post-with-code/index.html" class="no-external">
 
-<img loading="lazy" data-src="./posts/post-with-code/image.jpg" class="thumbnail-image">
+</header>
 
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/post-with-code/index.html" class="no-external">Post With Code</a>
-</h3>
-<div class="listing-categories">
 
-<div class="listing-category" onclick="window.quartoListingCategory('bmV3cw=='); return false;">news</div>
+<section id="bem-vindo-ao-blog-fortec" class="level1">
+<h1>Bem-vindo ao Blog Fortec</h1>
+<p>O <strong>Blog Fortec</strong> é um projeto educacional criado para apoiar o estudo de disciplinas fundamentais, com uma abordagem prática, acessível e interativa.</p>
+<blockquote class="blockquote">
+<p>Aprender com explicações claras, exemplos resolvidos em Python, vídeos educativos e exercícios interativos — tudo num só lugar.</p>
+</blockquote>
+<section id="o-que-vais-encontrar-por-aqui" class="level2">
+<h2 class="anchored" data-anchor-id="o-que-vais-encontrar-por-aqui">O que vais encontrar por aqui:</h2>
+<ul>
+<li><strong>Cálculo</strong>: limites, derivadas, integrais e aplicações.</li>
+<li><strong>Álgebra</strong>: equações, vetores, matrizes.</li>
+<li><strong>Física e Química</strong>: fundamentos com simulações e resolução computacional.</li>
+<li><strong>Termodinâmica e Climatização</strong>: explicações aplicadas a engenharia e edifícios.</li>
+<li><strong>Jogos e Atividades</strong>: gamificação, quizzes e simulações interativas.</li>
+</ul>
+<hr>
+<p>Visite a secção <strong>Sobre</strong> para conhecer mais sobre o projeto.</p>
+<p>Explora os tópicos no menu acima e começa a aprender!</p>
 
-<div class="listing-category" onclick="window.quartoListingCategory('Y29kZQ=='); return false;">code</div>
 
-<div class="listing-category" onclick="window.quartoListingCategory('YW5hbHlzaXM='); return false;">analysis</div>
+</section>
+</section>
 
-</div>
-<div class="delink listing-description"><a href="./posts/post-with-code/index.html" class="no-external">
-This is a post with executable code.
-</a></div>
-</div>
-<div class="metadata">
-<a href="./posts/post-with-code/index.html" class="no-external">
-<div class="listing-date">
-Apr 25, 2025
-</div>
-<div class="listing-author">
-Harlow Malloc
-</div>
-</a>
-</div>
-</div>
-</div>
-<div class="listing-no-matching d-none">No matching items</div>
-<nav id="listing-pagination" class="listing-pagination" aria-label="Page Navigation">
-  <ul class="pagination"></ul>
-</nav>
-</div></main> <!-- /main -->
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";
@@ -1502,7 +453,7 @@ Harlow Malloc
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp('/' + window.location.host + '/');
+        var filterRegex = new RegExp("https:\/\/cacbarros\.github\.io\/blog-fortec\/");
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }
@@ -1830,6 +781,41 @@ Harlow Malloc
   });
   </script>
 </div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+      &nbsp;
+    </div>   
+    <div class="nav-footer-center">
+<div class="footer-custom">
+<p><img src="./quarto-logo.png" alt="Logotipo Quarto" height="24" style="vertical-align:middle; margin-right:8px;"> © <span id="anoAtual"></span> C. A. C. Barros · <a href="https://quarto.org" target="_blank">Quarto</a> · <a href="https://github.com/cacbarros/blog-fortec" target="_blank">GitHub</a><br> <small>Atualizado em: <span id="dataModificacao"></span></small></p>
+</div>
+</div>
+    <div class="nav-footer-right">
+      &nbsp;
+    </div>
+  </div>
+</footer>
+<script>
+    const baseFontSize = parseFloat(getComputedStyle(document.documentElement).fontSize);
+    const watermark = new XWatermark.XWatermark();
+    watermark.init("", {
+      parentSelector: "body",
+      prevent: true,
+      observer: true,
+      mode: "normal",
+      font: "system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', 'Noto Sans', 'Liberation Sans', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji'",
+      fontsize: baseFontSize * 1.500000,
+      angle: -30.000000,
+      color: "#FF0000",
+      alpha: 0.100000,
+      cols: 10,
+      rows: 50,
+      xSpace: baseFontSize * 4.000000,
+      ySpace: baseFontSize * 4.000000,
+      zIndex: -1
+    });
+    </script>
 
 
 
