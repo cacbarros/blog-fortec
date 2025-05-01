@@ -1,0 +1,81 @@
+---
+title: "Séries Matemáticas"
+filters:
+  - watermark
+watermark:
+  text: "RASCUNHO"
+  size: 1.5
+  angle: 30
+  color: "#FF0000"
+  opacity: 0.1
+description: "Problema de Séries Numéricas"
+date: 2025-04-25
+categories: [Séries]
+format:
+  html:
+    toc: true
+    code-fold: true
+  pdf:
+    toc: true
+    code-fold: true
+bibliography: series.bib
+csl: apa.csl
+nocite: "@*"
+execute:
+  kernel: ctgan_env
+---
+
+
+# Enunciado do Problema
+
+Considere a série numérica:
+
+$$
+\sum_{n=1}^{\infty} \frac{1}{n^2}
+$$
+
+- Determine se a série é convergente ou divergente.
+- Justifique usando uma comparação ou teste adequado.
+
+
+
+# Solução (Clique para expandir)
+
+<details>
+<summary><strong>Ver Solução</strong></summary>
+
+<br>
+
+A série apresentada é:
+
+$$
+\sum_{n=1}^{\infty} \frac{1}{n^2}
+$$
+
+Esta é uma série **p** com $p = 2 > 1$.  
+Logo, **a série converge** pelo critério das séries p.
+
+Além disso, sabemos que:
+
+$$
+\sum_{n=1}^{\infty} \frac{1}{n^2} = \frac{\pi^2}{6}
+$$
+
+
+**Resumo**: A série é convergente.
+
+</details>
+
+
+
+# Voltar à Página Principal
+
+---
+
+
+📄 [Download em PDF](./problema-series.pdf){target="_blank"}
+
+
+## Referências
+
+

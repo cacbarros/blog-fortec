@@ -1,24 +1,30 @@
 ---
-title: "Cinemática"
-description: "Estudo do movimento dos corpos."
-date: 2025-04-26
-categories: [Física]
+title: "Física: Cinemática"
+filters:
+  - watermark
+watermark:
+  text: "RASCUNHO"
+  size: 1.5
+  angle: 30
+  color: "#FF0000"
+  opacity: 0.1
 format:
-  html:
-    toc: true
-    code-fold: true
-bibliography: referencias.bib
+  html: default
+  pdf: default
+toc: true
+code-fold: true
+bibliography: fisica.bib
 csl: apa.csl
 nocite: "@*"
-execute:
-  kernel: ctgan_env
+reference-title: "Referências"
 ---
 
-# Cinemática
+# Física: Cinemática
 
-Descrição dos tipos de movimento.
-
-<p><a href="index.html" style="padding: 8px 16px; background-color: #17a2b8; color: white; border-radius: 5px; text-decoration: none;">Voltar para Índice de Física</a></p>
+Em breve conteúdos e exercícios sobre cinemática!
 
 ---
 
+📄 [Download em PDF](./cinematica.pdf){target="_blank"}
+
+## Referências

@@ -1,0 +1,758 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Início",
+    "section": "",
+    "text": "O Blog Fortec é um projeto educacional criado para apoiar o estudo de disciplinas fundamentais, com uma abordagem prática, acessível e interativa.\n\nAprender com explicações claras, exemplos resolvidos em Python, vídeos educativos e exercícios interativos — tudo num só lugar.\n\n\n\n\nCálculo: limites, derivadas, integrais e aplicações.\nÁlgebra: equações, vetores, matrizes.\nFísica e Química: fundamentos com simulações e resolução computacional.\nTermodinâmica e Climatização: explicações aplicadas a engenharia e edifícios.\nJogos e Atividades: gamificação, quizzes e simulações interativas.\n\n\nVisite a secção Sobre para conhecer mais sobre o projeto.\nExplora os tópicos no menu acima e começa a aprender!"
+  },
+  {
+    "objectID": "recursos.html",
+    "href": "recursos.html",
+    "title": "Recursos",
+    "section": "",
+    "text": "Nesta página, você encontra todos os materiais complementares do Blog Fortec para explorar livremente!\n\n\n\n\nComentário sobre Séries Matemáticas\n\n\n\n\n\nNotebook de Séries Matemáticas (Colab)\nNotebook de Séries Matemáticas\nNotebook de Séries Matemáticas\nNotebook de Séries Matemáticas\n\n\n\n\n\nScript de Série Geométrica\nScript de Sequência de Fibonacci"
+  },
+  {
+    "objectID": "recursos.html#áudios-didáticos",
+    "href": "recursos.html#áudios-didáticos",
+    "title": "Recursos",
+    "section": "",
+    "text": "Comentário sobre Séries Matemáticas"
+  },
+  {
+    "objectID": "recursos.html#notebooks-interativos",
+    "href": "recursos.html#notebooks-interativos",
+    "title": "Recursos",
+    "section": "",
+    "text": "Notebook de Séries Matemáticas (Colab)\nNotebook de Séries Matemáticas\nNotebook de Séries Matemáticas\nNotebook de Séries Matemáticas"
+  },
+  {
+    "objectID": "recursos.html#scripts-python",
+    "href": "recursos.html#scripts-python",
+    "title": "Recursos",
+    "section": "",
+    "text": "Script de Série Geométrica\nScript de Sequência de Fibonacci"
+  },
+  {
+    "objectID": "posts/termodinamica/primeira-lei.html",
+    "href": "posts/termodinamica/primeira-lei.html",
+    "title": "Termodinâmica: Primeira Lei",
+    "section": "",
+    "text": "Em breve conteúdos e exercícios sobre primeira lei!\n\n📄 Download em PDF"
+  },
+  {
+    "objectID": "posts/termodinamica/index.html",
+    "href": "posts/termodinamica/index.html",
+    "title": "Termodinâmica Geral",
+    "section": "",
+    "text": "Introdução à Termodinâmica\nPrimeira Lei da Termodinâmica\nSegunda Lei da Termodinâmica\nCiclos Termodinâmicos\nAplicativos de Termodinâmica\nExercícios de Avaliação\n\n\n\n\nEste módulo visa:\n\nIntroduzir os conceitos fundamentais da termodinâmica;\nEstudar a primeira e segunda leis;\nAnalisar ciclos típicos como Carnot e Rankine;\nAplicar conhecimentos a sistemas de engenharia;\nConsolidar os conceitos através de exercícios práticos.\n\nSiga a sequência para construir uma compreensão robusta da termodinâmica.\n\n\nVoltar ao Início"
+  },
+  {
+    "objectID": "posts/termodinamica/index.html#objetivos-do-módulo",
+    "href": "posts/termodinamica/index.html#objetivos-do-módulo",
+    "title": "Termodinâmica Geral",
+    "section": "",
+    "text": "Este módulo visa:\n\nIntroduzir os conceitos fundamentais da termodinâmica;\nEstudar a primeira e segunda leis;\nAnalisar ciclos típicos como Carnot e Rankine;\nAplicar conhecimentos a sistemas de engenharia;\nConsolidar os conceitos através de exercícios práticos.\n\nSiga a sequência para construir uma compreensão robusta da termodinâmica.\n\n\nVoltar ao Início"
+  },
+  {
+    "objectID": "posts/termodinamica/avaliacao-termodinamica.html",
+    "href": "posts/termodinamica/avaliacao-termodinamica.html",
+    "title": "Exercícios de Avaliação",
+    "section": "",
+    "text": "Exercícios de Avaliação\nExercícios para consolidação.\n\nVoltar para Índice de Termodinâmica\n\n\n\n\n\n\n\nReferences\n\nApostol, T. M. (1967). Calculus, volume i. Blaisdell Publishing Company.\n\n\nStewart, J. (2013). Cálculo: Volume 1 (7th ed.). Cengage Learning."
+  },
+  {
+    "objectID": "posts/quimica/reacoes-equacoes.html",
+    "href": "posts/quimica/reacoes-equacoes.html",
+    "title": "Reações Químicas e Equações",
+    "section": "",
+    "text": "Reações Químicas e Equações\nRepresentação simbólica das reações.\n\n\nVoltar para Índice de Química\n\n\n\n\n\n\nReferences\n\nApostol, T. M. (1967). Calculus, volume i. Blaisdell Publishing Company.\n\n\nStewart, J. (2013). Cálculo: Volume 1 (7th ed.). Cengage Learning."
+  },
+  {
+    "objectID": "posts/quimica/introducao-quimica.html",
+    "href": "posts/quimica/introducao-quimica.html",
+    "title": "Introdução à Química",
+    "section": "",
+    "text": "Introdução à Química\nConteúdo introdutório.\n\n\nVoltar para Índice de Química\n\n\n\n\n\n\nReferences\n\nApostol, T. M. (1967). Calculus, volume i. Blaisdell Publishing Company.\n\n\nStewart, J. (2013). Cálculo: Volume 1 (7th ed.). Cengage Learning."
+  },
+  {
+    "objectID": "posts/quimica/estrutura-atomica.html",
+    "href": "posts/quimica/estrutura-atomica.html",
+    "title": "Estrutura Atómica da Matéria",
+    "section": "",
+    "text": "Estrutura Atómica da Matéria\nConceitos fundamentais sobre átomos.\n\n\nVoltar para Índice de Química\n\n\n\n\n\n\nReferences\n\nApostol, T. M. (1967). Calculus, volume i. Blaisdell Publishing Company.\n\n\nStewart, J. (2013). Cálculo: Volume 1 (7th ed.). Cengage Learning."
+  },
+  {
+    "objectID": "posts/quimica/avaliacao-quimica.html",
+    "href": "posts/quimica/avaliacao-quimica.html",
+    "title": "Exercícios de Avaliação",
+    "section": "",
+    "text": "Exercícios de Avaliação\nQuestões práticas para testar seus conhecimentos.\n\n\nVoltar para Índice de Química\n\n\n\n\n\n\nReferences\n\nApostol, T. M. (1967). Calculus, volume i. Blaisdell Publishing Company.\n\n\nStewart, J. (2013). Cálculo: Volume 1 (7th ed.). Cengage Learning."
+  },
+  {
+    "objectID": "posts/matematica/trigonometria.html",
+    "href": "posts/matematica/trigonometria.html",
+    "title": "Trigonometria",
+    "section": "",
+    "text": "Trigonometria\nEstudo de relações trigonométricas e suas aplicações.\n\n Voltar para Índice de Matemática\n\n\n\n\n\n\n\nReferences\n\nApostol, T. M. (1967). Calculus, volume i. Blaisdell Publishing Company.\n\n\nStewart, J. (2013). Cálculo: Volume 1 (7th ed.). Cengage Learning."
+  },
+  {
+    "objectID": "posts/matematica/numeros-reais.html",
+    "href": "posts/matematica/numeros-reais.html",
+    "title": "Números Reais",
+    "section": "",
+    "text": "Números Reais\nExploração dos conjuntos numéricos e suas propriedades fundamentais.\n\n Voltar para Índice de Matemática\n\n\n\n\n\n\n\nReferences\n\nApostol, T. M. (1967). Calculus, volume i. Blaisdell Publishing Company.\n\n\nStewart, J. (2013). Cálculo: Volume 1 (7th ed.). Cengage Learning."
+  },
+  {
+    "objectID": "posts/matematica/geometria-analitica.html",
+    "href": "posts/matematica/geometria-analitica.html",
+    "title": "Geometria Analítica",
+    "section": "",
+    "text": "Geometria Analítica\nAnálise das propriedades geométricas através da álgebra.\n\n Voltar para Índice de Matemática\n\n\n\n\n\n\n\nReferences\n\nApostol, T. M. (1967). Calculus, volume i. Blaisdell Publishing Company.\n\n\nStewart, J. (2013). Cálculo: Volume 1 (7th ed.). Cengage Learning."
+  },
+  {
+    "objectID": "posts/matematica/avaliacao-matematica.html",
+    "href": "posts/matematica/avaliacao-matematica.html",
+    "title": "Exercícios de Avaliação",
+    "section": "",
+    "text": "Exercícios de Avaliação\nExercícios para aplicação prática dos conceitos aprendidos.\n\n Voltar para Índice de Matemática\n\n\n\n\n\n\n\nReferences\n\nApostol, T. M. (1967). Calculus, volume i. Blaisdell Publishing Company.\n\n\nStewart, J. (2013). Cálculo: Volume 1 (7th ed.). Cengage Learning."
+  },
+  {
+    "objectID": "posts/fisica/leis-conservacao.html",
+    "href": "posts/fisica/leis-conservacao.html",
+    "title": "Leis da Conservação",
+    "section": "",
+    "text": "Leis da Conservação\nEstudo das leis fundamentais de conservação.\n\n Voltar para Índice de Física\n\n\n\n\n\n\n\nReferences\n\nApostol, T. M. (1967). Calculus, volume i. Blaisdell Publishing Company.\n\n\nStewart, J. (2013). Cálculo: Volume 1 (7th ed.). Cengage Learning."
+  },
+  {
+    "objectID": "posts/fisica/index.html",
+    "href": "posts/fisica/index.html",
+    "title": "Física Geral",
+    "section": "",
+    "text": "Introdução à Física\nCinemática\nDinâmica\nTrabalho e Energia\nLeis da Conservação\nExercícios de Avaliação\n\n\n\n\nEste módulo visa:\n\nIntroduzir os princípios fundamentais da Física;\nDesenvolver competências de análise de movimento e forças;\nAplicar as leis da conservação da energia e do momento;\nConsolidar os conhecimentos através de exercícios práticos.\n\nSiga a sequência sugerida para construir uma compreensão sólida da Física Clássica.\n\n\nVoltar ao Início"
+  },
+  {
+    "objectID": "posts/fisica/index.html#objetivos-do-módulo",
+    "href": "posts/fisica/index.html#objetivos-do-módulo",
+    "title": "Física Geral",
+    "section": "",
+    "text": "Este módulo visa:\n\nIntroduzir os princípios fundamentais da Física;\nDesenvolver competências de análise de movimento e forças;\nAplicar as leis da conservação da energia e do momento;\nConsolidar os conhecimentos através de exercícios práticos.\n\nSiga a sequência sugerida para construir uma compreensão sólida da Física Clássica.\n\n\nVoltar ao Início"
+  },
+  {
+    "objectID": "posts/fisica/cinematica.html",
+    "href": "posts/fisica/cinematica.html",
+    "title": "Física: Cinemática",
+    "section": "",
+    "text": "Em breve conteúdos e exercícios sobre cinemática!\n\n📄 Download em PDF"
+  },
+  {
+    "objectID": "posts/climatizacao/principios-termodinamicos.html",
+    "href": "posts/climatizacao/principios-termodinamicos.html",
+    "title": "Princípios Termodinâmicos Aplicados",
+    "section": "",
+    "text": "Princípios Termodinâmicos Aplicados\nAplicando a termodinâmica na climatização e refrigeração.\n\n Voltar para Índice de Climatização\n\n\n\n\n\n\n\nReferences\n\nApostol, T. M. (1967). Calculus, volume i. Blaisdell Publishing Company.\n\n\nStewart, J. (2013). Cálculo: Volume 1 (7th ed.). Cengage Learning."
+  },
+  {
+    "objectID": "posts/climatizacao/index.html",
+    "href": "posts/climatizacao/index.html",
+    "title": "Climatização e Sistemas HVAC",
+    "section": "",
+    "text": "Introdução à Climatização\nPrincípios Termodinâmicos Aplicados\nComponentes dos Sistemas HVAC\nAvaliação de Eficiência Energética\nExercícios de Avaliação\n\n\n\n\nEste módulo visa:\n\nIntroduzir os conceitos de conforto térmico e climatização;\nAnalisar os princípios físicos fundamentais utilizados em sistemas HVAC;\nIdentificar e compreender os principais componentes de sistemas de climatização;\nAvaliar o desempenho energético de instalações.\n\n\n\nVoltar ao Início"
+  },
+  {
+    "objectID": "posts/climatizacao/index.html#objetivos-do-módulo",
+    "href": "posts/climatizacao/index.html#objetivos-do-módulo",
+    "title": "Climatização e Sistemas HVAC",
+    "section": "",
+    "text": "Este módulo visa:\n\nIntroduzir os conceitos de conforto térmico e climatização;\nAnalisar os princípios físicos fundamentais utilizados em sistemas HVAC;\nIdentificar e compreender os principais componentes de sistemas de climatização;\nAvaliar o desempenho energético de instalações.\n\n\n\nVoltar ao Início"
+  },
+  {
+    "objectID": "posts/climatizacao/componentes-hvac.html",
+    "href": "posts/climatizacao/componentes-hvac.html",
+    "title": "Componentes dos Sistemas HVAC",
+    "section": "",
+    "text": "Componentes dos Sistemas HVAC\nConhecimento dos principais componentes de um sistema HVAC.\n\n Voltar para Índice de Climatização\n\n\n\n\n\n\n\nReferences\n\nApostol, T. M. (1967). Calculus, volume i. Blaisdell Publishing Company.\n\n\nStewart, J. (2013). Cálculo: Volume 1 (7th ed.). Cengage Learning."
+  },
+  {
+    "objectID": "posts/calculo/testes-convergencia.html",
+    "href": "posts/calculo/testes-convergencia.html",
+    "title": "Testes de Convergência",
+    "section": "",
+    "text": "Testes de Convergência\nNesta secção abordamos:\n\nTeste da Comparação,\nTeste da Razão,\nTeste da Raiz,\nTeste da Integral,\nExemplos práticos de aplicação.\n\nConteúdo a desenvolver…\n\n\nVoltar para Índice de Séries Matemáticas\n\n\n\n\n\n\nReferences\n\nApostol, T. M. (1967). Calculus, volume i. Blaisdell Publishing Company.\n\n\nStewart, J. (2013). Cálculo: Volume 1 (7th ed.). Cengage Learning."
+  },
+  {
+    "objectID": "posts/calculo/series-especiais.html",
+    "href": "posts/calculo/series-especiais.html",
+    "title": "Séries Geométricas e Harmónicas",
+    "section": "",
+    "text": "Séries Geométricas e Harmónicas\nNesta secção estudamos:\n\nSéries Geométricas,\nSéries Harmónicas,\nExemplos clássicos,\nAplicações.\n\nConteúdo a desenvolver…\n\n\nVoltar para Índice de Séries Matemáticas\n\n\n\n\n\n\nReferences\n\nApostol, T. M. (1967). Calculus, volume i. Blaisdell Publishing Company.\n\n\nStewart, J. (2013). Cálculo: Volume 1 (7th ed.). Cengage Learning."
+  },
+  {
+    "objectID": "posts/calculo/index.html",
+    "href": "posts/calculo/index.html",
+    "title": "Séries Matemáticas",
+    "section": "",
+    "text": "Introdução às Séries Numéricas\nConvergência de Séries\nTestes de Convergência\nSéries Geométricas e Harmónicas\nExercícios de Avaliação\n\n\n\n\nEste módulo visa:\n\nIntroduzir o conceito de séries como somatórios infinitos;\nAnalisar a convergência e divergência de séries utilizando métodos apropriados;\nAplicar testes clássicos de convergência (comparação, razão, raiz, etc.);\nEstudar séries geométricas e harmónicas;\nConsolidar o conhecimento através de exercícios de avaliação.\n\nSiga a sequência sugerida para obter uma compreensão sólida e progressiva do tema. \n\n\nVoltar ao Início"
+  },
+  {
+    "objectID": "posts/calculo/index.html#objetivos-do-módulo",
+    "href": "posts/calculo/index.html#objetivos-do-módulo",
+    "title": "Séries Matemáticas",
+    "section": "",
+    "text": "Este módulo visa:\n\nIntroduzir o conceito de séries como somatórios infinitos;\nAnalisar a convergência e divergência de séries utilizando métodos apropriados;\nAplicar testes clássicos de convergência (comparação, razão, raiz, etc.);\nEstudar séries geométricas e harmónicas;\nConsolidar o conhecimento através de exercícios de avaliação.\n\nSiga a sequência sugerida para obter uma compreensão sólida e progressiva do tema. \n\n\nVoltar ao Início"
+  },
+  {
+    "objectID": "posts/calculo/avaliacao.html",
+    "href": "posts/calculo/avaliacao.html",
+    "title": "Exercícios de Avaliação",
+    "section": "",
+    "text": "Exercícios de Avaliação\nPropostas de exercícios:\n\nVerificar a convergência de uma série geométrica.\nAplicar o teste da razão numa série dada.\nIdentificar séries divergentes entre exemplos apresentados.\nAplicações práticas em Física ou Engenharia.\n\nConteúdo a desenvolver…\n\n\nVoltar para Índice de Séries Matemáticas\n\n\n\n\n\n\nReferences\n\nApostol, T. M. (1967). Calculus, volume i. Blaisdell Publishing Company.\n\n\nStewart, J. (2013). Cálculo: Volume 1 (7th ed.). Cengage Learning."
+  },
+  {
+    "objectID": "posts/algebra/equacoes-quadraticas.html",
+    "href": "posts/algebra/equacoes-quadraticas.html",
+    "title": "Álgebra: Equações Quadráticas",
+    "section": "",
+    "text": "Em breve conteúdos e exercícios sobre equações quadráticas!\n\n📄 Download em PDF"
+  },
+  {
+    "objectID": "posts/algebra/index.html",
+    "href": "posts/algebra/index.html",
+    "title": "Álgebra",
+    "section": "",
+    "text": "🧮 Álgebra: Índice de Temas\nNesta secção, exploraremos diversos tópicos fundamentais de Álgebra:\n\nEquações Quadráticas\n(Em breve) Sistemas de Equações Lineares\n(Em breve) Polinómios e Raízes\n(Em breve) Matrizes e Determinantes\n\nClique nos tópicos para aceder ao conteúdo.\n\n\nVoltar ao Início"
+  },
+  {
+    "objectID": "posts/calculo/convergencia.html",
+    "href": "posts/calculo/convergencia.html",
+    "title": "Convergência de Séries",
+    "section": "",
+    "text": "Convergência de Séries\nNesta secção estudamos:\n\nDefinição de convergência e divergência,\nSéries convergentes versus séries divergentes,\nExemplos básicos.\n\nConteúdo a desenvolver…\n\n\nVoltar para Índice de Séries Matemáticas\n\n\n\n\n\n\nReferences\n\nApostol, T. M. (1967). Calculus, volume i. Blaisdell Publishing Company.\n\n\nStewart, J. (2013). Cálculo: Volume 1 (7th ed.). Cengage Learning."
+  },
+  {
+    "objectID": "posts/calculo/problema-series.html",
+    "href": "posts/calculo/problema-series.html",
+    "title": "Séries Matemáticas",
+    "section": "",
+    "text": "Enunciado do Problema\nConsidere a série numérica:\n\\[\n\\sum_{n=1}^{\\infty} \\frac{1}{n^2}\n\\]\n\nDetermine se a série é convergente ou divergente.\nJustifique usando uma comparação ou teste adequado.\n\n\n\nSolução (Clique para expandir)\n\n\nVer Solução\n\n\nA série apresentada é:\n\\[\n\\sum_{n=1}^{\\infty} \\frac{1}{n^2}\n\\]\nEsta é uma série p com \\(p = 2 &gt; 1\\).\nLogo, a série converge pelo critério das séries p.\nAlém disso, sabemos que:\n\\[\n\\sum_{n=1}^{\\infty} \\frac{1}{n^2} = \\frac{\\pi^2}{6}\n\\]\nResumo: A série é convergente.\n\n\n\nVoltar à Página Principal\n\n\nVoltar para Índice de Séries Matemáticas\n\n\n\n\n\n\nReferences\n\nApostol, T. M. (1967). Calculus, volume i. Blaisdell Publishing Company.\n\n\nStewart, J. (2013). Cálculo: Volume 1 (7th ed.). Cengage Learning."
+  },
+  {
+    "objectID": "posts/calculo/series-matematicas.html",
+    "href": "posts/calculo/series-matematicas.html",
+    "title": "Séries Matemáticas",
+    "section": "",
+    "text": "Já imaginou somar infinitos números e ainda assim chegar a um valor finito?\nEsta é a fascinante realidade das séries matemáticas!\nNesta lição, vamos explorar os conceitos fundamentais das séries numéricas: o que são, como se comportam e como podemos analisá-las com ferramentas práticas.\n\n\nPara aprofundar a compreensão deste tema, ouça o comentário didático:\n\n   Ouvir no Vocaroo \n\n\n\n\nUma série é a soma dos termos de uma sequência:\n\\[\n\\sum_{n=1}^{\\infty} a_n\n\\]\nDizemos que uma série converge se a sequência das somas parciais tem limite finito (Apostol, 1967):\n\\[\nS_N = \\sum_{n=1}^{N} a_n \\longrightarrow S \\quad \\text{quando } N \\to \\infty\n\\]"
+  },
+  {
+    "objectID": "posts/calculo/series-matematicas.html#comentário-didático",
+    "href": "posts/calculo/series-matematicas.html#comentário-didático",
+    "title": "Séries Matemáticas",
+    "section": "",
+    "text": "Para aprofundar a compreensão deste tema, ouça o comentário didático:\n\n   Ouvir no Vocaroo"
+  },
+  {
+    "objectID": "posts/calculo/series-matematicas.html#definição",
+    "href": "posts/calculo/series-matematicas.html#definição",
+    "title": "Séries Matemáticas",
+    "section": "",
+    "text": "Uma série é a soma dos termos de uma sequência:\n\\[\n\\sum_{n=1}^{\\infty} a_n\n\\]\nDizemos que uma série converge se a sequência das somas parciais tem limite finito (Apostol, 1967):\n\\[\nS_N = \\sum_{n=1}^{N} a_n \\longrightarrow S \\quad \\text{quando } N \\to \\infty\n\\]"
+  },
+  {
+    "objectID": "posts/calculo/series-matematicas.html#vídeo-de-apoio",
+    "href": "posts/calculo/series-matematicas.html#vídeo-de-apoio",
+    "title": "Séries Matemáticas",
+    "section": "Vídeo de Apoio",
+    "text": "Vídeo de Apoio"
+  },
+  {
+    "objectID": "posts/calculo/series-matematicas.html#representação-gráfica-interativa",
+    "href": "posts/calculo/series-matematicas.html#representação-gráfica-interativa",
+    "title": "Séries Matemáticas",
+    "section": "Representação Gráfica Interativa",
+    "text": "Representação Gráfica Interativa\nExplore a série de forma interativa no Geogebra:"
+  },
+  {
+    "objectID": "posts/calculo/series-matematicas.html#observação",
+    "href": "posts/calculo/series-matematicas.html#observação",
+    "title": "Séries Matemáticas",
+    "section": "Observação",
+    "text": "Observação\nA convergência de uma série depende do comportamento da soma parcial, não apenas da tendência dos termos \\(a_n\\)."
+  },
+  {
+    "objectID": "posts/calculo/series-matematicas.html#recursos-disponíveis",
+    "href": "posts/calculo/series-matematicas.html#recursos-disponíveis",
+    "title": "Séries Matemáticas",
+    "section": "Recursos Disponíveis",
+    "text": "Recursos Disponíveis\nExplore, execute ou veja o conteúdo completo desta lição:\n\n             Voltar para Índice de Cálculo"
+  },
+  {
+    "objectID": "posts/climatizacao/avaliacao-climatizacao.html",
+    "href": "posts/climatizacao/avaliacao-climatizacao.html",
+    "title": "Exercícios de Avaliação",
+    "section": "",
+    "text": "Exercícios de Avaliação\nExercícios para aplicação de conhecimentos de climatização e HVAC.\n\n Voltar para Índice de Climatização\n\n\n\n\n\n\n\nReferences\n\nApostol, T. M. (1967). Calculus, volume i. Blaisdell Publishing Company.\n\n\nStewart, J. (2013). Cálculo: Volume 1 (7th ed.). Cengage Learning."
+  },
+  {
+    "objectID": "posts/climatizacao/eficiencia-energetica.html",
+    "href": "posts/climatizacao/eficiencia-energetica.html",
+    "title": "Avaliação de Eficiência Energética",
+    "section": "",
+    "text": "Avaliação de Eficiência Energética\nAnálise de indicadores de eficiência em climatização.\n\n Voltar para Índice de Climatização\n\n\n\n\n\n\n\nReferences\n\nApostol, T. M. (1967). Calculus, volume i. Blaisdell Publishing Company.\n\n\nStewart, J. (2013). Cálculo: Volume 1 (7th ed.). Cengage Learning."
+  },
+  {
+    "objectID": "posts/climatizacao/introducao-climatizacao.html",
+    "href": "posts/climatizacao/introducao-climatizacao.html",
+    "title": "Introdução à Climatização",
+    "section": "",
+    "text": "Introdução à Climatização\nExploração dos conceitos de conforto térmico e qualidade do ar interior.\n\n Voltar para Índice de Climatização\n\n\n\n\n\n\n\nReferences\n\nApostol, T. M. (1967). Calculus, volume i. Blaisdell Publishing Company.\n\n\nStewart, J. (2013). Cálculo: Volume 1 (7th ed.). Cengage Learning."
+  },
+  {
+    "objectID": "posts/fisica/avaliacao-fisica.html",
+    "href": "posts/fisica/avaliacao-fisica.html",
+    "title": "Exercícios de Avaliação",
+    "section": "",
+    "text": "Exercícios de Avaliação\nExercícios para praticar e consolidar o conteúdo.\n\nVoltar para Índice de Física\n\n\n\n\n\n\n\nReferences\n\nApostol, T. M. (1967). Calculus, volume i. Blaisdell Publishing Company.\n\n\nStewart, J. (2013). Cálculo: Volume 1 (7th ed.). Cengage Learning."
+  },
+  {
+    "objectID": "posts/fisica/dinamica.html",
+    "href": "posts/fisica/dinamica.html",
+    "title": "Física: Dinâmica",
+    "section": "",
+    "text": "Em breve conteúdos e exercícios sobre dinâmica!\n\n📄 Download em PDF"
+  },
+  {
+    "objectID": "posts/fisica/introducao-fisica.html",
+    "href": "posts/fisica/introducao-fisica.html",
+    "title": "Introdução à Física",
+    "section": "",
+    "text": "Introdução à Física\nApresentação dos princípios básicos da Física.\n\nVoltar para Índice de Física\n\n\n\n\n\n\n\nReferences\n\nApostol, T. M. (1967). Calculus, volume i. Blaisdell Publishing Company.\n\n\nStewart, J. (2013). Cálculo: Volume 1 (7th ed.). Cengage Learning."
+  },
+  {
+    "objectID": "posts/fisica/trabalho-energia.html",
+    "href": "posts/fisica/trabalho-energia.html",
+    "title": "Física: Trabalho e Energia",
+    "section": "",
+    "text": "Em breve conteúdos e exercícios sobre trabalho e energia!\n\n📄 Download em PDF"
+  },
+  {
+    "objectID": "posts/matematica/funcoes-graficos.html",
+    "href": "posts/matematica/funcoes-graficos.html",
+    "title": "Funções e Gráficos",
+    "section": "",
+    "text": "Funções e Gráficos\nEstudo das relações funcionais e interpretação de gráficos.\n\n Voltar para Índice de Matemática\n\n\n\n\n\n\n\nReferences\n\nApostol, T. M. (1967). Calculus, volume i. Blaisdell Publishing Company.\n\n\nStewart, J. (2013). Cálculo: Volume 1 (7th ed.). Cengage Learning."
+  },
+  {
+    "objectID": "posts/matematica/index.html",
+    "href": "posts/matematica/index.html",
+    "title": "Matemática Secundário",
+    "section": "",
+    "text": "Números Reais\nFunções e Gráficos\nTrigonometria\nPolinómios\nGeometria Analítica\nExercícios de Avaliação\n\n\n\n\nEste módulo visa:\n\nConsolidar conceitos básicos de Matemática;\nDesenvolver competências de análise de funções e equações;\nAplicar conhecimentos em problemas práticos;\nPreparar para exames e avaliações finais.\n\n\n\nVoltar ao Início"
+  },
+  {
+    "objectID": "posts/matematica/index.html#objetivos-do-módulo",
+    "href": "posts/matematica/index.html#objetivos-do-módulo",
+    "title": "Matemática Secundário",
+    "section": "",
+    "text": "Este módulo visa:\n\nConsolidar conceitos básicos de Matemática;\nDesenvolver competências de análise de funções e equações;\nAplicar conhecimentos em problemas práticos;\nPreparar para exames e avaliações finais.\n\n\n\nVoltar ao Início"
+  },
+  {
+    "objectID": "posts/matematica/polinomios.html",
+    "href": "posts/matematica/polinomios.html",
+    "title": "Polinómios",
+    "section": "",
+    "text": "Polinómios\nExploração de operações algébricas e fatorização.\n\n Voltar para Índice de Matemática\n\n\n\n\n\n\n\nReferences\n\nApostol, T. M. (1967). Calculus, volume i. Blaisdell Publishing Company.\n\n\nStewart, J. (2013). Cálculo: Volume 1 (7th ed.). Cengage Learning."
+  },
+  {
+    "objectID": "posts/post-with-code/index.html",
+    "href": "posts/post-with-code/index.html",
+    "title": "Post With Code",
+    "section": "",
+    "text": "This is a post with executable code."
+  },
+  {
+    "objectID": "posts/quimica/estequiometria.html",
+    "href": "posts/quimica/estequiometria.html",
+    "title": "Álgebra: Estequiometria",
+    "section": "",
+    "text": "Em breve conteúdos e exercícios sobre estequiometria!\n\n📄 Download em PDF"
+  },
+  {
+    "objectID": "posts/quimica/index.html",
+    "href": "posts/quimica/index.html",
+    "title": "Química Geral",
+    "section": "",
+    "text": "Introdução à Química\nEstrutura Atómica da Matéria\nLigações Químicas\nReações Químicas e Equações\nEstequiometria e Cálculos Químicos\nExercícios de Avaliação\n\n\n\n\nEste módulo visa:\n\nCompreender a estrutura atómica e os princípios da organização da matéria;\nEstudar os diferentes tipos de ligações químicas e suas propriedades;\nAprender a escrever e equilibrar equações químicas;\nAplicar conceitos de estequiometria para resolver problemas práticos;\nConsolidar os conhecimentos adquiridos através de exercícios de avaliação.\n\nSiga a sequência sugerida para garantir uma aprendizagem sólida e estruturada da Química.\n\n\nVoltar ao Início"
+  },
+  {
+    "objectID": "posts/quimica/index.html#objetivos-do-módulo",
+    "href": "posts/quimica/index.html#objetivos-do-módulo",
+    "title": "Química Geral",
+    "section": "",
+    "text": "Este módulo visa:\n\nCompreender a estrutura atómica e os princípios da organização da matéria;\nEstudar os diferentes tipos de ligações químicas e suas propriedades;\nAprender a escrever e equilibrar equações químicas;\nAplicar conceitos de estequiometria para resolver problemas práticos;\nConsolidar os conhecimentos adquiridos através de exercícios de avaliação.\n\nSiga a sequência sugerida para garantir uma aprendizagem sólida e estruturada da Química.\n\n\nVoltar ao Início"
+  },
+  {
+    "objectID": "posts/quimica/ligacoes-quimicas.html",
+    "href": "posts/quimica/ligacoes-quimicas.html",
+    "title": "Álgebra: Ligações Químicas",
+    "section": "",
+    "text": "Em breve conteúdos e exercícios sobre ligações químicas!\n\n📄 Download em PDF"
+  },
+  {
+    "objectID": "posts/termodinamica/aplicacoes-termodinamica.html",
+    "href": "posts/termodinamica/aplicacoes-termodinamica.html",
+    "title": "Aplicações de Termodinâmica",
+    "section": "",
+    "text": "Aplicações de Termodinâmica\nExemplos de aplicação.\n\nVoltar para Índice de Termodinâmica\n\n\n\n\n\n\n\nReferences\n\nApostol, T. M. (1967). Calculus, volume i. Blaisdell Publishing Company.\n\n\nStewart, J. (2013). Cálculo: Volume 1 (7th ed.). Cengage Learning."
+  },
+  {
+    "objectID": "posts/termodinamica/ciclos-termodinamicos.html",
+    "href": "posts/termodinamica/ciclos-termodinamicos.html",
+    "title": "Ciclos Termodinâmicos",
+    "section": "",
+    "text": "Ciclos Termodinâmicos\nEstudo de ciclos típicos.\n\nVoltar para Índice de Termodinâmica\n\n\n\n\n\n\n\nReferences\n\nApostol, T. M. (1967). Calculus, volume i. Blaisdell Publishing Company.\n\n\nStewart, J. (2013). Cálculo: Volume 1 (7th ed.). Cengage Learning."
+  },
+  {
+    "objectID": "posts/termodinamica/introducao-termodinamica.html",
+    "href": "posts/termodinamica/introducao-termodinamica.html",
+    "title": "Termodinâmica: Introdução à Termodinâmica",
+    "section": "",
+    "text": "Em breve conteúdos e exercícios sobre introdução à termodinâmica!\n\n📄 Download em PDF"
+  },
+  {
+    "objectID": "posts/termodinamica/introducao-termodinamica.html#vídeo-de-apoio",
+    "href": "posts/termodinamica/introducao-termodinamica.html#vídeo-de-apoio",
+    "title": "Introdução à Termodinâmica",
+    "section": "",
+    "text": "Veja a explicação introdutório no vídeo abaixo:\n\n\n\n\n\nVoltar para Índice de Termodinâmica"
+  },
+  {
+    "objectID": "posts/termodinamica/segunda-lei.html",
+    "href": "posts/termodinamica/segunda-lei.html",
+    "title": "Termodinâmica: Segunda Lei",
+    "section": "",
+    "text": "Em breve conteúdos e exercícios sobre segunda lei!\n\n📄 Download em PDF"
+  },
+  {
+    "objectID": "welcome/index.html",
+    "href": "welcome/index.html",
+    "title": "Bem-vindo ao Blog Educacional",
+    "section": "",
+    "text": "Este espaço foi criado para apoiar estudantes, professores e autodidatas nas áreas da Matemática, Física, Química, Termodinâmica e Ciências Técnicas.\nExplore os principais temas disponíveis:\n\n\nNeste blog, você poderá estudar:\n\nCálculo: Séries matemáticas, limites, derivadas, integrais e aplicações práticas.\nÁlgebra: Equações quadráticas, sistemas de equações, polinómios, matrizes e mais.\nFísica: Leis fundamentais, aplicações práticas e resolução de problemas.\nClimatização: Estudo de processos térmicos e sistemas de climatização.\nQuímica: Fundamentos de química geral, reações e aplicações industriais.\nTermodinâmica: Princípios de conservação de energia, sistemas termodinâmicos e ciclos.\n\nCada secção inclui textos explicativos, exemplos resolvidos, áudios didáticos e atividades práticas.\n\n\n\n\n Cálculo \n Álgebra \n Física \n Climatização \n Química \n Termodinâmica \n\n\n\n\nEste blog é desenvolvido para tornar o conhecimento acessível, organizado e aplicado de forma prática.\nExplore ao seu ritmo e aproveite todos os recursos disponíveis!\n\n\n Começar por Cálculo"
+  },
+  {
+    "objectID": "welcome/index.html#o-que-pode-explorar-aqui",
+    "href": "welcome/index.html#o-que-pode-explorar-aqui",
+    "title": "Bem-vindo ao Blog Educacional",
+    "section": "",
+    "text": "Neste blog, você poderá estudar:\n\nCálculo: Séries matemáticas, limites, derivadas, integrais e aplicações práticas.\nÁlgebra: Equações quadráticas, sistemas de equações, polinómios, matrizes e mais.\nFísica: Leis fundamentais, aplicações práticas e resolução de problemas.\nClimatização: Estudo de processos térmicos e sistemas de climatização.\nQuímica: Fundamentos de química geral, reações e aplicações industriais.\nTermodinâmica: Princípios de conservação de energia, sistemas termodinâmicos e ciclos.\n\nCada secção inclui textos explicativos, exemplos resolvidos, áudios didáticos e atividades práticas."
+  },
+  {
+    "objectID": "welcome/index.html#aceda-diretamente-aos-temas",
+    "href": "welcome/index.html#aceda-diretamente-aos-temas",
+    "title": "Bem-vindo ao Blog Educacional",
+    "section": "",
+    "text": "Cálculo \n Álgebra \n Física \n Climatização \n Química \n Termodinâmica"
+  },
+  {
+    "objectID": "welcome/index.html#sobre-o-projeto",
+    "href": "welcome/index.html#sobre-o-projeto",
+    "title": "Bem-vindo ao Blog Educacional",
+    "section": "",
+    "text": "Este blog é desenvolvido para tornar o conhecimento acessível, organizado e aplicado de forma prática.\nExplore ao seu ritmo e aproveite todos os recursos disponíveis!\n\n\n Começar por Cálculo"
+  },
+  {
+    "objectID": "posts/algebra/produtos-notaveis.html",
+    "href": "posts/algebra/produtos-notaveis.html",
+    "title": "Álgebra: Produtos Notáveis",
+    "section": "",
+    "text": "Em breve conteúdos e exercícios sobre produtos notáveis!\n\n📄 Download em PDF"
+  },
+  {
+    "objectID": "posts/algebra/fatoracao.html",
+    "href": "posts/algebra/fatoracao.html",
+    "title": "Álgebra: Fatoração",
+    "section": "",
+    "text": "Em breve conteúdos e exercícios sobre fatoração!\n\n📄 Download em PDF"
+  },
+  {
+    "objectID": "posts/algebra/polinomios.html",
+    "href": "posts/algebra/polinomios.html",
+    "title": "Álgebra: Polinómios",
+    "section": "",
+    "text": "Em breve conteúdos e exercícios sobre polinómios!\n\n📄 Download em PDF"
+  },
+  {
+    "objectID": "posts/algebra/sistemas-lineares.html",
+    "href": "posts/algebra/sistemas-lineares.html",
+    "title": "Álgebra: Sistemas Lineares",
+    "section": "",
+    "text": "Em breve conteúdos e exercícios sobre sistemas lineares!\n\n📄 Download em PDF"
+  },
+  {
+    "objectID": "posts/quimica/ph-solucoes.html",
+    "href": "posts/quimica/ph-solucoes.html",
+    "title": "Álgebra: pH e Soluções",
+    "section": "",
+    "text": "Em breve conteúdos e exercícios sobre ph e soluções!\n\n📄 Download em PDF"
+  },
+  {
+    "objectID": "posts/quimica/equilibrio-quimico.html",
+    "href": "posts/quimica/equilibrio-quimico.html",
+    "title": "Álgebra: Equilíbrio Químico",
+    "section": "",
+    "text": "Em breve conteúdos e exercícios sobre equilíbrio químico!\n\n📄 Download em PDF"
+  },
+  {
+    "objectID": "posts/quimica/reacoes-quimicas.html",
+    "href": "posts/quimica/reacoes-quimicas.html",
+    "title": "Química: Reações Químicas",
+    "section": "",
+    "text": "Em breve conteúdos e exercícios sobre reações químicas!\n\n📄 Download em PDF"
+  },
+  {
+    "objectID": "posts/fisica/leis-newton.html",
+    "href": "posts/fisica/leis-newton.html",
+    "title": "Física: Leis de Newton",
+    "section": "",
+    "text": "Em breve conteúdos e exercícios sobre leis de newton!\n\n📄 Download em PDF"
+  },
+  {
+    "objectID": "posts/fisica/gravitacao-universal.html",
+    "href": "posts/fisica/gravitacao-universal.html",
+    "title": "Física: Gravitação Universal",
+    "section": "",
+    "text": "Em breve conteúdos e exercícios sobre gravitação universal!\n\n📄 Download em PDF"
+  },
+  {
+    "objectID": "posts/termodinamica/entropia.html",
+    "href": "posts/termodinamica/entropia.html",
+    "title": "Termodinâmica: Entropia",
+    "section": "",
+    "text": "Em breve conteúdos e exercícios sobre entropia!\n\n📄 Download em PDF"
+  },
+  {
+    "objectID": "posts/termodinamica/eficiencia-ciclos.html",
+    "href": "posts/termodinamica/eficiencia-ciclos.html",
+    "title": "Termodinâmica: Eficiência de Ciclos",
+    "section": "",
+    "text": "Em breve conteúdos e exercícios sobre eficiência de ciclos!\n\n📄 Download em PDF"
+  },
+  {
+    "objectID": "posts/climatizacao/qualidade-ar.html",
+    "href": "posts/climatizacao/qualidade-ar.html",
+    "title": "Climatização: Qualidade do Ar Interior",
+    "section": "",
+    "text": "Em breve conteúdos e exercícios sobre qualidade do ar interior!\n\n📄 Download em PDF"
+  },
+  {
+    "objectID": "posts/climatizacao/carga-termica.html",
+    "href": "posts/climatizacao/carga-termica.html",
+    "title": "Climatização: Carga Térmica",
+    "section": "",
+    "text": "Em breve conteúdos e exercícios sobre carga térmica!\n\n📄 Download em PDF"
+  },
+  {
+    "objectID": "posts/climatizacao/automacao-controle.html",
+    "href": "posts/climatizacao/automacao-controle.html",
+    "title": "Climatização: Automação e Controlo",
+    "section": "",
+    "text": "Em breve conteúdos e exercícios sobre automação e controlo!\n\n📄 Download em PDF"
+  },
+  {
+    "objectID": "posts/climatizacao/chillers-torres.html",
+    "href": "posts/climatizacao/chillers-torres.html",
+    "title": "Climatização: Chillers e Torres",
+    "section": "",
+    "text": "Em breve conteúdos e exercícios sobre chillers e torres!\n\n📄 Download em PDF"
+  },
+  {
+    "objectID": "posts/climatizacao/ventilacao-natural.html",
+    "href": "posts/climatizacao/ventilacao-natural.html",
+    "title": "Climatização: Ventilação Natural",
+    "section": "",
+    "text": "Em breve conteúdos e exercícios sobre ventilação natural!\n\n📄 Download em PDF"
+  },
+  {
+    "objectID": "posts/series/series-matematicas.html",
+    "href": "posts/series/series-matematicas.html",
+    "title": "Séries Matemáticas",
+    "section": "",
+    "text": "Já imaginou somar infinitos números e ainda assim chegar a um valor finito?\nEsta é a fascinante realidade das séries matemáticas!\nNesta lição, vamos explorar os conceitos fundamentais das séries numéricas: o que são, como se comportam e como podemos analisá-las com ferramentas práticas.\n\n\nPara aprofundar a compreensão deste tema, ouça o comentário didático:\n\n   Ouvir no Vocaroo \n\n\n\n\nUma série é a soma dos termos de uma sequência:\n\\[\n\\sum_{n=1}^{\\infty} a_n\n\\]\nDizemos que uma série converge se a sequência das somas parciais tem limite finito (Apostol, 1967):\n\\[\nS_N = \\sum_{n=1}^{N} a_n \\longrightarrow S \\quad \\text{quando } N \\to \\infty\n\\]"
+  },
+  {
+    "objectID": "posts/series/series-matematicas.html#comentário-didático",
+    "href": "posts/series/series-matematicas.html#comentário-didático",
+    "title": "Séries Matemáticas",
+    "section": "",
+    "text": "Para aprofundar a compreensão deste tema, ouça o comentário didático:\n\n   Ouvir no Vocaroo"
+  },
+  {
+    "objectID": "posts/series/series-matematicas.html#definição",
+    "href": "posts/series/series-matematicas.html#definição",
+    "title": "Séries Matemáticas",
+    "section": "",
+    "text": "Uma série é a soma dos termos de uma sequência:\n\\[\n\\sum_{n=1}^{\\infty} a_n\n\\]\nDizemos que uma série converge se a sequência das somas parciais tem limite finito (Apostol, 1967):\n\\[\nS_N = \\sum_{n=1}^{N} a_n \\longrightarrow S \\quad \\text{quando } N \\to \\infty\n\\]"
+  },
+  {
+    "objectID": "posts/series/series-matematicas.html#vídeo-de-apoio",
+    "href": "posts/series/series-matematicas.html#vídeo-de-apoio",
+    "title": "Séries Matemáticas",
+    "section": "Vídeo de Apoio",
+    "text": "Vídeo de Apoio"
+  },
+  {
+    "objectID": "posts/series/series-matematicas.html#representação-gráfica-interativa",
+    "href": "posts/series/series-matematicas.html#representação-gráfica-interativa",
+    "title": "Séries Matemáticas",
+    "section": "Representação Gráfica Interativa",
+    "text": "Representação Gráfica Interativa\nExplore a série de forma interativa no Geogebra:"
+  },
+  {
+    "objectID": "posts/series/series-matematicas.html#observação",
+    "href": "posts/series/series-matematicas.html#observação",
+    "title": "Séries Matemáticas",
+    "section": "Observação",
+    "text": "Observação\nA convergência de uma série depende do comportamento da soma parcial, não apenas da tendência dos termos \\(a_n\\)."
+  },
+  {
+    "objectID": "posts/series/series-matematicas.html#recursos-disponíveis",
+    "href": "posts/series/series-matematicas.html#recursos-disponíveis",
+    "title": "Séries Matemáticas",
+    "section": "Recursos Disponíveis",
+    "text": "Recursos Disponíveis\nExplore, execute ou veja o conteúdo completo desta lição:\n\n             Voltar para Índice de Cálculo \n\n\n📄 Download em PDF"
+  },
+  {
+    "objectID": "posts/series/problema-series.html",
+    "href": "posts/series/problema-series.html",
+    "title": "Séries Matemáticas",
+    "section": "",
+    "text": "Considere a série numérica:\n\\[\n\\sum_{n=1}^{\\infty} \\frac{1}{n^2}\n\\]\n\nDetermine se a série é convergente ou divergente.\nJustifique usando uma comparação ou teste adequado."
+  },
+  {
+    "objectID": "posts/series/avaliacao.html",
+    "href": "posts/series/avaliacao.html",
+    "title": "Exercícios de Avaliação",
+    "section": "",
+    "text": "Exercícios de Avaliação\nPropostas de exercícios:\n\nVerificar a convergência de uma série geométrica.\nAplicar o teste da razão numa série dada.\nIdentificar séries divergentes entre exemplos apresentados.\nAplicações práticas em Física ou Engenharia.\n\nConteúdo a desenvolver…\n\n\nVoltar para Índice de Séries Matemáticas\n\n\n\n\n\n\nReferences\n\nApostol, T. M. (1967). Calculus, volume i. Blaisdell Publishing Company.\n\n\nStewart, J. (2013). Cálculo: Volume 1 (7th ed.). Cengage Learning."
+  },
+  {
+    "objectID": "posts/series/convergencia.html",
+    "href": "posts/series/convergencia.html",
+    "title": "Convergência de Séries",
+    "section": "",
+    "text": "Convergência de Séries\nNesta secção estudamos:\n\nDefinição de convergência e divergência,\nSéries convergentes versus séries divergentes,\nExemplos básicos.\n\nConteúdo a desenvolver…\n\n\nVoltar para Índice de Séries Matemáticas\n\n\n\n\n\n\nReferences\n\nApostol, T. M. (1967). Calculus, volume i. Blaisdell Publishing Company.\n\n\nStewart, J. (2013). Cálculo: Volume 1 (7th ed.). Cengage Learning."
+  },
+  {
+    "objectID": "posts/series/series-especiais.html",
+    "href": "posts/series/series-especiais.html",
+    "title": "Séries Geométricas e Harmónicas",
+    "section": "",
+    "text": "Séries Geométricas e Harmónicas\nNesta secção estudamos:\n\nSéries Geométricas,\nSéries Harmónicas,\nExemplos clássicos,\nAplicações.\n\nConteúdo a desenvolver…\n\n\nVoltar para Índice de Séries Matemáticas\n\n\n\n\n\n\nReferences\n\nApostol, T. M. (1967). Calculus, volume i. Blaisdell Publishing Company.\n\n\nStewart, J. (2013). Cálculo: Volume 1 (7th ed.). Cengage Learning."
+  },
+  {
+    "objectID": "posts/series/testes-convergencia.html",
+    "href": "posts/series/testes-convergencia.html",
+    "title": "Testes de Convergência",
+    "section": "",
+    "text": "Testes de Convergência\nNesta secção abordamos:\n\nTeste da Comparação,\nTeste da Razão,\nTeste da Raiz,\nTeste da Integral,\nExemplos práticos de aplicação.\n\nConteúdo a desenvolver…\n\n\nVoltar para Índice de Séries Matemáticas\n\n\n\n\n\n\nReferences\n\nApostol, T. M. (1967). Calculus, volume i. Blaisdell Publishing Company.\n\n\nStewart, J. (2013). Cálculo: Volume 1 (7th ed.). Cengage Learning."
+  },
+  {
+    "objectID": "posts/calculo/limites.html",
+    "href": "posts/calculo/limites.html",
+    "title": "Cálculo: Limites",
+    "section": "",
+    "text": "Em breve conteúdos e exercícios sobre limites!\n\n📄 Download em PDF"
+  },
+  {
+    "objectID": "posts/series/series-potencias.html",
+    "href": "posts/series/series-potencias.html",
+    "title": "Séries: Séries de Potências",
+    "section": "",
+    "text": "Em breve conteúdos e exercícios sobre séries de potências!\n\n📄 Download em PDF"
+  },
+  {
+    "objectID": "posts/series/convergencia-series.html",
+    "href": "posts/series/convergencia-series.html",
+    "title": "Séries: Convergência de Séries",
+    "section": "",
+    "text": "Em breve conteúdos e exercícios sobre convergência de séries!\n\n📄 Download em PDF"
+  },
+  {
+    "objectID": "posts/series/aplicacoes-engenharia.html",
+    "href": "posts/series/aplicacoes-engenharia.html",
+    "title": "Séries: Aplicações em Engenharia",
+    "section": "",
+    "text": "Em breve conteúdos e exercícios sobre aplicações em engenharia!\n\n📄 Download em PDF"
+  },
+  {
+    "objectID": "posts/series/series-numericas.html",
+    "href": "posts/series/series-numericas.html",
+    "title": "Séries: Séries Numéricas",
+    "section": "",
+    "text": "Em breve conteúdos e exercícios sobre séries numéricas!\n\n📄 Download em PDF"
+  },
+  {
+    "objectID": "posts/series/series-taylor.html",
+    "href": "posts/series/series-taylor.html",
+    "title": "Séries: Séries de Taylor",
+    "section": "",
+    "text": "Em breve conteúdos e exercícios sobre séries de taylor!\n\n📄 Download em PDF"
+  },
+  {
+    "objectID": "posts/jogos/jogos-matematicos.html",
+    "href": "posts/jogos/jogos-matematicos.html",
+    "title": "Jogos: Jogos Matemáticos",
+    "section": "",
+    "text": "Em breve conteúdos e exercícios sobre jogos matemáticos!\n\n📄 Download em PDF"
+  },
+  {
+    "objectID": "posts/jogos/ferramentas-plataformas.html",
+    "href": "posts/jogos/ferramentas-plataformas.html",
+    "title": "Jogos: Ferramentas e Plataformas",
+    "section": "",
+    "text": "Em breve conteúdos e exercícios sobre ferramentas e plataformas!\n\n📄 Download em PDF"
+  },
+  {
+    "objectID": "posts/jogos/aprendizagem-jogos.html",
+    "href": "posts/jogos/aprendizagem-jogos.html",
+    "title": "Jogos: Aprendizagem Baseada em Jogos",
+    "section": "",
+    "text": "Em breve conteúdos e exercícios sobre aprendizagem baseada em jogos!\n\n📄 Download em PDF"
+  },
+  {
+    "objectID": "posts/jogos/introducao-gamificacao.html",
+    "href": "posts/jogos/introducao-gamificacao.html",
+    "title": "Jogos: Introdução à Gamificação",
+    "section": "",
+    "text": "Em breve conteúdos e exercícios sobre introdução à gamificação!\n\n📄 Download em PDF"
+  },
+  {
+    "objectID": "posts/jogos/simulacoes-interativas.html",
+    "href": "posts/jogos/simulacoes-interativas.html",
+    "title": "Jogos: Simulações Interativas",
+    "section": "",
+    "text": "Em breve conteúdos e exercícios sobre simulações interativas!\n\n📄 Download em PDF"
+  },
+  {
+    "objectID": "sobre.html",
+    "href": "sobre.html",
+    "title": "Sobre",
+    "section": "",
+    "text": "Sobre o Blog Fortec\nO Blog Fortec é um projeto educacional aberto que visa apoiar o estudo de disciplinas fundamentais como Matemática, Física, Química, Termodinâmica e Climatização.\nAqui você encontrará:\n\nTextos explicativos claros e acessíveis,\nExemplos resolvidos com Python e Jupyter,\nExecução de códigos diretamente no Google Colab,\nÁudios explicativos integrados (via Vocaroo),\nVídeos educativos incorporados do YouTube,\nExercícios de avaliação para consolidar o conhecimento.\n\n\n\nObjetivo do Projeto\nO principal objetivo é disponibilizar conteúdos educativos de qualidade, de forma gratuita, utilizando tecnologias modernas de publicação aberta e ambientes interativos.\n\n\nTecnologias Utilizadas\n\nQuarto\nGitHub Pages\nPython\nJupyterLab\nGoogle Colab\nYouTube\nVocaroo\n\n\n\nAcesso Aberto\nTodo o conteúdo deste blog é disponibilizado de forma aberta e gratuita para promover o acesso ao conhecimento e apoiar estudantes, professores e autodidatas.\n\n\nContato\nPara sugestões, dúvidas ou parcerias:\n\nGitHub: cacbarros\nRepositório do projeto: Blog Fortec no GitHub\n\n\n\nTeste inicial completo\n\n📄 Baixar versão em PDF\n🚀 Abrir com Google Colab"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "Sobre",
+    "section": "",
+    "text": "Sobre o Blog Fortec\nO Blog Fortec é um projeto educacional aberto que visa apoiar o estudo de disciplinas fundamentais como Matemática, Física, Química, Termodinâmica e Climatização.\nAqui você encontrará:\n\nTextos explicativos claros e acessíveis,\nExemplos resolvidos com Python e Jupyter,\nExecução de códigos diretamente no Google Colab,\nÁudios explicativos integrados (via Vocaroo),\nVídeos educativos incorporados do YouTube,\nExercícios de avaliação para consolidar o conhecimento.\n\n\n\nObjetivo do Projeto\nO principal objetivo é disponibilizar conteúdos educativos de qualidade, de forma gratuita, utilizando tecnologias modernas de publicação aberta e ambientes interativos.\n\n\nTecnologias Utilizadas\n\nQuarto\nGitHub Pages\nPython\nJupyterLab\nGoogle Colab\nYouTube\nVocaroo\n\n\n\nAcesso Aberto\nTodo o conteúdo deste blog é disponibilizado de forma aberta e gratuita para promover o acesso ao conhecimento e apoiar estudantes, professores e autodidatas.\n\n\nContato\nPara sugestões, dúvidas ou parcerias:\n\nGitHub: cacbarros\nRepositório do projeto: Blog Fortec no GitHub\n\n\n\nTeste inicial completo"
+  },
+  {
+    "objectID": "index.html#o-que-vais-encontrar-por-aqui",
+    "href": "index.html#o-que-vais-encontrar-por-aqui",
+    "title": "Início",
+    "section": "",
+    "text": "Cálculo: limites, derivadas, integrais e aplicações.\nÁlgebra: equações, vetores, matrizes.\nFísica e Química: fundamentos com simulações e resolução computacional.\nTermodinâmica e Climatização: explicações aplicadas a engenharia e edifícios.\nJogos e Atividades: gamificação, quizzes e simulações interativas.\n\n\nVisite a secção Sobre para conhecer mais sobre o projeto.\nExplora os tópicos no menu acima e começa a aprender!"
+  }
+]

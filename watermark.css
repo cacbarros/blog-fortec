@@ -1,0 +1,13 @@
+/* watermark.css */
+
+.watermark {
+  position: fixed;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(-30deg);
+  font-size: 4em;
+  color: rgba(255, 0, 0, 0.15);
+  z-index: 1000;
+  pointer-events: none;
+  user-select: none;
+}

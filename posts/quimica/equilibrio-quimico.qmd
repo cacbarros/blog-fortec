@@ -1,0 +1,30 @@
+---
+title: "Química: Equilíbrio Químico"
+filters:
+  - watermark
+watermark:
+  text: "RASCUNHO"
+  size: 1.5
+  angle: 30
+  color: "#FF0000"
+  opacity: 0.1
+format:
+  html: default
+  pdf: default
+toc: true
+code-fold: true
+bibliography: quimica.bib
+csl: apa.csl
+nocite: "@*"
+reference-title: "Referências"
+---
+
+# Química: Equilíbrio Químico
+
+Em breve conteúdos e exercícios sobre equilíbrio químico!
+
+---
+
+📄 [Download em PDF](./equilibrio-quimico.pdf){target="_blank"}
+
+## Referências

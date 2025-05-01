@@ -1,0 +1,30 @@
+---
+title: "Jogos: Aprendizagem Baseada em Jogos"
+filters:
+  - watermark
+watermark:
+  text: "RASCUNHO"
+  size: 1.5
+  angle: 30
+  color: "#FF0000"
+  opacity: 0.1
+format:
+  html: default
+  pdf: default
+toc: true
+code-fold: true
+bibliography: jogos.bib
+csl: apa.csl
+nocite: "@*"
+reference-title: "Referências"
+---
+
+# Jogos: Aprendizagem Baseada em Jogos
+
+Em breve conteúdos e exercícios sobre aprendizagem baseada em jogos!
+
+---
+
+📄 [Download em PDF](./aprendizagem-jogos.pdf){target="_blank"}
+
+## Referências

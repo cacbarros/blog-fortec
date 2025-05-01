@@ -1,24 +1,30 @@
 ---
-title: "Primeira Lei da Termodinâmica"
-description: "Conservação da energia em sistemas físicos."
-date: 2025-04-26
-categories: [Termodinâmica]
+title: "Termodinâmica: Primeira Lei"
+filters:
+  - watermark
+watermark:
+  text: "RASCUNHO"
+  size: 1.5
+  angle: 30
+  color: "#FF0000"
+  opacity: 0.1
 format:
-  html:
-    toc: true
-    code-fold: true
-bibliography: referencias.bib
+  html: default
+  pdf: default
+toc: true
+code-fold: true
+bibliography: termodinamica.bib
 csl: apa.csl
 nocite: "@*"
-execute:
-  kernel: ctgan_env
+reference-title: "Referências"
 ---
 
-# Primeira Lei da Termodinâmica
+# Termodinâmica: Primeira Lei
 
-Discussão da primeira lei.
-
-<p><a href="index.html" style="padding: 8px 16px; background-color: #17a2b8; color: white; border-radius: 5px; text-decoration: none;">Voltar para Índice de Termodinâmica</a></p>
+Em breve conteúdos e exercícios sobre primeira lei!
 
 ---
 
+📄 [Download em PDF](./primeira-lei.pdf){target="_blank"}
+
+## Referências

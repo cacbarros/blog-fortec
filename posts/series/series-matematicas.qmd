@@ -1,0 +1,141 @@
+---
+title: "Séries Matemáticas"
+filters:
+  - watermark
+watermark:
+  text: "RASCUNHO"
+  size: 1.5
+  angle: 30
+  color: "#FF0000"
+  opacity: 0.1
+description: "Introdução a séries numéricas, com exemplos de convergência e resolução com Python."
+date: 2025-04-25
+categories: [Cálculo]
+format:
+  html:
+    toc: true
+    code-fold: true
+  pdf:
+    toc: true
+    code-fold: true
+bibliography: series.bib
+csl: apa.csl
+nocite: "@*"
+execute:
+  kernel: ctgan_env
+---
+
+
+# Introdução
+
+Já imaginou somar infinitos números e ainda assim chegar a um valor finito?  
+Esta é a fascinante realidade das séries matemáticas!
+
+Nesta lição, vamos explorar os conceitos fundamentais das séries numéricas: o que são, como se comportam e como podemos analisá-las com ferramentas práticas.
+
+
+
+## Comentário Didático
+
+Para aprofundar a compreensão deste tema, ouça o comentário didático:
+
+<div style="text-align: center; margin: 20px 0;">
+  <iframe width="300" height="60" src="https://vocaroo.com/embed/1etqgpx4oz3K?autoplay=0" frameborder="0" allow="autoplay"></iframe>
+  <br>
+  <a href="https://voca.ro/1etqgpx4oz3K" target="_blank" style="font-size: 0.9em; text-decoration: none; color: #007BFF;">
+    Ouvir no Vocaroo
+  </a>
+</div>
+
+
+
+## Definição
+
+Uma **série** é a soma dos termos de uma sequência:
+
+$$
+\sum_{n=1}^{\infty} a_n
+$$
+
+Dizemos que uma série **converge** se a sequência das somas parciais tem limite finito [@apostol]:
+
+$$
+S_N = \sum_{n=1}^{N} a_n \longrightarrow S \quad \text{quando } N \to \infty
+$$
+
+
+
+# Introdução
+
+As séries numéricas desempenham um papel fundamental no estudo de fenómenos contínuos e discretos.
+
+A sua análise inclui:
+
+- Identificação de convergência ou divergência,
+- Estudo de séries especiais,
+- Aplicação prática em Física, Engenharia, e Matemática Avançada.
+
+
+
+## Vídeo de Apoio
+
+<div style="text-align: center; margin: 20px 0;">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/JPsaS5nJxdU?si=7abGdScCTeFpBJzz" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
+  </iframe>
+</div>
+
+
+
+# Exemplos Trabalhados
+
+Nesta lição você poderá estudar:
+
+- Série Geométrica e sua convergência,
+- Série Harmónica e seu comportamento divergente,
+- Aplicações práticas implementadas em **Python**,
+- Funções auxiliares externas, como a soma de séries e geração da sequência de Fibonacci.
+
+
+
+## Representação Gráfica Interativa
+
+Explore a série de forma interativa no Geogebra:
+
+<div style="text-align: center; margin: 20px 0;">
+  <iframe src="https://www.geogebra.org/classic/ugujjbzc?embed" width="100%" height="600" style="max-width: 800px; border: 1px solid #e4e4e4; border-radius: 4px;" frameborder="0" allowfullscreen>
+  </iframe>
+</div>
+
+---
+
+## Observação
+
+A convergência de uma série depende do comportamento da soma parcial, **não apenas** da tendência dos termos $a_n$.
+
+
+## Recursos Disponíveis
+
+Explore, execute ou veja o conteúdo completo desta lição:
+
+<p align="center">
+  <a href="https://colab.research.google.com/github/cacbarros/blog-fortec/blob/main/python/calculo/series_matematicas.ipynb" target="_blank">
+    <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open in Colab" style="height: 32px; margin: 5px;">
+  </a>
+  <a href="https://mybinder.org/v2/gh/cacbarros/blog-fortec/HEAD?labpath=python/calculo/series_matematicas.ipynb" target="_blank">
+    <img src="https://mybinder.org/badge_logo.svg" alt="Launch Binder" style="height: 32px; margin: 5px;">
+  </a>
+  <a href="https://github.com/cacbarros/blog-fortec/blob/main/python/calculo/series_matematicas.ipynb" target="_blank">
+    <img src="https://img.shields.io/badge/Ver%20Código%20Fonte-181717?style=flat-square&logo=github&logoColor=white" alt="Ver Código no GitHub" style="height: 32px; margin: 5px;">
+  </a>
+  <a href="avaliacao.html" target="_blank">
+    <img src="https://img.shields.io/badge/Resolver%20Exercícios-FF9800?style=flat-square&logo=bookstack&logoColor=white" alt="Resolver Exercícios" style="height: 32px; margin: 5px;">
+  </a>
+  <a href="index.html" style="display: inline-block; background-color: #17a2b8; color: white; font-weight: bold; padding: 8px 16px; border-radius: 8px; text-decoration: none; margin: 5px;">
+    Voltar para Índice de Cálculo
+  </a>
+</p>
+---
+
+📄 [Download em PDF](./series-matematicas.pdf){target="_blank"}
+
+## Referências

@@ -1,23 +1,30 @@
 ---
-title: "Estequiometria e Cálculos Químicos"
-description: "Aplicação da estequiometria na resolução de problemas químicos."
-date: 2025-04-26
-categories: [Química]
+title: "Química: Estequiometria"
+filters:
+  - watermark
+watermark:
+  text: "RASCUNHO"
+  size: 1.5
+  angle: 30
+  color: "#FF0000"
+  opacity: 0.1
 format:
-  html:
-    toc: true
-    code-fold: true
-bibliography: referencias.bib
+  html: default
+  pdf: default
+toc: true
+code-fold: true
+bibliography: quimica.bib
 csl: apa.csl
 nocite: "@*"
-execute:
-  kernel: ctgan_env
+reference-title: "Referências"
 ---
 
-# Estequiometria e Cálculos Químicos
+# Química: Estequiometria
 
-Cálculos com equações balanceadas.
+Em breve conteúdos e exercícios sobre estequiometria!
 
 ---
 
-<p><a href="index.html" style="padding: 8px 16px; background-color: #17a2b8; color: white; border-radius: 5px; text-decoration: none;">Voltar para Índice de Química</a></p>
+📄 [Download em PDF](./estequiometria.pdf){target="_blank"}
+
+## Referências

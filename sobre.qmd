@@ -1,0 +1,54 @@
+---
+title: "Sobre"
+description: "Informações sobre o projeto educacional Blog Fortec."
+format:
+  html:
+    toc: true
+---
+
+# Sobre o Blog Fortec
+
+O **Blog Fortec** é um projeto educacional aberto que visa apoiar o estudo de disciplinas fundamentais como Matemática, Física, Química, Termodinâmica e Climatização.
+
+Aqui você encontrará:
+
+- Textos explicativos claros e acessíveis,
+- Exemplos resolvidos com **Python** e **Jupyter**,
+- Execução de códigos diretamente no **Google Colab**,
+- Áudios explicativos integrados (via **Vocaroo**),
+- Vídeos educativos incorporados do **YouTube**,
+- Exercícios de avaliação para consolidar o conhecimento.
+
+# Objetivo do Projeto
+
+O principal objetivo é disponibilizar conteúdos educativos de qualidade, de forma gratuita, utilizando tecnologias modernas de publicação aberta e ambientes interativos.
+
+# Tecnologias Utilizadas
+
+- [Quarto](https://quarto.org/)
+- [GitHub Pages](https://pages.github.com/)
+- [Python](https://www.python.org/)
+- [JupyterLab](https://jupyter.org/)
+- [Google Colab](https://colab.research.google.com/)
+- [YouTube](https://youtube.com/)
+- [Vocaroo](https://vocaroo.com/)
+
+# Acesso Aberto
+
+Todo o conteúdo deste blog é disponibilizado de forma aberta e gratuita para promover o acesso ao conhecimento e apoiar estudantes, professores e autodidatas.
+
+# Contato
+
+Para sugestões, dúvidas ou parcerias:
+
+- GitHub: [cacbarros](https://github.com/cacbarros)
+- Repositório do projeto: [Blog Fortec no GitHub](https://github.com/cacbarros/blog-fortec)
+
+# Teste inicial completo
+
+
+---
+
+📄 [Baixar versão em PDF](./sobre.pdf){target="_blank"}
+
+🚀 [Abrir com Google Colab](https://colab.research.google.com/github/cacbarros/blog-fortec/blob/main/sobre.qmd){target="_blank"}

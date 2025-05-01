@@ -1,0 +1,30 @@
+---
+title: "Jogos: Introdução à Gamificação"
+filters:
+  - watermark
+watermark:
+  text: "RASCUNHO"
+  size: 1.5
+  angle: 30
+  color: "#FF0000"
+  opacity: 0.1
+format:
+  html: default
+  pdf: default
+toc: true
+code-fold: true
+bibliography: jogos.bib
+csl: apa.csl
+nocite: "@*"
+reference-title: "Referências"
+---
+
+# Jogos: Introdução à Gamificação
+
+Em breve conteúdos e exercícios sobre introdução à gamificação!
+
+---
+
+📄 [Download em PDF](./introducao-gamificacao.pdf){target="_blank"}
+
+## Referências

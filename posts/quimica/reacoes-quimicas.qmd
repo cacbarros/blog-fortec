@@ -1,0 +1,30 @@
+---
+title: "Química: Reações Químicas"
+filters:
+  - watermark
+watermark:
+  text: "RASCUNHO"
+  size: 1.5
+  angle: 30
+  color: "#FF0000"
+  opacity: 0.1
+format:
+  html: default
+  pdf: default
+toc: true
+code-fold: true
+bibliography: quimica.bib
+csl: apa.csl
+nocite: "@*"
+reference-title: "Referências"
+---
+
+# Química: Reações Químicas
+
+Em breve conteúdos e exercícios sobre reações químicas!
+
+---
+
+📄 [Download em PDF](./reacoes-quimicas.pdf){target="_blank"}
+
+## Referências

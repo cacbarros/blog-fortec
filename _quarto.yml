@@ -1,38 +1,145 @@
 project:
   type: website
-  output-dir: .
 
 website:
-  title: "Blog Educacional"
+  title: "Blog Fortec"
+  page-footer:
+    border: false
+    background: none
+    center: |
+      <div class="footer-custom">
+        <img src="/quarto-logo.png" alt="Logotipo Quarto" height="24" style="vertical-align:middle; margin-right:8px;" />
+        © <span id="anoAtual"></span> C. A. C. Barros · 
+        <a href="https://quarto.org" target="_blank">Quarto</a> · 
+        <a href="https://github.com/cacbarros/blog-fortec" target="_blank">GitHub</a><br>
+        <small>Atualizado em: <span id="dataModificacao"></span></small>
+      </div>
   navbar:
     left:
       - text: "Início"
-        file: welcome/index.qmd
-      - text: "Cálculo"
-        file: posts/calculo/index.qmd  # Mantém o index que já existe
+        href: index.qmd
       - text: "Álgebra"
-        file: posts/algebra/index.qmd  # Novo index a criar
-      - text: "Física"
-        file: posts/fisica/index.qmd
+        menu:
+          - text: "Equações Quadráticas"
+            href: posts/algebra/equacoes-quadraticas.qmd
+          - text: "Sistemas Lineares"
+            href: posts/algebra/sistemas-lineares.qmd
+          - text: "Produtos Notáveis"
+            href: posts/algebra/produtos-notaveis.qmd
+          - text: "Polinómios"
+            href: posts/algebra/polinomios.qmd
+          - text: "Fatoração"
+            href: posts/algebra/fatoracao.qmd
       - text: "Química"
-        file: posts/quimica/index.qmd
+        menu:
+          - text: "Reações Químicas"
+            href: posts/quimica/reacoes-quimicas.qmd
+          - text: "Equilíbrio Químico"
+            href: posts/quimica/equilibrio-quimico.qmd
+          - text: "Estequiometria"
+            href: posts/quimica/estequiometria.qmd
+          - text: "pH e Soluções"
+            href: posts/quimica/ph-solucoes.qmd
+          - text: "Ligações Químicas"
+            href: posts/quimica/ligacoes-quimicas.qmd
+      - text: "Física"
+        menu:
+          - text: "Cinemática"
+            href: posts/fisica/cinematica.qmd
+          - text: "Dinâmica"
+            href: posts/fisica/dinamica.qmd
+          - text: "Leis de Newton"
+            href: posts/fisica/leis-newton.qmd
+          - text: "Trabalho e Energia"
+            href: posts/fisica/trabalho-energia.qmd
+          - text: "Gravitação Universal"
+            href: posts/fisica/gravitacao-universal.qmd
       - text: "Termodinâmica"
-        file: posts/termodinamica/index.qmd
+        menu:
+          - text: "Introdução à Termodinâmica"
+            href: posts/termodinamica/introducao-termodinamica.qmd
+          - text: "Primeira Lei"
+            href: posts/termodinamica/primeira-lei.qmd
+          - text: "Segunda Lei"
+            href: posts/termodinamica/segunda-lei.qmd
+          - text: "Entropia"
+            href: posts/termodinamica/entropia.qmd
+          - text: "Eficiência de Ciclos"
+            href: posts/termodinamica/eficiencia-ciclos.qmd
       - text: "Climatização"
-        file: posts/climatizacao/index.qmd
+        menu:
+          - text: "Carga Térmica"
+            href: posts/climatizacao/carga-termica.qmd
+          - text: "Ventilação Natural"
+            href: posts/climatizacao/ventilacao-natural.qmd
+          - text: "Chillers e Torres"
+            href: posts/climatizacao/chillers-torres.qmd
+          - text: "Qualidade do Ar Interior"
+            href: posts/climatizacao/qualidade-ar.qmd
+          - text: "Automação e Controlo"
+            href: posts/climatizacao/automacao-controle.qmd
+      - text: "Cálculo"
+        menu:
+          - text: "Limites"
+            href: posts/calculo/limites.qmd
+          - text: "Derivadas"
+            href: posts/calculo/derivadas.qmd
+          - text: "Integrais"
+            href: posts/calculo/integrais.qmd
+          - text: "Aplicações da Derivada"
+            href: posts/calculo/aplicacoes-derivada.qmd
+          - text: "Teorema Fundamental do Cálculo"
+            href: posts/calculo/teorema-fundamental.qmd
+      - text: "Séries Matemáticas"
+        menu:
+          - text: "Séries Numéricas"
+            href: posts/series/series-numericas.qmd
+          - text: "Séries Matemáticas"
+            href: posts/series/series-matematicas.qmd
+          - text: "Problema de séries"
+            href: posts/series/problema-series.qmd
+          - text: "Séries de Potências"
+            href: posts/series/series-potencias.qmd
+          - text: "Convergência de Séries"
+            href: posts/series/convergencia-series.qmd
+          - text: "Séries de Taylor"
+            href: posts/series/series-taylor.qmd
+          - text: "Aplicações em Engenharia"
+            href: posts/series/aplicacoes-engenharia.qmd
       - text: "Jogos"
-        file: jogos.qmd
-    right:
-      - about.qmd
-      - recursos.qmd   # <- adiciona o link para recursos aqui!
-      - icon: github
-        href: https://github.com/
-      - icon: twitter
-        href: https://twitter.com
+        menu:
+          - text: "Introdução à Gamificação"
+            href: posts/jogos/introducao-gamificacao.qmd
+          - text: "Jogos Matemáticos"
+            href: posts/jogos/jogos-matematicos.qmd
+          - text: "Simulações Interativas"
+            href: posts/jogos/simulacoes-interativas.qmd
+          - text: "Aprendizagem Baseada em Jogos"
+            href: posts/jogos/aprendizagem-jogos.qmd
+          - text: "Ferramentas e Plataformas"
+            href: posts/jogos/ferramentas-plataformas.qmd
+      - text: "Sobre"
+        href: sobre.qmd
+
+
+      # adicionar outros menus suspensos conforme os temas
 
 format:
   html:
-    theme:
-      - cosmo
-      - brand
+    theme: sandstone
     css: styles.css
+    include-before-body:
+      - text: '<script src="/footer.js"></script>'
+    toc: true
+
+filters:
+  - watermark
+
+watermark:
+  text: "{{< meta rascunho_text >}}"
+  size: 1.5
+  angle: 30
+  color: "#FF0000"
+  opacity: 0.1
+  enabled: "{{< meta rascunho >}}"
+

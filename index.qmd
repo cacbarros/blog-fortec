@@ -1,15 +1,27 @@
 ---
-title: "blog-quarto"
-listing:
-  contents: posts
-  sort: "date desc"
-  type: default
-  categories: true
-  sort-ui: false
-  filter-ui: false
-page-layout: full
-title-block-banner: true
+title: "Início"
+format:
+  html:
+    toc: false
 ---
 
+# Bem-vindo ao Blog Fortec
 
+O **Blog Fortec** é um projeto educacional criado para apoiar o estudo de disciplinas fundamentais, com uma abordagem prática, acessível e interativa.
+
+> Aprender com explicações claras, exemplos resolvidos em Python, vídeos educativos e exercícios interativos — tudo num só lugar.
+
+## O que vais encontrar por aqui:
+
+- **Cálculo**: limites, derivadas, integrais e aplicações.
+- **Álgebra**: equações, vetores, matrizes.
+- **Física e Química**: fundamentos com simulações e resolução computacional.
+- **Termodinâmica e Climatização**: explicações aplicadas a engenharia e edifícios.
+- **Jogos e Atividades**: gamificação, quizzes e simulações interativas.
+
+---
+
+Visite a secção **Sobre** para conhecer mais sobre o projeto.
+
+Explora os tópicos no menu acima e começa a aprender!
 

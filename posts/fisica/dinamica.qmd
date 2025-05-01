@@ -1,23 +1,30 @@
 ---
-title: "Dinâmica"
-description: "Estudo das forças e suas interações."
-date: 2025-04-26
-categories: [Física]
+title: "Física: Dinâmica"
+filters:
+  - watermark
+watermark:
+  text: "RASCUNHO"
+  size: 1.5
+  angle: 30
+  color: "#FF0000"
+  opacity: 0.1
 format:
-  html:
-    toc: true
-    code-fold: true
-bibliography: referencias.bib
+  html: default
+  pdf: default
+toc: true
+code-fold: true
+bibliography: fisica.bib
 csl: apa.csl
 nocite: "@*"
-execute:
-  kernel: ctgan_env
+reference-title: "Referências"
 ---
 
-# Dinâmica
+# Física: Dinâmica
 
-Análise das forças que atuam nos corpos.
-
-<p><a href="index.html" style="padding: 8px 16px; background-color: #17a2b8; color: white; border-radius: 5px; text-decoration: none;">Voltar para Índice de Física</a></p>
+Em breve conteúdos e exercícios sobre dinâmica!
 
 ---
+
+📄 [Download em PDF](./dinamica.pdf){target="_blank"}
+
+## Referências

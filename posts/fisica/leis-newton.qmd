@@ -1,0 +1,30 @@
+---
+title: "Física: Leis de Newton"
+filters:
+  - watermark
+watermark:
+  text: "RASCUNHO"
+  size: 1.5
+  angle: 30
+  color: "#FF0000"
+  opacity: 0.1
+format:
+  html: default
+  pdf: default
+toc: true
+code-fold: true
+bibliography: fisica.bib
+csl: apa.csl
+nocite: "@*"
+reference-title: "Referências"
+---
+
+# Física: Leis de Newton
+
+Em breve conteúdos e exercícios sobre leis de newton!
+
+---
+
+📄 [Download em PDF](./leis-newton.pdf){target="_blank"}
+
+## Referências
