@@ -1,5 +1,9 @@
 {
-  "python.pythonPath": "C:/Users/cesar/anaconda3/envs/blog-fortec_env/python.exe",
   "python.terminal.activateEnvironment": true,
-  "python.envFile": "${workspaceFolder}/.env"
+  "python.envFile": "${workspaceFolder}/.env",
+  "window.menuBarVisibility": "visible",
+  "terminal.integrated.defaultProfile.windows": "Git Bash",
+  "editor.formatOnSave": true,
+  "files.autoSave": "afterDelay",
+  "editor.wordWrap": "on"
 }
