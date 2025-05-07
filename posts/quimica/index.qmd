@@ -1,16 +1,7 @@
 ---
 title: "Química"
-description: "Conceitos fundamentais de Química do Ensino Secundário."
-date: 2025-05-07
-categories: [Química]
-image: cover-quimica.jpg
-format:
-  html:
-    toc: true
-    code-fold: true
-bibliography: quimica.bib
-csl: apa.csl
-nocite: "@*"
+description: "Índice de Química do Ensino Secundário."
+format: html
 ---
 
 # 🧪 Química: Índice de Temas

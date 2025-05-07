@@ -1,16 +1,7 @@
 ---
 title: "Matemática Secundário - 12.º ano"
-description: "Conceitos fundamentais de Matemática do Ensino Secundário (12.º ano)."
-date: 2025-05-07
-categories: [Matemática]
-image: cover-matematica.jpg
-format:
-  html:
-    toc: true
-    code-fold: true
-bibliography: referencias.bib
-csl: apa.csl
-nocite: "@*"
+description: "Índice de Matemática do Ensino Secundário (12.º ano)."
+format: html
 ---
 
 # Índice do Módulo

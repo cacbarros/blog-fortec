@@ -1,16 +1,7 @@
 ---
 title: "Séries Matemáticas"
-description: "Exploração de séries numéricas, séries de potências e aplicações em Matemática e Engenharia."
-date: 2025-05-07
-categories: [Matemática]
-image: cover-series.jpg
-format:
-  html:
-    toc: true
-    code-fold: true
-bibliography: series.bib
-csl: apa.csl
-nocite: "@*"
+description: "Índice de séries numéricas, séries de potências e aplicações em Matemática e Engenharia."
+format: html
 ---
 
 # ➗ Séries Matemáticas: Índice de Temas

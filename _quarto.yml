@@ -2,7 +2,7 @@ project:
   type: website
 
 website:
-  title: "📚 Blog Fortec"
+  title: "Blog Fortec"
   page-footer:
     border: false
     background: none
@@ -56,7 +56,7 @@ website:
         href: index.qmd
 format:
   html:
-    theme: litera
+    theme: flatly
     css: styles.css
     includes:
       in-header: include/head.html

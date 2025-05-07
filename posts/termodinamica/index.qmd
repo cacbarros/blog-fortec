@@ -1,16 +1,7 @@
 ---
 title: "Termodinâmica"
-description: "Fundamentos da Termodinâmica e suas aplicações em Física e Engenharia."
-date: 2025-05-07
-categories: [Física]
-image: cover-termodinamica.jpg
-format:
-  html:
-    toc: true
-    code-fold: true
-bibliography: termodinamica.bib
-csl: apa.csl
-nocite: "@*"
+description: "ÍNdice de Termodinâmica e suas aplicações em Física e Engenharia."
+format: html
 ---
 
 # 🌡️ Termodinâmica: Índice de Temas
