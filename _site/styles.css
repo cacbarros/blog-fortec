@@ -1,3 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&family=Open+Sans&display=swap');
+
+body {
+  font-family: 'Lora', 'Open Sans', sans-serif;
+  background: linear-gradient(135deg, #f4ebe3 0%, #e8d9c4 50%, #f7f3ee 100%);
+  color: #1a1a1a;
+}
+
+
+
 /* Fundo geral */
 body {
   background-color: #f7f9fa;
@@ -57,3 +67,56 @@ footer {
 .footer-custom a:hover {
   text-decoration: underline;
 }
+.banner-container {
+  position: relative;
+  width: 100%;
+  max-height: 400px;
+  overflow: hidden;
+  border-radius: 12px;
+  margin-bottom: 2rem;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.banner-img {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover;
+}
+
+.banner-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 1.5rem;
+  border-radius: 8px;
+}
+
+.banner-text h2 {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.banner-text p {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+.banner-button {
+  background-color: #f9a825;
+  color: black;
+  padding: 0.6rem 1.2rem;
+  text-decoration: none;
+  border-radius: 6px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.banner-button:hover {
+  background-color: #fbc02d;
+}
+

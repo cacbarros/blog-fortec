@@ -1,0 +1,41 @@
+---
+title: "Matemática Secundário - 10º ano"
+description: "Conceitos fundamentais de Matemática do Ensino Secundário."
+date: 2025-04-26
+categories: [Matemática]
+image: cover-matematica.jpg
+format:
+  html:
+    toc: true
+    code-fold: true
+bibliography: referencias.bib
+csl: apa.csl
+nocite: "@*"
+execute:
+  kernel: 
+---
+
+# Índice do Módulo
+
+- [Números Reais](numeros-reais.qmd)
+- [Funções e Gráficos](funcoes-graficos.qmd)
+- [Trigonometria](trigonometria.qmd)
+- [Polinómios](polinomios.qmd)
+- [Geometria Analítica](geometria-analitica.qmd)
+- [Exercícios de Avaliação](avaliacao-matematica.qmd)
+
+---
+
+## Objetivos do Módulo
+
+Este módulo visa:
+
+- Consolidar conceitos básicos de Matemática;
+- Desenvolver competências de análise de funções e equações;
+- Aplicar conhecimentos em problemas práticos;
+- Preparar para exames e avaliações finais.
+
+---
+
+<p><a href="../../index.html" style="padding: 8px 16px; background-color: #17a2b8; color: white; border-radius: 5px; text-decoration: none;">Voltar ao Início</a></p>
+

@@ -9,9 +9,10 @@ format: html
 Nesta secção, exploraremos diversos tópicos fundamentais de Álgebra:
 
 - [Equações Quadráticas](equacoes-quadraticas.qmd)
-- (Em breve) Sistemas de Equações Lineares
-- (Em breve) Polinómios e Raízes
-- (Em breve) Matrizes e Determinantes
+- [Sistemas de Equações Lineares](sistemas-lineares.qmd)
+- [Polinómios e Raízes](polinomios.qmd)
+- [Fatoração](fatoracao.qmd)
+- [Produtos notáveis](produtos-notaveis.qmd)
 
 Clique nos tópicos para aceder ao conteúdo.
 

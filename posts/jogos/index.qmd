@@ -1,0 +1,21 @@
+---
+title: "Jogos"
+description: "Índice de temas relacionados com Jogos, Gamificação e Simulações Educativas."
+format: html
+---
+
+# 🎮 Jogos: Índice de Temas
+
+Nesta secção, abordamos o uso de jogos, simulações e estratégias de gamificação na educação:
+
+- [Introdução à Gamificação](introducao-gamificacao.qmd)
+- [Aprendizagem com Jogos](aprendizagem-jogos.qmd)
+- [Jogos Matemáticos](jogos-matematicos.qmd)
+- [Ferramentas e Plataformas](ferramentas-plataformas.qmd)
+- [Simulações Interativas](simulacoes-interativas.qmd)
+
+Clique nos tópicos para aceder ao conteúdo.
+
+---
+
+<p><a href="../../index.html" style="padding: 8px 16px; background-color: #17a2b8; color: white; border-radius: 5px; text-decoration: none;">Voltar ao Início</a></p>

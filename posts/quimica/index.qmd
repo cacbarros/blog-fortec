@@ -1,0 +1,41 @@
+---
+title: "Química"
+description: "Conceitos fundamentais de Química do Ensino Secundário."
+date: 2025-05-07
+categories: [Química]
+image: cover-quimica.jpg
+format:
+  html:
+    toc: true
+    code-fold: true
+bibliography: quimica.bib
+csl: apa.csl
+nocite: "@*"
+---
+
+# 🧪 Química: Índice de Temas
+
+Nesta secção, exploramos os conceitos centrais da Química:
+
+- [Ligações Químicas](ligacoes-quimicas.qmd)
+- [Estequiometria](estequiometria.qmd)
+- [Reações Químicas](reacoes-quimicas.qmd)
+- [pH de Soluções](ph-solucoes.qmd)
+- [Equilíbrio Químico](equilibrio-quimico.qmd)
+
+Clique nos tópicos para aceder ao conteúdo.
+
+---
+
+## Objetivos da Secção
+
+Esta secção visa:
+
+- Consolidar a compreensão das transformações químicas e das ligações entre átomos;
+- Desenvolver competências de cálculo em reações químicas e soluções;
+- Aplicar o conceito de equilíbrio químico em situações reais;
+- Preparar o estudante para avaliações e exames de Química.
+
+---
+
+<p><a href="../../index.html" style="padding: 8px 16px; background-color: #17a2b8; color: white; border-radius: 5px; text-decoration: none;">Voltar ao Início</a></p>

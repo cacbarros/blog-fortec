@@ -1,0 +1,32 @@
+---
+title: "Artigos em Destaque"
+format:
+  html:
+    toc: true
+    code-fold: true
+    css: styles/cards.css
+---
+
+<div class="custom-card-container">
+
+<a class="custom-card" href="posts/funcao-quadratica.qmd" target="_blank">
+  <h3>📐 Função quadrática: visualização e aplicações práticas</h3>
+</a>
+
+<a class="custom-card" href="posts/termodinamica-engenharia.qmd" target="_blank">
+  <h3>🔥 O essencial da Termodinâmica para Engenharia</h3>
+</a>
+
+<a class="custom-card" href="posts/interativo-vetores.qmd" target="_blank">
+  <h3>🧭 Aprende vetores com simulações interativas</h3>
+</a>
+
+<a class="custom-card" href="posts/quimica-cotidiano.qmd" target="_blank">
+  <h3>⚗️ A Química no teu dia a dia: exemplos e explicações</h3>
+</a>
+
+<a class="custom-card" href="posts/graficos-python.qmd" target="_blank">
+  <h3>📊 Como criar gráficos científicos em Python</h3>
+</a>
+
+</div>

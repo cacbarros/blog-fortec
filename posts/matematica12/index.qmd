@@ -1,0 +1,39 @@
+---
+title: "Matemática Secundário - 12.º ano"
+description: "Conceitos fundamentais de Matemática do Ensino Secundário (12.º ano)."
+date: 2025-05-07
+categories: [Matemática]
+image: cover-matematica.jpg
+format:
+  html:
+    toc: true
+    code-fold: true
+bibliography: referencias.bib
+csl: apa.csl
+nocite: "@*"
+---
+
+# Índice do Módulo
+
+- [Limites e Continuidade](limites-continuidade.qmd)
+- [Derivadas e Aplicações](derivadas.qmd)
+- [Integrais e Áreas](integrais.qmd)
+- [Geometria no Espaço](geometria-espaco.qmd)
+- [Estatística Inferencial](estatistica-inferencial.qmd)
+- [Exercícios de Avaliação](avaliacao-matematica.qmd)
+
+---
+
+## Objetivos do Módulo
+
+Este módulo visa:
+
+- Explorar o conceito de limite e sua relação com continuidade;
+- Aplicar a derivada no estudo da variação de funções;
+- Compreender integrais definidas e sua aplicação em cálculo de áreas;
+- Desenvolver competências de raciocínio espacial e estatístico;
+- Preparar o estudante para os exames nacionais de Matemática A.
+
+---
+
+<p><a href="../../index.html" style="padding: 8px 16px; background-color: #17a2b8; color: white; border-radius: 5px; text-decoration: none;">Voltar ao Início</a></p>

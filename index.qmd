@@ -25,3 +25,14 @@ Visite a secção **Sobre** para conhecer mais sobre o projeto.
 
 Explora os tópicos no menu acima e começa a aprender!
 
+------------------------------------------------------------------------
+```{=html}
+<div class="banner-container">
+  <img src="images/banner-fortec.png" alt="Banner Blog Fortec" class="banner-img" />
+  <div class="banner-text">
+    <h2>“Aprender com clareza, praticar com confiança.”</h2>
+    <p>— Blog Fortec – Conhecimento que constrói</p>
+    <a href="artigos.qmd" class="banner-button" target="_blank">Descubra mais</a>
+  </div>
+</div>
+```

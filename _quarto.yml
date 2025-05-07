@@ -2,7 +2,7 @@ project:
   type: website
 
 website:
-  title: "Blog Fortec"
+  title: "📚 Blog Fortec"
   page-footer:
     border: false
     background: none
@@ -14,125 +14,56 @@ website:
         <a href="https://github.com/cacbarros/blog-fortec" target="_blank">GitHub</a><br>
         <small>Atualizado em: <span id="dataModificacao"></span></small>
       </div>
+
   navbar:
     left:
-      - text: "Início"
-        href: index.qmd
-      - text: "Álgebra"
+      - text: "🔢 Matemática"
         menu:
-          - text: "Equações Quadráticas"
-            href: posts/algebra/equacoes-quadraticas.qmd
-          - text: "Sistemas Lineares"
-            href: posts/algebra/sistemas-lineares.qmd
-          - text: "Produtos Notáveis"
-            href: posts/algebra/produtos-notaveis.qmd
-          - text: "Polinómios"
-            href: posts/algebra/polinomios.qmd
-          - text: "Fatoração"
-            href: posts/algebra/fatoracao.qmd
-      - text: "Química"
+      
+          - text: "📘 Matemática 10.º"
+            href: posts/matematica10/index.qmd
+          - text: "📗 Matemática 11.º"
+            href: posts/matematica11/index.qmd
+          - text: "📙 Matemática 12.º"
+            href: posts/matematica12/index.qmd
+          - text: "🧮 Álgebra"
+            href: posts/algebra/index.qmd
+          - text: "📐 Cálculo"
+            href: posts/calculo/index.qmd
+          - text: "➗ Séries Matemáticas"
+            href: posts/series/index.qmd
+
+      - text: "⚗️ Física e Química"
         menu:
-          - text: "Reações Químicas"
-            href: posts/quimica/reacoes-quimicas.qmd
-          - text: "Equilíbrio Químico"
-            href: posts/quimica/equilibrio-quimico.qmd
-          - text: "Estequiometria"
-            href: posts/quimica/estequiometria.qmd
-          - text: "pH e Soluções"
-            href: posts/quimica/ph-solucoes.qmd
-          - text: "Ligações Químicas"
-            href: posts/quimica/ligacoes-quimicas.qmd
-      - text: "Física"
+          - text: "⚙️ Física"
+            href: posts/fisica/index.qmd
+          - text: "🧪 Química"
+            href: posts/quimica/index.qmd
+          - text: "🌡️ Termodinâmica"
+            href: posts/termodinamica/index.qmd
+
+      - text: "🛠️ Aplicações"
         menu:
-          - text: "Cinemática"
-            href: posts/fisica/cinematica.qmd
-          - text: "Dinâmica"
-            href: posts/fisica/dinamica.qmd
-          - text: "Leis de Newton"
-            href: posts/fisica/leis-newton.qmd
-          - text: "Trabalho e Energia"
-            href: posts/fisica/trabalho-energia.qmd
-          - text: "Gravitação Universal"
-            href: posts/fisica/gravitacao-universal.qmd
-      - text: "Termodinâmica"
-        menu:
-          - text: "Introdução à Termodinâmica"
-            href: posts/termodinamica/introducao-termodinamica.qmd
-          - text: "Primeira Lei"
-            href: posts/termodinamica/primeira-lei.qmd
-          - text: "Segunda Lei"
-            href: posts/termodinamica/segunda-lei.qmd
-          - text: "Entropia"
-            href: posts/termodinamica/entropia.qmd
-          - text: "Eficiência de Ciclos"
-            href: posts/termodinamica/eficiencia-ciclos.qmd
-      - text: "Climatização"
-        menu:
-          - text: "Carga Térmica"
-            href: posts/climatizacao/carga-termica.qmd
-          - text: "Ventilação Natural"
-            href: posts/climatizacao/ventilacao-natural.qmd
-          - text: "Chillers e Torres"
-            href: posts/climatizacao/chillers-torres.qmd
-          - text: "Qualidade do Ar Interior"
-            href: posts/climatizacao/qualidade-ar.qmd
-          - text: "Automação e Controlo"
-            href: posts/climatizacao/automacao-controle.qmd
-      - text: "Cálculo"
-        menu:
-          - text: "Limites"
-            href: posts/calculo/limites.qmd
-          - text: "Derivadas"
-            href: posts/calculo/derivadas.qmd
-          - text: "Integrais"
-            href: posts/calculo/integrais.qmd
-          - text: "Aplicações da Derivada"
-            href: posts/calculo/aplicacoes-derivada.qmd
-          - text: "Teorema Fundamental do Cálculo"
-            href: posts/calculo/teorema-fundamental.qmd
-      - text: "Séries Matemáticas"
-        menu:
-          - text: "Séries Numéricas"
-            href: posts/series/series-numericas.qmd
-          - text: "Séries Matemáticas"
-            href: posts/series/series-matematicas.qmd
-          - text: "Problema de séries"
-            href: posts/series/problema-series.qmd
-          - text: "Séries de Potências"
-            href: posts/series/series-potencias.qmd
-          - text: "Convergência de Séries"
-            href: posts/series/convergencia-series.qmd
-          - text: "Séries de Taylor"
-            href: posts/series/series-taylor.qmd
-          - text: "Aplicações em Engenharia"
-            href: posts/series/aplicacoes-engenharia.qmd
-      - text: "Jogos"
-        menu:
-          - text: "Introdução à Gamificação"
-            href: posts/jogos/introducao-gamificacao.qmd
-          - text: "Jogos Matemáticos"
-            href: posts/jogos/jogos-matematicos.qmd
-          - text: "Simulações Interativas"
-            href: posts/jogos/simulacoes-interativas.qmd
-          - text: "Aprendizagem Baseada em Jogos"
-            href: posts/jogos/aprendizagem-jogos.qmd
-          - text: "Ferramentas e Plataformas"
-            href: posts/jogos/ferramentas-plataformas.qmd
-      - text: "Sobre"
+          - text: "🌬️ Climatização"
+            href: posts/climatizacao/index.qmd
+          - text: "🎮 Jogos"
+            href: posts/jogos/index.qmd
+
+    right:
+      - text: "ℹ️ Sobre"
         href: sobre.qmd
-
-
-      # adicionar outros menus suspensos conforme os temas
-
+      - text: "🏠 Início"
+        href: index.qmd
 format:
   html:
-    theme: sandstone
+    theme: litera
     css: styles.css
+    includes:
+      in-header: include/head.html
     include-before-body:
       - text: '<script src="/footer.js"></script>'
-    include-after-body: matomo.js
     toc: true
-search: true
+
 filters:
   - watermark
 
@@ -143,4 +74,3 @@ watermark:
   color: "#FF0000"
   opacity: 0.1
   enabled: "{{< meta rascunho >}}"
-

@@ -1,0 +1,21 @@
+---
+title: "Geometria no Espaço"
+description: "Estudo de pontos, retas e planos no espaço tridimensional."
+date: 2025-05-07
+categories: [Matemática]
+format:
+  html:
+    toc: true
+    code-fold: true
+bibliography: referencias.bib
+csl: apa.csl
+nocite: "@*"
+---
+
+# Geometria no Espaço
+
+Análise de posições relativas de elementos no espaço e suas equações.
+
+<p><a href="index.qmd" style="padding: 8px 16px; background-color: #6f42c1; color: white; border-radius: 5px; text-decoration: none;"> Voltar para Índice de Matemática</a></p>
+
+---

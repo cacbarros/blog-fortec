@@ -347,5 +347,80 @@
   },
   "sobre.qmd": {
     "sobre.html": "92283071"
+  },
+  "artigos.qmd": {
+    "artigos.html": "53b28d1a"
+  },
+  "posts/jogos/index.qmd": {
+    "index.html": "8763a8d1"
+  },
+  "posts/matematica10/avaliacao-matematica.qmd": {
+    "avaliacao-matematica.html": "fb103637"
+  },
+  "posts/matematica10/funcoes-graficos.qmd": {
+    "funcoes-graficos.html": "61623a96"
+  },
+  "posts/matematica10/geometria-analitica.qmd": {
+    "geometria-analitica.html": "f251edce"
+  },
+  "posts/matematica10/index.qmd": {
+    "index.html": "f7eb05c5"
+  },
+  "posts/matematica10/numeros-reais.qmd": {
+    "numeros-reais.html": "3c45881b"
+  },
+  "posts/matematica10/polinomios.qmd": {
+    "polinomios.html": "ad5e2e45"
+  },
+  "posts/matematica10/trigonometria.qmd": {
+    "trigonometria.html": "79496a32"
+  },
+  "posts/matematica11/avaliacao-matematica.qmd": {
+    "avaliacao-matematica.html": "7d796008"
+  },
+  "posts/matematica11/estatistica.qmd": {
+    "estatistica.html": "f2492a32"
+  },
+  "posts/matematica11/exponenciais-logaritmos.qmd": {
+    "exponenciais-logaritmos.html": "b1f18613"
+  },
+  "posts/matematica11/funcoes-polinomiais.qmd": {
+    "funcoes-polinomiais.html": "917c7a39"
+  },
+  "posts/matematica11/index.qmd": {
+    "index.html": "694fadb5"
+  },
+  "posts/matematica11/probabilidades.qmd": {
+    "probabilidades.html": "426894d8"
+  },
+  "posts/matematica11/sucessoes.qmd": {
+    "sucessoes.html": "bc7d1a9c"
+  },
+  "posts/matematica11/trigonometria-avancada.qmd": {
+    "trigonometria-avancada.html": "801f95ba"
+  },
+  "posts/matematica12/avaliacao-matematica.qmd": {
+    "avaliacao-matematica.html": "fd4151a1"
+  },
+  "posts/matematica12/derivadas.qmd": {
+    "derivadas.html": "8601b64c"
+  },
+  "posts/matematica12/estatistica-inferencial.qmd": {
+    "estatistica-inferencial.html": "9d653700"
+  },
+  "posts/matematica12/geometria-espaco.qmd": {
+    "geometria-espaco.html": "91dd70d2"
+  },
+  "posts/matematica12/index.qmd": {
+    "index.html": "af81ff4e"
+  },
+  "posts/matematica12/integrais.qmd": {
+    "integrais.html": "85fc1a20"
+  },
+  "posts/matematica12/limites-continuidade.qmd": {
+    "limites-continuidade.html": "9bc898d9"
+  },
+  "posts/series/index.qmd": {
+    "index.html": "82160391"
   }
 }

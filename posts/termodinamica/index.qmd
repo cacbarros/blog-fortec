@@ -1,0 +1,41 @@
+---
+title: "Termodinâmica"
+description: "Fundamentos da Termodinâmica e suas aplicações em Física e Engenharia."
+date: 2025-05-07
+categories: [Física]
+image: cover-termodinamica.jpg
+format:
+  html:
+    toc: true
+    code-fold: true
+bibliography: termodinamica.bib
+csl: apa.csl
+nocite: "@*"
+---
+
+# 🌡️ Termodinâmica: Índice de Temas
+
+Nesta secção, exploramos os princípios fundamentais da Termodinâmica:
+
+- [Introdução à Termodinâmica](introducao-termodinamica.qmd)
+- [Primeira Lei da Termodinâmica](primeira-lei.qmd)
+- [Segunda Lei da Termodinâmica](segunda-lei.qmd)
+- [Entropia](entropia.qmd)
+- [Eficiência de Ciclos Termodinâmicos](eficiencia-ciclos.qmd)
+
+Clique nos tópicos para aceder ao conteúdo.
+
+---
+
+## Objetivos da Secção
+
+Esta secção visa:
+
+- Compreender os princípios fundamentais da Termodinâmica;
+- Aplicar as leis da Termodinâmica à análise de sistemas físicos;
+- Explorar o conceito de entropia e irreversibilidade;
+- Estudar ciclos e eficiência de sistemas térmicos em Engenharia.
+
+---
+
+<p><a href="../../index.html" style="padding: 8px 16px; background-color: #17a2b8; color: white; border-radius: 5px; text-decoration: none;">Voltar ao Início</a></p>

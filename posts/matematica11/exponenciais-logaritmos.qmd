@@ -1,0 +1,21 @@
+---
+title: "Exponenciais e Logaritmos"
+description: "Estudo das funções exponenciais e logarítmicas e suas aplicações."
+date: 2025-05-07
+categories: [Matemática]
+format:
+  html:
+    toc: true
+    code-fold: true
+bibliography: referencias.bib
+csl: apa.csl
+nocite: "@*"
+---
+
+# Exponenciais e Logaritmos
+
+Compreensão das propriedades, gráficos e aplicações das funções exponencial e logarítmica.
+
+<p><a href="index.qmd" style="padding: 8px 16px; background-color: #6f42c1; color: white; border-radius: 5px; text-decoration: none;"> Voltar para Índice de Matemática</a></p>
+
+---

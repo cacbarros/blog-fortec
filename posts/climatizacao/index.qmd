@@ -1,0 +1,21 @@
+---
+title: "Climatização"
+description: "Índice de temas de Climatização em Ciências e Engenharia."
+format: html
+---
+
+# ❄️ Climatização: Índice de Temas
+
+Nesta secção, abordamos conceitos e aplicações fundamentais da Climatização:
+
+- [Automação e Controlo](automacao-controle.qmd)
+- [Carga Térmica](carga-termica.qmd)
+- [Chillers e Torres de Arrefecimento](chillers-torres.qmd)
+- [Fundamentos de Climatização](climatizacao.qmd)
+- [Qualidade do Ar Interior](qualidade-ar.qmd)
+
+Clique nos tópicos para aceder ao conteúdo.
+
+---
+
+<p><a href="../../index.html" style="padding: 8px 16px; background-color: #17a2b8; color: white; border-radius: 5px; text-decoration: none;">Voltar ao Início</a></p>
