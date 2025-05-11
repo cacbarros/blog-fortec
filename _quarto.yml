@@ -1,6 +1,9 @@
 project:
   type: website
 
+resources:
+  - www/js/**
+
 website:
   title: "Blog Fortec"
   page-footer:

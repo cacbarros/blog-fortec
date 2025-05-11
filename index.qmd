@@ -15,6 +15,18 @@ format:
 
 # Bem-vindo ao Blog Fortec
 
+<div id="animacao" style="width: 100%; height: 300px;"></div>
+
+<script type="module">
+  import { Runtime, Inspector } from "https://cdn.jsdelivr.net/npm/@observablehq/runtime@5/dist/runtime.js";
+  import notebook from "./js/index.js";
+
+  new Runtime().module(notebook, name => {
+    if (name === "animacao") return new Inspector(document.getElementById("animacao"));
+  });
+</script>
+
+
 O **Blog Fortec** é um projeto educacional criado para apoiar o estudo de disciplinas fundamentais, com uma abordagem prática, acessível e interativa.
 
 > Aprender com explicações claras, exemplos resolvidos em Python, vídeos educativos e exercícios interativos — tudo num só lugar.
