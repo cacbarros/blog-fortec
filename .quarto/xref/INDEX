@@ -422,5 +422,160 @@
   },
   "posts/series/index.qmd": {
     "index.html": "82160391"
+  },
+  "posts/matematica/algebra/equacoes-quadraticas.qmd": {
+    "equacoes-quadraticas.html": "91f06bc3",
+    "equacoes-quadraticas.tex": "32e36a98"
+  },
+  "posts/matematica/algebra/fatoracao.qmd": {
+    "fatoracao.html": "e90b9116",
+    "fatoracao.tex": "4c691934"
+  },
+  "posts/matematica/algebra/index.qmd": {
+    "index.html": "2327ac77"
+  },
+  "posts/matematica/algebra/polinomios.qmd": {
+    "polinomios.html": "d639c3a7",
+    "polinomios.tex": "d086be66"
+  },
+  "posts/matematica/algebra/produtos-notaveis.qmd": {
+    "produtos-notaveis.html": "d9444468",
+    "produtos-notaveis.tex": "70317022"
+  },
+  "posts/matematica/algebra/sistemas-lineares.qmd": {
+    "sistemas-lineares.html": "7895c781",
+    "sistemas-lineares.tex": "768ed80b"
+  },
+  "posts/matematica/calculo/aplicacoes-derivada.qmd": {
+    "aplicacoes-derivada.html": "383b5134",
+    "aplicacoes-derivada.tex": "fc359f27"
+  },
+  "posts/matematica/calculo/derivadas.qmd": {
+    "derivadas.html": "9f8cc474",
+    "derivadas.tex": "341a9566"
+  },
+  "posts/matematica/calculo/index.qmd": {
+    "index.html": "be251b39"
+  },
+  "posts/matematica/calculo/integrais.qmd": {
+    "integrais.html": "91367887",
+    "integrais.tex": "c2dddd37"
+  },
+  "posts/matematica/calculo/limites.qmd": {
+    "limites.html": "cab9bf57",
+    "limites.tex": "1859ac4c"
+  },
+  "posts/matematica/calculo/teorema-fundamental.qmd": {
+    "teorema-fundamental.html": "875bcc34",
+    "teorema-fundamental.tex": "7833af30"
+  },
+  "posts/matematica/matematica10/avaliacao-matematica.qmd": {
+    "avaliacao-matematica.html": "e1da3cd8"
+  },
+  "posts/matematica/matematica10/funcoes-graficos.qmd": {
+    "funcoes-graficos.html": "8bc577ba"
+  },
+  "posts/matematica/matematica10/geometria-analitica.qmd": {
+    "geometria-analitica.html": "e9a64d96"
+  },
+  "posts/matematica/matematica10/index.qmd": {
+    "index.html": "11a7518d"
+  },
+  "posts/matematica/matematica10/numeros-reais.qmd": {
+    "numeros-reais.html": "13726da1"
+  },
+  "posts/matematica/matematica10/polinomios.qmd": {
+    "polinomios.html": "6f17ebbd"
+  },
+  "posts/matematica/matematica10/trigonometria.qmd": {
+    "trigonometria.html": "59de2353"
+  },
+  "posts/matematica/matematica11/avaliacao-matematica.qmd": {
+    "avaliacao-matematica.html": "74bf8d14"
+  },
+  "posts/matematica/matematica11/estatistica.qmd": {
+    "estatistica.html": "db0689b8"
+  },
+  "posts/matematica/matematica11/exponenciais-logaritmos.qmd": {
+    "exponenciais-logaritmos.html": "954f4115"
+  },
+  "posts/matematica/matematica11/funcoes-polinomiais.qmd": {
+    "funcoes-polinomiais.html": "4086edbe"
+  },
+  "posts/matematica/matematica11/index.qmd": {
+    "index.html": "56d95cbb"
+  },
+  "posts/matematica/matematica11/probabilidades.qmd": {
+    "probabilidades.html": "d79cca99"
+  },
+  "posts/matematica/matematica11/sucessoes.qmd": {
+    "sucessoes.html": "68e99749"
+  },
+  "posts/matematica/matematica11/trigonometria-avancada.qmd": {
+    "trigonometria-avancada.html": "f401f691"
+  },
+  "posts/matematica/matematica12/avaliacao-matematica.qmd": {
+    "avaliacao-matematica.html": "5ef23f34"
+  },
+  "posts/matematica/matematica12/derivadas.qmd": {
+    "derivadas.html": "08466427"
+  },
+  "posts/matematica/matematica12/estatistica-inferencial.qmd": {
+    "estatistica-inferencial.html": "c11338e7"
+  },
+  "posts/matematica/matematica12/geometria-espaco.qmd": {
+    "geometria-espaco.html": "b8c3f81f"
+  },
+  "posts/matematica/matematica12/index.qmd": {
+    "index.html": "1c8455a6"
+  },
+  "posts/matematica/matematica12/integrais.qmd": {
+    "integrais.html": "a271b3bf"
+  },
+  "posts/matematica/matematica12/limites-continuidade.qmd": {
+    "limites-continuidade.html": "c8742bf4"
+  },
+  "posts/matematica/series/aplicacoes-engenharia.qmd": {
+    "aplicacoes-engenharia.html": "9a627f63",
+    "aplicacoes-engenharia.tex": "c2a7297e"
+  },
+  "posts/matematica/series/convergencia-series.qmd": {
+    "convergencia-series.html": "be385c01",
+    "convergencia-series.tex": "a001b289"
+  },
+  "posts/matematica/series/index.qmd": {
+    "index.html": "5ab082d4"
+  },
+  "posts/matematica/series/problema-series.qmd": {
+    "problema-series.html": "8f995cd7",
+    "problema-series.tex": "9a2cb34b"
+  },
+  "posts/matematica/series/series-matematicas.qmd": {
+    "series-matematicas.html": "61ce8c25",
+    "series-matematicas.tex": "c1e465eb"
+  },
+  "posts/matematica/series/series-numericas.qmd": {
+    "series-numericas.html": "c019a7f9",
+    "series-numericas.tex": "4be0a773"
+  },
+  "posts/matematica/series/series-potencias.qmd": {
+    "series-potencias.html": "83bb6df0",
+    "series-potencias.tex": "9ec87140"
+  },
+  "posts/matematica/series/series-taylor.qmd": {
+    "series-taylor.html": "32059860",
+    "series-taylor.tex": "24830b1a"
+  },
+  "posts/matematica/matematica10/artigo1/index.qmd": {
+    "index.html": "ad1aacb4",
+    "index.tex": "3438d413"
+  },
+  "posts/matematica/matematica10/artigo2/index.qmd": {
+    "index.tex": "9275677d",
+    "index.html": "2760a5b8"
+  },
+  "posts/matematica/matematica10/artigo3/index.qmd": {
+    "index.tex": "73342854",
+    "index.html": "ad3533ca"
   }
 }

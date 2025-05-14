@@ -1,0 +1,144 @@
+---
+title: "Lição 3 - Modelos Matemáticos nas Eleições: Sistemas Maioritários"
+lang: pt
+language:
+  toc-title: "Índice"
+filters:
+  - watermark
+watermark:
+  text: "RASCUNHO"
+  size: 1.5
+  angle: 30
+  color: "#FF0000"
+  opacity: 0.1
+description: "Exploração do conceito de maioria em sistemas eleitorais, com destaque para maioria simples e absoluta, através de diagramas, exemplos e simulação computacional."
+date: 2025-05-14
+categories: ['Matemática', '10º Ano', 'Modelação']
+format:
+  html:
+    default: true
+    mermaid:
+      version: "9.4.3"
+  pdf: default
+toc: true
+code-fold: true
+execute:
+  echo: true
+  warning: false
+  message: false
+  eval: true
+bibliography: artigo3.bib
+csl: apa.csl
+nocite: "@*"
+reference-title: "Referências"
+---
+
+::: {.content-visible when-format="html"}
+<div style="display: flex; gap: 1rem; margin-bottom: 1rem;">
+  <a href="./index.pdf" target="_blank" class="btn btn-primary">📄 Baixar PDF</a>
+  <button onclick="window.print()" class="btn btn-outline-secondary">🖨️ Imprimir</button>
+</div>
+:::
+
+<div style="margin-top: 2rem;"></div>
+
+# Sistemas Maioritários
+
+> "Em democracia, o poder do voto é moldado pela matemática da maioria." — [@livroMatematica10]
+
+## Introdução
+
+Nos sistemas maioritários, **vence o candidato ou proposta com mais votos**, mas existem diferentes critérios de maioria:
+
+- **Maioria Simples**: quem tiver mais votos (relativa).
+- **Maioria Absoluta**: mais de 50% dos votos válidos.
+- **Maioria Qualificada**: um valor superior a 50%, como 2/3 ou 3/5.
+
+Estes conceitos influenciam eleições políticas, decisões em assembleias e até votações escolares.
+
+## Diagrama Conceitual
+
+::: {.content-visible when-format="html"}
+
+```{=html}
+<div class="mermaid">
+graph TD
+  A["Sistemas Maioritários"]
+  A --> B["Maioria Simples"]
+  A --> C["Maioria Absoluta"]
+  A --> D["Maioria Qualificada"]
+  D --> E["2/3 dos votos"]
+  D --> F["3/5 dos votos"]
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/mermaid@9.4.3/dist/mermaid.min.js"></script>
+<script>
+  mermaid.initialize({ startOnLoad: true });
+</script>
+
+```
+:::
+
+::: {.content-visible when-format="pdf"}
+```{=latex}
+\begin{center}
+\includegraphics[width=0.9\linewidth]{diagrama.png}
+\end{center}
+```
+:::
+
+## Simulação com Python: Votação por Maioria Simples
+
+```{python}
+from collections import Counter
+
+# Lista de votos dos eleitores
+votos = ['A', 'B', 'A', 'C', 'B', 'A', 'C', 'A', 'B', 'A']
+
+contagem = Counter(votos)
+vencedor = contagem.most_common(1)[0]
+
+print("Resultado da votação:")
+for candidato, n in contagem.items():
+    print(f"Candidato {candidato}: {n} votos")
+
+print(f"Vencedor por maioria simples: Candidato {vencedor[0]} com {vencedor[1]} votos.")
+```
+
+## Exemplo Resolvido
+
+### Enunciado
+
+Numa eleição com **200 votantes**, os resultados foram:
+
+- Candidato A: 84 votos  
+- Candidato B: 72 votos  
+- Candidato C: 44 votos  
+
+**Questões:**
+
+1. Há maioria absoluta?  
+2. Qual candidato passa a uma eventual segunda volta?
+
+---
+
+::: {.callout-note collapse=true}
+###  Ver solução
+
+- Total de votos: $84 + 72 + 44 = 200$  
+- Para maioria absoluta: $200 \div 2 = 100$ → é necessário **mais de 100 votos**.
+
+Candidato **A obteve 84 votos**, o que é inferior a 100 → **não há maioria absoluta**.
+
+Passam à segunda volta os dois candidatos mais votados: **A e B**.
+
+>  Este sistema evita que um candidato vença com minoria se houver muita divisão entre os votos.
+:::
+
+## Reflexão Didática
+
+- Compreender diferentes regras de votação ajuda a perceber os impactos sociais e políticos da matemática.
+- Os modelos podem ser simulados com algoritmos simples, como listas e contagem de votos.
+- Representações gráficas ajudam a visualizar e comparar os sistemas.
+
+# Referências {.unnumbered}

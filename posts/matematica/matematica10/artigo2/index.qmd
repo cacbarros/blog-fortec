@@ -1,0 +1,148 @@
+---
+title: "Lição 2 - Modelos Matemáticos nas Eleições: Sistemas de Votação – Introdução"
+lang: pt
+language:
+  toc-title: "Índice"
+filters:
+  - watermark
+watermark:
+  text: "RASCUNHO"
+  size: 1.5
+  angle: 30
+  color: "#FF0000"
+  opacity: 0.1
+description: "Exploração introdutória de modelos matemáticos aplicados a sistemas eleitorais e mecanismos de votação, com representação esquemática e simulação computacional."
+date: 2025-05-14
+categories: ['Matemática', '10º Ano', 'Modelação']
+format:
+  html:
+    default: true
+    mermaid:
+      version: "9.4.3"
+  pdf: default
+toc: true
+code-fold: true
+execute:
+  echo: true
+  warning: false
+  message: false
+  eval: true
+bibliography: artigo2.bib
+csl: apa.csl
+nocite: "@*"
+reference-title: "Referências"
+---
+
+::: {.content-visible when-format="html"}
+<div style="display: flex; gap: 1rem; margin-bottom: 1rem;">
+  <a href="./index.pdf" target="_blank" class="btn btn-primary">📄 Baixar PDF</a>
+  <button onclick="window.print()" class="btn btn-outline-secondary">🖨️ Imprimir</button>
+</div>
+:::
+
+<div style="margin-top: 2rem;"></div>
+
+#  Modelos Matemáticos nas Eleições – Introdução aos Sistemas de Votação
+
+> “A matemática não escolhe candidatos, mas ajuda a tornar os processos eleitorais mais justos e transparentes.” — [@livroMatematica10]
+
+## Introdução
+
+A aplicação da matemática aos processos eleitorais permite compreender como funcionam diferentes **sistemas de votação** e como pequenas variações nas regras podem alterar o resultado final. Esta lição introduz os principais tipos de sistemas usados em eleições democráticas.
+
+## Tipos de Sistemas de Votação
+
+- **Maioria Simples**: vence o candidato com mais votos, mesmo que não tenha maioria absoluta.
+- **Maioria Absoluta**: exige mais de 50% dos votos. Pode implicar segunda volta.
+- **Votação por Pontos (Borda)**: os eleitores atribuem pontuações aos candidatos.
+- **Votação por Preferência (Condorcet)**: analisa todas as comparações par a par.
+
+## Diagrama Conceitual
+
+::: {.content-visible when-format="html"}
+
+```{=html}
+<div class="mermaid">
+graph TD
+  A["Sistemas de Votação"]
+  A --> B["Maioria Simples"]
+  A --> C["Maioria Absoluta"]
+  A --> D["Sistema Borda-Pontuação"]
+  A --> E["Sistema Condorcet-Preferências"]
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/mermaid@9.4.3/dist/mermaid.min.js"></script>
+<script>
+  mermaid.initialize({ startOnLoad: true });
+</script>
+```
+:::
+
+::: {.content-visible when-format="pdf"}
+```{=latex}
+\begin{center}
+\includegraphics[width=1\linewidth]{diagrama.png}
+\end{center}
+```
+:::
+
+## Simulação com Python: Votação por Maioria Simples
+
+```{python}
+from collections import Counter
+
+# Lista de votos dos eleitores
+votos = ['A', 'B', 'A', 'C', 'B', 'A', 'C', 'A', 'B', 'A']
+
+contagem = Counter(votos)
+vencedor = contagem.most_common(1)[0]
+
+print("Resultado da votação:")
+for candidato, n in contagem.items():
+    print(f"Candidato {candidato}: {n} votos")
+
+print(f"Vencedor por maioria simples: Candidato {vencedor[0]} com {vencedor[1]} votos.")
+```
+
+## Exemplo Resolvido
+
+### Enunciado
+
+Numa eleição com **5 eleitores** e **3 candidatos (X, Y, Z)**, cada eleitor vota em apenas **um candidato**. Os votos foram:
+
+- 2 votos para X  
+- 2 votos para Y  
+- 1 voto para Z
+
+**Questões:**
+
+1. Quem vence por maioria simples?  
+2. Há algum candidato com maioria absoluta?
+
+---
+
+::: {.callout-note collapse=true}
+### Ver solução
+
+- Total de votos: $2 + 2 + 1 = 5$  
+- Maioria absoluta: mais de $5 \div 2 = 2.5$ → ou seja, **pelo menos 3 votos**
+
+✅ **Maioria simples:** X e Y têm o mesmo número de votos (2 cada) → **empate técnico**  
+❌ **Maioria absoluta:** Nenhum candidato obteve pelo menos 3 votos
+
+Neste caso, pode ser necessário:
+- um segundo turno entre X e Y;
+- ou aplicar uma regra de desempate, como sorteio ou idade (conforme definido pelo regulamento eleitoral).
+
+> A maioria simples pode resultar em empate quando há divisão equilibrada dos votos.
+:::
+
+
+## Reflexão Didática
+
+- Compreender diferentes regras de votação ajuda a perceber os impactos sociais e políticos da matemática.
+- Os modelos podem ser simulados com algoritmos simples, como listas e contagem de votos.
+- Representações gráficas ajudam a visualizar e comparar os sistemas.
+
+
+# Referências {.unnumbered}

@@ -84,83 +84,6 @@
     "text": "Em breve conteúdos e exercícios sobre eficiência de ciclos!\n\n📄 Download em PDF"
   },
   {
-    "objectID": "posts/series/series-potencias.html",
-    "href": "posts/series/series-potencias.html",
-    "title": "Séries: Séries de Potências",
-    "section": "",
-    "text": "Em breve conteúdos e exercícios sobre séries de potências!\n\n📄 Download em PDF"
-  },
-  {
-    "objectID": "posts/series/series-matematicas.html",
-    "href": "posts/series/series-matematicas.html",
-    "title": "Séries Matemáticas",
-    "section": "",
-    "text": "Já imaginou somar infinitos números e ainda assim chegar a um valor finito?\nEsta é a fascinante realidade das séries matemáticas!\nNesta lição, vamos explorar os conceitos fundamentais das séries numéricas: o que são, como se comportam e como podemos analisá-las com ferramentas práticas.\n\n\nPara aprofundar a compreensão deste tema, ouça o comentário didático:\n\n   Ouvir no Vocaroo \n\n\n\n\nUma série é a soma dos termos de uma sequência:\n\\[\n\\sum_{n=1}^{\\infty} a_n\n\\]\nDizemos que uma série converge se a sequência das somas parciais tem limite finito (Apostol, 1967):\n\\[\nS_N = \\sum_{n=1}^{N} a_n \\longrightarrow S \\quad \\text{quando } N \\to \\infty\n\\]"
-  },
-  {
-    "objectID": "posts/series/series-matematicas.html#comentário-didático",
-    "href": "posts/series/series-matematicas.html#comentário-didático",
-    "title": "Séries Matemáticas",
-    "section": "",
-    "text": "Para aprofundar a compreensão deste tema, ouça o comentário didático:\n\n   Ouvir no Vocaroo"
-  },
-  {
-    "objectID": "posts/series/series-matematicas.html#definição",
-    "href": "posts/series/series-matematicas.html#definição",
-    "title": "Séries Matemáticas",
-    "section": "",
-    "text": "Uma série é a soma dos termos de uma sequência:\n\\[\n\\sum_{n=1}^{\\infty} a_n\n\\]\nDizemos que uma série converge se a sequência das somas parciais tem limite finito (Apostol, 1967):\n\\[\nS_N = \\sum_{n=1}^{N} a_n \\longrightarrow S \\quad \\text{quando } N \\to \\infty\n\\]"
-  },
-  {
-    "objectID": "posts/series/series-matematicas.html#vídeo-de-apoio",
-    "href": "posts/series/series-matematicas.html#vídeo-de-apoio",
-    "title": "Séries Matemáticas",
-    "section": "Vídeo de Apoio",
-    "text": "Vídeo de Apoio"
-  },
-  {
-    "objectID": "posts/series/series-matematicas.html#representação-gráfica-interativa",
-    "href": "posts/series/series-matematicas.html#representação-gráfica-interativa",
-    "title": "Séries Matemáticas",
-    "section": "Representação Gráfica Interativa",
-    "text": "Representação Gráfica Interativa\nExplore a série de forma interativa no Geogebra:"
-  },
-  {
-    "objectID": "posts/series/series-matematicas.html#observação",
-    "href": "posts/series/series-matematicas.html#observação",
-    "title": "Séries Matemáticas",
-    "section": "Observação",
-    "text": "Observação\nA convergência de uma série depende do comportamento da soma parcial, não apenas da tendência dos termos \\(a_n\\)."
-  },
-  {
-    "objectID": "posts/series/series-matematicas.html#recursos-disponíveis",
-    "href": "posts/series/series-matematicas.html#recursos-disponíveis",
-    "title": "Séries Matemáticas",
-    "section": "Recursos Disponíveis",
-    "text": "Recursos Disponíveis\nExplore, execute ou veja o conteúdo completo desta lição:\n\n             Voltar para Índice de Cálculo \n\n\n📄 Download em PDF"
-  },
-  {
-    "objectID": "posts/series/index.html",
-    "href": "posts/series/index.html",
-    "title": "Séries Matemáticas",
-    "section": "",
-    "text": "Nesta secção, aprofundamos o estudo de séries e suas aplicações:\n\nSéries Matemáticas: Introdução\nSéries Numéricas\nConvergência de Séries\nSéries de Potências\nSéries de Taylor\nProblemas com Séries\nAplicações em Engenharia\n\nClique nos tópicos para aceder ao conteúdo.\n\n\n\nEsta secção visa:\n\nCompreender a estrutura e o comportamento das séries matemáticas;\nEstudar os critérios de convergência e divergência;\nExplorar séries de potências e aplicações práticas como aproximações de funções;\nRelacionar séries com problemas reais em engenharia e ciências aplicadas.\n\n\n\nVoltar ao Início"
-  },
-  {
-    "objectID": "posts/series/index.html#objetivos-da-secção",
-    "href": "posts/series/index.html#objetivos-da-secção",
-    "title": "Séries Matemáticas",
-    "section": "",
-    "text": "Esta secção visa:\n\nCompreender a estrutura e o comportamento das séries matemáticas;\nEstudar os critérios de convergência e divergência;\nExplorar séries de potências e aplicações práticas como aproximações de funções;\nRelacionar séries com problemas reais em engenharia e ciências aplicadas.\n\n\n\nVoltar ao Início"
-  },
-  {
-    "objectID": "posts/series/aplicacoes-engenharia.html",
-    "href": "posts/series/aplicacoes-engenharia.html",
-    "title": "Séries: Aplicações em Engenharia",
-    "section": "",
-    "text": "Em breve conteúdos e exercícios sobre aplicações em engenharia!\n\n📄 Download em PDF"
-  },
-  {
     "objectID": "posts/quimica/ph-solucoes.html",
     "href": "posts/quimica/ph-solucoes.html",
     "title": "Química: pH e Soluções",
@@ -189,130 +112,242 @@
     "text": "Em breve conteúdos e exercícios sobre equilíbrio químico!\n\n📄 Download em PDF"
   },
   {
-    "objectID": "posts/matematica12/limites-continuidade.html",
-    "href": "posts/matematica12/limites-continuidade.html",
+    "objectID": "posts/matematica/series/series-taylor.html",
+    "href": "posts/matematica/series/series-taylor.html",
+    "title": "Séries: Séries de Taylor",
+    "section": "",
+    "text": "Em breve conteúdos e exercícios sobre séries de taylor!\n\n📄 Download em PDF"
+  },
+  {
+    "objectID": "posts/matematica/series/series-numericas.html",
+    "href": "posts/matematica/series/series-numericas.html",
+    "title": "Séries: Séries Numéricas",
+    "section": "",
+    "text": "Em breve conteúdos e exercícios sobre séries numéricas!\n\n📄 Download em PDF"
+  },
+  {
+    "objectID": "posts/matematica/series/problema-series.html",
+    "href": "posts/matematica/series/problema-series.html",
+    "title": "Séries Matemáticas",
+    "section": "",
+    "text": "Considere a série numérica:\n\\[\n\\sum_{n=1}^{\\infty} \\frac{1}{n^2}\n\\]\n\nDetermine se a série é convergente ou divergente.\nJustifique usando uma comparação ou teste adequado."
+  },
+  {
+    "objectID": "posts/matematica/series/convergencia-series.html",
+    "href": "posts/matematica/series/convergencia-series.html",
+    "title": "Séries: Convergência de Séries",
+    "section": "",
+    "text": "Em breve conteúdos e exercícios sobre convergência de séries!\n\n📄 Download em PDF"
+  },
+  {
+    "objectID": "posts/matematica/matematica12/limites-continuidade.html",
+    "href": "posts/matematica/matematica12/limites-continuidade.html",
     "title": "Limites e Continuidade",
     "section": "",
     "text": "Limites e Continuidade\nEstudo do comportamento de funções junto de pontos e no infinito.\n\n Voltar para Índice de Matemática\n\n\n\n\n\n\n\nReferences\n\nApostol, T. M. (1967). Calculus, volume i. Blaisdell Publishing Company.\n\n\nStewart, J. (2013). Cálculo: Volume 1 (7th ed.). Cengage Learning."
   },
   {
-    "objectID": "posts/matematica12/index.html",
-    "href": "posts/matematica12/index.html",
+    "objectID": "posts/matematica/matematica12/index.html",
+    "href": "posts/matematica/matematica12/index.html",
     "title": "Matemática Secundário - 12.º ano",
     "section": "",
     "text": "Limites e Continuidade\nDerivadas e Aplicações\nIntegrais e Áreas\nGeometria no Espaço\nEstatística Inferencial\nExercícios de Avaliação\n\n\n\n\nEste módulo visa:\n\nExplorar o conceito de limite e sua relação com continuidade;\nAplicar a derivada no estudo da variação de funções;\nCompreender integrais definidas e sua aplicação em cálculo de áreas;\nDesenvolver competências de raciocínio espacial e estatístico;\nPreparar o estudante para os exames nacionais de Matemática A.\n\n\n\nVoltar ao Início"
   },
   {
-    "objectID": "posts/matematica12/index.html#objetivos-do-módulo",
-    "href": "posts/matematica12/index.html#objetivos-do-módulo",
+    "objectID": "posts/matematica/matematica12/index.html#objetivos-do-módulo",
+    "href": "posts/matematica/matematica12/index.html#objetivos-do-módulo",
     "title": "Matemática Secundário - 12.º ano",
     "section": "",
     "text": "Este módulo visa:\n\nExplorar o conceito de limite e sua relação com continuidade;\nAplicar a derivada no estudo da variação de funções;\nCompreender integrais definidas e sua aplicação em cálculo de áreas;\nDesenvolver competências de raciocínio espacial e estatístico;\nPreparar o estudante para os exames nacionais de Matemática A.\n\n\n\nVoltar ao Início"
   },
   {
-    "objectID": "posts/matematica12/estatistica-inferencial.html",
-    "href": "posts/matematica12/estatistica-inferencial.html",
+    "objectID": "posts/matematica/matematica12/estatistica-inferencial.html",
+    "href": "posts/matematica/matematica12/estatistica-inferencial.html",
     "title": "Estatística Inferencial",
     "section": "",
     "text": "Estatística Inferencial\nIntrodução a intervalos de confiança e testes de hipóteses.\n\n Voltar para Índice de Matemática\n\n\n\n\n\n\n\nReferences\n\nApostol, T. M. (1967). Calculus, volume i. Blaisdell Publishing Company.\n\n\nStewart, J. (2013). Cálculo: Volume 1 (7th ed.). Cengage Learning."
   },
   {
-    "objectID": "posts/matematica12/avaliacao-matematica.html",
-    "href": "posts/matematica12/avaliacao-matematica.html",
+    "objectID": "posts/matematica/matematica12/avaliacao-matematica.html",
+    "href": "posts/matematica/matematica12/avaliacao-matematica.html",
     "title": "Exercícios de Avaliação",
     "section": "",
     "text": "Exercícios de Avaliação\nQuestões de revisão e exames-tipo para consolidar os conhecimentos do módulo.\n\n Voltar para Índice de Matemática\n\n\n\n\n\n\n\nReferences\n\nApostol, T. M. (1967). Calculus, volume i. Blaisdell Publishing Company.\n\n\nStewart, J. (2013). Cálculo: Volume 1 (7th ed.). Cengage Learning."
   },
   {
-    "objectID": "posts/matematica11/sucessoes.html",
-    "href": "posts/matematica11/sucessoes.html",
+    "objectID": "posts/matematica/matematica11/sucessoes.html",
+    "href": "posts/matematica/matematica11/sucessoes.html",
     "title": "Sucessões e Progressões",
     "section": "",
     "text": "Sucessões e Progressões\nExploração das propriedades e fórmulas das progressões numéricas.\n\n Voltar para Índice de Matemática\n\n\n\n\n\n\n\nReferences\n\nApostol, T. M. (1967). Calculus, volume i. Blaisdell Publishing Company.\n\n\nStewart, J. (2013). Cálculo: Volume 1 (7th ed.). Cengage Learning."
   },
   {
-    "objectID": "posts/matematica11/index.html",
-    "href": "posts/matematica11/index.html",
+    "objectID": "posts/matematica/matematica11/index.html",
+    "href": "posts/matematica/matematica11/index.html",
     "title": "Matemática Secundário - 11.º ano",
     "section": "",
     "text": "Funções Polinomiais e Racionais\nExponenciais e Logaritmos\nSucessões e Progressões\nTrigonometria Avançada\nProbabilidades\nEstatística Descritiva\nExercícios de Avaliação\n\n\n\n\nEste módulo visa:\n\nAprofundar o estudo de funções e suas aplicações;\nDesenvolver a capacidade de modelar fenómenos com funções exponenciais e logarítmicas;\nAplicar o raciocínio probabilístico e estatístico na resolução de problemas;\nPreparar de forma eficaz para avaliações e exames nacionais.\n\n\n\nVoltar ao Início"
   },
   {
-    "objectID": "posts/matematica11/index.html#objetivos-do-módulo",
-    "href": "posts/matematica11/index.html#objetivos-do-módulo",
+    "objectID": "posts/matematica/matematica11/index.html#objetivos-do-módulo",
+    "href": "posts/matematica/matematica11/index.html#objetivos-do-módulo",
     "title": "Matemática Secundário - 11.º ano",
     "section": "",
     "text": "Este módulo visa:\n\nAprofundar o estudo de funções e suas aplicações;\nDesenvolver a capacidade de modelar fenómenos com funções exponenciais e logarítmicas;\nAplicar o raciocínio probabilístico e estatístico na resolução de problemas;\nPreparar de forma eficaz para avaliações e exames nacionais.\n\n\n\nVoltar ao Início"
   },
   {
-    "objectID": "posts/matematica11/exponenciais-logaritmos.html",
-    "href": "posts/matematica11/exponenciais-logaritmos.html",
+    "objectID": "posts/matematica/matematica11/exponenciais-logaritmos.html",
+    "href": "posts/matematica/matematica11/exponenciais-logaritmos.html",
     "title": "Exponenciais e Logaritmos",
     "section": "",
     "text": "Exponenciais e Logaritmos\nCompreensão das propriedades, gráficos e aplicações das funções exponencial e logarítmica.\n\n Voltar para Índice de Matemática\n\n\n\n\n\n\n\nReferences\n\nApostol, T. M. (1967). Calculus, volume i. Blaisdell Publishing Company.\n\n\nStewart, J. (2013). Cálculo: Volume 1 (7th ed.). Cengage Learning."
   },
   {
-    "objectID": "posts/matematica11/avaliacao-matematica.html",
-    "href": "posts/matematica11/avaliacao-matematica.html",
+    "objectID": "posts/matematica/matematica11/avaliacao-matematica.html",
+    "href": "posts/matematica/matematica11/avaliacao-matematica.html",
     "title": "Exercícios de Avaliação",
     "section": "",
     "text": "Exercícios de Avaliação\nConjunto de exercícios propostos para consolidar os conteúdos abordados.\n\n Voltar para Índice de Matemática\n\n\n\n\n\n\n\nReferences\n\nApostol, T. M. (1967). Calculus, volume i. Blaisdell Publishing Company.\n\n\nStewart, J. (2013). Cálculo: Volume 1 (7th ed.). Cengage Learning."
   },
   {
-    "objectID": "posts/matematica10/polinomios.html",
-    "href": "posts/matematica10/polinomios.html",
-    "title": "Polinómios",
+    "objectID": "posts/matematica/matematica10/artigo3/index.html",
+    "href": "posts/matematica/matematica10/artigo3/index.html",
+    "title": "Lição 3 - Modelos Matemáticos nas Eleições: Sistemas Maioritários",
     "section": "",
-    "text": "Polinómios\nExploração de operações algébricas e fatorização.\n\n Voltar para Índice de Matemática\n\n\n\n\n\n\n\nReferences\n\nApostol, T. M. (1967). Calculus, volume i. Blaisdell Publishing Company.\n\n\nStewart, J. (2013). Cálculo: Volume 1 (7th ed.). Cengage Learning."
+    "text": "📄 Baixar PDF 🖨️ Imprimir"
   },
   {
-    "objectID": "posts/matematica10/index.html",
-    "href": "posts/matematica10/index.html",
-    "title": "Matemática Secundário - 10º ano",
-    "section": "",
-    "text": "Números Reais\nFunções e Gráficos\nTrigonometria\nPolinómios\nGeometria Analítica\nExercícios de Avaliação\n\n\n\n\nEste módulo visa:\n\nConsolidar conceitos básicos de Matemática;\nDesenvolver competências de análise de funções e equações;\nAplicar conhecimentos em problemas práticos;\nPreparar para exames e avaliações finais.\n\n\n\nVoltar ao Início"
+    "objectID": "posts/matematica/matematica10/artigo3/index.html#introdução",
+    "href": "posts/matematica/matematica10/artigo3/index.html#introdução",
+    "title": "Lição 3 - Modelos Matemáticos nas Eleições: Sistemas Maioritários",
+    "section": "Introdução",
+    "text": "Introdução\nNos sistemas maioritários, vence o candidato ou proposta com mais votos, mas existem diferentes critérios de maioria:\n\nMaioria Simples: quem tiver mais votos (relativa).\nMaioria Absoluta: mais de 50% dos votos válidos.\nMaioria Qualificada: um valor superior a 50%, como 2/3 ou 3/5.\n\nEstes conceitos influenciam eleições políticas, decisões em assembleias e até votações escolares."
   },
   {
-    "objectID": "posts/matematica10/index.html#objetivos-do-módulo",
-    "href": "posts/matematica10/index.html#objetivos-do-módulo",
-    "title": "Matemática Secundário - 10º ano",
-    "section": "",
-    "text": "Este módulo visa:\n\nConsolidar conceitos básicos de Matemática;\nDesenvolver competências de análise de funções e equações;\nAplicar conhecimentos em problemas práticos;\nPreparar para exames e avaliações finais.\n\n\n\nVoltar ao Início"
+    "objectID": "posts/matematica/matematica10/artigo3/index.html#diagrama-conceitual",
+    "href": "posts/matematica/matematica10/artigo3/index.html#diagrama-conceitual",
+    "title": "Lição 3 - Modelos Matemáticos nas Eleições: Sistemas Maioritários",
+    "section": "Diagrama Conceitual",
+    "text": "Diagrama Conceitual\n\ngraph TD\n  A[\"Sistemas Maioritários\"]\n  A --&gt; B[\"Maioria Simples\"]\n  A --&gt; C[\"Maioria Absoluta\"]\n  A --&gt; D[\"Maioria Qualificada\"]\n  D --&gt; E[\"2/3 dos votos\"]\n  D --&gt; F[\"3/5 dos votos\"]"
   },
   {
-    "objectID": "posts/matematica10/funcoes-graficos.html",
-    "href": "posts/matematica10/funcoes-graficos.html",
-    "title": "Funções e Gráficos",
-    "section": "",
-    "text": "Funções e Gráficos\nEstudo das relações funcionais e interpretação de gráficos.\n\n Voltar para Índice de Matemática\n\n\n\n\n\n\n\nReferences\n\nApostol, T. M. (1967). Calculus, volume i. Blaisdell Publishing Company.\n\n\nStewart, J. (2013). Cálculo: Volume 1 (7th ed.). Cengage Learning."
+    "objectID": "posts/matematica/matematica10/artigo3/index.html#simulação-com-python-votação-por-maioria-simples",
+    "href": "posts/matematica/matematica10/artigo3/index.html#simulação-com-python-votação-por-maioria-simples",
+    "title": "Lição 3 - Modelos Matemáticos nas Eleições: Sistemas Maioritários",
+    "section": "Simulação com Python: Votação por Maioria Simples",
+    "text": "Simulação com Python: Votação por Maioria Simples\n\n\nCódigo\nfrom collections import Counter\n\n# Lista de votos dos eleitores\nvotos = ['A', 'B', 'A', 'C', 'B', 'A', 'C', 'A', 'B', 'A']\n\ncontagem = Counter(votos)\nvencedor = contagem.most_common(1)[0]\n\nprint(\"Resultado da votação:\")\nfor candidato, n in contagem.items():\n    print(f\"Candidato {candidato}: {n} votos\")\n\nprint(f\"Vencedor por maioria simples: Candidato {vencedor[0]} com {vencedor[1]} votos.\")\n\n\nResultado da votação:\nCandidato A: 5 votos\nCandidato B: 3 votos\nCandidato C: 2 votos\nVencedor por maioria simples: Candidato A com 5 votos."
   },
   {
-    "objectID": "posts/matematica/trigonometria.html",
-    "href": "posts/matematica/trigonometria.html",
-    "title": "Trigonometria",
-    "section": "",
-    "text": "Trigonometria\nEstudo de relações trigonométricas e suas aplicações.\n\n Voltar para Índice de Matemática\n\n\n\n\n\n\n\nReferences\n\nApostol, T. M. (1967). Calculus, volume i. Blaisdell Publishing Company.\n\n\nStewart, J. (2013). Cálculo: Volume 1 (7th ed.). Cengage Learning."
+    "objectID": "posts/matematica/matematica10/artigo3/index.html#exemplo-resolvido",
+    "href": "posts/matematica/matematica10/artigo3/index.html#exemplo-resolvido",
+    "title": "Lição 3 - Modelos Matemáticos nas Eleições: Sistemas Maioritários",
+    "section": "Exemplo Resolvido",
+    "text": "Exemplo Resolvido\n\nEnunciado\nNuma eleição com 200 votantes, os resultados foram:\n\nCandidato A: 84 votos\n\nCandidato B: 72 votos\n\nCandidato C: 44 votos\n\nQuestões:\n\nHá maioria absoluta?\n\nQual candidato passa a uma eventual segunda volta?\n\n\n\n\n\n\n\n\nVer solução\n\n\n\n\n\n\nTotal de votos: \\(84 + 72 + 44 = 200\\)\n\nPara maioria absoluta: \\(200 \\div 2 = 100\\) → é necessário mais de 100 votos.\n\nCandidato A obteve 84 votos, o que é inferior a 100 → não há maioria absoluta.\nPassam à segunda volta os dois candidatos mais votados: A e B.\n\nEste sistema evita que um candidato vença com minoria se houver muita divisão entre os votos."
   },
   {
-    "objectID": "posts/matematica/numeros-reais.html",
-    "href": "posts/matematica/numeros-reais.html",
-    "title": "Números Reais",
-    "section": "",
-    "text": "Números Reais\nExploração dos conjuntos numéricos e suas propriedades fundamentais.\n\n Voltar para Índice de Matemática\n\n\n\n\n\n\n\nReferences\n\nApostol, T. M. (1967). Calculus, volume i. Blaisdell Publishing Company.\n\n\nStewart, J. (2013). Cálculo: Volume 1 (7th ed.). Cengage Learning."
+    "objectID": "posts/matematica/matematica10/artigo3/index.html#reflexão-didática",
+    "href": "posts/matematica/matematica10/artigo3/index.html#reflexão-didática",
+    "title": "Lição 3 - Modelos Matemáticos nas Eleições: Sistemas Maioritários",
+    "section": "Reflexão Didática",
+    "text": "Reflexão Didática\n\nCompreender diferentes regras de votação ajuda a perceber os impactos sociais e políticos da matemática.\nOs modelos podem ser simulados com algoritmos simples, como listas e contagem de votos.\nRepresentações gráficas ajudam a visualizar e comparar os sistemas."
   },
   {
-    "objectID": "posts/matematica/geometria-analitica.html",
-    "href": "posts/matematica/geometria-analitica.html",
-    "title": "Geometria Analítica",
+    "objectID": "posts/matematica/matematica10/artigo1/index.html",
+    "href": "posts/matematica/matematica10/artigo1/index.html",
+    "title": "Lição 1 - Os Números Reais",
     "section": "",
-    "text": "Geometria Analítica\nAnálise das propriedades geométricas através da álgebra.\n\n Voltar para Índice de Matemática\n\n\n\n\n\n\n\nReferences\n\nApostol, T. M. (1967). Calculus, volume i. Blaisdell Publishing Company.\n\n\nStewart, J. (2013). Cálculo: Volume 1 (7th ed.). Cengage Learning."
+    "text": "📄 Baixar PDF 🖨️ Imprimir"
   },
   {
-    "objectID": "posts/matematica/avaliacao-matematica.html",
-    "href": "posts/matematica/avaliacao-matematica.html",
-    "title": "Exercícios de Avaliação",
+    "objectID": "posts/matematica/matematica10/artigo1/index.html#introdução",
+    "href": "posts/matematica/matematica10/artigo1/index.html#introdução",
+    "title": "Lição 1 - Os Números Reais",
+    "section": "Introdução",
+    "text": "Introdução\nO conjunto dos números reais, denotado por \\(\\mathbb{R}\\), inclui todos os números que podem ser representados na reta: inteiros, fracionários, decimais finitos ou infinitos, positivos ou negativos, racionais ou irracionais (Silva & Mendes, 2020)."
+  },
+  {
+    "objectID": "posts/matematica/matematica10/artigo1/index.html#subconjuntos-dos-reais",
+    "href": "posts/matematica/matematica10/artigo1/index.html#subconjuntos-dos-reais",
+    "title": "Lição 1 - Os Números Reais",
+    "section": "Subconjuntos dos Reais",
+    "text": "Subconjuntos dos Reais\n\nNúmeros Naturais (\\(\\mathbb{N}\\)): \\(0, 1, 2, 3, \\dots\\)\nNúmeros Inteiros (\\(\\mathbb{Z}\\)): \\(-2, -1, 0, 1, 2, \\dots\\)\nNúmeros Racionais (\\(\\mathbb{Q}\\)): frações como \\(\\frac{1}{2}\\) ou \\(-3\\)\nNúmeros Irracionais (\\(\\mathbb{I}\\)): \\(\\pi\\), \\(\\sqrt{2}\\), \\(e\\)\nNúmeros Reais (\\(\\mathbb{R}\\)): união de \\(\\mathbb{Q}\\) e \\(\\mathbb{I}\\)"
+  },
+  {
+    "objectID": "posts/matematica/matematica10/artigo1/index.html#representação-geométrica",
+    "href": "posts/matematica/matematica10/artigo1/index.html#representação-geométrica",
+    "title": "Lição 1 - Os Números Reais",
+    "section": "Representação Geométrica",
+    "text": "Representação Geométrica\nCada número real pode ser representado por um ponto numa reta contínua e infinita chamada reta real. Os números irracionais “preenchem” os espaços entre os números racionais, tornando \\(\\mathbb{R}\\) um conjunto denso e completo."
+  },
+  {
+    "objectID": "posts/matematica/matematica10/artigo1/index.html#diagrama-conceitual",
+    "href": "posts/matematica/matematica10/artigo1/index.html#diagrama-conceitual",
+    "title": "Lição 1 - Os Números Reais",
+    "section": "Diagrama Conceitual",
+    "text": "Diagrama Conceitual\n\ngraph TD\n  A[\"Conjunto dos Números Reais\"] --&gt; B[\"Racionais ℚ\"]\n  A --&gt; C[\"Irracionais 𝕀\"]\n  B --&gt; D[\"Inteiros ℤ\"]\n  D --&gt; E[\"Naturais ℕ\"]"
+  },
+  {
+    "objectID": "posts/matematica/matematica10/artigo1/index.html#exemplo-com-python-aproximação-de-sqrt2",
+    "href": "posts/matematica/matematica10/artigo1/index.html#exemplo-com-python-aproximação-de-sqrt2",
+    "title": "Lição 1 - Os Números Reais",
+    "section": "Exemplo com Python: Aproximação de \\(\\sqrt{2}\\)",
+    "text": "Exemplo com Python: Aproximação de \\(\\sqrt{2}\\)\n\n\nCódigo\nimport numpy as np\n\n# Aproximação racional de sqrt(2)\nraiz_exata = np.sqrt(2)\naprox = 99 / 70  # fração racional próxima\n\nerro = abs(raiz_exata - aprox)\n\nprint(f\"A raiz quadrada de 2 é aproximadamente: {aprox}\")\nprint(f\"Valor exato com numpy: {raiz_exata:.10f}\")\nprint(f\"Erro absoluto: {erro:.10e}\")\n\n\nA raiz quadrada de 2 é aproximadamente: 1.4142857142857144\nValor exato com numpy: 1.4142135624\nErro absoluto: 7.2151912619e-05"
+  },
+  {
+    "objectID": "posts/matematica/matematica10/artigo1/index.html#exemplo-resolvido",
+    "href": "posts/matematica/matematica10/artigo1/index.html#exemplo-resolvido",
+    "title": "Lição 1 - Os Números Reais",
+    "section": "Exemplo Resolvido",
+    "text": "Exemplo Resolvido\n\nEnunciado\nClassifica os seguintes números como racional ou irracional:\n\n\\(\\sqrt{2}\\)\n\n\\(\\frac{7}{3}\\)\n\n\\(0,333\\ldots\\)\n\n\\(\\pi\\)\n\n\\(-5\\)\n\nQuestão extra: Todos esses números pertencem a que conjunto numérico maior?\n\n\n\n\n\n\n\nVer solução\n\n\n\n\n\n\n\\(\\sqrt{2}\\) → irracional (não pode ser expresso como fração exata)\n\n\\(\\frac{7}{3}\\) → racional (é uma fração)\n\n\\(0,333\\ldots\\) → racional (equivale a \\(\\frac{1}{3}\\))\n\n\\(\\pi\\) → irracional (valor decimal infinito não periódico)\n\n\\(-5\\) → racional (é um número inteiro, que pode ser escrito como \\(\\frac{-5}{1}\\))\n\n✅ Todos pertencem ao conjunto dos Números Reais (\\(\\mathbb{R}\\))\n\nOs números irracionais “preenchem” os espaços entre os racionais, formando um conjunto contínuo: \\(\\mathbb{R} = \\mathbb{Q} \\cup \\mathbb{I}\\)"
+  },
+  {
+    "objectID": "posts/matematica/matematica10/artigo1/index.html#considerações-didáticas",
+    "href": "posts/matematica/matematica10/artigo1/index.html#considerações-didáticas",
+    "title": "Lição 1 - Os Números Reais",
+    "section": "Considerações Didáticas",
+    "text": "Considerações Didáticas\n\nCompreender a hierarquia dos subconjuntos de \\(\\mathbb{R}\\).\nDiferenciar racionalidade e irracionalidade numérica.\nRepresentar pontos na reta real com precisão crescente.\nRelacionar matemática simbólica com aplicações computacionais."
+  },
+  {
+    "objectID": "posts/matematica/calculo/limites.html",
+    "href": "posts/matematica/calculo/limites.html",
+    "title": "Cálculo: Limites",
     "section": "",
-    "text": "Exercícios de Avaliação\nExercícios para aplicação prática dos conceitos aprendidos.\n\n Voltar para Índice de Matemática\n\n\n\n\n\n\n\nReferences\n\nApostol, T. M. (1967). Calculus, volume i. Blaisdell Publishing Company.\n\n\nStewart, J. (2013). Cálculo: Volume 1 (7th ed.). Cengage Learning."
+    "text": "Em breve conteúdos e exercícios sobre limites!\n\n📄 Download em PDF"
+  },
+  {
+    "objectID": "posts/matematica/calculo/index.html",
+    "href": "posts/matematica/calculo/index.html",
+    "title": "Cálculo",
+    "section": "",
+    "text": "📐 Cálculo: Índice de Temas\nNesta secção, exploraremos diversos tópicos fundamentais de Cálculo:\n\nLimites\nDerivadas\nIntegrais\nTeorema Fundamental do Cálculo\n\nClique nos tópicos para aceder ao conteúdo.\n\n\nVoltar ao Início"
+  },
+  {
+    "objectID": "posts/matematica/calculo/aplicacoes-derivada.html",
+    "href": "posts/matematica/calculo/aplicacoes-derivada.html",
+    "title": "Cálculo: Aplicações da Derivada",
+    "section": "",
+    "text": "Em breve conteúdos e exercícios sobre aplicações da derivada!\n\n📄 Download em PDF"
+  },
+  {
+    "objectID": "posts/matematica/algebra/produtos-notaveis.html",
+    "href": "posts/matematica/algebra/produtos-notaveis.html",
+    "title": "Álgebra: Produtos Notáveis",
+    "section": "",
+    "text": "Em breve conteúdos e exercícios sobre produtos notáveis!\n\n📄 Download em PDF"
+  },
+  {
+    "objectID": "posts/matematica/algebra/index.html",
+    "href": "posts/matematica/algebra/index.html",
+    "title": "Álgebra",
+    "section": "",
+    "text": "🧮 Álgebra: Índice de Temas\nNesta secção, exploraremos diversos tópicos fundamentais de Álgebra:\n\nEquações Quadráticas\nSistemas de Equações Lineares\nPolinómios e Raízes\nFatoração\nProdutos notáveis\n\nClique nos tópicos para aceder ao conteúdo.\n\n\nVoltar ao Início"
+  },
+  {
+    "objectID": "posts/matematica/algebra/equacoes-quadraticas.html",
+    "href": "posts/matematica/algebra/equacoes-quadraticas.html",
+    "title": "Álgebra: Equações Quadráticas",
+    "section": "",
+    "text": "Em breve conteúdos e exercícios sobre equações quadráticas!\n\n📄 Download em PDF"
   },
   {
     "objectID": "posts/jogos/jogos-matematicos.html",
@@ -378,48 +413,6 @@
     "text": "Em breve conteúdos e exercícios sobre automação e controlo!\n\n📄 Download em PDF"
   },
   {
-    "objectID": "posts/calculo/limites.html",
-    "href": "posts/calculo/limites.html",
-    "title": "Cálculo: Limites",
-    "section": "",
-    "text": "Em breve conteúdos e exercícios sobre limites!\n\n📄 Download em PDF"
-  },
-  {
-    "objectID": "posts/calculo/index.html",
-    "href": "posts/calculo/index.html",
-    "title": "Cálculo",
-    "section": "",
-    "text": "📐 Cálculo: Índice de Temas\nNesta secção, exploraremos diversos tópicos fundamentais de Cálculo:\n\nLimites\nDerivadas\nIntegrais\nTeorema Fundamental do Cálculo\n\nClique nos tópicos para aceder ao conteúdo.\n\n\nVoltar ao Início"
-  },
-  {
-    "objectID": "posts/calculo/aplicacoes-derivada.html",
-    "href": "posts/calculo/aplicacoes-derivada.html",
-    "title": "Cálculo: Aplicações da Derivada",
-    "section": "",
-    "text": "Em breve conteúdos e exercícios sobre aplicações da derivada!\n\n📄 Download em PDF"
-  },
-  {
-    "objectID": "posts/algebra/produtos-notaveis.html",
-    "href": "posts/algebra/produtos-notaveis.html",
-    "title": "Álgebra: Produtos Notáveis",
-    "section": "",
-    "text": "Em breve conteúdos e exercícios sobre produtos notáveis!\n\n📄 Download em PDF"
-  },
-  {
-    "objectID": "posts/algebra/index.html",
-    "href": "posts/algebra/index.html",
-    "title": "Álgebra",
-    "section": "",
-    "text": "🧮 Álgebra: Índice de Temas\nNesta secção, exploraremos diversos tópicos fundamentais de Álgebra:\n\nEquações Quadráticas\nSistemas de Equações Lineares\nPolinómios e Raízes\nFatoração\nProdutos notáveis\n\nClique nos tópicos para aceder ao conteúdo.\n\n\nVoltar ao Início"
-  },
-  {
-    "objectID": "posts/algebra/equacoes-quadraticas.html",
-    "href": "posts/algebra/equacoes-quadraticas.html",
-    "title": "Álgebra: Equações Quadráticas",
-    "section": "",
-    "text": "Em breve conteúdos e exercícios sobre equações quadráticas!\n\n📄 Download em PDF"
-  },
-  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Início",
@@ -474,48 +467,6 @@
     "title": "Jogos Educativos",
     "section": "",
     "text": "Sudoku Online — Resolva desafios de Sudoku.\nJogo de Operacoes Matemáticas — Pratique cálculos e lógica.\nJogos de Física Interativos — Explore conceitos de força, energia e movimento.\nLaboratório de Química Virtual — Simule reações químicas."
-  },
-  {
-    "objectID": "posts/algebra/fatoracao.html",
-    "href": "posts/algebra/fatoracao.html",
-    "title": "Álgebra: Fatoração",
-    "section": "",
-    "text": "Em breve conteúdos e exercícios sobre fatoração!\n\n📄 Download em PDF"
-  },
-  {
-    "objectID": "posts/algebra/polinomios.html",
-    "href": "posts/algebra/polinomios.html",
-    "title": "Álgebra: Polinómios",
-    "section": "",
-    "text": "Em breve conteúdos e exercícios sobre polinómios!\n\n📄 Download em PDF"
-  },
-  {
-    "objectID": "posts/algebra/sistemas-lineares.html",
-    "href": "posts/algebra/sistemas-lineares.html",
-    "title": "Álgebra: Sistemas Lineares",
-    "section": "",
-    "text": "Em breve conteúdos e exercícios sobre sistemas lineares!\n\n📄 Download em PDF"
-  },
-  {
-    "objectID": "posts/calculo/derivadas.html",
-    "href": "posts/calculo/derivadas.html",
-    "title": "Cálculo: Derivadas",
-    "section": "",
-    "text": "Em breve conteúdos e exercícios sobre derivadas!\n\n📄 Download em PDF"
-  },
-  {
-    "objectID": "posts/calculo/integrais.html",
-    "href": "posts/calculo/integrais.html",
-    "title": "Cálculo: Integrais",
-    "section": "",
-    "text": "Em breve conteúdos e exercícios sobre integrais!\n\n📄 Download em PDF"
-  },
-  {
-    "objectID": "posts/calculo/teorema-fundamental.html",
-    "href": "posts/calculo/teorema-fundamental.html",
-    "title": "Cálculo: Teorema Fundamental do Cálculo",
-    "section": "",
-    "text": "Em breve conteúdos e exercícios sobre teorema fundamental do cálculo!\n\n📄 Download em PDF"
   },
   {
     "objectID": "posts/climatizacao/carga-termica.html",
@@ -581,109 +532,228 @@
     "text": "Em breve conteúdos e exercícios sobre simulações interativas!\n\n📄 Download em PDF"
   },
   {
-    "objectID": "posts/matematica/funcoes-graficos.html",
-    "href": "posts/matematica/funcoes-graficos.html",
-    "title": "Funções e Gráficos",
+    "objectID": "posts/matematica/algebra/fatoracao.html",
+    "href": "posts/matematica/algebra/fatoracao.html",
+    "title": "Álgebra: Fatoração",
     "section": "",
-    "text": "Funções e Gráficos\nEstudo das relações funcionais e interpretação de gráficos.\n\n Voltar para Índice de Matemática\n\n\n\n\n\n\n\nReferences\n\nApostol, T. M. (1967). Calculus, volume i. Blaisdell Publishing Company.\n\n\nStewart, J. (2013). Cálculo: Volume 1 (7th ed.). Cengage Learning."
+    "text": "Em breve conteúdos e exercícios sobre fatoração!\n\n📄 Download em PDF"
   },
   {
-    "objectID": "posts/matematica/index.html",
-    "href": "posts/matematica/index.html",
-    "title": "Matemática Secundário",
+    "objectID": "posts/matematica/algebra/polinomios.html",
+    "href": "posts/matematica/algebra/polinomios.html",
+    "title": "Álgebra: Polinómios",
     "section": "",
-    "text": "Números Reais\nFunções e Gráficos\nTrigonometria\nPolinómios\nGeometria Analítica\nExercícios de Avaliação\n\n\n\n\nEste módulo visa:\n\nConsolidar conceitos básicos de Matemática;\nDesenvolver competências de análise de funções e equações;\nAplicar conhecimentos em problemas práticos;\nPreparar para exames e avaliações finais.\n\n\n\nVoltar ao Início"
+    "text": "Em breve conteúdos e exercícios sobre polinómios!\n\n📄 Download em PDF"
   },
   {
-    "objectID": "posts/matematica/index.html#objetivos-do-módulo",
-    "href": "posts/matematica/index.html#objetivos-do-módulo",
-    "title": "Matemática Secundário",
+    "objectID": "posts/matematica/algebra/sistemas-lineares.html",
+    "href": "posts/matematica/algebra/sistemas-lineares.html",
+    "title": "Álgebra: Sistemas Lineares",
     "section": "",
-    "text": "Este módulo visa:\n\nConsolidar conceitos básicos de Matemática;\nDesenvolver competências de análise de funções e equações;\nAplicar conhecimentos em problemas práticos;\nPreparar para exames e avaliações finais.\n\n\n\nVoltar ao Início"
+    "text": "Em breve conteúdos e exercícios sobre sistemas lineares!\n\n📄 Download em PDF"
   },
   {
-    "objectID": "posts/matematica/polinomios.html",
-    "href": "posts/matematica/polinomios.html",
-    "title": "Polinómios",
+    "objectID": "posts/matematica/calculo/derivadas.html",
+    "href": "posts/matematica/calculo/derivadas.html",
+    "title": "Cálculo: Derivadas",
     "section": "",
-    "text": "Polinómios\nExploração de operações algébricas e fatorização.\n\n Voltar para Índice de Matemática\n\n\n\n\n\n\n\nReferences\n\nApostol, T. M. (1967). Calculus, volume i. Blaisdell Publishing Company.\n\n\nStewart, J. (2013). Cálculo: Volume 1 (7th ed.). Cengage Learning."
+    "text": "Em breve conteúdos e exercícios sobre derivadas!\n\n📄 Download em PDF"
   },
   {
-    "objectID": "posts/matematica10/avaliacao-matematica.html",
-    "href": "posts/matematica10/avaliacao-matematica.html",
-    "title": "Exercícios de Avaliação",
+    "objectID": "posts/matematica/calculo/integrais.html",
+    "href": "posts/matematica/calculo/integrais.html",
+    "title": "Cálculo: Integrais",
     "section": "",
-    "text": "Exercícios de Avaliação\nExercícios para aplicação prática dos conceitos aprendidos.\n\n Voltar para Índice de Matemática\n\n\n\n\n\n\n\nReferences\n\nApostol, T. M. (1967). Calculus, volume i. Blaisdell Publishing Company.\n\n\nStewart, J. (2013). Cálculo: Volume 1 (7th ed.). Cengage Learning."
+    "text": "Em breve conteúdos e exercícios sobre integrais!\n\n📄 Download em PDF"
   },
   {
-    "objectID": "posts/matematica10/geometria-analitica.html",
-    "href": "posts/matematica10/geometria-analitica.html",
-    "title": "Geometria Analítica",
+    "objectID": "posts/matematica/calculo/teorema-fundamental.html",
+    "href": "posts/matematica/calculo/teorema-fundamental.html",
+    "title": "Cálculo: Teorema Fundamental do Cálculo",
     "section": "",
-    "text": "Geometria Analítica\nAnálise das propriedades geométricas através da álgebra.\n\n Voltar para Índice de Matemática\n\n\n\n\n\n\n\nReferences\n\nApostol, T. M. (1967). Calculus, volume i. Blaisdell Publishing Company.\n\n\nStewart, J. (2013). Cálculo: Volume 1 (7th ed.). Cengage Learning."
+    "text": "Em breve conteúdos e exercícios sobre teorema fundamental do cálculo!\n\n📄 Download em PDF"
   },
   {
-    "objectID": "posts/matematica10/numeros-reais.html",
-    "href": "posts/matematica10/numeros-reais.html",
-    "title": "Números Reais",
+    "objectID": "posts/matematica/matematica10/artigo2/index.html",
+    "href": "posts/matematica/matematica10/artigo2/index.html",
+    "title": "Lição 2 - Modelos Matemáticos nas Eleições: Sistemas de Votação – Introdução",
     "section": "",
-    "text": "Números Reais\nExploração dos conjuntos numéricos e suas propriedades fundamentais.\n\n Voltar para Índice de Matemática\n\n\n\n\n\n\n\nReferences\n\nApostol, T. M. (1967). Calculus, volume i. Blaisdell Publishing Company.\n\n\nStewart, J. (2013). Cálculo: Volume 1 (7th ed.). Cengage Learning."
+    "text": "📄 Baixar PDF 🖨️ Imprimir"
   },
   {
-    "objectID": "posts/matematica10/trigonometria.html",
-    "href": "posts/matematica10/trigonometria.html",
-    "title": "Trigonometria",
-    "section": "",
-    "text": "Trigonometria\nEstudo de relações trigonométricas e suas aplicações.\n\n Voltar para Índice de Matemática\n\n\n\n\n\n\n\nReferences\n\nApostol, T. M. (1967). Calculus, volume i. Blaisdell Publishing Company.\n\n\nStewart, J. (2013). Cálculo: Volume 1 (7th ed.). Cengage Learning."
+    "objectID": "posts/matematica/matematica10/artigo2/index.html#introdução",
+    "href": "posts/matematica/matematica10/artigo2/index.html#introdução",
+    "title": "Lição 2 - Modelos Matemáticos nas Eleições: Sistemas de Votação – Introdução",
+    "section": "Introdução",
+    "text": "Introdução\nA aplicação da matemática aos processos eleitorais permite compreender como funcionam diferentes sistemas de votação e como pequenas variações nas regras podem alterar o resultado final. Esta lição introduz os principais tipos de sistemas usados em eleições democráticas."
   },
   {
-    "objectID": "posts/matematica11/estatistica.html",
-    "href": "posts/matematica11/estatistica.html",
+    "objectID": "posts/matematica/matematica10/artigo2/index.html#tipos-de-sistemas-de-votação",
+    "href": "posts/matematica/matematica10/artigo2/index.html#tipos-de-sistemas-de-votação",
+    "title": "Lição 2 - Modelos Matemáticos nas Eleições: Sistemas de Votação – Introdução",
+    "section": "Tipos de Sistemas de Votação",
+    "text": "Tipos de Sistemas de Votação\n\nMaioria Simples: vence o candidato com mais votos, mesmo que não tenha maioria absoluta.\nMaioria Absoluta: exige mais de 50% dos votos. Pode implicar segunda volta.\nVotação por Pontos (Borda): os eleitores atribuem pontuações aos candidatos.\nVotação por Preferência (Condorcet): analisa todas as comparações par a par."
+  },
+  {
+    "objectID": "posts/matematica/matematica10/artigo2/index.html#diagrama-conceitual",
+    "href": "posts/matematica/matematica10/artigo2/index.html#diagrama-conceitual",
+    "title": "Lição 2 - Modelos Matemáticos nas Eleições: Sistemas de Votação – Introdução",
+    "section": "Diagrama Conceitual",
+    "text": "Diagrama Conceitual\n\ngraph TD\n  A[\"Sistemas de Votação\"]\n  A --&gt; B[\"Maioria Simples\"]\n  A --&gt; C[\"Maioria Absoluta\"]\n  A --&gt; D[\"Sistema Borda-Pontuação\"]\n  A --&gt; E[\"Sistema Condorcet-Preferências\"]"
+  },
+  {
+    "objectID": "posts/matematica/matematica10/artigo2/index.html#simulação-com-python-votação-por-maioria-simples",
+    "href": "posts/matematica/matematica10/artigo2/index.html#simulação-com-python-votação-por-maioria-simples",
+    "title": "Lição 2 - Modelos Matemáticos nas Eleições: Sistemas de Votação – Introdução",
+    "section": "Simulação com Python: Votação por Maioria Simples",
+    "text": "Simulação com Python: Votação por Maioria Simples\n\n\nCódigo\nfrom collections import Counter\n\n# Lista de votos dos eleitores\nvotos = ['A', 'B', 'A', 'C', 'B', 'A', 'C', 'A', 'B', 'A']\n\ncontagem = Counter(votos)\nvencedor = contagem.most_common(1)[0]\n\nprint(\"Resultado da votação:\")\nfor candidato, n in contagem.items():\n    print(f\"Candidato {candidato}: {n} votos\")\n\nprint(f\"Vencedor por maioria simples: Candidato {vencedor[0]} com {vencedor[1]} votos.\")\n\n\nResultado da votação:\nCandidato A: 5 votos\nCandidato B: 3 votos\nCandidato C: 2 votos\nVencedor por maioria simples: Candidato A com 5 votos."
+  },
+  {
+    "objectID": "posts/matematica/matematica10/artigo2/index.html#exemplo-resolvido",
+    "href": "posts/matematica/matematica10/artigo2/index.html#exemplo-resolvido",
+    "title": "Lição 2 - Modelos Matemáticos nas Eleições: Sistemas de Votação – Introdução",
+    "section": "Exemplo Resolvido",
+    "text": "Exemplo Resolvido\n\nEnunciado\nNuma eleição com 5 eleitores e 3 candidatos (X, Y, Z), cada eleitor vota em apenas um candidato. Os votos foram:\n\n2 votos para X\n\n2 votos para Y\n\n1 voto para Z\n\nQuestões:\n\nQuem vence por maioria simples?\n\nHá algum candidato com maioria absoluta?\n\n\n\n\n\n\n\n\nVer solução\n\n\n\n\n\n\nTotal de votos: \\(2 + 2 + 1 = 5\\)\n\nMaioria absoluta: mais de \\(5 \\div 2 = 2.5\\) → ou seja, pelo menos 3 votos\n\n✅ Maioria simples: X e Y têm o mesmo número de votos (2 cada) → empate técnico\n❌ Maioria absoluta: Nenhum candidato obteve pelo menos 3 votos\nNeste caso, pode ser necessário: - um segundo turno entre X e Y; - ou aplicar uma regra de desempate, como sorteio ou idade (conforme definido pelo regulamento eleitoral).\n\nA maioria simples pode resultar em empate quando há divisão equilibrada dos votos."
+  },
+  {
+    "objectID": "posts/matematica/matematica10/artigo2/index.html#reflexão-didática",
+    "href": "posts/matematica/matematica10/artigo2/index.html#reflexão-didática",
+    "title": "Lição 2 - Modelos Matemáticos nas Eleições: Sistemas de Votação – Introdução",
+    "section": "Reflexão Didática",
+    "text": "Reflexão Didática\n\nCompreender diferentes regras de votação ajuda a perceber os impactos sociais e políticos da matemática.\nOs modelos podem ser simulados com algoritmos simples, como listas e contagem de votos.\nRepresentações gráficas ajudam a visualizar e comparar os sistemas."
+  },
+  {
+    "objectID": "posts/matematica/matematica10/index.html",
+    "href": "posts/matematica/matematica10/index.html",
+    "title": "Matemática 10",
+    "section": "",
+    "text": "Álgebra, Cálculo, Geometria e Estatística .\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nLição 1 - Os Números Reais\n\n\n\n\n\nIntrodução ao conjunto dos números reais, suas propriedades, subconjuntos e representações na reta real.\n\n\n\n\n\nMay 14, 2025\n\n\n\n\n\n\n\n\n\n\n\n\nLição 2 - Modelos Matemáticos nas Eleições: Sistemas de Votação – Introdução\n\n\n\n\n\nExploração introdutória de modelos matemáticos aplicados a sistemas eleitorais e mecanismos de votação, com representação esquemática e simulação computacional.\n\n\n\n\n\nMay 14, 2025\n\n\n\n\n\n\n\n\n\n\n\n\nLição 3 - Modelos Matemáticos nas Eleições: Sistemas Maioritários\n\n\n\n\n\nExploração do conceito de maioria em sistemas eleitorais, com destaque para maioria simples e absoluta, através de diagramas, exemplos e simulação computacional.\n\n\n\n\n\nMay 14, 2025\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "posts/matematica/matematica11/estatistica.html",
+    "href": "posts/matematica/matematica11/estatistica.html",
     "title": "Estatística Descritiva",
     "section": "",
     "text": "Estatística Descritiva\nMedição de tendências centrais, dispersão e representação gráfica de dados.\n\n Voltar para Índice de Matemática\n\n\n\n\n\n\n\nReferences\n\nApostol, T. M. (1967). Calculus, volume i. Blaisdell Publishing Company.\n\n\nStewart, J. (2013). Cálculo: Volume 1 (7th ed.). Cengage Learning."
   },
   {
-    "objectID": "posts/matematica11/funcoes-polinomiais.html",
-    "href": "posts/matematica11/funcoes-polinomiais.html",
+    "objectID": "posts/matematica/matematica11/funcoes-polinomiais.html",
+    "href": "posts/matematica/matematica11/funcoes-polinomiais.html",
     "title": "Funções Polinomiais e Racionais",
     "section": "",
     "text": "Funções Polinomiais e Racionais\nAnálise gráfica, domínio, zeros e comportamento assintótico.\n\n Voltar para Índice de Matemática\n\n\n\n\n\n\n\nReferences\n\nApostol, T. M. (1967). Calculus, volume i. Blaisdell Publishing Company.\n\n\nStewart, J. (2013). Cálculo: Volume 1 (7th ed.). Cengage Learning."
   },
   {
-    "objectID": "posts/matematica11/probabilidades.html",
-    "href": "posts/matematica11/probabilidades.html",
+    "objectID": "posts/matematica/matematica11/probabilidades.html",
+    "href": "posts/matematica/matematica11/probabilidades.html",
     "title": "Probabilidades",
     "section": "",
     "text": "Probabilidades\nCálculo da probabilidade de eventos simples e compostos.\n\n Voltar para Índice de Matemática\n\n\n\n\n\n\n\nReferences\n\nApostol, T. M. (1967). Calculus, volume i. Blaisdell Publishing Company.\n\n\nStewart, J. (2013). Cálculo: Volume 1 (7th ed.). Cengage Learning."
   },
   {
-    "objectID": "posts/matematica11/trigonometria-avancada.html",
-    "href": "posts/matematica11/trigonometria-avancada.html",
+    "objectID": "posts/matematica/matematica11/trigonometria-avancada.html",
+    "href": "posts/matematica/matematica11/trigonometria-avancada.html",
     "title": "Trigonometria Avançada",
     "section": "",
     "text": "Trigonometria Avançada\nEstudo aprofundado de razões trigonométricas, identidades e equações.\n\n Voltar para Índice de Matemática\n\n\n\n\n\n\n\nReferences\n\nApostol, T. M. (1967). Calculus, volume i. Blaisdell Publishing Company.\n\n\nStewart, J. (2013). Cálculo: Volume 1 (7th ed.). Cengage Learning."
   },
   {
-    "objectID": "posts/matematica12/derivadas.html",
-    "href": "posts/matematica12/derivadas.html",
+    "objectID": "posts/matematica/matematica12/derivadas.html",
+    "href": "posts/matematica/matematica12/derivadas.html",
     "title": "Derivadas e Aplicações",
     "section": "",
     "text": "Derivadas e Aplicações\nUtilização das derivadas no estudo do crescimento, máximos, mínimos e concavidade de funções.\n\n Voltar para Índice de Matemática\n\n\n\n\n\n\n\nReferences\n\nApostol, T. M. (1967). Calculus, volume i. Blaisdell Publishing Company.\n\n\nStewart, J. (2013). Cálculo: Volume 1 (7th ed.). Cengage Learning."
   },
   {
-    "objectID": "posts/matematica12/geometria-espaco.html",
-    "href": "posts/matematica12/geometria-espaco.html",
+    "objectID": "posts/matematica/matematica12/geometria-espaco.html",
+    "href": "posts/matematica/matematica12/geometria-espaco.html",
     "title": "Geometria no Espaço",
     "section": "",
     "text": "Geometria no Espaço\nAnálise de posições relativas de elementos no espaço e suas equações.\n\n Voltar para Índice de Matemática\n\n\n\n\n\n\n\nReferences\n\nApostol, T. M. (1967). Calculus, volume i. Blaisdell Publishing Company.\n\n\nStewart, J. (2013). Cálculo: Volume 1 (7th ed.). Cengage Learning."
   },
   {
-    "objectID": "posts/matematica12/integrais.html",
-    "href": "posts/matematica12/integrais.html",
+    "objectID": "posts/matematica/matematica12/integrais.html",
+    "href": "posts/matematica/matematica12/integrais.html",
     "title": "Integrais e Áreas",
     "section": "",
     "text": "Integrais e Áreas\nCálculo de áreas sob curvas através de integrais definidas.\n\n Voltar para Índice de Matemática\n\n\n\n\n\n\n\nReferences\n\nApostol, T. M. (1967). Calculus, volume i. Blaisdell Publishing Company.\n\n\nStewart, J. (2013). Cálculo: Volume 1 (7th ed.). Cengage Learning."
+  },
+  {
+    "objectID": "posts/matematica/series/aplicacoes-engenharia.html",
+    "href": "posts/matematica/series/aplicacoes-engenharia.html",
+    "title": "Séries: Aplicações em Engenharia",
+    "section": "",
+    "text": "Em breve conteúdos e exercícios sobre aplicações em engenharia!\n\n📄 Download em PDF"
+  },
+  {
+    "objectID": "posts/matematica/series/index.html",
+    "href": "posts/matematica/series/index.html",
+    "title": "Séries Matemáticas",
+    "section": "",
+    "text": "Nesta secção, aprofundamos o estudo de séries e suas aplicações:\n\nSéries Matemáticas: Introdução\nSéries Numéricas\nConvergência de Séries\nSéries de Potências\nSéries de Taylor\nProblemas com Séries\nAplicações em Engenharia\n\nClique nos tópicos para aceder ao conteúdo.\n\n\n\nEsta secção visa:\n\nCompreender a estrutura e o comportamento das séries matemáticas;\nEstudar os critérios de convergência e divergência;\nExplorar séries de potências e aplicações práticas como aproximações de funções;\nRelacionar séries com problemas reais em engenharia e ciências aplicadas.\n\n\n\nVoltar ao Início"
+  },
+  {
+    "objectID": "posts/matematica/series/index.html#objetivos-da-secção",
+    "href": "posts/matematica/series/index.html#objetivos-da-secção",
+    "title": "Séries Matemáticas",
+    "section": "",
+    "text": "Esta secção visa:\n\nCompreender a estrutura e o comportamento das séries matemáticas;\nEstudar os critérios de convergência e divergência;\nExplorar séries de potências e aplicações práticas como aproximações de funções;\nRelacionar séries com problemas reais em engenharia e ciências aplicadas.\n\n\n\nVoltar ao Início"
+  },
+  {
+    "objectID": "posts/matematica/series/series-matematicas.html",
+    "href": "posts/matematica/series/series-matematicas.html",
+    "title": "Séries Matemáticas",
+    "section": "",
+    "text": "Já imaginou somar infinitos números e ainda assim chegar a um valor finito?\nEsta é a fascinante realidade das séries matemáticas!\nNesta lição, vamos explorar os conceitos fundamentais das séries numéricas: o que são, como se comportam e como podemos analisá-las com ferramentas práticas.\n\n\nPara aprofundar a compreensão deste tema, ouça o comentário didático:\n\n   Ouvir no Vocaroo \n\n\n\n\nUma série é a soma dos termos de uma sequência:\n\\[\n\\sum_{n=1}^{\\infty} a_n\n\\]\nDizemos que uma série converge se a sequência das somas parciais tem limite finito (Apostol, 1967):\n\\[\nS_N = \\sum_{n=1}^{N} a_n \\longrightarrow S \\quad \\text{quando } N \\to \\infty\n\\]"
+  },
+  {
+    "objectID": "posts/matematica/series/series-matematicas.html#comentário-didático",
+    "href": "posts/matematica/series/series-matematicas.html#comentário-didático",
+    "title": "Séries Matemáticas",
+    "section": "",
+    "text": "Para aprofundar a compreensão deste tema, ouça o comentário didático:\n\n   Ouvir no Vocaroo"
+  },
+  {
+    "objectID": "posts/matematica/series/series-matematicas.html#definição",
+    "href": "posts/matematica/series/series-matematicas.html#definição",
+    "title": "Séries Matemáticas",
+    "section": "",
+    "text": "Uma série é a soma dos termos de uma sequência:\n\\[\n\\sum_{n=1}^{\\infty} a_n\n\\]\nDizemos que uma série converge se a sequência das somas parciais tem limite finito (Apostol, 1967):\n\\[\nS_N = \\sum_{n=1}^{N} a_n \\longrightarrow S \\quad \\text{quando } N \\to \\infty\n\\]"
+  },
+  {
+    "objectID": "posts/matematica/series/series-matematicas.html#vídeo-de-apoio",
+    "href": "posts/matematica/series/series-matematicas.html#vídeo-de-apoio",
+    "title": "Séries Matemáticas",
+    "section": "Vídeo de Apoio",
+    "text": "Vídeo de Apoio"
+  },
+  {
+    "objectID": "posts/matematica/series/series-matematicas.html#representação-gráfica-interativa",
+    "href": "posts/matematica/series/series-matematicas.html#representação-gráfica-interativa",
+    "title": "Séries Matemáticas",
+    "section": "Representação Gráfica Interativa",
+    "text": "Representação Gráfica Interativa\nExplore a série de forma interativa no Geogebra:"
+  },
+  {
+    "objectID": "posts/matematica/series/series-matematicas.html#observação",
+    "href": "posts/matematica/series/series-matematicas.html#observação",
+    "title": "Séries Matemáticas",
+    "section": "Observação",
+    "text": "Observação\nA convergência de uma série depende do comportamento da soma parcial, não apenas da tendência dos termos \\(a_n\\)."
+  },
+  {
+    "objectID": "posts/matematica/series/series-matematicas.html#recursos-disponíveis",
+    "href": "posts/matematica/series/series-matematicas.html#recursos-disponíveis",
+    "title": "Séries Matemáticas",
+    "section": "Recursos Disponíveis",
+    "text": "Recursos Disponíveis\nExplore, execute ou veja o conteúdo completo desta lição:\n\n             Voltar para Índice de Cálculo \n\n\n📄 Download em PDF"
+  },
+  {
+    "objectID": "posts/matematica/series/series-potencias.html",
+    "href": "posts/matematica/series/series-potencias.html",
+    "title": "Séries: Séries de Potências",
+    "section": "",
+    "text": "Em breve conteúdos e exercícios sobre séries de potências!\n\n📄 Download em PDF"
   },
   {
     "objectID": "posts/post-with-code/index.html",
@@ -712,34 +782,6 @@
     "title": "Química: Reações Químicas",
     "section": "",
     "text": "Em breve conteúdos e exercícios sobre reações químicas!\n\n📄 Download em PDF"
-  },
-  {
-    "objectID": "posts/series/convergencia-series.html",
-    "href": "posts/series/convergencia-series.html",
-    "title": "Séries: Convergência de Séries",
-    "section": "",
-    "text": "Em breve conteúdos e exercícios sobre convergência de séries!\n\n📄 Download em PDF"
-  },
-  {
-    "objectID": "posts/series/problema-series.html",
-    "href": "posts/series/problema-series.html",
-    "title": "Séries Matemáticas",
-    "section": "",
-    "text": "Considere a série numérica:\n\\[\n\\sum_{n=1}^{\\infty} \\frac{1}{n^2}\n\\]\n\nDetermine se a série é convergente ou divergente.\nJustifique usando uma comparação ou teste adequado."
-  },
-  {
-    "objectID": "posts/series/series-numericas.html",
-    "href": "posts/series/series-numericas.html",
-    "title": "Séries: Séries Numéricas",
-    "section": "",
-    "text": "Em breve conteúdos e exercícios sobre séries numéricas!\n\n📄 Download em PDF"
-  },
-  {
-    "objectID": "posts/series/series-taylor.html",
-    "href": "posts/series/series-taylor.html",
-    "title": "Séries: Séries de Taylor",
-    "section": "",
-    "text": "Em breve conteúdos e exercícios sobre séries de taylor!\n\n📄 Download em PDF"
   },
   {
     "objectID": "posts/termodinamica/entropia.html",

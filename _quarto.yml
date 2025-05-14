@@ -24,7 +24,7 @@ website:
         menu:
       
           - text: "📘 Matemática 10.º"
-            href: posts/matematica10/index.qmd
+            href: posts/matematica/matematica10/
           - text: "📗 Matemática 11.º"
             href: posts/matematica11/index.qmd
           - text: "📙 Matemática 12.º"
