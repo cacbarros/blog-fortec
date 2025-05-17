@@ -1,0 +1,12 @@
+{
+  "hash": "04098c98b1268eafa9a74d63a7a56b19",
+  "result": {
+    "engine": "jupyter",
+    "markdown": "---\ntitle: \"Operações com Matrizes\"\nlang: pt\nlanguage:\n  toc-title: \"Índice\"\nfilters:\n  - watermark\nwatermark:\n  text: \"RASCUNHO\"\n  size: 1.5\n  angle: 30\n  color: \"#FF0000\"\n  opacity: 0.1\ndescription: \"Introdução às operações básicas com matrizes: soma, multiplicação e determinantes.\"\ndate: 2025-05-08\ncategories: ['Álgebra Linear', 'Matemática']\nformat:\n  html: default\n  pdf: default\ntoc: true\ncode-fold: true\nexecute:\n  echo: true\n  warning: false\n  message: false\n  eval: true\nbibliography: artigo2.bib\ncsl: apa.csl\nnocite: \"@*\"\nreference-title: \"Referências\"\n---\n\n\n\n\n\n\n::: {.content-visible when-format=\"html\"}\n<div style=\"display: flex; gap: 1rem; margin-bottom: 1rem;\">\n  <a href=\"./index.pdf\" target=\"_blank\" class=\"btn btn-primary\">📄 Baixar PDF</a>\n  <button onclick=\"window.print()\" class=\"btn btn-outline-secondary\">🖨️ Imprimir</button>\n</div>\n:::\n\n\n<div style=\"margin-top: 2rem;\"></div>\n\n# Matrizes\n\nMatrizes são estruturas fundamentais para representar e resolver sistemas lineares e transformações.\n\n## Exemplo\n\n::: {#c204037c .cell execution_count=1}\n``` {.python .cell-code}\nimport sympy as sp\n\nA = sp.Matrix([[1, 2], [3, 4]])\nB = sp.Matrix([[2, 0], [1, 2]])\n\nsoma = A + B\nproduto = A * B\ndet_A = A.det()\n\nsoma, produto, det_A\n```\n\n::: {.cell-output .cell-output-display execution_count=1}\n```\n(Matrix([\n [3, 2],\n [4, 6]]),\n Matrix([\n [ 4, 4],\n [10, 8]]),\n -2)\n```\n:::\n:::\n\n\nGráfico: representação matricial de uma transformação linear\n\n::: {#880442cf .cell execution_count=2}\n``` {.python .cell-code}\nimport numpy as np\nimport matplotlib.pyplot as plt\n\nA = np.array([[2, 0], [0, 1]])\ngrid = np.array([[x, y] for x in np.linspace(-2, 2, 10) for y in np.linspace(-2, 2, 10)])\n\ntransformed = grid @ A.T\nplt.quiver(grid[:, 0], grid[:, 1], transformed[:, 0] - grid[:, 0], transformed[:, 1] - grid[:, 1],\n           angles='xy', scale_units='xy', scale=1, color='blue')\nplt.axhline(0, color='grey')\nplt.axvline(0, color='grey')\nplt.title(\"Transformação Linear com Matriz A\")\nplt.grid(True)\nplt.axis(\"equal\")\nplt.show()\n```\n\n::: {.cell-output .cell-output-display}\n![](index_files/figure-html/cell-3-output-1.png){}\n:::\n:::\n\n\n## Referências\n\n",
+    "supporting": [
+      "index_files"
+    ],
+    "filters": [],
+    "includes": {}
+  }
+}

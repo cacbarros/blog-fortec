@@ -1,0 +1,21 @@
+---
+title: "Álgebra"
+description: "Índice de temas de Álgebra do Ensino Secundário."
+format: html
+---
+
+# 🧮 Álgebra: Índice de Temas
+
+Nesta secção, exploraremos diversos tópicos fundamentais de Álgebra:
+
+- [Equações Quadráticas](equacoes-quadraticas.qmd)
+- [Sistemas de Equações Lineares](sistemas-lineares.qmd)
+- [Polinómios e Raízes](polinomios.qmd)
+- [Fatoração](fatoracao.qmd)
+- [Produtos notáveis](produtos-notaveis.qmd)
+
+Clique nos tópicos para aceder ao conteúdo.
+
+---
+
+<p><a href="../../index.html" style="padding: 8px 16px; background-color: #17a2b8; color: white; border-radius: 5px; text-decoration: none;">Voltar ao Início</a></p>

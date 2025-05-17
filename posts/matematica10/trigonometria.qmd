@@ -1,0 +1,24 @@
+---
+title: "Trigonometria"
+description: "Conceitos básicos e aplicações da trigonometria."
+date: 2025-04-26
+categories: [Matemática]
+format:
+  html:
+    toc: true
+    code-fold: true
+bibliography: referencias.bib
+csl: apa.csl
+nocite: "@*"
+execute:
+  kernel: ctgan_env
+---
+
+# Trigonometria
+
+Estudo de relações trigonométricas e suas aplicações.
+
+<p><a href="index.html" style="padding: 8px 16px; background-color: #6f42c1; color: white; border-radius: 5px; text-decoration: none;"> Voltar para Índice de Matemática</a></p>
+
+---
+

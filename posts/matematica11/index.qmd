@@ -1,0 +1,30 @@
+---
+title: "Matemática Secundário - 11.º ano"
+description: "Índice de  Matemática do Ensino Secundário (11.º ano)."
+format: html
+---
+
+# Índice do Módulo
+
+- [Funções Polinomiais e Racionais](funcoes-polinomiais.qmd)
+- [Exponenciais e Logaritmos](exponenciais-logaritmos.qmd)
+- [Sucessões e Progressões](sucessoes.qmd)
+- [Trigonometria Avançada](trigonometria-avancada.qmd)
+- [Probabilidades](probabilidades.qmd)
+- [Estatística Descritiva](estatistica.qmd)
+- [Exercícios de Avaliação](avaliacao-matematica.qmd)
+
+---
+
+## Objetivos do Módulo
+
+Este módulo visa:
+
+- Aprofundar o estudo de funções e suas aplicações;
+- Desenvolver a capacidade de modelar fenómenos com funções exponenciais e logarítmicas;
+- Aplicar o raciocínio probabilístico e estatístico na resolução de problemas;
+- Preparar de forma eficaz para avaliações e exames nacionais.
+
+---
+
+<p><a href="../../index.html" style="padding: 8px 16px; background-color: #17a2b8; color: white; border-radius: 5px; text-decoration: none;">Voltar ao Início</a></p>

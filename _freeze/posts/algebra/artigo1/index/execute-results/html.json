@@ -1,0 +1,12 @@
+{
+  "hash": "5c2050b50dd71b0f0e0ffa5c2d56e6c2",
+  "result": {
+    "engine": "jupyter",
+    "markdown": "---\ntitle: \"Álgebra Linear\"\nlang: pt\nlanguage:\n  toc-title: \"Índice\"\nfilters:\n  - watermark\nwatermark:\n  text: \"RASCUNHO\"\n  size: 1.5\n  angle: 30\n  color: \"#FF0000\"\n  opacity: 0.1\ndescription: \"Sistemas de Equações\"\ndate: 2025-05-08\ncategories: ['Matemática', 'Secundário']\nformat:\n  html: default\n  pdf: default\ntoc: true\ncode-fold: true\nexecute:\n  echo: true\n  warning: false\n  message: false\n  eval: true\nbibliography: artigo1.bib\ncsl: apa.csl\nnocite: \"@*\"\nreference-title: \"Referências\"\n---\n\n\n\n\n\n\n::: {.content-visible when-format=\"html\"}\n<div style=\"display: flex; gap: 1rem; margin-bottom: 1rem;\">\n  <a href=\"./index.pdf\" target=\"_blank\" class=\"btn btn-primary\">📄 Baixar PDF</a>\n  <button onclick=\"window.print()\" class=\"btn btn-outline-secondary\">🖨️ Imprimir</button>\n</div>\n:::\n\n<div style=\"margin-top: 2rem;\"></div>\n\n# Sistemas de equações\n\n\nA resolução de sistemas de equações é uma das aplicações fundamentais da Álgebra Linear.\n\n## Exemplo: sistema com 2 equações e 2 incógnitas\n\n$$\n\\begin{cases}\nx + 2y = 5 \\\\\n3x - y = 4\n\\end{cases}\n$$\n\n::: {#1302e1ba .cell execution_count=1}\n``` {.python .cell-code}\nimport sympy as sp\nx, y = sp.symbols('x y')\n\neq1 = sp.Eq(x + 2*y, 5)\neq2 = sp.Eq(3*x - y, 4)\n\nsolucao = sp.solve((eq1, eq2), (x, y))\nsolucao\n```\n\n::: {.cell-output .cell-output-display execution_count=1}\n```\n{x: 13/7, y: 11/7}\n```\n:::\n:::\n\n\nVisualização gráfica:\n\n::: {#12913627 .cell execution_count=2}\n``` {.python .cell-code}\nimport numpy as np\nimport matplotlib.pyplot as plt\n\nx_vals = np.linspace(-1, 5, 100)\ny1 = (5 - x_vals) / 2\ny2 = (3 * x_vals - 4)\n\nplt.plot(x_vals, y1, label='x + 2y = 5')\nplt.plot(x_vals, y2, label='3x - y = 4')\nplt.xlabel('x')\nplt.ylabel('y')\nplt.title('Solução Gráfica de um Sistema Linear')\nplt.grid(True)\nplt.legend()\nplt.show()\n```\n\n::: {.cell-output .cell-output-display}\n![](index_files/figure-html/cell-3-output-1.png){}\n:::\n:::\n\n\n## Referências\n\n",
+    "supporting": [
+      "index_files"
+    ],
+    "filters": [],
+    "includes": {}
+  }
+}

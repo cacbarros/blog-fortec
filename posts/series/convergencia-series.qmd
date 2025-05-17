@@ -1,0 +1,30 @@
+---
+title: "Séries: Convergência de Séries"
+filters:
+  - watermark
+watermark:
+  text: "RASCUNHO"
+  size: 1.5
+  angle: 30
+  color: "#FF0000"
+  opacity: 0.1
+format:
+  html: default
+  pdf: default
+toc: true
+code-fold: true
+bibliography: series.bib
+csl: apa.csl
+nocite: "@*"
+reference-title: "Referências"
+---
+
+# Séries: Convergência de Séries
+
+Em breve conteúdos e exercícios sobre convergência de séries!
+
+---
+
+📄 [Download em PDF](./convergencia-series.pdf){target="_blank"}
+
+## Referências

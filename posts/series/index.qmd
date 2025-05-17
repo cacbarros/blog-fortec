@@ -1,0 +1,34 @@
+---
+title: "Séries Matemáticas"
+description: "Índice de séries numéricas, séries de potências e aplicações em Matemática e Engenharia."
+format: html
+---
+
+# ➗ Séries Matemáticas: Índice de Temas
+
+Nesta secção, aprofundamos o estudo de séries e suas aplicações:
+
+- [Séries Matemáticas: Introdução](series-matematicas.qmd)
+- [Séries Numéricas](series-numericas.qmd)
+- [Convergência de Séries](convergencia-series.qmd)
+- [Séries de Potências](series-potencias.qmd)
+- [Séries de Taylor](series-taylor.qmd)
+- [Problemas com Séries](problema-series.qmd)
+- [Aplicações em Engenharia](aplicacoes-engenharia.qmd)
+
+Clique nos tópicos para aceder ao conteúdo.
+
+---
+
+## Objetivos da Secção
+
+Esta secção visa:
+
+- Compreender a estrutura e o comportamento das séries matemáticas;
+- Estudar os critérios de convergência e divergência;
+- Explorar séries de potências e aplicações práticas como aproximações de funções;
+- Relacionar séries com problemas reais em engenharia e ciências aplicadas.
+
+---
+
+<p><a href="../../index.html" style="padding: 8px 16px; background-color: #17a2b8; color: white; border-radius: 5px; text-decoration: none;">Voltar ao Início</a></p>
