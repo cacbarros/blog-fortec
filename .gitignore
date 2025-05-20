@@ -1,8 +1,5 @@
-
-.quarto/
-
-/.quarto/
-
+# Ignora a pasta de visualização local
 _site/
- 
- 
+
+# Ignora metadados e configurações geradas automaticamente
+.quarto/
