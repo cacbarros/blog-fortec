@@ -134,8 +134,8 @@ Classifica os seguintes números como **racional** ou **irracional**:
 ✅ **Todos pertencem ao conjunto dos Números Reais** ($\mathbb{R}$)
 
 > Os números irracionais “preenchem” os espaços entre os racionais, formando um conjunto contínuo: $\mathbb{R} = \mathbb{Q} \cup \mathbb{I}$
-:::
 
+:::
 
 
 ## Considerações Didáticas
