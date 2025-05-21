@@ -83,9 +83,10 @@ graph TD
 :::
 
 ::: {.content-visible when-format="pdf"}
+
 ```{=latex}
 \begin{center}
-\includegraphics[width=0.7\linewidth]{diagrama.png}
+\includegraphics[width=0.7\linewidth]{diagrama1.png}
 \end{center}
 ```
 :::
@@ -143,6 +144,6 @@ Classifica os seguintes números como **racional** ou **irracional**:
 - Compreender a hierarquia dos subconjuntos de $\mathbb{R}$.
 - Diferenciar racionalidade e irracionalidade numérica.
 - Representar pontos na reta real com precisão crescente.
-- Relacionar matemática simbólica com aplicações computacionais.
+- Relacionar matemática simbólica com aplicações computacionais designadamnte python.
 
 # Referências {.unnumbered}
