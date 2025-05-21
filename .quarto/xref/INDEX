@@ -577,5 +577,21 @@
   "posts/matematica/matematica10/artigo3/index.qmd": {
     "index.tex": "73342854",
     "index.html": "ad3533ca"
+  },
+  "posts/algebra/artigo1/index.qmd": {
+    "index.html": "af599d3d",
+    "index.tex": "53a6b851"
+  },
+  "posts/algebra/artigo2/index.qmd": {
+    "index.html": "3668dd05",
+    "index.tex": "68825821"
+  },
+  "posts/algebra/artigo3/index.qmd": {
+    "index.html": "5877ad2b",
+    "index.tex": "3b63233a"
+  },
+  "posts/matematica10/artigo1/index.qmd": {
+    "index.html": "a6160c76",
+    "index.tex": "fbef638b"
   }
 }

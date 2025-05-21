@@ -1,0 +1,11 @@
+{
+  "hash": "8748ebb5213da5f7ae65647ac0497e4b",
+  "result": {
+    "engine": "jupyter",
+    "markdown": "---\ntitle: \"Geometria no Espaço\"\nlang: pt\nlanguage:\n  toc-title: \"Índice\"\nfilters:\n  - watermark\nwatermark:\n  text: \"RASCUNHO\"\n  size: 1.5\n  angle: 30\n  color: \"#FF0000\"\n  opacity: 0.1\ndescription: \"Representações vetoriais e operações geométricas no espaço tridimensional.\"\ndate: 2025-05-08\ncategories: ['Álgebra Linear', 'Matemática']\nformat:\n  html: default\n  pdf: default\ntoc: true\ncode-fold: true\nexecute:\n  echo: true\n  warning: false\n  message: false\n  eval: true\nbibliography: artigo3.bib\ncsl: apa.csl\nnocite: \"@*\"\nreference-title: \"Referências\"\n---\n\n\n\n\n\n\n::: {.content-visible when-format=\"html\"}\n<div style=\"display: flex; gap: 1rem; margin-bottom: 1rem;\">\n  <a href=\"./index.pdf\" target=\"_blank\" class=\"btn btn-primary\">📄 Baixar PDF</a>\n  <button onclick=\"window.print()\" class=\"btn btn-outline-secondary\">🖨️ Imprimir</button>\n</div>\n:::\n\n<div style=\"margin-top: 2rem;\"></div>\n\n# Cálculo Vetorial\n\n\nVetores no espaço tridimensional são essenciais para representar posições e direções.\n\n## Vetores e Produto Vetorial\n\n::: {.cell execution_count=1}\n``` {.python .cell-code}\nimport numpy as np\n\na = np.array([1, 2, 3])\nb = np.array([4, 5, 6])\n\nproduto_vetorial = np.cross(a, b)\nproduto_vetorial\n```\n\n::: {.cell-output .cell-output-display execution_count=1}\n```\narray([-3,  6, -3])\n```\n:::\n:::\n\n\nGráfico 3D dos vetores:\n\n::: {.cell execution_count=2}\n``` {.python .cell-code}\nimport matplotlib.pyplot as plt\nfrom mpl_toolkits.mplot3d import Axes3D\n\nfig = plt.figure()\nax = fig.add_subplot(111, projection='3d')\n\norigem = [0, 0, 0]\nax.quiver(*origem, *a, color='r', label='a')\nax.quiver(*origem, *b, color='g', label='b')\nax.quiver(*origem, *produto_vetorial, color='b', label='a × b')\n\nax.set_xlim([0, 7])\nax.set_ylim([0, 7])\nax.set_zlim([0, 7])\nax.set_title(\"Produto Vetorial no Espaço\")\nax.legend()\nplt.show()\n```\n\n::: {.cell-output .cell-output-display}\n![](index_files/figure-pdf/cell-3-output-1.png){fig-pos='H'}\n:::\n:::\n\n\n## Referências\n\n",
+    "supporting": [
+      "index_files\\figure-pdf"
+    ],
+    "filters": []
+  }
+}

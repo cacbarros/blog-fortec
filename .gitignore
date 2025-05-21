@@ -3,3 +3,5 @@ _site/
 
 # Ignora metadados e configurações geradas automaticamente
 .quarto/
+
+/.quarto/
