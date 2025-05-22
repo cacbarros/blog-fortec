@@ -1,5 +1,6 @@
 project:
   type: website
+  output-dir: docs
 
 resources:
   - www/js/**
@@ -35,6 +36,8 @@ website:
             href: posts/calculo/index.qmd
           - text: "➗ Séries Matemáticas"
             href: posts/series/index.qmd
+          - text: "➗ Exemplos"
+            href: posts/exemplos/index.qmd
 
       - text: "⚗️ Física e Química"
         menu:

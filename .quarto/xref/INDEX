@@ -593,5 +593,16 @@
   "posts/matematica10/artigo1/index.qmd": {
     "index.html": "a6160c76",
     "index.tex": "fbef638b"
+  },
+  "posts/exemplos/index.qmd": {
+    "index.html": "477a461b",
+    "index.tex": "13a55f9f"
+  },
+  "teste.qmd": {
+    "teste.html": "73dc4dfe"
+  },
+  "widget_interact_exemplo.qmd": {
+    "widget_interact_exemplo.html": "3394293f",
+    "widget_interact_exemplo.tex": "5e96f076"
   }
 }

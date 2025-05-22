@@ -1,0 +1,77 @@
+---
+title: "Álgebra Linear"
+lang: pt
+language:
+  toc-title: "Índice"
+filters:
+  - watermark
+watermark:
+  text: "RASCUNHO"
+  size: 1.5
+  angle: 30
+  color: "#FF0000"
+  opacity: 0.1
+description: "Sistemas de Equações"
+date: 2025-05-08
+categories: ['Matemática', 'Secundário']
+format:
+  html:
+    default: true
+    toc: true
+    code-fold: true
+    execute:
+      echo: true
+      warning: false
+      message: false
+      eval: true
+    embed-resources: true
+    code-tools: true
+  pdf:
+    default: true
+jupyter: blog-env
+bibliography: artigo1.bib
+csl: apa.csl
+nocite: "@*"
+reference-title: "Referências"
+---
+## Classificação Gramatical
+
+::: {.content-visible when-format="html"}
+
+## Qual é a classe gramatical da palavra *"feliz"*?
+
+::: {.quiz}
+
+<button onclick="verificarResposta('Adjetivo')">Adjetivo</button>
+<button onclick="verificarResposta('Substantivo')">Substantivo</button>
+<button onclick="verificarResposta('Verbo')">Verbo</button>
+
+<p id="feedback"></p>
+
+<script>
+function verificarResposta(resposta) {
+  let fb = document.getElementById("feedback");
+  if (resposta === "Adjetivo") {
+    fb.innerHTML = "✔️ <b style='color:green;'>Correto! 'Feliz' é um adjetivo.</b>";
+  } else {
+    fb.innerHTML = "❌ <b style='color:red;'>Incorreto. Reflita sobre a função da palavra.</b>";
+  }
+}
+</script>
+
+:::
+
+:::
+
+::: {.content-visible when-format="pdf"}
+
+**Pergunta:** Qual é a classe gramatical da palavra *"feliz"*?
+
+- ( ) Substantivo  
+- (X) Adjetivo  
+- ( ) Verbo
+
+**Explicação:**  
+"Feliz" é um **adjetivo**, pois qualifica o estado do sujeito.
+
+:::

@@ -1,0 +1,32 @@
+---
+title: "Widget Teste"
+format:
+  html:
+    embed-resources: true
+    code-tools: true
+    code-fold: true
+    code-summary: "Mostrar código"
+    ipywidgets: true  # Adicione esta linha para suporte a widgets
+    execute:
+      echo: false
+jupyter: blog-env
+---
+
+```{python}
+import ipywidgets as widgets
+from IPython.display import display, HTML, clear_output
+
+r = widgets.RadioButtons(options=["A", "B", "C"], description="Escolha:")
+out = widgets.Output()
+
+def responder(change):
+    with out:
+        clear_output()
+        if change["new"] == "B":
+            display(HTML("<b style='color:green;'>✔️ Correto!</b>"))
+        else:
+            display(HTML("<b style='color:red;'>❌ Tente novamente.</b>"))
+
+r.observe(responder, names="value")
+display(widgets.VBox([r, out]))  # Organiza os widgets verticalmente
+```

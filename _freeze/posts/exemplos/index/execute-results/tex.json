@@ -1,0 +1,11 @@
+{
+  "hash": "d957cba1fb3db3acb6f062d539967653",
+  "result": {
+    "engine": "jupyter",
+    "markdown": "---\ntitle: \"Exemplo Interativo\"\nformat:\n  html: default\n  pdf: default\njupyter: blog-env\n---\n\n\n\n\n\n\n\n\n## Classificação Gramatical\n\n::: {.content-visible when-format=\"html\"}\n\n::: {.cell execution_count=1}\n``` {.python .cell-code}\nimport ipywidgets as widgets\nfrom IPython.display import display, HTML, clear_output\n\nopcoes = widgets.RadioButtons(\n    options=['Substantivo', 'Adjetivo', 'Verbo'],\n    description=\"Feliz é:\"\n)\n\noutput = widgets.Output()\n\ndef responder(change):\n    with output:\n        clear_output()\n        if change['new'] == 'Adjetivo':\n            display(HTML(\"<b style='color:green;'>Correto! 'Feliz' é um adjetivo.</b>\"))\n        else:\n            display(HTML(\"<b style='color:red;'>Incorreto. Reflita sobre a função da palavra.</b>\"))\n\nopcoes.observe(responder, names='value')\ndisplay(opcoes, output)\n```\n\n::: {.cell-output .cell-output-display}\n```\nRadioButtons(description='Feliz é:', options=('Substantivo', 'Adjetivo', 'Verbo'), value='Substantivo')\n```\n:::\n\n::: {.cell-output .cell-output-display}\n```\nOutput()\n```\n:::\n:::\n\n\n:::\n\n::: {.content-visible when-format=\"pdf\"}\n\n**Pergunta:** Qual é a classe gramatical da palavra *\"feliz\"*?\n\n- ( ) Substantivo  \n- (X) Adjetivo  \n- ( ) Verbo\n\n**Explicação:**  \n\"Feliz\" é um **adjetivo**, pois qualifica o estado do sujeito.\n\n:::\n\n",
+    "supporting": [
+      "index_files\\figure-pdf"
+    ],
+    "filters": []
+  }
+}
