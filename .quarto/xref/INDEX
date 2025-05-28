@@ -593,5 +593,173 @@
   "posts/matematica10/artigo1/index.qmd": {
     "index.html": "a6160c76",
     "index.tex": "fbef638b"
+  },
+  "posts/diversos/artes/artigo1/index.qmd": {
+    "index.html": "1e5919cc",
+    "index.tex": "c0e5b024"
+  },
+  "posts/diversos/artes/artigo2/index.qmd": {
+    "index.html": "cbf9068d",
+    "index.tex": "7dc76f77"
+  },
+  "posts/diversos/artes/artigo3/index.qmd": {
+    "index.html": "b540f0e2",
+    "index.tex": "8ecbe036"
+  },
+  "posts/diversos/artes/index.qmd": {
+    "index.html": "1ebfa9a5"
+  },
+  "posts/diversos/educacao/artigo1/index.qmd": {
+    "index.html": "89a082cc",
+    "index.tex": "287cefd4"
+  },
+  "posts/diversos/educacao/artigo2/index.qmd": {
+    "index.html": "3ba03093",
+    "index.tex": "9e7838dd"
+  },
+  "posts/diversos/educacao/artigo3/index.qmd": {
+    "index.html": "35f72fc5",
+    "index.tex": "7a292cb6"
+  },
+  "posts/diversos/educacao/index.qmd": {
+    "index.html": "b9a6b922"
+  },
+  "posts/matematica/matematica11/artigo1/index.qmd": {
+    "index.html": "8f16813d",
+    "index.tex": "26f1b5ed"
+  },
+  "posts/matematica/matematica11/artigo2/index.qmd": {
+    "index.html": "f5b199be",
+    "index.tex": "b0b1e90e"
+  },
+  "posts/matematica/matematica11/artigo3/index.qmd": {
+    "index.html": "0b48c24a",
+    "index.tex": "b0f44b8a"
+  },
+  "posts/matematica/matematica12/artigo1/index.qmd": {
+    "index.html": "c6f21c87",
+    "index.tex": "59479b62"
+  },
+  "posts/matematica/matematica12/artigo2/index.qmd": {
+    "index.html": "8981047a",
+    "index.tex": "6da5339d"
+  },
+  "posts/matematica/matematica12/artigo3/index.qmd": {
+    "index.html": "98006671",
+    "index.tex": "6f8aab6a"
+  },
+  "posts/matematica/algebra/artigo1/index.qmd": {
+    "index.html": "fab1e5a3",
+    "index.tex": "c18e1158"
+  },
+  "posts/matematica/algebra/artigo2/index.qmd": {
+    "index.html": "6916c0cd",
+    "index.tex": "0dcd988e"
+  },
+  "posts/matematica/algebra/artigo3/index.qmd": {
+    "index.html": "c605e098",
+    "index.tex": "5c143bd9"
+  },
+  "posts/matematica/calculo/artigo1/index.qmd": {
+    "index.html": "acf475dd",
+    "index.tex": "f945a8fc"
+  },
+  "posts/matematica/calculo/artigo2/index.qmd": {
+    "index.html": "d955e8d4",
+    "index.tex": "15016b1e"
+  },
+  "posts/matematica/calculo/artigo3/index.qmd": {
+    "index.html": "d688c63a",
+    "index.tex": "eff9f184"
+  },
+  "posts/matematica/series/artigo1/index.qmd": {
+    "index.html": "d73f40ac",
+    "index.tex": "c5a1af39"
+  },
+  "posts/matematica/series/artigo2/index.qmd": {
+    "index.html": "d18dda12",
+    "index.tex": "e4a0f116"
+  },
+  "posts/matematica/series/artigo3/index.qmd": {
+    "index.html": "f8ed5547",
+    "index.tex": "bd2ff057"
+  },
+  "posts/climatizacao/artigo1/index.qmd": {
+    "index.html": "3d4e7fbf",
+    "index.tex": "a06564dd"
+  },
+  "posts/climatizacao/artigo2/index.qmd": {
+    "index.html": "55bb528b",
+    "index.tex": "52db27d9"
+  },
+  "posts/climatizacao/artigo3/index.qmd": {
+    "index.html": "c32dc53d",
+    "index.tex": "ff673def"
+  },
+  "posts/fisica/artigo1/index.qmd": {
+    "index.html": "6a943ceb",
+    "index.tex": "19c19c02"
+  },
+  "posts/fisica/artigo2/index.qmd": {
+    "index.html": "513b8b63",
+    "index.tex": "89a3c9f8"
+  },
+  "posts/fisica/artigo3/index.qmd": {
+    "index.html": "2c75cb7a",
+    "index.tex": "0e30b7bf"
+  },
+  "posts/quimica/artigo1/index.qmd": {
+    "index.html": "c9253f23",
+    "index.tex": "2d4219c6"
+  },
+  "posts/quimica/artigo2/index.qmd": {
+    "index.html": "012bd1f0",
+    "index.tex": "3ca8f271"
+  },
+  "posts/quimica/artigo3/index.qmd": {
+    "index.html": "5041a2e1",
+    "index.tex": "3390dda5"
+  },
+  "posts/termodinamica/artigo1/index.qmd": {
+    "index.html": "b49820a0",
+    "index.tex": "1ceb1df2"
+  },
+  "posts/termodinamica/artigo2/index.qmd": {
+    "index.html": "f3875afd",
+    "index.tex": "439a010d"
+  },
+  "posts/termodinamica/artigo3/index.qmd": {
+    "index.html": "d99a3a9a",
+    "index.tex": "ec0213ed"
+  },
+  "posts/diversos/bem-estar/artigo1/index.qmd": {
+    "index.html": "ff0334e8",
+    "index.tex": "28f845c2"
+  },
+  "posts/diversos/bem-estar/artigo2/index.qmd": {
+    "index.html": "f9cc69e5",
+    "index.tex": "c4576044"
+  },
+  "posts/diversos/bem-estar/artigo3/index.qmd": {
+    "index.html": "c4329f98",
+    "index.tex": "bb6d8e3a"
+  },
+  "posts/diversos/bem-estar/index.qmd": {
+    "index.html": "53ad7c09"
+  },
+  "posts/diversos/cultura/artigo1/index.qmd": {
+    "index.html": "48f5a263",
+    "index.tex": "1822639f"
+  },
+  "posts/diversos/cultura/artigo2/index.qmd": {
+    "index.html": "bff8c9e6",
+    "index.tex": "62ddd806"
+  },
+  "posts/diversos/cultura/artigo3/index.qmd": {
+    "index.html": "997eb4de",
+    "index.tex": "8cdf798e"
+  },
+  "posts/diversos/cultura/index.qmd": {
+    "index.html": "7cea39d2"
   }
 }

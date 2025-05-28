@@ -1,21 +1,17 @@
 ---
-title: "Física"
-description: "Índice de temas de Física do Ensino Secundário."
-format: html
+title: "Matemática 10"
+filters:
+  - watermark
+watermark:
+  text: "RASCUNHO"
+  size: 1.5
+  angle: 30
+  color: "#FF0000"
+  opacity: 0.1
+listing:
+  type: default
+  sort: "date desc"
+  contents: ./
 ---
 
-# 🧲 Física: Índice de Temas
-
-Nesta secção, exploramos tópicos essenciais da Física clássica:
-
-- [Cinemática](cinematica.qmd)
-- [Dinâmica](dinamica.qmd)
-- [Leis de Newton](leis-newton.qmd)
-- [Gravitação Universal](gravitacao-universal.qmd)
-- [Trabalho e Energia](trabalho-energia.qmd)
-
-Clique nos tópicos para aceder ao conteúdo.
-
----
-
-<p><a href="../../index.html" style="padding: 8px 16px; background-color: #17a2b8; color: white; border-radius: 5px; text-decoration: none;">Voltar ao Início</a></p>
+Álgebra, Cálculo, Geometria e Estatística .

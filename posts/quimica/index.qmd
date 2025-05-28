@@ -1,32 +1,17 @@
 ---
-title: "Química"
-description: "Índice de Química do Ensino Secundário."
-format: html
+title: "Matemática 10"
+filters:
+  - watermark
+watermark:
+  text: "RASCUNHO"
+  size: 1.5
+  angle: 30
+  color: "#FF0000"
+  opacity: 0.1
+listing:
+  type: default
+  sort: "date desc"
+  contents: ./
 ---
 
-# 🧪 Química: Índice de Temas
-
-Nesta secção, exploramos os conceitos centrais da Química:
-
-- [Ligações Químicas](ligacoes-quimicas.qmd)
-- [Estequiometria](estequiometria.qmd)
-- [Reações Químicas](reacoes-quimicas.qmd)
-- [pH de Soluções](ph-solucoes.qmd)
-- [Equilíbrio Químico](equilibrio-quimico.qmd)
-
-Clique nos tópicos para aceder ao conteúdo.
-
----
-
-## Objetivos da Secção
-
-Esta secção visa:
-
-- Consolidar a compreensão das transformações químicas e das ligações entre átomos;
-- Desenvolver competências de cálculo em reações químicas e soluções;
-- Aplicar o conceito de equilíbrio químico em situações reais;
-- Preparar o estudante para avaliações e exames de Química.
-
----
-
-<p><a href="../../index.html" style="padding: 8px 16px; background-color: #17a2b8; color: white; border-radius: 5px; text-decoration: none;">Voltar ao Início</a></p>
+Álgebra, Cálculo, Geometria e Estatística .

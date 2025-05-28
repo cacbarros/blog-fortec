@@ -1,0 +1,149 @@
+---
+title: "Lição 1 - Arte Medieval: Românico e Gótico"
+lang: pt
+language:
+  toc-title: "Índice"
+filters:
+  - watermark
+watermark:
+  text: "RASCUNHO"
+  size: 1.5
+  angle: 30
+  color: "#FF0000"
+  opacity: 0.1
+description: "Introdução à Arte Medieval europeia, com foco nos estilos Românico e Gótico, suas características, contextos históricos e exemplos marcantes."
+date: 2025-05-28
+categories: ['História da Arte', '10º Ano']
+format:
+  html:
+    default: true
+    mermaid:
+      version: "9.4.3"
+  pdf: default
+toc: true
+code-fold: false
+bibliography: artigo1.bib
+csl: apa.csl
+nocite: "@*"
+reference-title: "Referências"
+---
+
+::: {.content-visible when-format="html"}
+<div style="display: flex; gap: 1rem; margin-bottom: 1rem;">
+  <a href="./index.pdf" target="_blank" class="btn btn-primary">📄 Baixar PDF</a>
+  <button onclick="window.print()" class="btn btn-outline-secondary">🖨️ Imprimir</button>
+</div>
+:::
+
+<div style="margin-top: 2rem;"></div>
+
+# Arte Medieval: Românico e Gótico
+
+> "A catedral gótica é uma Bíblia de pedra." — Georges Duby
+
+## Introdução
+
+A Arte Medieval europeia divide-se em períodos e estilos que refletem o contexto religioso, político e social da Idade Média. Dois estilos predominam: o **Românico** e o **Gótico**, sucessivos no tempo, mas profundamente diferentes na forma e na função.
+
+
+## Vídeo Explicativo: Arte Românica e Gótica
+
+::: {.content-visible when-format="html"}
+
+### 🎬 Assista ao vídeo
+
+<iframe width="100%" height="400" src="https://www.youtube.com/embed/tkBGKgUtbnk" 
+title="Arte Românica e Gótica" frameborder="0" allowfullscreen></iframe>
+
+::: {.callout-note collapse=true}
+### 📝 Transcrição (resumo do vídeo)
+
+O vídeo explora as principais diferenças entre a arte românica e gótica:
+
+- A arte românica destaca-se por construções sólidas e de pouca iluminação.
+- A arte gótica introduz maior verticalidade e luz, com uso de vitrais.
+- Exemplos famosos incluem a Catedral de Chartres (Gótico) e igrejas beneditinas (Românico).
+:::
+
+:::
+
+::: {.content-visible when-format="pdf"}
+
+### 📝 Transcrição (resumo do vídeo)
+
+O vídeo explora as principais diferenças entre a arte românica e gótica:
+
+- A arte românica destaca-se por construções sólidas e de pouca iluminação.
+- A arte gótica introduz maior verticalidade e luz, com uso de vitrais.
+- Exemplos famosos incluem a Catedral de Chartres (Gótico) e igrejas beneditinas (Românico).
+
+:::
+
+
+## Arte Românica (séculos X a XII)
+
+- **Arquitetura maciça**, com muros espessos e poucas janelas.
+- **Arcos de volta perfeita** e planta em cruz latina.
+- Pinturas e esculturas com função pedagógica e simbólica.
+- Expressão do poder da Igreja e dos mosteiros no mundo feudal.
+
+## Arte Gótica (séculos XII a XV)
+
+- **Catedrais verticais** e leves, com grandes vitrais.
+- **Arcos ogivais**, abóbadas de nervuras e arcobotantes.
+- Escultura detalhada, mais realista, com cenas bíblicas e da vida quotidiana.
+- Representação do renascimento urbano e do crescimento das cidades e universidades.
+
+## Diagrama Conceitual
+
+::: {.content-visible when-format="html"}
+```{=html}
+<div class="mermaid">
+graph TD
+  A["Arte Medieval"] --> B["Românico"]
+  A --> C["Gótico"]
+  B --> B1["Arco de volta perfeita"]
+  B --> B2["Muros espessos"]
+  C --> C1["Arco ogival"]
+  C --> C2["Vitrais coloridos"]
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/mermaid@9.4.3/dist/mermaid.min.js"></script>
+<script>
+  mermaid.initialize({ startOnLoad: true });
+</script>
+```
+:::
+
+::: {.content-visible when-format="pdf"}
+```{=latex}
+\begin{center}
+\includegraphics[width=0.9\linewidth]{diagrama.png}
+\end{center}
+```
+:::
+
+## Exemplo Resolvido
+
+### Enunciado
+
+Com base nas imagens de duas igrejas, uma com arcos de volta perfeita e outra com vitrais coloridos e arcos ogivais, identifique a qual estilo pertence cada uma e justifique.
+
+---
+
+::: {.callout-note collapse=true}
+### Ver solução
+
+- A igreja com **arcos de volta perfeita** pertence ao **estilo Românico**.
+- A igreja com **vitrais e arcos ogivais** pertence ao **estilo Gótico**.
+
+> A identificação baseia-se em elementos estruturais e decorativos típicos de cada estilo.
+:::
+
+## Considerações Didáticas
+
+- Identificar visualmente os principais elementos da arte românica e gótica.
+- Relacionar cada estilo ao seu contexto histórico e função.
+- Desenvolver a leitura de imagens e arquitetura como fontes históricas e artísticas.
+
+# Referências 

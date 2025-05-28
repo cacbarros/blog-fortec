@@ -1,8 +1,10 @@
 project:
   type: website
+  output-dir: docs
 
 resources:
   - www/js/**
+  - footer.js
 
 website:
   title: "Blog Fortec"
@@ -26,31 +28,43 @@ website:
           - text: "📘 Matemática 10.º"
             href: posts/matematica/matematica10/
           - text: "📗 Matemática 11.º"
-            href: posts/matematica11/index.qmd
+            href: posts/matematica/matematica11/
           - text: "📙 Matemática 12.º"
-            href: posts/matematica12/index.qmd
+            href: posts/matematica/matematica12/
           - text: "🧮 Álgebra"
-            href: posts/algebra/index.qmd
+            href: posts/matematica/algebra/
           - text: "📐 Cálculo"
-            href: posts/calculo/index.qmd
+            href: posts/matematica/calculo/
           - text: "➗ Séries Matemáticas"
-            href: posts/series/index.qmd
+            href: posts/matematica/series/
 
       - text: "⚗️ Física e Química"
         menu:
           - text: "⚙️ Física"
-            href: posts/fisica/index.qmd
+            href: posts/fisica/
           - text: "🧪 Química"
-            href: posts/quimica/index.qmd
+            href: posts/quimica/
           - text: "🌡️ Termodinâmica"
-            href: posts/termodinamica/index.qmd
+            href: posts/termodinamica/
 
       - text: "🛠️ Aplicações"
         menu:
           - text: "🌬️ Climatização"
-            href: posts/climatizacao/index.qmd
+            href: posts/climatizacao/
           - text: "🎮 Jogos"
             href: posts/jogos/index.qmd
+
+      - text: "🧭 Diversos"
+        menu:
+          - text: "🎨 História da Arte"
+            href: posts/diversos/artes/
+          - text: "📚 Educação e Pedagogia"
+            href: posts/diversos/educacao/
+          - text: "🌍 Cultura e Sociedade"
+            href: posts/diversos/cultura/
+          - text: "🧘 Bem-estar e Estilo de Vida"
+            href: posts/diversos/bem-estar/
+  
 
     right:
       - text: "ℹ️ Sobre"
